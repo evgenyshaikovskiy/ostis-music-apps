@@ -1,0 +1,45 @@
+concept_popular_music
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[популярная музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[popular music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Популярная музыка – это музыка, легко воспринимаемая на слух, доступная по форме.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Popular music is music that is easily perceived by the ear, accessible in form.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pics/popular.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

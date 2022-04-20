@@ -1,0 +1,46 @@
+concept_messa
+<= nrel_inclusion: concept_spiritual_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[месса]
+	(*
+	<- lang_ru;;
+	*);
+	[messa]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Месса (лат. missa) в значении музыкального термина чаще всего понимается как жанр церковной многоголосной музыки на ординарные молитвословные тексты католической мессы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mass (lat. missa) in the sense of a musical term is most often understood as a genre of church polyphonic music based on ordinary prayer texts of a Catholic mass.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pics/messa.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

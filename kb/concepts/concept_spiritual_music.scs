@@ -1,0 +1,45 @@
+concept_spiritual_music
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[духовная музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[spiritual music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Духовная музыка — музыка, связанная с текстами религиозного содержания и предназначенная для исполнения во время богослужения и в быту.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Spiritual music is music associated with texts of religious content and intended to be performed during worship and in everyday life.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pics/spiritual.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

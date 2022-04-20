@@ -1,0 +1,46 @@
+concept_trap_rap
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трэп-рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[trap-rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Трэп - это ответвление хип-хопа и хауса, которое возникло примерно в 90-ых - начале нулевых. Популярность к этому поджанру пришла примерно лет через десять. В настоящее время практически вся музыка включает в себя элементы трэпа. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Trap is an offshoot of hip hop and house that originated around the 90s and early 2000s. The popularity of this subgenre came about ten years later. Currently, almost all music includes elements of trap.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pics/trap.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
