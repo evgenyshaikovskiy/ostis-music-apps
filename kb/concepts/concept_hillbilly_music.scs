@@ -36,7 +36,7 @@ concept_hillbilly_music
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/hillbilly.jpg"
+		->rrel_example: ""
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
