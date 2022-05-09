@@ -1,0 +1,19 @@
+concept_viola_family
+<= nrel_inclusion: concept_bowed_musical_instuments; //от кого идёт
+=> nrel_main_idtf: [Viola] (* <- lang_en;; *);
+=> nrel_main_idtf: [Виола] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Виола))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [семейство струнных смычковых музыкальных инструментов, бытовавшее в музыкальной практике Западной Европы XVI—XVIII столетий, но к началу XIX века почти вытесненное из академической музыки. ] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//должен быть классом(ОК)

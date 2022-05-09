@@ -1,0 +1,19 @@
+concept_timpani
+<= nrel_inclusion: concept_percussion_musical_instruments; //от кого идёт
+=> nrel_main_idtf: [timpani] (* <- lang_en;; *);
+=> nrel_main_idtf: [литавры] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Литавры)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [представляют собой систему от двух до семи металлических котлообразных чаш, открытая сторона которых затянута кожей или пластиком, а нижняя часть может иметь отверстие.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)

@@ -1,0 +1,19 @@
+concept_castanets
+<= nrel_inclusion: concept_percussion_musical_instruments; //от кого идёт
+=> nrel_main_idtf: [сastanets] (* <- lang_en;; *);
+=> nrel_main_idtf: [кастеньеты] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Кастеньеты)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [парный ударный музыкальный инструмент, каждая часть которого состоит из двух пластинок-ракушек, соединённых шнурком.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)

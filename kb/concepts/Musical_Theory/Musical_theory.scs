@@ -1,0 +1,50 @@
+concept_musical_theory
+=> nrel_main_idtf: [Musical_theory] (* <- lang_en;; *);
+=> nrel_main_idtf: [Музыкальная теория] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Музыкальной теории))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [наука, формулирующая правила и принципы, лежащие в основе сочинения музыки. Теория музыки имеет дело с анализом музыкального произведения, со «строительными блоками» музыки и закономерностями работы с ними. Теория музыки понимается и как предмет обучения, цель которого – приобретение навыков, необходимых для исполнения и понимания музыки.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+	<- statement;;
+	=> nrel_main_idtf:[Утв.1 (Основные категории)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ...
+	(* 
+		-> [Мелодия] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+	<- statement;;
+	=> nrel_main_idtf:[Утв.2 (Основные категории)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ...
+	(* 
+		-> [Гармония] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+	<- statement;;
+	=> nrel_main_idtf:[Утв.3 (Основные категории)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: ...
+	(* 
+		-> [Полифония] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;

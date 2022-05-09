@@ -1,0 +1,19 @@
+concept_alto
+<= nrel_inclusion: concept_violin_family; //от кого идёт
+=> nrel_main_idtf: [alto] (* <- lang_en;; *);
+=> nrel_main_idtf: [альт] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Альт))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [смычковый музыкальный инструмент с 4-мя струнами, настроенными по квинтам: Cм Gм D1 A1.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)

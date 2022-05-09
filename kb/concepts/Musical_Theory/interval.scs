@@ -1,0 +1,21 @@
+concept_interval
+<= nrel_inclusion: concept_musical_theory;
+<- concept_main_category; //??????
+<- sc_node_not_relation;
+=> nrel_main_idtf: [melody] (* <- lang_en;; *);
+=> nrel_main_idtf: [мелодия] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Интервал))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [расстояние между двумя тонами.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;

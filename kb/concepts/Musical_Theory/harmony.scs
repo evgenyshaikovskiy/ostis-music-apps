@@ -1,0 +1,20 @@
+concept_harmony
+<= nrel_inclusion: concept_musical_theory;
+<- concept_main_category; //не уверен в данном моменте
+=> nrel_main_idtf: [harmony] (* <- lang_en;; *);
+=> nrel_main_idtf: [гармония] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Гармонии))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [созвучие, согласие, соответствующая эстетическим законам согласованность частей в расчлененном целом.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;; //в дефолтный узел

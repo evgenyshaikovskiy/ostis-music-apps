@@ -1,0 +1,22 @@
+concept_melody
+<= nrel_inclusion: concept_musical_theory;
+<- concept_main_category;
+<- sc_node_not_relation;
+=> nrel_main_idtf: [melody] (* <- lang_en;; *);
+=> nrel_main_idtf: [мелодия] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Мелодии))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [можно определить как последовательность звуков, как правило, особым образом связанных с ладом (т.е. звукорядом, образующимся в результате разного расположения тонов и полутонов в октавном диапазоне), тональным центром и ритмической структурой.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;

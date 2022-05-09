@@ -1,0 +1,19 @@
+concept_flute
+<= nrel_inclusion: concept_labial; //от кого идёт
+=> nrel_main_idtf: [flute] (* <- lang_en;; *);
+=> nrel_main_idtf: [флейта] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Флейта)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [лабиальный духовой музыкальный инструмент, в котором первичным источником колебаний является воздушная струя, рассекающаяся о край стенки инструмента, называемого лабиум] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//(НЕ ОК)

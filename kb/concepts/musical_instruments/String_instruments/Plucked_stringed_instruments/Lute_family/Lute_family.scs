@@ -1,0 +1,19 @@
+concept_lute_family
+<= nrel_inclusion: concept_plucked_stringed; //от кого идёт
+=> nrel_main_idtf: [Lute family] (* <- lang_en;; *);
+=> nrel_main_idtf: [Семейство лютни] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Лютни))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [струнные инструменты, звукоизвлечение на которых осуществляется защипыванием струн пальцами или медиатором, которые состоят из резонирующего корпуса и грифа.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//должен быть классом(ОК)

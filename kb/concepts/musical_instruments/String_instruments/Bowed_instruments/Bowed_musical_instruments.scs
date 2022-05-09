@@ -1,0 +1,20 @@
+concept_bowed_musical_instuments
+<= nrel_inclusion: concept_string_musical_instuments; //от кого идёт
+=> nrel_main_idtf: [Bowed musical instruments] (* <- lang_en;; *);
+=> nrel_main_idtf: [Смычковые музыкальные инструменты] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Смычковые музыкальные инструменты))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [группа музыкальных инструментов со звукоизвлечением, осуществляемым обычно в процессе ведения смычка по натянутым струнам.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;; //(OK)

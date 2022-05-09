@@ -1,0 +1,19 @@
+concept_bells
+<= nrel_inclusion: concept_percussion_musical_instruments; //от кого идёт
+=> nrel_main_idtf: [bells] (* <- lang_en;; *);
+=> nrel_main_idtf: [колокольчики] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Колокольчики)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [представляют собой набор настроенных по хроматике металлических пластинок, размещённых в два ряда на деревянной раме трапециевидной формы.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)

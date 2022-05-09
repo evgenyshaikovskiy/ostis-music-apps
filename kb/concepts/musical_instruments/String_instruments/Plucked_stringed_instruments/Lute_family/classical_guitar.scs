@@ -1,0 +1,19 @@
+concept_classical_guitar
+<= nrel_inclusion: concept_lute_family; //от кого идёт
+=> nrel_main_idtf: [classical guitar] (* <- lang_en;; *);
+=> nrel_main_idtf: [классическая гитара] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Лютни))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [музыкальный инструмент из семейства лютневых. Имеет более длинный гриф и имеет шесть струн] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)

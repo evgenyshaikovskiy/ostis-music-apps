@@ -1,0 +1,19 @@
+concept_musical_instrument
+=> nrel_main_idtf: [Musical instrument] (* <- lang_en;; *);
+=> nrel_main_idtf: [Музыкальные интсрументы] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Музыкального инструмента))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [предмет, способный издавать звук, эстетически воспринимаемый как музыкальный.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;

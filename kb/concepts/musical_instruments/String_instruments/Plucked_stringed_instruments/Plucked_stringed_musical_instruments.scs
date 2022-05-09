@@ -1,0 +1,20 @@
+concept_plucked_stringed
+<= nrel_inclusion: concept_string_musical_instuments; //от кого идёт
+=> nrel_main_idtf: [Plucked-stringed musical instruments] (* <- lang_en;; *);
+=> nrel_main_idtf: [Щипковые струнные музыкальные инструменты] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Щипковые струнные музыкальные инструменты))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [струнные инструменты, звукоизвлечение на которых осуществляется защипыванием струн пальцами или медиатором.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;

@@ -1,0 +1,19 @@
+concept_autoharp
+<= nrel_inclusion: concept_zither_family; //от кого идёт
+=> nrel_main_idtf: [autoharp] (* <- lang_en;; *);
+=> nrel_main_idtf: [автоарфа] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Автоарфа))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [имеет аккордовые бруски с демпферами, которые при нажатии глушат все струны, не входящие в желаемый аккорд. Хотя инструмент называется автоарфой, на самом деле это совсем не арфа, а аккордовая цитра.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)

@@ -1,0 +1,19 @@
+concept_drum
+<= nrel_inclusion: concept_percussion_musical_instruments; //от кого идёт
+=> nrel_main_idtf: [drum] (* <- lang_en;; *);
+=> nrel_main_idtf: [барабан] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Барабан)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Типичным представителем является мембранный барабан, состоящий из полого корпуса-резонатора определённой формы или рамы, на которую натянута кожаная или пластиковая мембрана.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)

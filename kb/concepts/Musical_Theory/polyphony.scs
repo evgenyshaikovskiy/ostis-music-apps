@@ -1,0 +1,20 @@
+concept_polyphony
+<= nrel_inclusion: concept_musical_theory;
+<- concept_main_category;
+=> nrel_main_idtf: [polyphony] (* <- lang_en;; *);
+=> nrel_main_idtf: [полифония] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Полифонии))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [это техника сочетания двух или более мелодических линий в соответствии с определенными принципами.] (* <- lang_ru;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;; //нужно сделать дефолтным узлом
