@@ -1,0 +1,46 @@
+concept_gangsta
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[гангста-рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[gangsta rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Гангста-рэп (англ. gangsta rap искажение от gangster rap — «гангстерский рэп») — стиль хип-хопа, характеризующийся темами и текстами, которые обычно подчёркивают стиль жизни «гангстера», «O.G» и «Thug-Life». Этот жанр превратился из хардкор-рэпа в самостоятельный жанр, впервые созданный в середине 1980-х годов такими рэперами, как Ice-T, и популяризированный в конце 1980-х годов рэп-группами, такими как N.W.A.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Gangsta rap (English gangsta rap distortion from gangster rap - "gangster rap") is a style of hip hop characterized by themes and lyrics that usually emphasize the lifestyle of "gangster", "O.G" and "Thug-Life". The genre evolved from hardcore rap to a genre in its own right, first created in the mid-1980s by rappers like Ice-T and popularized in the late 1980s by rap groups like N.W.A.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/gangsta.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

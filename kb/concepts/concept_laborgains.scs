@@ -1,0 +1,46 @@
+concept_laborgains
+<= nrel_inclusion: concept_hillbilly_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[трудовые наигрыши]
+	(*
+	<- lang_ru;;
+	*);
+	[laborgains]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Трудовые песни – это жанр песенного фольклора, отличительной особенностью которого является непосредственное включение в тот или иной трудовой процесс.  Песни трудового народа являлись способом организации коллективной работы посредством определенного ритма, создававшегося несложной мелодией и текстом, который не всегда имел определенное смысловое содержание, однако в любом случае отдельные слова, строки или текст в целом были организующей командой,  служили сигналом к объединению усилий, началу  или завершению определенного трудового процесса.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Labor songs are a genre of song folklore, a distinctive feature of which is direct inclusion in a particular labor process. The songs of the working people were a way of organizing collective work through a certain rhythm, created by a simple melody and text that did not always have a specific semantic content, but in any case, individual words, lines or text as a whole were an organizing team, served as a signal to join forces, start or completion of a specific work process.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/laborgains.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

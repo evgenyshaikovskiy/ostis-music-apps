@@ -1,0 +1,50 @@
+concept_argentina
+<= nrel_inclusion: concept_la;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Музыка Аргентины]
+	(*
+	<- lang_ru;;
+	*);
+	[Music of Argentina]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Танго , пожалуй , самый известный музыкальный жанр Аргентины, известный во всем мире. Другие стили включают Chacarera , милонга , Замбы и Chamame . Современные ритмы включают Cuarteto (музыка из провинции Кордова) и Electrotango .
+
+Аргентинский рок (известный как национальный рок ) был самым популярным в 1980-х годах и остается самой популярной музыкой Аргентины. Rock en Español сначала был популярен в Аргентине, затем прокатился по другим латиноамериканским странам и Испании. Это движение было известно как «Аргентинская волна». Европа сильно повлияла на это звучание, поскольку иммигранты принесли с собой свой стиль музыки.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tango is perhaps Argentina's most famous musical genre, known throughout the world. Other styles include Chacarera, Milonga, Zamba and Chamame. Modern rhythms include Cuarteto (music from the province of Córdoba) and Electrotango.
+
+Argentine rock (known as national rock) was the most popular during the 1980s and remains the most popular music in Argentina. Rock en Español was first popular in Argentina, then swept through other Latin American countries and Spain. This movement was known as the "Argentine Wave". Europe has greatly influenced this sound as immigrants brought their style of music with them.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/argentina.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

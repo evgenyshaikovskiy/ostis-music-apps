@@ -1,13 +1,13 @@
-concept_pop
-<= nrel_inclusion: concept_popular_music;
-<- concept_music_genre;
+concept_gymn
+<= nrel_inclusion: concept_spiritual_music;
 <- sc_node_not_relation;
+<- concept_music_genre;
 => nrel_main_idtf:
-	[поп]
+	[гимн]
 	(*
 	<- lang_ru;;
 	*);
-	[pop]
+	[gymn]
 	(*
 	<- lang_en;;
 	*);
@@ -19,7 +19,7 @@ concept_pop
 		...
 		(*
 		-> rrel_example:
-			[Основные черты поп-музыки — простота инструментальной части, ритмичность, акцент на вокал.]
+			[Гимн — песня, восхваляющая и прославляющая кого-либо или что-либо.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -27,7 +27,7 @@ concept_pop
 			...
 		(*
 		-> rrel_example:
-			[The main features of pop music are the simplicity of the instrumental part, rhythm, emphasis on vocals.]
+			[A hymn is a song that praises and glorifies someone or something.]
 			(*
 			<- lang_en;;
 			*);;
@@ -37,7 +37,7 @@ concept_pop
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/pop.jpg"
+		->rrel_example: "file://kb/pictures/gymn.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

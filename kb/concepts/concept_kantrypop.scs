@@ -1,0 +1,46 @@
+concept_kantrypop
+<= nrel_inclusion: concept_kantry;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[кантри-поп]
+	(*
+	<- lang_ru;;
+	*);
+	[country pop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кантри-поп (англ. Country pop) — поджанр кантри-музыки. Воссоединение кантри и попа началось в 1950-х годах, когда студийные руководители Чет Аткинс и Оуэн Брэдли захотели создать новый вид музыки для молодой толпы, выросшей после того как "рокабилли украл большую часть молодёжной аудитории музыки кантри". По словам Билла Айви, этот инновационный жанр возник в Нашвилле, штат Теннесси, и поэтому стал известен как Нэшвилл-саунд.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Country pop is a subgenre of country music. The reunion of country and pop began in the 1950s when studio executives Chet Atkins and Owen Bradley wanted to create a new kind of music for the young crowd that had grown up after "rockabilly had stolen much of the country music youth audience". According to Bill Ivey, this innovative genre originated in Nashville, Tennessee and thus became known as the Nashville Sound.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/kantrypop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

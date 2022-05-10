@@ -1,5 +1,6 @@
 concept_music_compositions<-sc_node_not_relation;;		
 concept_music_genre<-sc_node_not_relation;;
+concept_music_subgenre<-sc_node_not_relation;;
 concept_academic_music
 <= nrel_inclusion: concept_music_compositions;
 <- sc_node_not_relation;
@@ -38,7 +39,7 @@ concept_academic_music
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/academic.jpg"
+		->rrel_example: "file://kb/pictures/academic.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

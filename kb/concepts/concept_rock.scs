@@ -1,0 +1,48 @@
+concept_rock
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[рок]
+	(*
+	<- lang_ru;;
+	*);
+	[rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Рок (англ. Rock) — обобщающее название ряда направлений популярной музыки. Слово rock (в переводе с англ. — «качать», «укачивать», «качаться») возникло как сокращение от названия рок-н-ролла, хронологически первого жанра рок-музыки, и обозначает характерные для рок-н-ролла ритмические ощущения, связанные с определённой формой движения, по аналогии с roll, twist, swing, shake. Чаще всего (но не обязательно) рок исполняется с использованием электрогитар и ударных. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Electronic music (German elektronische Musik, English electronic music) is music created using electric musical instruments and electronic technologies (computer technologies since the last decades of the 20th century). As a specific direction in the world of music, electronic music took shape in the second half of the 20th century and by the beginning of the 21st century it had become widespread in academic and popular culture.
+
+Rock (Eng. Rock) is a generalized name for a number of areas of popular music. The word rock (translated from English - “rock”, “sway”, “rock”) arose as an abbreviation for the name of rock and roll, chronologically the first genre of rock music, and denotes the rhythmic sensations characteristic of rock and roll , associated with a certain form of movement, by analogy with roll, twist, swing, shake. Most often (but not necessarily) rock is performed using electric guitars and drums.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/rock.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

@@ -1,0 +1,46 @@
+concept_altkantry
+<= nrel_inclusion: concept_kantry;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[альт-кантри]
+	(*
+	<- lang_ru;;
+	*);
+	[alternative country]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Альтернативное кантри (альт-кантри) — подстиль музыки кантри. Долгое время применялся главным образом для того, чтобы характеризовать музыку кантри с нетрадиционным звучанием, «альтернативным» господствующим в разные периоды направлениям.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alternative country (alt-country) is a sub-style of country music. For a long time, it was mainly used to characterize country music with an unconventional sound, "alternative" to the trends prevailing in different periods.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/altkantry.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

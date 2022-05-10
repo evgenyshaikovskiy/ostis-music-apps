@@ -36,7 +36,7 @@ concept_popular_music
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/popular.jpg"
+		->rrel_example: "file://kb/pictures/popular.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

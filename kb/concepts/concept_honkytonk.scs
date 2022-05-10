@@ -1,0 +1,46 @@
+concept_honkytonk
+<= nrel_inclusion: concept_kantry;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[хонкитонк]
+	(*
+	<- lang_ru;;
+	*);
+	[honkytonk]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хонки тонк — разновидность бара с музыкальными развлечениями, распространённая в южных и юго-западных американских штатах. Другие названия: honkatonks, honkey-tonks, tonks или tunks. Термин также ассоциируется с различными стилями американской музыки XX века, в особенности с музыкой кантри. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[A honky tonk is a type of bar with musical entertainment, common in the southern and southwestern American states. Other names: honkatonks, honkey-tonks, tonks or tunks. The term is also associated with various styles of 20th-century American music, especially country music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/honkytonk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

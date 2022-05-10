@@ -1,0 +1,46 @@
+concept_bluegrass
+<= nrel_inclusion: concept_kantry;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[блюаграсс]
+	(*
+	<- lang_ru;;
+	*);
+	[bluegrass]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Блюграсс — жанр американской музыки кантри, происходящий из региона Аппалачей, в первую очередь штата Кентукки, которому обязан своим названием. Корни этого стиля уходят в ирландскую, шотландскую и английскую традиционную музыку.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Bluegrass is a genre of American country music originating in the Appalachian region, primarily the state of Kentucky, to which it owes its name. This style has its roots in Irish, Scottish and English traditional music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/bluagrass.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

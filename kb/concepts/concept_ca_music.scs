@@ -1,0 +1,46 @@
+concept_ca_music
+<= nrel_inclusion: concept_la;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Центральноамериканская музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[Central American music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[К центральноамериканской музыке, в соответствии с её названием, относят музыку стран Центральной Америки: Гватемалы, испаноязычной части Белиза, Сальвадора, Гондураса, Никарагуа, Коста-Рики, Панамы, части Колумбии и Венесуэлы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Central American music, in accordance with its name, includes the music of the countries of Central America: Guatemala, the Spanish-speaking part of Belize, El Salvador, Honduras, Nicaragua, Costa Rica, Panama, parts of Colombia and Venezuela.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/centreamericans.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

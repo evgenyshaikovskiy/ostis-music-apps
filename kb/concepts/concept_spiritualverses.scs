@@ -1,0 +1,46 @@
+concept_spiritualverses
+<= nrel_inclusion: concept_hillbilly_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[духовные стихи]
+	(*
+	<- lang_ru;;
+	*);
+	[spiritualverses]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ДУХОВНЫЕ СТИХИ, у восточных славян литературные и фольклорные музыкально-поэтические произведения различных жанров, объединяемые христианским содержанием. По теме и сюжету восходят к религиозным-книжным истокам (Библии, житиям святых, церковным гимнам, а также легендам, апокрифам). Литературные духовные стихи известны в русских рукописях 15 - 17 вв. как "Стихи покаянные" (жанр духовной лирики, основан на мелодике знаменного распева), нотировались крюками; широко распространены в монастырской среде, но не входили в церковную службу. С 18 века бытуют главным образом в старообрядческой книжной культуре. Фольклорные духовные стихи по стилистике и мелодике связаны с эпическими и лирическими песнями белорусского, русского и украинского народов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Spiritual verses, among the Eastern Slavs literary and folklore musical and poetic works of various genres, united by Christian content. In terms of theme and plot, they go back to religious-book sources (the Bible, the lives of saints, church hymns, as well as legends, apocrypha). Literary spiritual verses are known in Russian manuscripts of the 15th - 17th centuries. as "Poems of Repentance" (a genre of spiritual lyrics, based on the melody of the Znamenny chant), were notated with hooks; widespread in the monastic environment, but were not included in the church service. Since the 18th century, they have existed mainly in the Old Believer book culture. Folklore spiritual poems in style and melody are connected with the epic and lyrical songs of the Belarusian, Russian and Ukrainian peoples.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/spiritualverses.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

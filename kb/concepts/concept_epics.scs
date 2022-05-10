@@ -37,7 +37,7 @@ concept_epics
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/epics.jpg"
+		->rrel_example: "file://kb/pictures/epics.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

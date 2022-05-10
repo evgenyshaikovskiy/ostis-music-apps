@@ -1,6 +1,6 @@
 concept_trap_rap
 <= nrel_inclusion: concept_hiphop;
-<- concept_music_genre;
+<- concept_music_subgenre;
 <- sc_node_not_relation;
 => nrel_main_idtf:
 	[трэп-рэп]
@@ -37,7 +37,7 @@ concept_trap_rap
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/trap.jpg"
+		->rrel_example: "file://kb/pictures/trap.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

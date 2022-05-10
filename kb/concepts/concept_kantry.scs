@@ -1,0 +1,46 @@
+concept_kantry
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[кантри]
+	(*
+	<- lang_ru;;
+	*);
+	[country]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ка́нтри, или кантри-му́зыка (от англ. country music, букв. — «сельская музыка») — обобщённое название формы музицирования, возникшей среди белого населения сельских районов юга и запада США, и основанной на песенных и танцевальных мелодиях, завезённых в Северную Америку ранними переселенцами из Европы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Country, or country music (from English country music, lit. - "rural music") - the generalized name of the form of music that arose among the white population of rural areas of the south and west of the United States, and based on song and dance melodies brought to North America early settlers from Europe.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/kantry.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

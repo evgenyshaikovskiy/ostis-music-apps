@@ -1,0 +1,46 @@
+concept_jazz
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[джаз]
+	(*
+	<- lang_ru;;
+	*);
+	[jazz]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джаз (англ. jazz) — род музыкального искусства, сложившийся под влиянием африканских ритмов, европейской гармонии, с привлечением элементов афроамериканского фольклора.Джаз как явление возник в 1910-х годах на юге США и быстро распространился во всех развитых странах. На родине оригинальный стиль обогащался, в частности, различными региональными музыкальными особенностями.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jazz (English jazz) is a kind of musical art that has developed under the influence of African rhythms, European harmony, with the involvement of elements of African American folklore. Jazz as a phenomenon arose in the 1910s in the southern United States and quickly spread to all developed countries. At home, the original style was enriched, in particular, by various regional musical features.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/jazz.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

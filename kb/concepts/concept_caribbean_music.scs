@@ -1,0 +1,46 @@
+concept_caribbean_music
+<= nrel_inclusion: concept_la;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Карибская музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[Caribbean music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Эта группа стилей включает в себя латиноамериканскую музыку многочисленных островов бассейна Карибского моря, а также побережья стран, омываемых им. К карибской музыке относят музыку Кубы, Пуэрто-Рико, Доминиканской Республики, побережья Венесуэлы и Колумбии, а также «франкоязычную» музыку Гаити, Гваделупы и Мартиники (часто под «Латинской Америкой» понимают только испано- и португалоязычную её часть, тогда как французский язык с такой же долей обоснованности может быть отнесён к «латинским» языкам).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[This group of styles includes the Latin American music of the numerous islands of the Caribbean Sea, as well as the coasts of the countries washed by it. Caribbean music includes the music of Cuba, Puerto Rico, the Dominican Republic, the coasts of Venezuela and Colombia, as well as the "French-language" music of Haiti, Guadeloupe and Martinique (often under "Latin America" they understand only its Spanish and Portuguese-speaking part, while the French language with the same degree of validity can be attributed to the "Latin" languages).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/karib.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

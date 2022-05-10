@@ -1,0 +1,46 @@
+concept_smooth
+<= nrel_inclusion: concept_jazz;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[смуз-джаз]
+	(*
+	<- lang_ru;;
+	*);
+	[smooth jazz]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Развившийся из стиля фьюжн, смуз-джаз отказался от энергичных соло и динамических крещендо предшествующих стилей. Смуз-джаз отличает прежде всего намеренно подчёркнутая отполированность звучания. Импровизация также в значительной степени исключена из музыкального арсенала жанра. Обогащённый звуками множества синтезаторов в соединении с ритмическими семплами глянцевый саунд создаёт гладкую и тщательно отполированную упаковку музыкального товара, в котором ансамблевое созвучие имеет большее значение, чем его составные части. Это качество также отделяет этот стиль от других более «живых» исполнений. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Developed from the fusion style, smooth jazz abandoned the energetic solos and dynamic crescendos of the previous styles. Smooth jazz is distinguished primarily by deliberately emphasized polished sound. Improvisation has also been largely excluded from the genre's musical arsenal. Enriched with the sounds of multiple synths, combined with rhythmic samples, the glossy sound creates a smooth and highly polished package of musical goods, in which ensemble consonance matters more than its constituent parts. This quality also separates this style from other more lively performances.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/smooth.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

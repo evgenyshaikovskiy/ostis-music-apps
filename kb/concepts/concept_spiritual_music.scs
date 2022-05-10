@@ -36,7 +36,7 @@ concept_spiritual_music
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/spiritual.jpg"
+		->rrel_example: "file://kb/pictures/spiritual.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

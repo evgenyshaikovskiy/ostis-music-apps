@@ -1,0 +1,46 @@
+concept_ritualfolklore
+<= nrel_inclusion: concept_hillbilly_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[обрядовый фольклор]
+	(*
+	<- lang_ru;;
+	*);
+	[ritualfolklore]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Обрядовый фольклор – это песни, танцы, различные действия, которые исполняются во время обрядов. Календарно-обрядовый фольклор – это обряды, связанные с народным календарём, который основывался на смене времён года и распорядка земледельческих работ.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Ritual folklore is songs, dances, various actions that are performed during rituals. Calendar and ceremonial folklore are rituals associated with the folk calendar, which was based on the change of seasons and the schedule of agricultural work.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/ritualfolklore.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

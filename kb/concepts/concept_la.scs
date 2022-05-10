@@ -1,0 +1,46 @@
+concept_la
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[латиноамериканская музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[Latin American music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Латиноамерика́нская му́зыка — обобщённое название музыкальных стилей и жанров стран Латинской Америки, а также музыка выходцев из этих стран, компактно проживающих на территории других государств и образующих большие латиноамериканские сообщества.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Latin American music is a generalized name for the musical styles and genres of Latin American countries, as well as the music of people from these countries who compactly live on the territory of other states and form large Latin American communities.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/la.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

@@ -37,7 +37,7 @@ concept_messa
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/messa.jpg"
+		->rrel_example: "file://kb/pictures/messa.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

@@ -1,0 +1,46 @@
+concept_freestyle
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[фристайл рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[freestyle rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фриста́йл — импровизация в рэпе; декламация и пение рифмованного ритмизированного речитатива и стихов, создаваемых на ходу, без заранее подготовленного текста. Тема и стилистика могут быть свободными или определёнными заранее.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Freestyle - improvisation in rap; recitation and singing of rhyming rhythmic recitative and poems created on the go, without a pre-prepared text. The theme and style can be free or predetermined.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/freestyle.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

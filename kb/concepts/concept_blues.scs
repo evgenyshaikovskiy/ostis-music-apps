@@ -1,0 +1,46 @@
+concept_blues
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[блюз]
+	(*
+	<- lang_ru;;
+	*);
+	[blues]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Блюз — вид афроамериканской традиционной музыки. Зародился в конце XIX века в афроамериканском сообществе Юго-востока США, в среде выходцев с плантаций «Хлопкового пояса». С тех пор в литературных произведениях фразу англ. «Blue Devils» часто используют для описания подавленного настроения.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Blues is a type of African American traditional music. It originated at the end of the 19th century in the African American community of the Southeastern United States, among immigrants from the Cotton Belt plantations. Since then, in literary works, the phrase English. "Blue Devils" is often used to describe a depressed mood.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/blues.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
