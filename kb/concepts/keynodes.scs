@@ -1,7 +1,10 @@
+// classes
 concept_music_compositions <- sc_node_not_relation;;		
 concept_music_genre <- sc_node_not_relation;;
 concept_music_subgenre <- sc_node_not_relation;;
 concept_musician <- sc_node_not_relation;;
+concept_band <- sc_node_not_relation;;
 concept_album <- sc_node_not_relation;;
+// relations
 concept_author <- sc_node_role_relation;;
 concept_contributer <- sc_node_role_relation;;
