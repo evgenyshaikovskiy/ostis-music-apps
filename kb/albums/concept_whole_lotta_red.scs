@@ -1,0 +1,56 @@
+concept_music_compositions<-sc_node_not_relation;;
+concept_music_theory <- sc_node_not_relation;;
+concept_whole_lotta_red
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_not_relation;
+=>nrel_main_idtf:
+    [Целая Куча Красного]
+    (*
+        <- lang_ru;;
+    *);
+    [Whole Lotta Red]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Целая Куча Красного - второй студиный альбом Плейбой Карти.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Whole Lotta Red is the sophomore studio album by Playboi Carti.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+    *);;
+
+
+
+contributer <- sc_node_not_relation;
+=> playboi_carti;
+=> kanye_west;
+=> mattew_williams;
+=> future;
+=> kid_cudi;;	
+
+author <- sc_node_not_relation;
+=> playboi_carti;
+=> kanye_west;
+=> mattew_williams;;
+
+
+concept_whole_lotta_red <= concept_hiphop;
+<= concept_trap;
+<= concept_mumblerap;
+<= concept_experimental_hiphop;;		
