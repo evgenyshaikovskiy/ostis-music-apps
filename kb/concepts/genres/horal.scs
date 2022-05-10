@@ -1,0 +1,46 @@
+concept_horal
+<= nrel_inclusion: concept_spiritual_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[хорал]
+	(*
+	<- lang_ru;;
+	*);
+	[horal]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хорал - это церковное многоголосное песнопение у католиков и протестантов, а также музыкальная пьеса в такой форме.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Chorale is a church polyphonic chant among Catholics and Protestants, as well as a piece of music in this form.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/horal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

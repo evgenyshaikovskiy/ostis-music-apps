@@ -1,0 +1,46 @@
+concept_passions
+<= nrel_inclusion: concept_spiritual_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[страсти]
+	(*
+	<- lang_ru;;
+	*);
+	[passions]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Страсти (пассион; нем. Passion, от лат. passio — страдание) — вокально-драматическое произведение, посвящённое событиям Страстной недели (Страсти Христовы), основанное на евангельских текстах. Среди наиболее известных произведений этого жанра «Страсти по Матфею» и «Страсти по Иоанну» Иоганна Себастьяна Баха.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Passion (passion; German Passion, from Latin passio - suffering) is a vocal and dramatic work dedicated to the events of Holy Week (The Passion of Christ), based on the gospel texts. Among the most famous works of this genre are the Matthew Passion and the John Passion by Johann Sebastian Bach.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/strasti.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

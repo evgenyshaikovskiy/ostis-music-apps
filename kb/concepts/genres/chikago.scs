@@ -1,0 +1,46 @@
+concept_chikago
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[чикаго рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[chikago rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Чикагские хип-хоп исполнители никогда не объединялись вокруг легко определяемого стиля или звука (за исключением недавней сцены тренировок). Вместо этого чикагские хип-хоп исполнители черпали вдохновение из множества региональных влияний - вначале Восточного побережья с его сэмплами, основанными на джазе и соуле, и «осознанным» лиризмом. В то же время другие чикагские артисты восприняли продакшн Западного побережья с его фанковыми инструментами, управляемыми синтезаторами. В конце концов, такие артисты, как Twista, Do or Die, Crucial Conflict, Triple Darkness, Snypaz и Psychodrama, внесли свой собственный поворот в инструментарий Западного побережья, добавив образцы двойного хай-хэта и, что станет первым в Чикаго, доморощенным и сразу узнаваемый «стиль», двойной или тройной рэп поверх фанковых, синтезированных битов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Chicago hip-hop artists have never united around an easily identifiable style or sound (with the exception of the recent training scene). Instead, Chicago hip hop artists drew inspiration from a variety of regional influences—early the East Coast, with its jazz and soul-influenced sampling and "conscious" lyricism. At the same time, other Chicago artists embraced West Coast production with its synth-driven funky instrumentation. Eventually, artists such as Twista, Do or Die, Crucial Conflict, Triple Darkness, Snypaz, and Psychodrama brought their own twist to the West Coast instrumentation, adding double hi-hat samples and what would be Chicago's first, homegrown and immediately recognizable "style", double or triple rap over funky, synthesized beats.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/chikago.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

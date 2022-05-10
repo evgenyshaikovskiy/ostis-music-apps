@@ -1,0 +1,46 @@
+concept_mexico
+<= nrel_inclusion: concept_la;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Музыка Мексики]
+	(*
+	<- lang_ru;;
+	*);
+	[Music of Mexico]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мексика , пожалуй, одна из самых разнообразных в музыкальном плане стран в мире. Каждый из 31 штата, его столица и каждый район Мехико заявляют о своем уникальном музыкальном стиле. Самый представительный жанр - музыка мариачи . Хотя музыканты- мариачи часто ошибочно изображаются как уличных музыкантов, они играют чрезвычайно техничную , структурированную музыку или смеси, такие как джарабе . Большая часть музыки мариачи поется в стихах из прозы. Ranchera , музыка в стиле кантри в Мексике, отличается от мариачи тем, что она менее технична, а ее тексты не поются в прозе. Другая региональная музыка включает в себя: son jarocho , son huasteco , cumbia sonidera ,Мексиканский поп , испанский рок , мексиканский рок и новая песня . Есть также музыка, основанная на звуках танца (например, сапатеада ).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mexico is perhaps one of the most musically diverse countries in the world. Each of the 31 states, its capital, and each district of Mexico City claims its own unique musical style. The most representative genre is mariachi music. Although mariachi musicians are often misrepresented as street musicians, they play extremely technical, structured music or blends such as jarabe. Most mariachi music is sung in prose verse. Ranchera, country music in Mexico, differs from mariachi in that it is less technical and its lyrics are not sung in prose. Other regional music includes: son jarocho, son huasteco, cumbia sonidera, Mexican pop, Spanish rock, Mexican rock and new song. There is also music based on the sounds of the dance (such as the zapateada).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/mexico.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

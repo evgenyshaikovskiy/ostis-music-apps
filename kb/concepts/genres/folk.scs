@@ -1,0 +1,46 @@
+concept_folk
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[фолк музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[folk]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фолк-музыка (от англ. folk music «народная музыка») — жанр популярной музыки, который развился на основе народной музыки в середине XX века в результате феномена фолк-ривайвлов, когда народная музыка начала распространяться среди массовой аудитории. В этой связи его иногда называют «музыкой фолк-ривайвла». Наиболее активно развитие жанра происходило в США и Великобритании. Фолк-музыка также включает в себя различные поджанры, в том числе фолк-рок и электрик-фолк.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Folk music (from the English folk music “folk music”) is a genre of developed music that developed on the basis of folk music in the middle of the 20th century as a result of the folk revival phenomenon, when folk music began to spread among the masses of the masses. In this regard, it is sometimes referred to as "folk revival music". Most actively treated in the US and the UK. Folk music also includes various subgenres, including folk rock and electric folk.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/folk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

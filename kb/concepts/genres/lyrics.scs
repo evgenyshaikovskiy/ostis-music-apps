@@ -1,0 +1,46 @@
+concept_lyrics
+<= nrel_inclusion: concept_hillbilly_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[лирические песни]
+	(*
+	<- lang_ru;;
+	*);
+	[lyrics]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ЛИРИЧЕСКИЕ ПЕСНИ — народные песни, выражающие личные чувства и настроения поющих. Согласно с исследованиями ученых, главным образом, А. Веселовского и Потебни, лирика лишь постепенно, в длинном процессе эволюции, обособилась от обряда. В т. н. обрядовых песнях (см. это слово) — праздничных (особенно весенних), семейных — лирика является одним из основных элементов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[LYRICAL SONGS - folk songs expressing the personal feelings and moods of the singers. According to the studies of scientists, mainly A. Veselovsky and Potebnya, the lyrics only gradually, in a long process of evolution, separated themselves from the rite. In so-called. ritual songs (see this word) - festive (especially spring), family - lyrics are one of the main elements.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/lyrics.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

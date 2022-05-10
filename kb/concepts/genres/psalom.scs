@@ -1,0 +1,46 @@
+concept_psalom
+<= nrel_inclusion: concept_spiritual_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[псалом]
+	(*
+	<- lang_ru;;
+	*);
+	[psalom]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Псало́м (греч. ψαλμός — пение под аккомпанемент струнного щипкового инструмента[1]), р.п. псалма́, мн. псалмы́ (греч. ψαλμοί) — жанр и форма иудейской и христианской лирической молитвословной поэзии. Сто пятьдесят псалмов составляют Псалтирь.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Psalm (Greek ψαλμός - singing to the accompaniment of a stringed plucked instrument [1]), r.p. psalm, pl. psalms (Greek ψαλμοί) is a genre and form of Jewish and Christian lyric prayer poetry. One hundred and fifty psalms make up the Psalter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/psalom.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

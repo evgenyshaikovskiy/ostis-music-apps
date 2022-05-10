@@ -1,0 +1,46 @@
+concept_bebop
+<= nrel_inclusion: concept_jazz;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[бибоп]
+	(*
+	<- lang_ru;;
+	*);
+	[bebop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Название этого направления в джазе произошло от «ри-боп» — слова, характеризующего манеру исполнения музыкантов данного стиля. В этой музыке на первый план выступает солист, его музыкальная вдохновлённость и виртуозное владение инструментом. Бибоп требовал от слушателя, привыкшего к танцевальной музыке свинг, очень многого и зачастую вызывал непонимание у публики.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[The name of this trend in jazz comes from "re-bop" - a word that characterizes the manner of performance of musicians of this style. In this music, the soloist, his musical inspiration and virtuoso mastery of the instrument come to the fore. Bebop demanded a lot from the listener, accustomed to swing dance music, and often caused misunderstanding among the public.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/beebop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

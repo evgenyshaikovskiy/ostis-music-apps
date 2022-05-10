@@ -1,0 +1,46 @@
+concept_choruses_and_songs
+<= nrel_inclusion: concept_hillbilly_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[припевки и песни]
+	(*
+	<- lang_ru;;
+	*);
+	[choruses_and_songs]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Жанр трудовых припевок возник в древности и присутствует практически во всех традиционных культурах. Общей чертой песен этого жанра является их абсолютно прикладное назначение - они неотделимы от трудового процесса и призваны обеспечить одновременность усилий в коллективных формах физической работы, синхронизировать трудовой процесс и тем самым облегчить его.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[The genre of labor choruses arose in antiquity and is present in almost all traditional cultures. A common feature of the songs of this genre is their absolutely applied purpose - they are inseparable from the labor process and are designed to ensure the simultaneity of efforts in collective forms of physical work, to synchronize the labor process and thereby facilitate it.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/choruses_and_songs.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

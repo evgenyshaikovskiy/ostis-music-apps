@@ -1,0 +1,46 @@
+concept_hardcore 
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[хардкор-рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[hardcore rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хардкор-рэп (англ. Hardcore rap) — жанр хип-хоп-музыки, зародившийся на хип-хоп-сцене Восточного побережья в 1980-х годах. Первопроходцами жанра были такие артисты, как Run-D.M.C., Schoolly D, Boogie Down Productions и Public Enemy. Жанр обычно характеризуется гневом, агрессией и конфронтацией.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Hardcore rap is a genre of hip hop music that originated in the East Coast hip hop scene in the 1980s. The genre was pioneered by artists such as Run-D.M.C., Schoolly D, Boogie Down Productions and Public Enemy. The genre is usually characterized by anger, aggression and confrontation.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/hardcore.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

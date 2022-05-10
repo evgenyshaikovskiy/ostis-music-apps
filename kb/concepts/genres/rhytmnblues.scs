@@ -1,0 +1,46 @@
+concept_rhytmnblues
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[ритм-н-блюз]
+	(*
+	<- lang_ru;;
+	*);
+	[rhytmnblues]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ритм-энд-блюз, или ритм-н-блюз (от англ. rhythm and blues, сокр. R&B— ритм и блюз) — стиль популярной музыки афроамериканцев, включающий элементы блюза. Изначально, обобщённое название массовой музыки, основанной на блюзовых и джазовых направлениях 1930—1940-х годов. В конце 1940-х годов словосочетание ритм-энд-блюз стало официальным маркетинговым термином для обозначения современных, с элементом танцевального ритма, популярных направлений в музыке афроамериканских исполнителей США.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rhythm and blues, or rhythm and blues (from the English rhythm and blues, abbr. R & B - rhythm and blues) is a style of African American popular music that includes elements of the blues. Initially, a generalized name for mass music based on the blues and jazz trends of the 1930s and 1940s. In the late 1940s, the phrase rhythm and blues became the official marketing term for modern, dance rhythm-influenced, popular styles in US African-American music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/rhytmnblues.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

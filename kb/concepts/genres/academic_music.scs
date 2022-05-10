@@ -1,0 +1,45 @@
+concept_academic_music
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[академическая музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[academic music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Академическая музыка — музыка, находящаяся в отношении преемственности прежде всего к сформировавшимся в Европе в XVII—XIX вв. музыкальным жанрам и формам, мелодическим и гармоническим принципам и инструментальному составу.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Academic music is music that is in relation to continuity, first of all, to those formed in Europe in the 17th-19th centuries. musical genres and forms, melodic and harmonic principles and instrumental composition.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/academic.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

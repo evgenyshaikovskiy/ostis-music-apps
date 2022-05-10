@@ -1,0 +1,46 @@
+concept_swing
+<= nrel_inclusion: concept_jazz;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Свинг]
+	(*
+	<- lang_ru;;
+	*);
+	[Swing]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Свинг в переводе с английского «swing» означает «качание». Термин имеет два значения. Во-первых, это выразительное средство в джазе. Характерный тип пульсации, основанной на постоянных отклонениях ритма от опорных долей. Благодаря этому создаётся впечатление большой внутренней энергии, находящейся в состоянии неустойчивого равновесия. Во-вторых, стиль оркестрового джаза, сложившийся на рубеже 1920—1930-х годов в результате синтеза негритянских и европейских стилевых форм джазовой музыки.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Swing translated from English "swing" means "swing". The term has two meanings. First, it is an expressive means in jazz. A characteristic type of pulsation based on constant deviations of the rhythm from the reference shares. This creates the impression of a large internal energy in a state of unstable equilibrium. Secondly, the style of orchestral jazz that took shape at the turn of the 1920s and 1930s as a result of the synthesis of Negro and European stylistic forms of jazz music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/swing.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

@@ -1,0 +1,46 @@
+concept_andean_music
+<= nrel_inclusion: concept_la;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Андская музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[Andean music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[К андской музыке обычно относят музыку запада Южной Америки: Перу, Эквадора, Боливии и Чили, горных районов Колумбии и Венесуэлы. Андская музыка в наибольшей степени из всех латиноамериканских музыкальных жанров находится под влиянием индейских традиций. Как правило, влияние африканской музыкальной культуры в ней незначительно либо полностью отсутствует, а в ряде традиционных жанров практически не ощущается и испанское влияние.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Andean music usually includes the music of the west of South America: Peru, Ecuador, Bolivia and Chile, the mountainous regions of Colombia and Venezuela. Andean music is, to the greatest extent of all Latin American musical genres, influenced by Indian traditions. As a rule, the influence of African musical culture is insignificant or completely absent in it, and in a number of traditional genres, the Spanish influence is practically not felt.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures//andes.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

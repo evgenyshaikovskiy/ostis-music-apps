@@ -1,0 +1,46 @@
+concept_reggy
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[регги]
+	(*
+	<- lang_ru;;
+	*);
+	[reggy]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Регги — направление современной музыки, сформировавшееся на Ямайке в конце 1960-х и получившее широкое распространение с начала 1970-х годов. Регги может быть одновременно и танцевальной, и релаксационной, и протестной музыкой, что следует из традиций африканской культуры, в которой ритм, танец и музыка сосуществуют с прочими явлениями и событиями.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Reggae is a genre of contemporary music that was formed in Jamaica in the late 1960s and has become widespread since the early 1970s. Reggae can be both dance, relaxation and protest music, which follows from the traditions of African culture, in which rhythm, dance and music coexist with other phenomena and events.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/reggy.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

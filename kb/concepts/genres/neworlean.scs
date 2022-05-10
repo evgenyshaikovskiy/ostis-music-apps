@@ -1,0 +1,46 @@
+concept_neworlean
+<= nrel_inclusion: concept_jazz;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Новоорлеанский джаз]
+	(*
+	<- lang_ru;;
+	*);
+	[Neworlean jazz]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Термином «новоорлеанский», или «традиционный», джаз обычно определяют стиль музыкантов, исполнявших джаз в Новом Орлеане в период между 1900 и 1917 гг., а также новоорлеанскими музыкантами, которые играли в Чикаго и записывали пластинки, начиная приблизительно с 1917-го и на протяжении 1920-х годов. Этот период джазовой истории также известен как «эпоха джаза». Понятие также используется для описания музыки, исполняемой в различные исторические периоды представителями новоорлеанского возрождения, стремившимися исполнять джаз в том же самом стиле, что и музыканты новоорлеанской школы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[The term "New Orleans" or "traditional" jazz usually refers to the style of musicians who played jazz in New Orleans between 1900 and 1917, as well as New Orleans musicians who played in Chicago and recorded records from about 1917 to throughout the 1920s. This period of jazz history is also known as the "Jazz Age". The term is also used to describe the music played in different historical periods by New Orleans revivalists who sought to play jazz in the same style as New Orleans school musicians.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/neworlean.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

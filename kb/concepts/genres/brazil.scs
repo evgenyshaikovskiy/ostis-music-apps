@@ -1,0 +1,46 @@
+concept_brazil
+<= nrel_inclusion: concept_la;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Музыка Бразилии]
+	(*
+	<- lang_ru;;
+	*);
+	[Music of Brazil]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Бразилия - большая, разнообразная страна с долгой историей развития популярной музыки, начиная от новаторства самбы в начале 20-го века и заканчивая современной Música Popular brasileira . Босса-нова широко известна во всем мире, а Форро также широко известен и популярен в Бразилии. Ламбада находится под влиянием таких ритмов, как кумбия и меренге. Фанк-кариока также является очень популярным стилем.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Brazil is a large, diverse country with a long history of popular music development, ranging from the pioneering of the samba in the early 20th century to the modern Música Popular brasileira. Bossa nova is well known all over the world and Forro is also well known and popular in Brazil. Lambada is influenced by rhythms such as cumbia and merengue. Funk carioca is also a very popular style.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/brazil.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

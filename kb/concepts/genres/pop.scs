@@ -1,0 +1,46 @@
+concept_pop
+<= nrel_inclusion: concept_popular_music;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[поп]
+	(*
+	<- lang_ru;;
+	*);
+	[pop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Основные черты поп-музыки — простота инструментальной части, ритмичность, акцент на вокал.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[The main features of pop music are the simplicity of the instrumental part, rhythm, emphasis on vocals.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/pop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

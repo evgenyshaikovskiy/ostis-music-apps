@@ -1,0 +1,46 @@
+concept_mumble
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мамбл-рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[mumble rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мамбл-рэп — поджанр трэп-музыки, сложившийся в середине 2010-х в США. Он характеризуется упором на выразительность звучания, в отличие от традиционного хип-хопа, в основе которого лежит лирика и рифмы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mumble rap is a subgenre of trap music that emerged in the mid-2010s in the United States. It is characterized by an emphasis on expressiveness of sound, as opposed to traditional hip-hop, which is based on lyrics and rhymes.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/mumble.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

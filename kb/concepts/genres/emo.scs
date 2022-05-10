@@ -1,0 +1,46 @@
+concept_emo
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эмо-рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[emo rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Эмо-рэп — поджанр хип-хопа и эмо-музыки, характеризующийся сочетанием хип-хопа с элементами таких жанров рок-музыки, как инди-рок, поп-панк и ню-метал, обычно встречающимися в эмо-музыке. Этот термин иногда соотносится с SoundCloud rap. Является частью движения возрождения эмо.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Emo rap is a subgenre of hip hop and emo music characterized by the combination of hip hop with elements of rock music genres such as indie rock, pop punk, and nu metal commonly found in emo music. The term is sometimes associated with SoundCloud rap. It is part of the emo revival movement.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/emo.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

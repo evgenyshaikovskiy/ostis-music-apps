@@ -1,0 +1,46 @@
+concept_bigband
+<= nrel_inclusion: concept_jazz;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Биг-бэнд]
+	(*
+	<- lang_ru;;
+	*);
+	[big band]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Биг-бэнд стал популярной музыкой своего времени, достигнув пика славы в середине 1930-х. Эта музыка стала источником повального увлечения свинговыми танцами. Руководители знаменитых джаз-оркестров Дюк Эллингтон, Бенни Гудмен, Каунт Бэйси, Арти Шоу, Чик Уэбб, Гленн Миллер, Томми Дорси, Джимми Лансфорд, Чарли Барнет сочинили или аранжировали и записали на пластинки подлинный хит-парад мелодий, которые звучали не только по радио, но и повсюду в танцевальных залах. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[The big band became the popular music of its day, reaching its peak in the mid-1930s. This music became the source of the swing dance craze. The leaders of the famous jazz orchestras Duke Ellington, Benny Goodman, Count Basie, Artie Shaw, Chick Webb, Glenn Miller, Tommy Dorsey, Jimmy Lunsford, Charlie Barnet composed or arranged and recorded on records a genuine hit parade of tunes that sounded not only on the radio but also everywhere in dance halls.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/bigband.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

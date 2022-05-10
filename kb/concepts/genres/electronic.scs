@@ -1,0 +1,50 @@
+concept_electronic
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[электронная]
+	(*
+	<- lang_ru;;
+	*);
+	[electronic]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Электро́нная му́зыка (нем. elektronische Musik, англ. electronic music) — музыка, созданная с использованием электромузыкальных инструментов и электронных технологий (с последних десятилетий XX века — компьютерных технологий). Как специфическое направление в мире музыки электронная музыка оформилась во второй половине XX века и к началу XXI века широко распространилась в академической и массовой культуре.
+
+Электронная музыка оперирует звуками, которые способны издавать электронные и электромеханические музыкальные инструменты, а также звуками, возникающими при помощи электрических / электронных устройств и различного рода преобразователей (магнитофоны, генераторы, компьютерные звуковые карты, звукосниматели и тому подобные), которые в строгом смысле не являются музыкальными инструментами.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Electronic music (German elektronische Musik, English electronic music) is music created using electric musical instruments and electronic technologies (computer technologies since the last decades of the 20th century). As a specific direction in the world of music, electronic music took shape in the second half of the 20th century and by the beginning of the 21st century it had become widespread in academic and popular culture.
+
+Electronic music operates with sounds that are capable of producing electronic and electromechanical musical instruments, as well as sounds that arise with the help of electrical / electronic devices and various transducers (tape recorders, generators, computer sound cards, pickups, etc.), which in the strict sense are not musical instruments.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/electronic.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

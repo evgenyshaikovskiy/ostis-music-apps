@@ -1,0 +1,46 @@
+concept_alternativehiphop
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[альтернативный хип-хоп]
+	(*
+	<- lang_ru;;
+	*);
+	[alternative hiphop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Альтернативный хип-хоп (также известный как альтернативный рэп) — это поджанр хип-хоп-музыки, охватывающий широкий спектр стилей, которые обычно не считаются мейнстримом.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alternative hip hop (also known as alternative rap) is a subgenre of hip hop music covering a wide range of styles that are not usually considered mainstream.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/alternativehiphop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

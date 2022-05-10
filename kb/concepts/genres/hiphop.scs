@@ -1,0 +1,46 @@
+concept_hiphop
+<= nrel_inclusion:  concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[хип-хоп]
+	(*
+	<- lang_ru;;
+	*);
+	[hip-hop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хип-хоп — музыкальный жанр популярной музыки, развитый в США афроамериканцами и латиноамериканцами, живущими в бедных районах Бронкса в Нью-Йорке в 1970-х годах.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Hip hop is a musical genre of popular music developed in the United States by African Americans and Hispanics living in the poor areas of the Bronx in New York City in the 1970s.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://kb/pictures/hiphop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
