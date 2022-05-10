@@ -1,7 +1,8 @@
 concept_whole_lotta_red
 <= nrel_inclusion: concept_music_compositions;
 <- sc_node_not_relation;
-=>nrel_main_idtf:
+<- rrel_author: concept_playboi_carti;  
+=> nrel_main_idtf:
     [Целая Куча Красного]
     (*
         <- lang_ru;;
@@ -13,8 +14,8 @@ concept_whole_lotta_red
 <- rrel_key_sc_element:
 	...
 	(*
-	<-sc_definition;;
-	<=nrel_sc_text_translation:
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
 		...
 		(*
 		-> rrel_example:
@@ -33,22 +34,21 @@ concept_whole_lotta_red
 		*);;
     *);;
 
+concept_whole_lotta_red
+<- rrel_author:
+	concept_playboi_carti;
+	concept_kanye_west;
+	concept_future;;
 
+concept_whole_lotta_red
+<- rrel_contributer:
+	concept_playboi_carti;
+	concept_kanye_west;
+	concept_future;
+	concept_kid_cudi;;
 
-contributer <- sc_node_not_relation;
-=> playboi_carti;
-=> kanye_west;
-=> mattew_williams;
-=> future;
-=> kid_cudi;;	
-
-author <- sc_node_not_relation;
-=> playboi_carti;
-=> kanye_west;
-=> mattew_williams;;
-
-
-concept_whole_lotta_red <= concept_hiphop;
-<= concept_trap;
-<= concept_mumblerap;
-<= concept_experimental_hiphop;;		
+concept_whole_lotta_red
+<- nrel_genre:
+	concept_trap_rap;
+	concept_mumble;
+	concept_experimental_hiphop;;
