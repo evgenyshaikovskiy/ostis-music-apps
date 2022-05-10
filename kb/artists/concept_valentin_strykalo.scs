@@ -1,0 +1,57 @@
+concept_valentin_strykalo
+<= concept_band;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Валентин Стрыкало]
+    (*
+        <- lang_ru;;
+    *);
+    [Valentin Strykalo]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [«Валенти́н Стры́кало» — украинская рок-группа, основанная в 2010 году солистом Юрием Капланом, который получил известность после записи серии видеообращений к звёздам шоу-бизнеса от имени наивного провинциального парня «Валентина Стрыкало из села Бурильцево».]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    ['Valentin Strykalo' is an ukranian rock band, founded in 2010 by singer Yuri Kaplan, who gained fame after recordiing series of video messages to media stars on behalf of naive provincial guy 'Valentin Strykalo from the village of Buriltsivo']
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://kb/pictures/valentin-strykalo.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+Kostya_Pyzhkov <- concept_musician;;
+Stanislav_Myrashko <- concept_musician;;
+Vladimir_Yakovlev <- concept_musician;;
+
+concept_valentin_strykalo
+<- rrel_band_members:
+    concept_yury_caplan;
+    Kostya_Pyzhkov;
+    Stanislav_Myrashko;
+    Vladimir_Yakovlev;;
+
+
