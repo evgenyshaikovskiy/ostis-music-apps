@@ -8,12 +8,17 @@ concept_violin
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Скрипка))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Скрипка)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [смычковый музыкальный инструмент с четырьмя струнами, настроенными по квинтам: Gм D1 A1 E2.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Violin)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [bowed musical instrument with four strings tuned in fifths: Gm D1 A1 E2.] (* <- lang_en;; *);;
+	*);;
+*);;

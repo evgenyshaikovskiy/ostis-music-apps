@@ -14,6 +14,11 @@ concept_organ
 	(* 
 		-> [клавишный духовой музыкальный инструмент. Большие концертные органы превосходят по габаритам все прочие музыкальные инструменты.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Organ)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [keyboard wind musical instrument. Large concert organs are larger than all other musical instruments.] (* <- lang_en;; *);;
+	*);;
+*);;

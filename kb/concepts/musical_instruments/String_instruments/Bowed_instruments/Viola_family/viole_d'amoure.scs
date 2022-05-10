@@ -1,19 +1,24 @@
-concept_viola_da_gamba
-<= nrel_inclusion: concept_viola_family; //от кого идёт
-=> nrel_main_idtf: [viola da gamba] (* <- lang_en;; *);
-=> nrel_main_idtf: [виола да гамба] (* <- lang_ru;; *);
+concept_viola_d_amoure
+<= nrel_inclusion: concept_viola_family;
+=> nrel_main_idtf: [Viola d'amore] (* <- lang_en;; *);
+=> nrel_main_idtf: [Виола д'Амур] (* <- lang_ru;; *);
 
 <-concept_classes;
 
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Виола да гамба))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Виола д'Амур)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [инструмент имеет шесть или семь основных струн, которые в более поздних моделях дополняются также резонансными (симпатическими) струнами, располагающимися ниже основных. Резонансные струны не затрагиваются смычком и вибрируют лишь благодаря взаимодействию с колебаниями основных струн и корпуса.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Viola d'amore)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [is a 7- or 6-stringed musical instrument with sympathetic strings used chiefly in the baroque period. It is played under the chin in the same manner as the violin.] (* <- lang_en;; *);;
+	*);;
+*);;

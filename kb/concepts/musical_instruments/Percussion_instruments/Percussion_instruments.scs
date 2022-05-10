@@ -1,5 +1,5 @@
 concept_percussion_musical_instruments
-<= nrel_inclusion: concept_musical_instrument; //от кого идёт
+<= nrel_inclusion: concept_musical_instrument;
 => nrel_main_idtf: [percussion musical instruments] (* <- lang_en;; *);
 => nrel_main_idtf: [ударные музыкальные инструменты] (* <- lang_ru;; *);
 
@@ -14,6 +14,13 @@ concept_percussion_musical_instruments
 	...
 	(* 
 		-> [группа музыкальных инструментов, звук из которых извлекается ударом (молоточков, колотушек, палочек и тому подобного) по звучащему телу (мембране, металлу, дереву и другому).] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Percussion musical instruments)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [a group of musical instruments, the sound of which is extracted by striking (hammers, mallets, sticks, etc.) on a sounding body (membrane, metal, wood, etc.).] (* <- lang_en;; *);;
 	*);;
 *);
 

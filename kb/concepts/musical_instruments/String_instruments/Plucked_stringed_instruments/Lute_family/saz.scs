@@ -1,5 +1,5 @@
 concept_saz
-<= nrel_inclusion: concept_lute_family; //от кого идёт
+<= nrel_inclusion: concept_lute_family;
 => nrel_main_idtf: [saz] (* <- lang_en;; *);
 => nrel_main_idtf: [саз] (* <- lang_ru;; *);
 
@@ -8,12 +8,17 @@ concept_saz
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Саз))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Саз)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [состоит из трёх частей: грушевидного корпуса, шейки (грифа) и головки. К головке прикрепляются колки, при помощи которых настраивают струны.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Saz)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [consists of three parts: pear-shaped body, neck (neck) and head. Pegs are attached to the head, with which the strings are tuned.] (* <- lang_en;; *);;
+	*);;
+*);;

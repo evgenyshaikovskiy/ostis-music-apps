@@ -9,12 +9,18 @@ concept_polyphony
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Полифонии))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Полифонии)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [это техника сочетания двух или более мелодических линий в соответствии с определенными принципами.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;; //нужно сделать дефолтным узлом
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Polyphony)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [it is the technique of combining two or more melodic lines according to certain principles.] (* <- lang_en;; *);;
+	*);;
+	
+*);;

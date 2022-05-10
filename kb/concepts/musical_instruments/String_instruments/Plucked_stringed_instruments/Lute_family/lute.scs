@@ -8,12 +8,17 @@ concept_lute
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Лютни))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Лютни)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [музыкальный инструмент с ладами на грифе и овальным корпусом.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Lute)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [a musical instrument with frets on the fingerboard and an oval body.] (* <- lang_en;; *);;
+	*);;
+*);;

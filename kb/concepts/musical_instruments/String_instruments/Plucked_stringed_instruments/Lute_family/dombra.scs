@@ -14,6 +14,11 @@ concept_dombra
 	(* 
 		-> [струнный щипковый музыкальный инструмент, который существует в культуре казахов, ногайцев, а также калмыков.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Dombra)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [a stringed plucked musical instrument that exists in the culture of the Kazakhs, Nogais, and Kalmyks.] (* <- lang_en;; *);;
+	*);;
+*);;

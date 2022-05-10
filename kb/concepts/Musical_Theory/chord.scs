@@ -1,6 +1,6 @@
 concept_chord
 <= nrel_inclusion: concept_musical_theory;
-<- concept_main_category; //???
+<- concept_main_category;
 <- sc_node_not_relation;
 => nrel_main_idtf: [chord] (* <- lang_en;; *);
 => nrel_main_idtf: [аккорд] (* <- lang_ru;; *);
@@ -11,12 +11,17 @@ concept_chord
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Аккорда))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Аккорд))] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [Сочетание нескольких музыкальных звуков различной высоты, воспринимаемых как звуковое единство.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;; //в дефолтный узел
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Chord))] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [The combination of several musical sounds of different heights, perceived as a sound unity.] (* <- lang_en;; *);;
+	*);;
+*);;

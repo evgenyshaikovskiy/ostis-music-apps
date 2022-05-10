@@ -8,12 +8,17 @@ concept_komuz
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Комуз))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Комуз)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [киргизский народный трёхструнный щипковый музыкальный инструмент типа лютни с длинной тонкой шейкой. Грушевидный корпус с безладовым грифом представляет собой единое целое (выдалбливается из одного куска дерева). Общая длина инструмента около 90 см. Строится по квинтам и квартам. Средняя струна мелодическая, остальные выполняют функцию бурдона.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Kozmus)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Kyrgyz folk three-string plucked musical instrument of the lute type with a long thin neck. The pear-shaped body with a fretless neck is a single piece (hollowed out from one piece of wood). The total length of the instrument is about 90 cm. It is built in fifths and fourths. The middle string is melodic, the rest perform the function of a bourdon.] (* <- lang_en;; *);;
+	*);;
+*);;

@@ -9,11 +9,18 @@ concept_plucked_stringed
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Щипковые струнные музыкальные инструменты))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Щипковые струнные музыкальные инструменты)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [струнные инструменты, звукоизвлечение на которых осуществляется защипыванием струн пальцами или медиатором.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Plucked-stringed musical instruments)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [string instruments, the sound extraction on which is carried out by plucking the strings with fingers or a plectrum.] (* <- lang_en;; *);;
 	*);;
 *);
 

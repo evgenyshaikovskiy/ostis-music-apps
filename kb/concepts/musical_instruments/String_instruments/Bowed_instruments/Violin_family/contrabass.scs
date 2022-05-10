@@ -1,5 +1,5 @@
 concept_contrabass
-<= nrel_inclusion: concept_violin_family; //от кого идёт
+<= nrel_inclusion: concept_violin_family;
 => nrel_main_idtf: [contrabass] (* <- lang_en;; *);
 => nrel_main_idtf: [контрабас] (* <- lang_ru;; *);
 
@@ -14,6 +14,11 @@ concept_contrabass
 	(* 
 		-> [смычковый музыкальный инструмент с 4-мя струнами, настроенными по квартам: Eк Aк Dб Gб.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Contrabass)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [bowed musical instrument with 4 strings tuned in fourths: Ek Ak Db Gb.] (* <- lang_en;; *);;
+	*);;
+*);;

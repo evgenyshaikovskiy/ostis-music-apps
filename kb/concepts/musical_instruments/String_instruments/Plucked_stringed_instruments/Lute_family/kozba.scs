@@ -8,12 +8,17 @@ concept_kozba
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Козба))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Козба)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [молдавский, румынский и украинский (до XVII века) лютнеподобный струнный щипковый музыкальный инструмент с 4 (и более) парными струнами. Кобза состоит из корпуса и грифа, на грифе расположены 8—10 навязных ладов, с помощью которых на каждой струне можно получить звуки хроматической гаммы. Также были инструменты без ладов.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Kozba)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Moldavian, Romanian and Ukrainian (until the 17th century) lute-like stringed plucked musical instrument with 4 (or more) paired strings. The kobza consists of a body and a neck, there are 8-10 forced frets on the neck, with the help of which you can get the sounds of a chromatic scale on each string. There were also instruments without frets.] (* <- lang_en;; *);;
+	*);;
+*);;

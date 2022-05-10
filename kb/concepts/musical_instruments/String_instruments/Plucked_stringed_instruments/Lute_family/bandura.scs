@@ -8,12 +8,17 @@ concept_bandura
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Комуз))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Бандура)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [украинский народный струнный щипковый музыкальный инструмент. Имеет овальный корпус и короткий гриф. Струны (на старых инструментах — 12—25, на современных — 53—70) частью натягиваются над грифом (так называемые басы, более длинные, низко звучащие), частью же прикрепляются к деке (так называемые приструнки, более короткие, звучащие высоко).] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Bandura)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Ukrainian folk stringed musical instrument. It has an oval body and a short neck. The strings (on old instruments - 12-25, on modern ones - 53-70) are partly stretched over the fretboard (the so-called basses, longer, low-sounding), and partly attached to the deck (the so-called stringers, shorter, sounding high).] (* <- lang_en;; *);;
+	*);;
+*);;

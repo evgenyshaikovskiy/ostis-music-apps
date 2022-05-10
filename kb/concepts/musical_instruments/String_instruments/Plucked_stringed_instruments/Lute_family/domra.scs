@@ -8,12 +8,17 @@ concept_domra
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Домра))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Домра)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [русский, украинский и белорусский народный струнный щипковый музыкальный инструмент. Домра имеет корпус полусферической формы. Звук струн производится при помощи медиатора.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Domra)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Russian, Ukrainian and Belarusian folk stringed plucked musical instrument. Domra has a hemispherical body. The sound of the strings is produced with a pick.] (* <- lang_en;; *);;
+	*);;
+*);;

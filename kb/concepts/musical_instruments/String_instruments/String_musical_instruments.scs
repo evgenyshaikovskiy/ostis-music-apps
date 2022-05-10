@@ -9,11 +9,18 @@ concept_string_musical_instuments
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Струнный музыкальный инструмент))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Струнный музыкальный инструмент)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [музыкальный инструмент, в котором источником звука (вибратором) являются колебания струн.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(String musical instuments)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [a musical instrument in which the sound source (vibrator) is the vibration of strings.] (* <- lang_en;; *);;
 	*);;
 *);
 

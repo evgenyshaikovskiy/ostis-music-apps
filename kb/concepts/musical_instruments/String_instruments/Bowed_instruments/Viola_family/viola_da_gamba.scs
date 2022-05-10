@@ -1,5 +1,5 @@
 concept_viola_da_gamba
-<= nrel_inclusion: concept_viola_family; //от кого идёт
+<= nrel_inclusion: concept_viola_family;
 => nrel_main_idtf: [viola da gamba] (* <- lang_en;; *);
 => nrel_main_idtf: [виола да гамба] (* <- lang_ru;; *);
 
@@ -8,12 +8,17 @@ concept_viola_da_gamba
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Виола да гамба))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Виола да гамба)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
-		-> [старинный струнный смычковый музыкальный инструмент семейства виол, близкий по размеру и диапазону современной виолончели. На виоле да гамба играли сидя, держа инструмент между ног или положив боком на бедро, — отсюда название.] (* <- lang_ru;; *);;
+		-> [инструмент имеет шесть или семь основных струн, которые в более поздних моделях дополняются также резонансными (симпатическими) струнами, располагающимися ниже основных. Резонансные струны не затрагиваются смычком и вибрируют лишь благодаря взаимодействию с колебаниями основных струн и корпуса.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Viola da gamba)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [the instrument has six or seven main strings, which in later models are also complemented by resonant (sympathetic) strings located below the main ones. The resonant strings are not affected by the bow and vibrate only due to interaction with the vibrations of the main strings and the body.] (* <- lang_en;; *);;
+	*);;
+*);;

@@ -8,12 +8,19 @@ concept_lute_family
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Лютни))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Лютни)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [струнные инструменты, звукоизвлечение на которых осуществляется защипыванием струн пальцами или медиатором, которые состоят из резонирующего корпуса и грифа.] (* <- lang_ru;; *);;
 	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Lute family)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [string instruments, the sound extraction of which is carried out by plucking the strings with fingers or a plectrum, which consist of a resonating body and a fingerboard.] (* <- lang_en;; *);;
+	*);;
 *);
 
-<- sc_node_not_relation;;//должен быть классом(ОК)
+<- sc_node_not_relation;;

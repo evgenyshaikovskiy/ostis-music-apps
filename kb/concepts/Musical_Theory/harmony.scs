@@ -9,12 +9,17 @@ concept_harmony
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Гармонии))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Гармония))] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [созвучие, согласие, соответствующая эстетическим законам согласованность частей в расчлененном целом.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;; //в дефолтный узел
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Harmony))] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [consonance, harmony, the consistency of parts in a dismembered whole in accordance with aesthetic laws.] (* <- lang_en;; *);;
+	*);;
+*);;

@@ -1,0 +1,24 @@
+concept_gusli
+<= nrel_inclusion: concept_zither_family;
+=> nrel_main_idtf: [gusli] (* <- lang_en;; *);
+=> nrel_main_idtf: [гусли] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Гусли)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [русский народный струнный щипковый музыкальный инструмент, в общем виде представляющий собой резонаторный корпус с натянутыми над ним 5—20 струнами, образующими диатонический звукоряд.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Gusli)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Russian folk stringed plucked musical instrument, in general form, which is a resonator body with 5-20 strings stretched over it, forming a diatonic scale.] (* <- lang_en;; *);;
+	*);;
+*);;

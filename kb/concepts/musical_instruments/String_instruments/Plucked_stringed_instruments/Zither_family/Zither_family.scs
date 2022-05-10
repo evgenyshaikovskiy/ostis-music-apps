@@ -1,5 +1,5 @@
 concept_zither_family
-<= nrel_inclusion: concept_plucked_stringed; //от кого идёт
+<= nrel_inclusion: concept_plucked_stringed;
 => nrel_main_idtf: [Zither family] (* <- lang_en;; *);
 => nrel_main_idtf: [Семейство цитры] (* <- lang_ru;; *);
 
@@ -8,12 +8,19 @@ concept_zither_family
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Семейство цитры))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Семейство цитры)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [семейство струнно-щипковых музыкальных инструментов получивший наибольшее распространение в Австрии и Германии в XVIII веке. Имеют плоский деревянный корпус неправильной формы, поверх которого натянуто от 17 до 45 струн (в зависимости от размера инструмента). Несколько ближайших к исполнителю струн (обычно 4—5), натянутых над грифом с металлическими ладами, защипываются надетым на большой палец правой руки плектром, на них играется мелодия. Оставшиеся струны сгруппированы в несколько заранее настроенных аккордов, которые играются одновременно с мелодией.] (* <- lang_ru;; *);;
 	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Zither family)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [a family of stringed-plucked musical instruments that became most widespread in Austria and Germany in the 18th century. They have a flat wooden body of irregular shape, on top of which from 17 to 45 strings are stretched (depending on the size of the instrument). Several strings closest to the performer (usually 4-5), stretched over a fingerboard with metal frets, are plucked by a plectrum worn on the thumb of the right hand, and a melody is played on them. The remaining strings are grouped into several pre-tuned chords that are played simultaneously with the melody.] (* <- lang_en;; *);;
+	*);;
 *);
 
-<- sc_node_not_relation;;//должен быть классом(ОК)
+<- sc_node_not_relation;;

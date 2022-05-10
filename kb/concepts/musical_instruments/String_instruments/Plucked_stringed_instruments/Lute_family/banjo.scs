@@ -8,12 +8,17 @@ concept_banjo
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Банджо))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Банджо)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [инструмент из семейства лютневых с количеством струн 4—6. Резонаторный корпус круглой формы, дека в виде пластиковой мембраны.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//должен быть экземпляром класса(обычный узел)(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Banjo)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [an instrument from the lute family with 4-6 strings. Round resonator body, soundboard in the form of a plastic membrane.] (* <- lang_en;; *);;
+	*);;
+*);;

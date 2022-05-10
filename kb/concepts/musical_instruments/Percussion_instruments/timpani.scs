@@ -1,5 +1,5 @@
 concept_timpani
-<= nrel_inclusion: concept_percussion_musical_instruments; //от кого идёт
+<= nrel_inclusion: concept_percussion_musical_instruments;
 => nrel_main_idtf: [timpani] (* <- lang_en;; *);
 => nrel_main_idtf: [литавры] (* <- lang_ru;; *);
 
@@ -14,6 +14,11 @@ concept_timpani
 	(* 
 		-> [представляют собой систему от двух до семи металлических котлообразных чаш, открытая сторона которых затянута кожей или пластиком, а нижняя часть может иметь отверстие.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Timpani)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [are a system of two to seven metal cauldron-shaped bowls, the open side of which is covered with leather or plastic, and the lower part may have a hole.] (* <- lang_en;; *);;
+	*);;
+*);;

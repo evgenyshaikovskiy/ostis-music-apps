@@ -8,11 +8,18 @@ concept_musical_theory
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Музыкальной теории))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Музыкальной теории)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [наука, формулирующая правила и принципы, лежащие в основе сочинения музыки. Теория музыки имеет дело с анализом музыкального произведения, со «строительными блоками» музыки и закономерностями работы с ними. Теория музыки понимается и как предмет обучения, цель которого – приобретение навыков, необходимых для исполнения и понимания музыки.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Musical theory)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [the science that formulates the rules and principles underlying the composition of music. Music theory deals with the analysis of a piece of music, with the "building blocks" of music and the patterns of working with them. Music theory is also understood as a subject of study, the purpose of which is to acquire the skills necessary for performing and understanding music.] (* <- lang_en;; *);;
 	*);;
 *);
 

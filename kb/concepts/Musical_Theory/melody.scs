@@ -11,12 +11,16 @@ concept_melody
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
-	=> nrel_main_idtf:[Опр.(Мелодии))] (* <- lang_ru;; *);;
+	=> nrel_main_idtf:[Опр.(Мелодии)] (* <- lang_ru;; *);;
 	<= nrel_sc_text_translation: 
 	...
 	(* 
 		-> [можно определить как последовательность звуков, как правило, особым образом связанных с ладом (т.е. звукорядом, образующимся в результате разного расположения тонов и полутонов в октавном диапазоне), тональным центром и ритмической структурой.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;
+	=> nrel_main_idtf:[Def.(Melody)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [can be defined as a sequence of sounds, usually associated in a special way with the mode (the scale resulting from the different arrangement of tones and semitones in the octave range), tonal center and rhythmic structure.] (* <- lang_en;; *);;
+	*);;
+*);;

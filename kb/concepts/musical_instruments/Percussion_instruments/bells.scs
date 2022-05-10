@@ -1,5 +1,5 @@
 concept_bells
-<= nrel_inclusion: concept_percussion_musical_instruments; //от кого идёт
+<= nrel_inclusion: concept_percussion_musical_instruments;
 => nrel_main_idtf: [bells] (* <- lang_en;; *);
 => nrel_main_idtf: [колокольчики] (* <- lang_ru;; *);
 
@@ -14,6 +14,11 @@ concept_bells
 	(* 
 		-> [представляют собой набор настроенных по хроматике металлических пластинок, размещённых в два ряда на деревянной раме трапециевидной формы.] (* <- lang_ru;; *);;
 	*);;
-*);
-
-<- sc_node_not_relation;;//НЕ должен быть классом(НЕ ОК)
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Bells)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [are a set of chromatically tuned metal plates placed in two rows on a trapezoidal wooden frame.] (* <- lang_en;; *);;
+	*);;
+*);;
