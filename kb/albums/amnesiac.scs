@@ -1,0 +1,60 @@
+amnesiac
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Amnesiac]
+    (*
+        <- lang_ru;;
+    *);
+    [Страдающий амнезией]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Amnesiac - пятый студийный альбом английской рок-группы Radiohead, выпущенный 30 мая 2001 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Amnesiac is the fifth studio album by the English rock band Radiohead, released on 30 May 2001.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/amnesiac.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+amnesiac
+<- rrel_related_to_genre:
+    concept_experimental_rock;
+    concept_alternative_rock;
+    concept_electronic;;
+
+amnesiac
+<- rrel_contributer:
+    radiohead;
+    nigel_godrich;;
+
+amnesiac
+<- rrel_author:
+    radiohead;
+    nigel_godrich;;

@@ -1,0 +1,46 @@
+concept_ambient
+<= nrel_inclusion: concept_jazz;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [эмбиент]
+    (*
+	    <- lang_ru;;
+	*);
+	[ambient]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Эмбиентная музыка - это жанр музыки, который подчеркивает тон и атмосферу над традиционной музыкальной структурой или ритмом. Форма инструментальной музыки, в ней может отсутствовать чистая композиция, ритм или структурированная мелодия.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Ambient music is a genre of music that emphasizes tone and atmosphere over traditional musical structure or rhythm. A form of instrumental music, it may lack net composition, beat, or structured melody.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/ambient.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

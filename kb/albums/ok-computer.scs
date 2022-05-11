@@ -43,18 +43,18 @@ ok_computer
             *);;
     *);;
 
-pablo_honey
+ok_computer
 <- rrel_related_to_genre:
     concept_alternative_rock;
     concept_progressive_rock;
     concept_art_rock;;
 
-pablo_honey
+ok_computer
 <- rrel_contributer:
     radiohead;
     nigel_godrich;;
 
-pablo_honey
+ok_computer
 <- rrel_author:
     radiohead;
     nigel_godrich;;
