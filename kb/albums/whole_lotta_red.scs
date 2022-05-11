@@ -1,7 +1,6 @@
 whole_lotta_red
 <= nrel_inclusion: concept_music_compositions;
-<- sc_node_not_relation;
-<- rrel_author: playboi_carti;  
+<- sc_node_not_relation;  
 => nrel_main_idtf:
     [Целая Куча Красного]
     (*
