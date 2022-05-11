@@ -1,0 +1,56 @@
+radiohead
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Радиохед]
+    (*
+        <- lang_ru;;
+    *);
+    [Radiohead]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Radiohead are an English rock band formed in Abingdon, Oxfordshire, in 1985. The band consists of Thom Yorke, brothers Jonny Greenwood and Colin Greenwood, Ed O'Brien and Philip Selway.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    ['Radiohead'(англ. одержимый чем-то, фанат) английская рок-группа, образованная в Абингдоне, Оксфордшир, в 1985 году. Группа состоит из Тома Йорка, братьев Джонни и Коллина Гринвуда, Эда О`Брайена и Филиппа Селуэя.']
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/radiohead.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+Coling_Greenwood <- concept_musician;;
+Ed_Obrien <- concept_musician;;
+Philip_Selway <- concept_musician;;
+
+radiohead
+<- rrel_band_members:
+    Thom_Yorke;
+    Jonny_Greenwood;
+    Coling_Greenwood;
+    Ed_Obrien;
+    Philip_Selway;;

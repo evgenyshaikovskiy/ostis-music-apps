@@ -36,7 +36,8 @@ love_addiction_and_marathons
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/love-addiction-matahons-album.jpg"
+		// добавь изображение и файл поаккуратнее.
+		->rrel_example: "file://pictures/love-addiction-matahons-album.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

@@ -37,7 +37,7 @@ concept_bigband
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/bigband.jpg"
+		->rrel_example: "file://pictures/bigband.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

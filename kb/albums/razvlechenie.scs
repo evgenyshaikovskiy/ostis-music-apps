@@ -1,6 +1,6 @@
 razvlechenie
 <= nrel_inclusion: concept_music_compositions;
-<- sc_node_not_relation;
+<- sc_type_node;
 => nrel_main_idtf:
     [Развлечение]
     (*
@@ -36,7 +36,7 @@ razvlechenie
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://kb/pictures/razvlechenie.jpg"
+                -> rrel_example: "file://pictures/razvlechenie.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
@@ -54,7 +54,7 @@ razvlechenie
     Kostya_Pyzhkov;;
 
 razvlechenie
-<- nrel_performs_in_the_genre:
+<- rrel_related_to_genre:
 	concept_shoegaze; //add to genres
 	concept_indie_rock; //add to genres
 	concept_post_rock; //add to genres

@@ -36,7 +36,7 @@ kanye_west
 	<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example: "file://pics/kanye-west.jpg"
+		-> rrel_example: "file://pictures/kanye-west.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

@@ -39,7 +39,7 @@ Rock (Eng. Rock) is a generalized name for a number of areas of popular music. T
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/rock.jpg"
+		->rrel_example: "file://pictures/rock.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

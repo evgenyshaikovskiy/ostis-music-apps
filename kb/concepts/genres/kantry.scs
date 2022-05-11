@@ -37,7 +37,7 @@ concept_kantry
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/kantry.jpg"
+		->rrel_example: "file://pictures/kantry.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

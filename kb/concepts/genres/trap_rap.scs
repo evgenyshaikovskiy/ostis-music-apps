@@ -33,11 +33,11 @@ concept_trap_rap
 			*);;
 		*);;
 		
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/trap.jpg"
+		-> rrel_example: "file://pictures/trap.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

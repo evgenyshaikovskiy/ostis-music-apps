@@ -41,7 +41,7 @@ Argentine rock (known as national rock) was the most popular during the 1980s an
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/argentina.jpg"
+		->rrel_example: "file://pictures/argentina.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

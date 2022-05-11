@@ -1,0 +1,45 @@
+pablo_honey
+<= nrel_inclusion: concept_music_compositions;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Пабло, милый]
+    (*
+        <- lang_ru;;
+    *);
+    [Pablo Honey]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                ['Пабло, милый' - дебютный альбом аглийской группы Радиохед, выпущенный 22 февраля 1993 года. Название альбома исходит из одного известного английского скетча.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    ['Pablo Honey' is the debut album by the English rock band Radiohead, released on 22 February 1993.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/pablo-honey.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+

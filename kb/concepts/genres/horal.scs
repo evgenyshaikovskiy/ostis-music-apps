@@ -37,7 +37,7 @@ concept_horal
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/horal.jpg"
+		->rrel_example: "file://pictures/horal.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

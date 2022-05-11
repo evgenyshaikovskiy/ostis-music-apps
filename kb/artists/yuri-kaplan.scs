@@ -35,7 +35,7 @@ Yuri_Caplan
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/yuri_kaplan.jpg"
+                -> rrel_example: "file://pictures/yuri-kaplan.jpg"
                     (*
                         => nrel_format: format_jpg;;
                     *);;

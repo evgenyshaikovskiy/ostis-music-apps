@@ -37,7 +37,7 @@ concept_mumble
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/mumble.jpg"
+		->rrel_example: "file://pictures/mumble.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

@@ -37,7 +37,7 @@ concept_kantrypop
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/kantrypop.jpg"
+		->rrel_example: "file://pictures/kantrypop.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

@@ -36,7 +36,7 @@ future
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/future.jpg"
+		->rrel_example: "file://pictures/future.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

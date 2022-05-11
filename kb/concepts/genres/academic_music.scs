@@ -36,7 +36,7 @@ concept_academic_music
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/academic.jpg"
+		->rrel_example: "file://pictures/academic.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

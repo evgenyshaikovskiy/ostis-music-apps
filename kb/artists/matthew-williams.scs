@@ -36,7 +36,7 @@ matthew_williams
 	<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example: "file://pics/matthew-williams.jpg"
+		-> rrel_example: "file://pictures/matthew-williams.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

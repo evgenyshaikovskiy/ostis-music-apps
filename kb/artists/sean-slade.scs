@@ -1,0 +1,45 @@
+sean_slade
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Шон Слэйд]
+	(*
+	<- lang_ru;;
+	*);
+	[Sean Slade]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Sean Slade (born 14 November 1957) is an American record producer, engineer, and mixer. On many of his productions he worked in partnership with Paul Q. Kolderie.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Шон Слэйд (родился 14 ноября 1957 года) - американский музыкальный продюсер, инженер и микшер. Над многими своими постановками он работал в партнерстве с Полом К. Колдери.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/sean-slade.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+

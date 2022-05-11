@@ -36,7 +36,7 @@ kid_cudi
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/kid-cudi.jpg"
+		->rrel_example: "file://pictures/kid-cudi.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

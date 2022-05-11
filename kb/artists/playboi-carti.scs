@@ -36,7 +36,7 @@ playboi_carti
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/playboi-carti.jpg"
+		->rrel_example: "file://pictures/playboi-carti.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

@@ -1,0 +1,43 @@
+Thom_Yorke
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Том Йорк]
+    (*
+        <- lang_ru;;
+    *);
+    [Thom Yorke]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Томас Эдвард Йорк (родился 7 октября 1968 года) - английский музыкант, основной вокалист и автор песен рок-группы Radiohead. Журнал Rolling Stone назвал его одним из самых влиятельных певцов своего поколения.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Thomas Edward Yorke (born 7 October 1968) is an English musician and the main vocalist and songwriter of the rock band Radiohead. A multi-instrumentalist. He has been described by Rolling Stone as one of the most influential singers of his generation. ]
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/thom-yorke.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;

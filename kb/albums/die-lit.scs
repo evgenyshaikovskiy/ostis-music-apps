@@ -36,7 +36,7 @@ die_lit
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pics/die-lit-album.jpg"
+		-> rrel_example: "file://pictures/die-lit.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
@@ -63,7 +63,7 @@ die_lit
     young_thug;;
 
 die_lit
-<- nrel_performs_in_the_genre:
+<- rrel_related_to_genre:
     concept_hiphop;
 	concept_trap_rap;
 	concept_mumble;;
