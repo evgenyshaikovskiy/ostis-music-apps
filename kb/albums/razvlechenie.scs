@@ -1,4 +1,4 @@
-concept_razvlechenie
+razvlechenie
 <= nrel_inclusion: concept_music_compositions;
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -6,7 +6,7 @@ concept_razvlechenie
     (*
         <- lang_ru;;
     *);
-    [relaxation]
+    [Relaxation]
     (*
         <- lang_en;;
     *);
@@ -43,11 +43,19 @@ concept_razvlechenie
             *);;
     *);;
 
-concept_razvlechenie
+razvlechenie
 <- rrel_author:
-    concept_valentin_strykalo;;
+    valentin_strykalo;;
 
-concept_razvlechenie
+razvlechenie
 <- rrel_contributer:
-    concept_valentin_strykalo;
+    valentin_strykalo;
+    Yuri_Caplan;
     Kostya_Pyzhkov;;
+
+razvlechenie
+<- nrel_performs_in_the_genre:
+	concept_shoegaze; //add to genres
+	concept_indie_rock; //add to genres
+	concept_post_rock; //add to genres
+    concept_post_punk;; //add to genres

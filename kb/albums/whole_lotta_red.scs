@@ -1,7 +1,7 @@
-concept_whole_lotta_red
+whole_lotta_red
 <= nrel_inclusion: concept_music_compositions;
 <- sc_node_not_relation;
-<- rrel_author: concept_playboi_carti;  
+<- rrel_author: playboi_carti;  
 => nrel_main_idtf:
     [Целая Куча Красного]
     (*
@@ -32,23 +32,33 @@ concept_whole_lotta_red
 			<- lang_en;;
 			*);;
 		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pics/whole-lotta-red-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
     *);;
 
-concept_whole_lotta_red
+whole_lotta_red
 <- rrel_author:
-	concept_playboi_carti;
-	concept_kanye_west;
-	concept_future;;
+	playboi_carti;
+	kanye_west;
+	future;;
 
-concept_whole_lotta_red
+whole_lotta_red
 <- rrel_contributer:
-	concept_playboi_carti;
-	concept_kanye_west;
-	concept_future;
-	concept_kid_cudi;;
+	playboi_carti;
+	kanye_west;
+	future;
+	kid_cudi;;
 
-concept_whole_lotta_red
-<- nrel_genre:
+whole_lotta_red
+<- nrel_performs_in_the_genre:
 	concept_trap_rap;
 	concept_mumble;
-	concept_experimental_hiphop;;
+	concept_experimental_hiphop;; //add to genres

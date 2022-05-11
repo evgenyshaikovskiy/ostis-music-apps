@@ -43,7 +43,7 @@ concept_three_days_of_rain
 		*);;
     *);;
 
-concept_playboi_carti <- rrel_key_sc_element:
+playboi_carti <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;

@@ -1,4 +1,4 @@
-concept_valentin_strykalo
+valentin_strykalo
 <= concept_band;
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -47,9 +47,9 @@ Kostya_Pyzhkov <- concept_musician;;
 Stanislav_Myrashko <- concept_musician;;
 Vladimir_Yakovlev <- concept_musician;;
 
-concept_valentin_strykalo
+valentin_strykalo
 <- rrel_band_members:
-    concept_yury_caplan;
+    Yuri_Caplan;
     Kostya_Pyzhkov;
     Stanislav_Myrashko;
     Vladimir_Yakovlev;;
