@@ -1,0 +1,46 @@
+concept_indie_rock
+<= nrel_inclusion: concept_alternative_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [инди-рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[indie-rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Инди-рок (англ. Indie rock, от англ. independent — независимый) — обобщающий термин для широкого диапазона музыкантов и стилей, объединённых причастностью к контркультуре и имеющих отношение к рок-музыке.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Indie rock is a subgenre of rock music that originated in the United States and United Kingdom in the 1970s. Originally used to describe independent record labels, the term became associated with the music they produced and was initially used interchangeably with alternative rock or "guitar pop rock".]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/indie-rock.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

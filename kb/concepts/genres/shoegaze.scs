@@ -1,0 +1,46 @@
+concept_shoegaze
+<= nrel_inclusion: concept_alternative_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [шугейз]
+    (*
+	    <- lang_ru;;
+	*);
+	[shoegaze]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Шугейз (первоначально называвшийся Шугейзинг и иногда смешиваемый с "dream pop") - поджанр инди- и альтернативного рока, характеризующийся эфирной смесью приглушенного вокала, гитарных искажений и эффектов, обратной связи и подавляющей громкости.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Shoegaze (originally called shoegazing and sometimes conflated with "dream pop") is a subgenre of indie and alternative rock characterized by its ethereal mixture of obscured vocals, guitar distortion and effects, feedback, and overwhelming volume.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/shoegaze.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

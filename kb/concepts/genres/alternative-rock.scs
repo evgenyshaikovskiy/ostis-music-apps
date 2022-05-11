@@ -1,0 +1,46 @@
+concept_alternative_rock
+<= nrel_inclusion: concept_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [альтернативный рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[alternative rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Альтернативный рок (также известный как альтернативная музыка, альт-рок или просто альтернатива) - это категория рок-музыки, которая возникла из независимого музыкального андеграунда 1970-х годов и стала широко популярной в 1990-х годах.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alternative rock (also known as alternative music, alt-rock, or simply alternative) is a category of rock music that emerged from the independent music underground of the 1970s and became widely popular in the 1990s.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/alternative-rock.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
