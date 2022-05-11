@@ -1,0 +1,57 @@
+home
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Домашний]
+    (*
+        <- lang_ru;;
+    *);
+    [Home]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Домашний - третий студийный альбом Макса Коржа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Home is the third studio album by Max Korzh.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/home.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+home
+<- rrel_author:
+	max_korzh;;
+
+home
+<- rrel_contributer:
+	max_korzh;;
+
+home
+<- rrel_related_to_genre:
+    concept_pop;
+    concept_hiphop;;
