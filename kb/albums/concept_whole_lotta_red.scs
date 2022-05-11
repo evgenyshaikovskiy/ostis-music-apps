@@ -32,6 +32,16 @@ concept_whole_lotta_red
 			<- lang_en;;
 			*);;
 		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pics/whole-lotta-red-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
     *);;
 
 concept_whole_lotta_red
