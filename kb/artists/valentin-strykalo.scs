@@ -54,4 +54,8 @@ valentin_strykalo
     Stanislav_Myrashko;
     Vladimir_Yakovlev;;
 
-
+valentin_strykalo
+<- rrel_performs_in_genre:
+    concept_indie_rock;
+    concept_alternative_rock;
+    concept_shoegaze;;

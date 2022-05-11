@@ -1,5 +1,5 @@
 pablo_honey
-<= nrel_inclusion: concept_music_compositions;
+<= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
     [Пабло, милый]
@@ -43,3 +43,17 @@ pablo_honey
             *);;
     *);;
 
+pablo_honey
+<- rrel_related_to_genre:
+    concept_alternative_rock;
+    concept_indie_rock;;
+
+pablo_honey
+<- rrel_contributer:
+    radiohead;
+    sean_slade;
+    paul_kolderie;;
+
+pablo_honey
+<- rrel_author:
+    radiohead;;

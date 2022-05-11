@@ -45,7 +45,8 @@ razvlechenie
 
 razvlechenie
 <- rrel_author:
-    valentin_strykalo;;
+    valentin_strykalo;
+    Yuri_Caplan;;
 
 razvlechenie
 <- rrel_contributer:
@@ -55,7 +56,5 @@ razvlechenie
 
 razvlechenie
 <- rrel_related_to_genre:
-	concept_shoegaze; //add to genres
-	concept_indie_rock; //add to genres
-	concept_post_rock; //add to genres
-    concept_post_punk;; //add to genres
+	concept_indie_rock;
+    concept_alternative_rock;;
