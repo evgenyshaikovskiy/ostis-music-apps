@@ -1,0 +1,60 @@
+ok_computer
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Ок, компьютер]
+    (*
+        <- lang_ru;;
+    *);
+    [Ok, Computer]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [OK Computer - третий студийный альбом английской рок-группы Radiohead, выпущенный 21 мая 1997 года на лейблах EMI, Parlophone и Capitol Records. Radiohead самостоятельно спродюсировали альбом с Найджелом Годричем, аранжировку они использовали для своих последующих альбомов.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [OK Computer is the third studio album by the English rock band Radiohead, released on 21 May 1997 on EMI subsidiaries Parlophone and Capitol Records. Radiohead self-produced the album with Nigel Godrich, an arrangement they have used for their subsequent albums.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/ok-computer.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+pablo_honey
+<- rrel_related_to_genre:
+    concept_alternative_rock;
+    concept_progressive_rock;
+    concept_art_rock;;
+
+pablo_honey
+<- rrel_contributer:
+    radiohead;
+    nigel_godrich;;
+
+pablo_honey
+<- rrel_author:
+    radiohead;
+    nigel_godrich;;

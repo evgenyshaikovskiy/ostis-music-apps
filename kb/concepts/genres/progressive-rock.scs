@@ -1,0 +1,46 @@
+concept_progressive_rock
+<= nrel_inclusion: concept_alternative_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [прогрессивный рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[progressive rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Прогрессивный рок (сокращенно прог-рок или просто прог; также известный как классический рок или симфонический рок; иногда смешивается с арт-роком) - это широкий жанр рок-музыки, который развивался в Соединенном Королевстве и Соединенных Штатах на протяжении середины-конца 1960-х годов, достигнув пика в начале 1970-х годов]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Progressive rock (shortened as prog rock or simply prog; also known as classical rock or symphonic rock; sometimes conflated with art rock) is a broad genre of rock music that developed in the United Kingdom and United States throughout the mid-to late 1960s, peaking in the early 1970s]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/progressive-rock.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
