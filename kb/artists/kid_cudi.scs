@@ -1,0 +1,68 @@
+kid_cudi
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Кид Кади]
+	(*
+	<- lang_ru;;
+	*);
+	[Kid Cudi]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Скотт Рамон Сегуро Мескуди (родился 30 января 1984 г.), более известный под своим сценическим псевдонимом Кид Кади, - американский рэпер, певец, автор песен, продюсер и актер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Scott Ramon Seguro Mescudi (born January 30, 1984), better known by his stage name Kid Cudi, is an American rapper, singer, songwriter, record producer, and actor.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pics/kid-cudi.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+kid_cudi <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Скотт Рамон Сегуро Мескуди]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Scott Ramon Seguro Mescudi]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

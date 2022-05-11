@@ -48,11 +48,12 @@ whole_lotta_red
 <- rrel_author:
 	playboi_carti;
 	kanye_west;
-	future;;
+	matthew_williams;;
 
 whole_lotta_red
 <- rrel_contributer:
 	playboi_carti;
+	matthew_williams;
 	kanye_west;
 	future;
 	kid_cudi;;
