@@ -1,4 +1,4 @@
-concept_playboi_carti
+playboi_carti
 <= concept_musician;
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -43,7 +43,7 @@ concept_playboi_carti
 		*);;
     *);;
 
-concept_playboi_carti <- rrel_key_sc_element:
+playboi_carti <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;

@@ -1,4 +1,4 @@
-concept_love_addiction_and_marathons
+love_addiction_and_marathons
 <= nrel_inclusion: concept_music_compositions;
 <- sc_node_not_relation;
 =>nrel_main_idtf:
