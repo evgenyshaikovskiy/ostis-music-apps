@@ -54,3 +54,10 @@ radiohead
     Coling_Greenwood;
     Ed_Obrien;
     Philip_Selway;;
+
+radiohead
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_alternative_rock;
+    concept_shoegaze;
+    concept_indie_rock;;
