@@ -1,0 +1,75 @@
+chief_keef
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Чиф Киф]
+	(*
+	<- lang_ru;;
+	*);
+	[Chief Keef]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кейт Фаррелл Козарт (родился 15 августа 1995 г.), более известный под своим сценическим псевдонимом Чиф Киф, - американский рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Keith Farrelle Cozart (born August 15, 1995), better known by his stage name Chief Keef, is an American rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/chief-keef.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+chief_keef <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кейт Фаррелл Козарт]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Keith Farrelle Cozart]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+chief_keef <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_chikago;
+    concept_mumble;
+    concept_drill;   
+    concept_gangsta;; 

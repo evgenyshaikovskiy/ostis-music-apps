@@ -1,12 +1,12 @@
-future
+gunna
 <= concept_musician;
-<- sc_type_node;
+<- sc_node_type;
 => nrel_main_idtf:
-	[Фьючер]
+	[Ганна]
 	(*
 	<- lang_ru;;
 	*);
-	[Future]
+	[Gunna]
 	(*
 	<- lang_en;;
 	*);
@@ -18,7 +18,7 @@ future
 		...
 		(*
 		-> rrel_example:
-			[Найвадиус ДеМун Уилберн (родился 20 ноября 1983 г.), более известный под сценическим псевдонимом Future, - американский рэпер и певец.]
+			[Серджио Джаванни Китченс (родился 14 июня 1993 г.), профессионально известный как Gunna, - американский рэпер.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ future
 			...
 		(*
 		-> rrel_example:
-			[Nayvadius DeMun Wilburn (born November 20, 1983), better known by the stage name Future, is an American rapper and singer.]
+			[Sergio Giavanni Kitchens (born June 14, 1993), known professionally as Gunna, is an American rapper.]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,14 +36,14 @@ future
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/future.jpg"
+		->rrel_example: "file://pictures/gunna.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
     *);;
 
-future <- rrel_key_sc_element:
+gunna <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;
@@ -51,7 +51,7 @@ future <- rrel_key_sc_element:
 		...
 		(*
 		-> rrel_example:
-			[Найвадиус ДеМун Уилберн]
+			[Серджио Джаванни Китченс]
 			(*
 			<- lang_ru;;
 			*);;
@@ -59,14 +59,14 @@ future <- rrel_key_sc_element:
 			...
 		(*
 		-> rrel_example:
-			[Nayvadius DeMun Wilburn]
+			[Sergio Giavanni Kitchens]
 			(*
 			<- lang_en;;
 			*);;
 		*);;
 *);;
 
-future <- rrel_performs_in_genre:
+gunna <- rrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;
-	concept_mumble;;
+    concept_rhytmnblues;;

@@ -1,12 +1,12 @@
-future
+bryson_tiller
 <= concept_musician;
-<- sc_type_node;
+<- sc_node_type;
 => nrel_main_idtf:
-	[Фьючер]
+	[Брайсон Тиллер]
 	(*
 	<- lang_ru;;
 	*);
-	[Future]
+	[Bryson Tiller]
 	(*
 	<- lang_en;;
 	*);
@@ -18,7 +18,7 @@ future
 		...
 		(*
 		-> rrel_example:
-			[Найвадиус ДеМун Уилберн (родился 20 ноября 1983 г.), более известный под сценическим псевдонимом Future, - американский рэпер и певец.]
+			[Брайсон Джуан Тиллер (родился 2 января 1993 г.) - американский певец и рэпер.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ future
 			...
 		(*
 		-> rrel_example:
-			[Nayvadius DeMun Wilburn (born November 20, 1983), better known by the stage name Future, is an American rapper and singer.]
+			[Bryson Djuan Tiller (born January 2, 1993) is an American singer and rapper.]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,14 +36,14 @@ future
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/future.jpg"
+		->rrel_example: "file://pictures/bryson-tiller.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
     *);;
 
-future <- rrel_key_sc_element:
+bryson_tiller <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;
@@ -51,7 +51,7 @@ future <- rrel_key_sc_element:
 		...
 		(*
 		-> rrel_example:
-			[Найвадиус ДеМун Уилберн]
+			[Брайсон Джуан Тиллер]
 			(*
 			<- lang_ru;;
 			*);;
@@ -59,14 +59,13 @@ future <- rrel_key_sc_element:
 			...
 		(*
 		-> rrel_example:
-			[Nayvadius DeMun Wilburn]
+			[Bryson Djuan Tiller]
 			(*
 			<- lang_en;;
 			*);;
 		*);;
 *);;
 
-future <- rrel_performs_in_genre:
+bryson_tiller <- rrel_performs_in_genre:
 	concept_hiphop;
-	concept_trap_rap;
-	concept_mumble;;
+	concept_trap_rap;;

@@ -66,3 +66,8 @@ playboi_carti <- rrel_key_sc_element:
 		*);;
 *);;
 
+playboi_carti <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+	concept_mumble;
+	concept_experimental_hiphop;;
