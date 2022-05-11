@@ -1,0 +1,45 @@
+concept_experimental_hiphop
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[грайм]
+	(*
+	<- lang_ru;;
+	*);
+	[grime]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Грайм — жанр электронной музыки, зародившийся в Лондоне в начале 2000-х годов. Он развился из более раннего британского танцевального стиля британского гаража и черпает влияние из джангла, дэнсхолла и хип-хопа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Grime is a genre of electronic music that emerged in London in the early 2000s. It developed out of the earlier UK dance style UK garage, and draws influences from jungle, dancehall, and hip hop.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/grime.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
