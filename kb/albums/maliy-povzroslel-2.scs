@@ -1,0 +1,57 @@
+maliy_povzroslel_2
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Малый Повзрослел, ч.2]
+    (*
+        <- lang_ru;;
+    *);
+    [Maliy Povzroslel, pt.2]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Малый Повзрослел, ч.2 - пятый студийный альбом Макса Коржа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Maliy Povzroslel, pt.2 is fifth studio album by Max Korzh..]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/maliy-povzroslel-2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+maliy_povzroslel_2
+<- rrel_author:
+	max_korzh;;
+
+maliy_povzroslel_2
+<- rrel_contributer:
+	max_korzh;
+    fetre;;
+
+maliy_povzroslel_2
+<- rrel_related_to_genre:
+	concept_trap_rap;;

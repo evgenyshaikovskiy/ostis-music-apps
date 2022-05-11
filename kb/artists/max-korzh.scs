@@ -1,0 +1,75 @@
+max_korzh
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Макс Корж]
+	(*
+	<- lang_ru;;
+	*);
+	[Max Korhz]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Максим Анатольевич Корж (родился 23 ноября 1988 г.), профессионально известный как Макс Корж, -  белорусский певец и автор песен из Бреста, Лунинец.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Maxim Anatolyevich Korzh (born November 23, 1988), professionally known as Max Korzh, is a Belarusian singer and songwriter from Brest, Luninets.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/max-korzh.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+max_korzh <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Максим Анатольевич Корж]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Maxim Anatolyevich Korzh]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+max_korzh
+<- rrel_performs_in_genre:
+    concept_trap_rap;
+	concept_hiphop;
+	concept_art_rock;
+	concept_pop;
+	concept_reggy;
+	concept_rhytmnblues;;

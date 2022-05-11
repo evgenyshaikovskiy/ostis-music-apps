@@ -1,0 +1,58 @@
+animal_world
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Животный Мир]
+    (*
+        <- lang_ru;;
+    *);
+    [Animal World]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Животный Мир - дебютный студийный альбом Макса Коржа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Animal World is the debut studio album by Max Korzh.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/animal-world.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+animal_world
+<- rrel_author:
+	max_korzh;;
+
+animal_world
+<- rrel_contributer:
+	max_korzh;;
+
+animal_world
+<- rrel_related_to_genre:
+    concept_pop;
+    concept_hiphop;
+    concept_rhytmnblues;;
