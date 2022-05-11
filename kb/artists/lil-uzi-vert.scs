@@ -1,0 +1,73 @@
+lil_uzi_vert
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Лил Узи Верт]
+	(*
+	<- lang_ru;;
+	*);
+	[Lil Uzi Vert]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Саймер Бисил Вудс (родился 31 июля 1995 г.), профессионально известный как Лил Узи Верт, - американский рэпер, певец и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Symere Bysil Woods (born July 31, 1995), known professionally as Lil Uzi Vert, is an American rapper, singer, and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/lil-uzi-vert.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+lil_uzi_vert <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Саймер Бисил Вудс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Symere Bysil Woods]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+lil_uzi_vert <- rrel_performs_in_genre:
+	concept_hiphop;
+    concept_emo;
+    concept_cloud_rap;
+	concept_trap_rap;;

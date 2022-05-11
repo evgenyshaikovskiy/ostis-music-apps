@@ -1,0 +1,72 @@
+gunna
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Ганна]
+	(*
+	<- lang_ru;;
+	*);
+	[Gunna]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Серджио Джаванни Китченс (родился 14 июня 1993 г.), профессионально известный как Gunna, - американский рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Sergio Giavanni Kitchens (born June 14, 1993), known professionally as Gunna, is an American rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/gunna.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+gunna <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Серджио Джаванни Китченс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Sergio Giavanni Kitchens]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+gunna <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_rhytmnblues;;
