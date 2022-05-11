@@ -58,7 +58,7 @@ concept_whole_lotta_red
 	concept_kid_cudi;;
 
 concept_whole_lotta_red
-<- nrel_genre:
+<- nrel_performs_in_the_genre:
 	concept_trap_rap;
 	concept_mumble;
-	concept_experimental_hiphop;;
+	concept_experimental_hiphop;; //add to genres

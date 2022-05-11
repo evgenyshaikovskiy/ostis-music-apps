@@ -51,3 +51,10 @@ concept_razvlechenie
 <- rrel_contributer:
     concept_valentin_strykalo;
     Kostya_Pyzhkov;;
+
+concept_razvlechenie
+<- nrel_performs_in_the_genre:
+	concept_shoegaze; //add to genres
+	concept_indie_rock; //add to genres
+	concept_post_rock; //add to genres
+    concept_post_punk;; //add to genres
