@@ -1,6 +1,6 @@
 concept_three_days_of_rain
 <= concept_musician;
-<- sc_node_not_relation;
+<- sc_node_type;
 => nrel_main_idtf:
 	[Три дня дождя]
 	(*   

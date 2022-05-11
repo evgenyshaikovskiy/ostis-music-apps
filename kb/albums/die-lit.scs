@@ -1,6 +1,6 @@
 die_lit
 <= nrel_inclusion: concept_music_compositions;
-<- sc_node_not_relation; 
+<- sc_node_type; 
 => nrel_main_idtf:
     [Дай Лит]
     (*

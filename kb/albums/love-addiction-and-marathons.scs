@@ -1,6 +1,6 @@
 love_addiction_and_marathons
 <= nrel_inclusion: concept_music_compositions;
-<- sc_node_not_relation;
+<- sc_node_type;
 =>nrel_main_idtf:
     [Любовь, аддикция и марафоны]
     (*
