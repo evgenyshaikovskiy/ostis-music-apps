@@ -1,0 +1,62 @@
+kid_a
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Кид А]
+    (*
+        <- lang_ru;;
+    *);
+    [Kid A]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Kid A - четвертый студийный альбом английской рок-группы Radiohead, выпущенный 2 октября 2000 года. Он был записан с продюсером Найджелом Годричем в Париже, Копенгагене, Глостершире и их родном городе Оксфорде, Англия.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Kid A is the fourth studio album by the English rock band Radiohead, released on 2 October 2000. It was recorded with producer Nigel Godrich in Paris, Copenhagen, Gloucestershire and their hometown of Oxford, England]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/kid-a.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+kid_a
+<- rrel_related_to_genre:
+    concept_experimental_rock;
+    concept_post_rock;
+    concept_ambient;
+    concept_electronic;
+    concept_art_rock;;
+
+kid_a
+<- rrel_contributer:
+    radiohead;
+    nigel_godrich;;
+
+kid_a
+<- rrel_author:
+    radiohead;
+    nigel_godrich;;
