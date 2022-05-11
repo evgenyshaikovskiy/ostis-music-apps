@@ -1,0 +1,46 @@
+concept_dream_pop
+<= nrel_inclusion: concept_alternative_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [нойз-рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[noise-rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Dream pop - это поджанр альтернативного рока и нео-психоделии, который подчеркивает атмосферу и звуковую текстуру не меньше, чем поп-мелодию.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Dream pop is a subgenre of alternative rock and neo-psychedelia that emphasizes atmosphere and sonic texture as much as pop melody.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/dream-pop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
