@@ -1,0 +1,59 @@
+isnt_anything
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Это ничего не значит]
+    (*
+        <- lang_ru;;
+    *);
+    [Isn't Anything]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Isn't Anything - дебютный студийный альбом англо-ирландской рок-группы My Bloody Valentine, выпущенный 21 ноября 1988 года.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Isn't Anything is the debut studio album by Anglo-Irish rock band My Bloody Valentine, released on 21 November 1988.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/isnt-anything.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+isnt_anything
+<- rrel_related_to_genre:
+    concept_shoegaze;
+    concept_noise_rock;
+    concept_alternative_rock;
+    concept_experimental_rock;;
+
+isnt_anything
+<- rrel_contributer:
+    my_bloody_valentine;;
+
+isnt_anything
+<- rrel_author:
+    my_bloody_valentine;;
