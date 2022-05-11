@@ -1,0 +1,45 @@
+paul_kolderie
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Пол Колдри]
+	(*
+	    <- lang_ru;;
+	*);
+	[Paul Q.Kolderie]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Paul Q. Kolderie is an American record producer, engineer, and mixer.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Пол К. Колдери - американский музыкальный продюсер, инженер и микшер.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/paul-kolderie.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+

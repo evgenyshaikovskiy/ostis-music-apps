@@ -1,1 +1,1 @@
-# ostis-music-apps
+# ostis-pussy-apps

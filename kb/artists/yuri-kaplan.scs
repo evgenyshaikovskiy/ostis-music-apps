@@ -1,0 +1,43 @@
+Yuri_Caplan
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+    [Юрий Каплан]
+    (*
+        <- lang_ru;;
+    *);
+    [Yuri Kaplan]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Юрий Геннадьевич Каплан (укр. Юрій Генадійович Каплан, родился 2 октября 1988, Запорожье) — украинский певец, поэт, получивший известность после появления на YouTube его юмористических видеообращений к звёздам шоу-бизнеса. Лидер группы «Валентин Стрыкало». ]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Yuri Gennadievich Kaplan (born 2 october, 1988) - ukranian artist, poet, who gain fame after appereances on YouTube. Founder and leader of ukranian rock band 'Valentin Strykalo']
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/yuri-kaplan.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;

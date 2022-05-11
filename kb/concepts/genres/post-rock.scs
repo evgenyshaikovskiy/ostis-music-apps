@@ -1,0 +1,46 @@
+concept_post_rock
+<= nrel_inclusion: concept_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [пост-рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[post-rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Пост-рок - это форма экспериментального рока, характеризующаяся акцентом на изучение текстур и тембров по сравнению с традиционными структурами рок-песен, аккордами или риффами. Пост-рок-исполнители часто играют инструментальные партии, обычно сочетая рок-инструменты с электроникой]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Post-rock is a form of experimental rock characterized by a focus on exploring textures and timbre over traditional rock song structures, chords, or riffs. Post-rock artists are often instrumental, typically combining rock instrumentation with electronics]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/post-rock.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

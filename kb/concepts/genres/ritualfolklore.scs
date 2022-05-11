@@ -37,7 +37,7 @@ concept_ritualfolklore
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/ritualfolklore.jpg"
+		->rrel_example: "file://pictures/ritualfolklore.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

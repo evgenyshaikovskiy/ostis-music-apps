@@ -37,7 +37,7 @@ concept_gymn
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/gymn.jpg"
+		->rrel_example: "file://pictures/gymn.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

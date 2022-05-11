@@ -1,0 +1,60 @@
+razvlechenie
+<= nrel_inclusion: concept_music_compositions;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Развлечение]
+    (*
+        <- lang_ru;;
+    *);
+    [Relaxation]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                ['Развлечение' - третий и последний студийный альбом украинской группы «Валентин Стрыкало», релиз которого состоялся 13 октября 2016 года. Данный альбом является последней работой группы.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    ['Relaxation' - the third and last studio album of the Ukrainian band "Valentin Strykalo", which was released on October 13, 2016. This album is the last work of the band.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/razvlechenie.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+razvlechenie
+<- rrel_author:
+    valentin_strykalo;
+    Yuri_Caplan;;
+
+razvlechenie
+<- rrel_contributer:
+    valentin_strykalo;
+    Yuri_Caplan;
+    Kostya_Pyzhkov;;
+
+razvlechenie
+<- rrel_related_to_genre:
+	concept_indie_rock;
+    concept_alternative_rock;;

@@ -1,0 +1,69 @@
+die_lit
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [Дай Лит]
+    (*
+        <- lang_ru;;
+    *);
+    [Die Lit]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дай Лит — дебютный студийный альбом Плейбой Карти, который является продолжением его одноименного дебютного микстейпа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Die Lit is Playboi Carti's debut studio album and a follow-up to his eponymous debut mixtape.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/die-lit.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+die_lit
+<- rrel_author:
+	playboi_carti;;
+
+die_lit
+<- rrel_contributer:
+	playboi_carti;
+	nicki_minaj;
+    bryson_tiller;
+    chief_keef;
+    gunna;
+    lil_uzi_vert;
+    pierre_bourne;
+    redd_coldhearted;
+    skepta;
+    travis_scott;
+    young_nudy;
+    young_thug;;
+
+die_lit
+<- rrel_related_to_genre:
+    concept_hiphop;
+	concept_trap_rap;
+	concept_mumble;;

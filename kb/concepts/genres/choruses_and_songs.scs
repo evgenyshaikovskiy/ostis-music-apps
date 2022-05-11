@@ -37,7 +37,7 @@ concept_choruses_and_songs
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/choruses_and_songs.jpg"
+		->rrel_example: "file://pictures/choruses_and_songs.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

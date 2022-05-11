@@ -41,7 +41,7 @@ Electronic music operates with sounds that are capable of producing electronic a
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/electronic.jpg"
+		->rrel_example: "file://pictures/electronic.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

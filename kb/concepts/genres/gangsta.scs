@@ -37,7 +37,7 @@ concept_gangsta
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/gangsta.jpg"
+		->rrel_example: "file://pictures/gangsta.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

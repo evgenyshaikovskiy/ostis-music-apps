@@ -1,0 +1,59 @@
+zhit_v_kaif
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Жить в кайф]
+    (*
+        <- lang_ru;;
+    *);
+    [Zhit v kaif]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Жить в кайф - второй студийный альбом Макса Коржа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Zhit v kaif is the second studio album by Max Korzh.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/zhit-v-kaif.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+zhit_v_kaif
+<- rrel_author:
+	max_korzh;;
+
+zhit_v_kaif
+<- rrel_contributer:
+	max_korzh;;
+
+zhit_v_kaif
+<- rrel_related_to_genre:
+    concept_pop;
+    concept_hiphop;
+    concept_reggy;
+    concept_art_rock;;

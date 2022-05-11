@@ -1,0 +1,60 @@
+hail_to_the_thief
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Hail to the Thief]
+    (*
+        <- lang_ru;;
+    *);
+    [Да здраствуй Вор!]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Hail to the Thief - шестой альбом английской рок-группы Radiohead. Он был выпущен 9 июня 2003 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Hail to the Thief is the sixth album by the English rock band Radiohead. It was released on 9 June 2003.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/hail-to-the-thief.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+hail_to_the_thief
+<- rrel_related_to_genre:
+    concept_alternative_rock;
+    concept_art_rock;
+    concept_experimental_rock;;
+
+hail_to_the_thief
+<- rrel_contributer:
+    radiohead;
+    nigel_godrich;;
+
+hail_to_the_thief
+<- rrel_author:
+    radiohead;
+    nigel_godrich;;

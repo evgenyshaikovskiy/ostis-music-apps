@@ -1,0 +1,46 @@
+concept_art_rock
+<= nrel_inclusion: concept_alternative_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [арт рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[art rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Прогрессивный рок (англ. progressive rock, также известный как прог-рок, прогрессив и прог) — стиль рок-музыки, характеризующийся усложнением музыкальных форм и творческим обогащением рока через диалог с другими направлениями музыкального искусства: классической музыкой, оперной музыкой, академической музыкой, джазом, народной музыкой (европейской и восточной) и авангардом.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Progressive rock (English progressive rock, also known as prog rock, progressive and prog) is a style of rock music characterized by the complication of musical forms and the creative enrichment of rock through dialogue with other areas of musical art: classical music, opera music, academic music, jazz, folk music (European and Eastern) and avant-garde.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/art-rock.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

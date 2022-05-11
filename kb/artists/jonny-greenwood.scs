@@ -1,0 +1,43 @@
+Jonny_Greenwood
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+    [Джонатан Гринвуд]
+    (*
+        <- lang_ru;;
+    *);
+    [Jonny Greenwood]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Джонатан Ричард Гай Гринвуд (родился 5 ноября 1971 года) - английский музыкант и композитор. Он является ведущим гитаристом и клавишником альтернативной рок-группы Radiohead и написал несколько саундтреков к фильмам.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Jonathan Richard Guy Greenwood (born 5 November 1971) is an English musician and composer. He is the lead guitarist and keyboardist of the alternative rock band Radiohead, and has written a number of film scores.]
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/jonny-greenwood.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;

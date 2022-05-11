@@ -37,7 +37,7 @@ concept_alternativehiphop
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/alternativehiphop.jpg"
+		->rrel_example: "file://pictures/alternativehiphop.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

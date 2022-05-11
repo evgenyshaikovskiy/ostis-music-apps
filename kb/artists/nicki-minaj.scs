@@ -1,0 +1,71 @@
+nicki_minaj
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Ники Минаж]
+	(*
+	<- lang_ru;;
+	*);
+	[Nicki Minaj]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Оника Таня Марадж-Петти (родилась 8 декабря 1982 г.), профессионально известная как Ники Минаж, - рэпер, певица и автор песен тринидадского происхождения.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Onika Tanya Maraj-Petty (born December 8, 1982), known professionally as Nicki Minaj, is a Trinidadian-born rapper, singer, and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/nicki-minaj.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+nicki_minaj <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Оника Таня Марадж-Петти]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Onika Tanya Maraj-Petty]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+nicki_minaj <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;;

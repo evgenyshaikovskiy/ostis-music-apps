@@ -1,0 +1,71 @@
+pierre_bourne
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Пиерр Борн]
+	(*
+	<- lang_ru;;
+	*);
+	[Pi'erre Bourne]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джордан Тимоти Дженкс (родился 19 сентября 1993 г.), профессионально известный как Пьер Борн, - американский продюсер, рэпер и звукорежиссер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jordan Timothy Jenks (born September 19, 1993), known professionally as Pi'erre Bourne, is an American record producer, rapper, and audio engineer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/pierre-bourne.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+pierre_bourne <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джордан Тимоти Дженкс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jordan Timothy Jenks]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+pierre_bourne <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;;

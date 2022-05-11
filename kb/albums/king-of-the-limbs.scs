@@ -1,0 +1,59 @@
+the_king_of_limbs
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [The King of Limbs]
+    (*
+        <- lang_ru;;
+    *);
+    [Король Калек]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Король Калек - восьмой студийный альбом английской рок-группы Radiohead. Он был выпущен 18 февраля 2011 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [The King of Limbs is the eighth studio album by the English rock band Radiohead. It was self-released on 18 February 2011.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/the-king-of-limbs.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+the_king_of_limbs
+<- rrel_related_to_genre:
+    concept_experimental_rock;
+    concept_electronic;;
+
+in_rainbows
+<- rrel_contributer:
+    radiohead;
+    nigel_godrich;;
+
+in_rainbows
+<- rrel_author:
+    radiohead;
+    nigel_godrich;;

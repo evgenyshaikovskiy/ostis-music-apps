@@ -37,7 +37,7 @@ concept_passions
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/strasti.jpg"
+		->rrel_example: "file://pictures/strasti.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

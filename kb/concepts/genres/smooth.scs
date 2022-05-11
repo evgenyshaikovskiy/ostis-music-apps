@@ -37,7 +37,7 @@ concept_smooth
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/smooth.jpg"
+		->rrel_example: "file://pictures/smooth.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

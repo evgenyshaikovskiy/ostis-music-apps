@@ -37,7 +37,7 @@ concept_honkytonk
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/honkytonk.jpg"
+		->rrel_example: "file://pictures/honkytonk.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

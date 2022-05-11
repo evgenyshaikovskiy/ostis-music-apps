@@ -1,0 +1,48 @@
+matthew_williams
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Мэттью Уильямс]
+	(*
+	<- lang_ru;;
+	*);
+	[Matthew Williams]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Matthew M. Williams (born October 17, 1985) is an American designer, creative, and entrepreneur.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Мэтью М. Уильямс (родился 17 октября 1985 г.) - американский дизайнер, креативщик и предприниматель.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/matthew-williams.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+matthew_williams <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;;

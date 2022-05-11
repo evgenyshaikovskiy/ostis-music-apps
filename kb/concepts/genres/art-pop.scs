@@ -1,0 +1,46 @@
+concept_art_pop
+<= nrel_inclusion: concept_pop;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [арт поп]
+    (*
+	    <- lang_ru;;
+	*);
+	[art pop]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Арт-поп (также известный как арт-поп или артпоп) - это свободно определенный стиль поп-музыки, на который повлияла интеграция поп-арта высокой и низкой культуры, и который подчеркивает манипулирование знаками, стилем и жестами над личным выражением.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Art pop (also typeset as art-pop or artpop) is a loosely defined style of pop music influenced by pop art's integration of high and low culture, and which emphasizes the manipulation of signs, style, and gesture over personal expression.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/art-pop.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

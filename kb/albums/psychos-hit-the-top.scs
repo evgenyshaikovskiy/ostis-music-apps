@@ -1,0 +1,61 @@
+psychos_hit_the_top
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Психи попадают в топ]
+    (*
+        <- lang_ru;;
+    *);
+    [Psychos Hit The Top]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Псиихи попадают в топ - восемнадцатый студийный альбом Макса Коржа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Psychos Hit The Top is eighteenth studio album by Max Korzh..]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/psychos-hit-the-top.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+psychos_hit_the_top
+<- rrel_author:
+	max_korzh;;
+
+psychos_hit_the_top
+<- rrel_contributer:
+	max_korzh;
+    insando;
+    bagew;
+    portwave;;
+
+psychos_hit_the_top
+<- rrel_related_to_genre:
+	concept_trap_rap;
+	concept_pop;
+	concept_hiphop;;

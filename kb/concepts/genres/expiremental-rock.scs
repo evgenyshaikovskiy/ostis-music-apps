@@ -1,0 +1,46 @@
+concept_experimental_rock
+<= nrel_inclusion: concept_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [экспериментальный рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[experimental rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Экспериментальный рок, также называемый авангардным роком, - это поджанр рок-музыки, который раздвигает границы общей композиции и техники исполнения или экспериментирует с основными элементами жанра.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Experimental rock, also called avant-rock, is a subgenre of rock music that pushes the boundaries of common composition and performance technique or which experiments with the basic elements of the genre.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/experimental-rock.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

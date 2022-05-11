@@ -37,7 +37,7 @@ concept_hiphop
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://kb/pictures/hiphop.jpg"
+		->rrel_example: "file://pictures/hiphop.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

@@ -1,0 +1,45 @@
+john_leckie
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Джон Леки]
+	(*
+	    <- lang_ru;;
+	*);
+	[John Leckie]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[John William Leckie (born 23 October 1949) is an English record producer and recording engineer.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Джон Уильям Леки (родился 23 октября 1949 года) - английский музыкальный продюсер и звукорежиссер.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/john-leckie.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+

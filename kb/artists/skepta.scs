@@ -1,0 +1,73 @@
+skepta
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Скепта]
+	(*
+	<- lang_ru;;
+	*);
+	[Scepta]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джозеф Олайтан Аденуга-младший (родился 19 сентября 1982 г.), профессионально известный как Скепта, - британский грайм-MC, рэпер, автор песен и продюсер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Joseph Olaitan Adenuga Jr. (born 19 September 1982), known professionally as Skepta, is a British grime MC, rapper, songwriter and record producer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/skepta.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+skepta <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джозеф Олайтан Аденуга-младший]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Joseph Olaitan Adenuga Jr.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+skepta <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_grime;
+	concept_drill;
+	concept_trap_rap;;

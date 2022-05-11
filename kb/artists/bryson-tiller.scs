@@ -1,0 +1,71 @@
+bryson_tiller
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Брайсон Тиллер]
+	(*
+	<- lang_ru;;
+	*);
+	[Bryson Tiller]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Брайсон Джуан Тиллер (родился 2 января 1993 г.) - американский певец и рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Bryson Djuan Tiller (born January 2, 1993) is an American singer and rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/bryson-tiller.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+bryson_tiller <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Брайсон Джуан Тиллер]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Bryson Djuan Tiller]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+bryson_tiller <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;;

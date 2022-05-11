@@ -1,0 +1,72 @@
+future
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Фьючер]
+	(*
+	<- lang_ru;;
+	*);
+	[Future]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Найвадиус ДеМун Уилберн (родился 20 ноября 1983 г.), более известный под сценическим псевдонимом Future, - американский рэпер и певец.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Nayvadius DeMun Wilburn (born November 20, 1983), better known by the stage name Future, is an American rapper and singer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/future.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+future <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Найвадиус ДеМун Уилберн]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Nayvadius DeMun Wilburn]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+future <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+	concept_mumble;;

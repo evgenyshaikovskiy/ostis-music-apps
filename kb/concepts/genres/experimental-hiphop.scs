@@ -1,0 +1,45 @@
+concept_experimental_hiphop
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[экспериментальный хип хоп]
+	(*
+	<- lang_ru;;
+	*);
+	[experimental hip hop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Экспериментальный хип-хоп включает в себя экспериментальные и эксцентричные элементы, которые считаются нетрадиционными или неортодоксальными по сравнению с более традиционным хип-хопом.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Experimental hip hop incorporates experimental and eccentric elements considered unconventional or unorthodox compared to more traditional hip hop.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/experimental-hiphop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

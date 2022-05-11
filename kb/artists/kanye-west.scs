@@ -1,0 +1,71 @@
+kanye_west
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Канье Уэст]
+	(*
+	<- lang_ru;;
+	*);
+	[Kanye West]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ye (born Kanye Omari West; June 8, 1977), commonly known as Kanye West, is an American rapper, record producer, entrepreneur, and fashion designer.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Йе (урожденный Канье Омари Уэст; 8 июня 1977 г.), широко известный как Канье Уэст, - американский рэпер, продюсер, предприниматель и модельер.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/kanye-west.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+kanye_west <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Канье Омари Уэст]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Kanye Omari West]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+kanye_west <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;;
