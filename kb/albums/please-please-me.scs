@@ -20,7 +20,7 @@ please_please_me
                 -> rrel_example:
                     [Please Please Me is the debut studio album by the English rock band the Beatles.]
                     (*
-                        <- lang_ru;;
+                        <- lang_en;;
                     *);;
             *);
                 ...
@@ -28,7 +28,7 @@ please_please_me
                 -> rrel_example:
                     [Please Please Me (с англ.— «Пожалуйста, обрадуй меня») — дебютный студийный альбом группы The Beatles, выпущенный 22 марта 1963 года.]
                     (*
-                        <- lang_en;;
+                        <- lang_ru;;
                     *);;
             *);;
         
