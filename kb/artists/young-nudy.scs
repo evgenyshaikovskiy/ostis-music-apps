@@ -1,0 +1,72 @@
+young_nudy
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Молодой Нуди]
+	(*
+	<- lang_ru;;
+	*);
+	[Young Nudy]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Квантавиус Таварио Томас (родился 17 декабря 1992 г.), профессионально известный как Молодой Нуди, - американский рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Quantavious Tavario Thomas (born December 17, 1992), known professionally as Young Nudy, is an American rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/young-nudy.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+young_nudy <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Квантавиус Таварио Томас]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Quantavious Tavario Thomas]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+young_nudy <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_rhytmnblues;;

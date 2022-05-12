@@ -1,0 +1,72 @@
+young_thug
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Молодой Головорез]
+	(*
+	<- lang_ru;;
+	*);
+	[Young Thug]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дже́ффери Лама́р Уи́льямс (род. 16 августа 1991), выступающий под сценическим именем Янг Таг — американский рэпер, певец и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jeffery Lamar Williams (born August 16, 1991), under the stage name Young Thug, is an American rapper, singer, and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/young-thug.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+young_thug <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дже́ффери Лама́р Уи́льямс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jeffery Lamar Williams]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+young_thug <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_rhytmnblues;;

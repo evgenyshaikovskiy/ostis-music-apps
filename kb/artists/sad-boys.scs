@@ -1,0 +1,59 @@
+sad_boys
+<= concept_musical_association;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Сэд Бойс]
+    (*
+        <- lang_ru;;
+    *);
+    [Sad Boys]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Сэдбойс или Сэд Бойс Интертейнмент — музыкальный коллектив из Стокгольма, Швеция, созданный Янг Лином и Янг Гудом.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Sadboys or Sad Boys Entertainment is a music collective from Stockholm,Sweden, formed by Yung Lean and Yung Gud.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/sad-boys.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+sad_boys
+<- rrel_musical_association_member:
+    yung_lean;
+    yung_gud;
+    yung_sherman;;
+
+sad_boys
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_cloud_rap;
+    concept_emo;
+	concept_trap_rap;
+    concept_electronic;
+    concept_hyperpop;;
