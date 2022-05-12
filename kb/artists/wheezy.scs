@@ -1,0 +1,72 @@
+wheezy
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Уизи]
+	(*
+	<- lang_ru;;
+	*);
+	[Wheezy]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Уэсли Тайлер Гласс (родился 26 октября 1992 г.), профессионально известный как Уизи, - американский продюсер и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Wesley Tyler Glass (born October 26, 1992), known professionally as Wheezy, is an American record producer and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/wheezy.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+wheezy <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Уэсли Тайлер Гласс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Wesley Tyler Glass]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+wheezy <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_rhytmnblues;;

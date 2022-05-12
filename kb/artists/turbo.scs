@@ -1,0 +1,72 @@
+turbo
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Турбо]
+	(*
+	<- lang_ru;;
+	*);
+	[Turbo]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Чендлер Дарем (родился 9 августа 1994 г.), профессионально известный как Turbo, - американский продюсер и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Chandler Durham (born August 9, 1994), professionally known as Turbo, is an American record producer and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/turbo.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+turbo <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ракхид Джевон Рендер]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rackheed Jewon Render]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+turbo <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_rhytmnblues;;
