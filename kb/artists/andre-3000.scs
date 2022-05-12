@@ -1,0 +1,73 @@
+andre_3000
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Андре 3000]
+	(*
+	    <- lang_ru;;
+	*);
+	[Andre 3000]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Андре Лорен Бенджамин (род. 27 мая 1975 года, Атланта, Джорджия, США), известный под сценическим именем André 3000 — американский рэпер и актёр.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[André Lauren Benjamin (born May 27, 1975, Atlanta, Georgia, USA), known by his stage name André 3000, is an American rapper and actor.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/andre-3000.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+andre_3000 <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Андре Лорен Бенджамин]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[André Lauren Benjamin]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+andre_3000 <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_rhytmnblues;
+	concept_jazz;
+	concept_funk;;
