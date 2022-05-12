@@ -48,7 +48,7 @@ Stanislav_Myrashko <- concept_musician;;
 Vladimir_Yakovlev <- concept_musician;;
 
 valentin_strykalo
-<- rrel_band_members:
+<- rrel_band_member:
     Yuri_Caplan;
     Kostya_Pyzhkov;
     Stanislav_Myrashko;
