@@ -1,0 +1,46 @@
+concept_hard_rock
+<= nrel_inclusion: concept_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Хард рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[Hard Rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хард-рок (англ. hard rock, дословно тяжёлый рок или жёсткий рок) — жанр рок-музыки, характеризующийся выделенной ролью ритм-секции, главным образом бас-гитары и ударных инструментов. Композиции этого жанра часто построены на риффах в фигурах с размером 4/4. ]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Hard rock or heavy rock is a loosely defined subgenre of rock music typified by a heavy use of aggressive vocals, distorted electric guitars, bass guitar, and drums, sometimes accompanied with keyboards.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/hard-rock.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
