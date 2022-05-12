@@ -1,12 +1,12 @@
-in_rainbows
+demon_days
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [In Rainbows]
+    [Demon Days]
     (*
         <- lang_en;;
     *);
-    [В Радуге]
+    [Чертовы дни]
     (*
         <- lang_ru;;
     *);
@@ -18,7 +18,7 @@ in_rainbows
             ...
             (*
                 -> rrel_example:
-                    [В Радуге - седьмой студийный альбом английской рок-группы Radiohead. Он был выпущен самостоятельно 10 октября 2007 года.]
+                    [Demon Days - второй студийный альбом британской виртуальной группы Gorillaz. Впервые он был выпущен 11 мая 2005 года в Японии и 23 мая 2005 года в Соединенном Королевстве.]
                     (*
                         <- lang_ru;;
                     *);;
@@ -26,7 +26,7 @@ in_rainbows
                 ...
             (*
                 -> rrel_example:
-                    [In Rainbows is the seventh studio album by the English rock band Radiohead. It was self-released on 10 October 2007.]
+                    [Demon Days is the second studio album by British virtual band Gorillaz. It was first released on 11 May 2005 in Japan and on 23 May 2005 in the United Kingdom.]
                     (*
                         <- lang_en;;
                     *);;
@@ -36,26 +36,29 @@ in_rainbows
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/in-rainbows.jpg"
+                -> rrel_example: "file://pictures/demon-days.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-in_rainbows
+demon_days
 <- rrel_related_to_genre:
+    concept_alternative_rock;
     concept_art_rock;
-    concept_experimental_rock;
-    concept_electronic;
-    concept_art_pop;;
+    concept_trip_hop;
+    concept_pop;
+    concept_hiphop;;
 
-in_rainbows
+demon_days
 <- rrel_contributer:
-    radiohead;
-    nigel_godrich;;
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;
 
-in_rainbows
+demon_days
 <- rrel_author:
-    radiohead;
-    nigel_godrich;;
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;

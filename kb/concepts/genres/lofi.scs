@@ -1,0 +1,46 @@
+concept_lofi
+<= nrel_inclusion: concept_jazz;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [лоу-фай]
+    (*
+	    <- lang_ru;;
+	*);
+	[Lo-Fi]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Lo-Fi или лоу-фай (от англ. low fidelity — «низкое качество») — направление в музыке, для которого характерно низкое качество звука и джазовые аккорды. ]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Lo-fi (also typeset as lofi or low-fi; short for low fidelity) is a music or production quality in which elements usually regarded as imperfections in the context of a recording or performance are present, sometimes as a deliberate choice.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/lofi.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

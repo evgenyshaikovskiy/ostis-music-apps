@@ -1,0 +1,46 @@
+concept_noise_rock
+<= nrel_inclusion: concept_post_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [нойз-рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[noise-rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Нойз-рок (иногда называемый нойз-панком) - это ориентированный на шум стиль экспериментального рока, который отделился от панк-рока в 1980-х годах.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Noise rock (sometimes called noise punk) is a noise-oriented style of experimental rock that spun off from punk rock in the 1980s.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/noise-rock.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

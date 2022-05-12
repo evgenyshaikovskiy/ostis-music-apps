@@ -1,0 +1,43 @@
+Jamie_Hewlett
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+    [Джэйми Хьюлетт]
+    (*
+        <- lang_ru;;
+    *);
+    [Jamie Hewlett]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Джейми Кристофер Хьюлетт (родился 3 апреля 1968 года) - английский художник, режиссер и автор песен. Он является соавтором комикса Tank Girl с Аланом Мартином и соавтором виртуальной группы Gorillaz вместе с фронтменом Blur Дэймоном Албарном.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Jamie Christopher Hewlett (born 3 April 1968) is an English artist, director, and songwriter. He is the co-creator of the comic book Tank Girl with Alan Martin and co-creator of the virtual band Gorillaz, alongside Blur frontman Damon Albarn. ]
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/jamie-hewlett.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;

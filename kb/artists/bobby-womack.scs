@@ -1,0 +1,45 @@
+Bobby_Womack
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Бобби Вомак]
+	(*
+	    <- lang_ru;;
+	*);
+	[Bobby Womack]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Robert Dwayne Womack (March 4, 1944 – June 27, 2014) was an American singer, songwriter, musician, and record producer.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Роберт Дуэйн Уомак (4 марта 1944 – 27 июня 2014) - американский певец, автор песен, музыкант и музыкальный продюсер.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/bobby-womack.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+

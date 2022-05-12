@@ -1,14 +1,14 @@
-in_rainbows
+plastic_beach
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [In Rainbows]
-    (*
-        <- lang_en;;
-    *);
-    [В Радуге]
+    ['Пластмассовый' пляж]
     (*
         <- lang_ru;;
+    *);
+    [Plastic Beach]
+    (*
+        <- lang_en;;
     *);
 -> rrel_key_sc_element:
     ...
@@ -18,7 +18,7 @@ in_rainbows
             ...
             (*
                 -> rrel_example:
-                    [В Радуге - седьмой студийный альбом английской рок-группы Radiohead. Он был выпущен самостоятельно 10 октября 2007 года.]
+                    [Plastic Beach - третий студийный альбом британской виртуальной группы Gorillaz. Он был выпущен 3 марта 2010 года.]
                     (*
                         <- lang_ru;;
                     *);;
@@ -26,7 +26,7 @@ in_rainbows
                 ...
             (*
                 -> rrel_example:
-                    [In Rainbows is the seventh studio album by the English rock band Radiohead. It was self-released on 10 October 2007.]
+                    [Plastic Beach is the third studio album by British virtual band Gorillaz. It was released on 3 March 2010.]
                     (*
                         <- lang_en;;
                     *);;
@@ -36,26 +36,28 @@ in_rainbows
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/in-rainbows.jpg"
+                -> rrel_example: "file://pictures/plastic-beach.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-in_rainbows
+plastic_beach
 <- rrel_related_to_genre:
-    concept_art_rock;
-    concept_experimental_rock;
-    concept_electronic;
-    concept_art_pop;;
+    concept_hiphop;
+    concept_funk; // replace with correct later
+    concept_pop;
+    concept_electronic;;
 
-in_rainbows
+plastic_beach
 <- rrel_contributer:
-    radiohead;
-    nigel_godrich;;
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;
 
-in_rainbows
+plastic_beach
 <- rrel_author:
-    radiohead;
-    nigel_godrich;;
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;

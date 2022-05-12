@@ -1,14 +1,14 @@
-in_rainbows
+loveless
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [In Rainbows]
-    (*
-        <- lang_en;;
-    *);
-    [В Радуге]
+    [Нелюбимый]
     (*
         <- lang_ru;;
+    *);
+    [Loveless]
+    (*
+        <- lang_en;;
     *);
 -> rrel_key_sc_element:
     ...
@@ -18,7 +18,7 @@ in_rainbows
             ...
             (*
                 -> rrel_example:
-                    [В Радуге - седьмой студийный альбом английской рок-группы Radiohead. Он был выпущен самостоятельно 10 октября 2007 года.]
+                    [Loveless - второй студийный альбом ирландско-английской рок-группы My Bloody Valentine. Он был выпущен в ноябре 1991 года.]
                     (*
                         <- lang_ru;;
                     *);;
@@ -26,7 +26,7 @@ in_rainbows
                 ...
             (*
                 -> rrel_example:
-                    [In Rainbows is the seventh studio album by the English rock band Radiohead. It was self-released on 10 October 2007.]
+                    [Loveless is the second studio album by the Irish-English rock band My Bloody Valentine. It was released November 1991.]
                     (*
                         <- lang_en;;
                     *);;
@@ -36,26 +36,25 @@ in_rainbows
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/in-rainbows.jpg"
+                -> rrel_example: "file://pictures/loveless.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-in_rainbows
+loveless
 <- rrel_related_to_genre:
-    concept_art_rock;
-    concept_experimental_rock;
-    concept_electronic;
-    concept_art_pop;;
+    concept_shoegaze;
+    concept_noise_rock;
+    concept_alternative_rock;
+    concept_dream_pop;
+    concept_experimental_rock;;
 
-in_rainbows
+loveless
 <- rrel_contributer:
-    radiohead;
-    nigel_godrich;;
+    my_bloody_valentine;;
 
-in_rainbows
+loveless
 <- rrel_author:
-    radiohead;
-    nigel_godrich;;
+    my_bloody_valentine;;
