@@ -1,0 +1,51 @@
+stary_olsa
+<= concept_band;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Стары Ольса]
+	(*
+	<- lang_ru;;
+	*);
+	[Stary Olsa]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Стары Ольса - беларуская группа средневековой музыки, существует с 1999 г., создатель и руководитель – Змитер Сосновский. Состав – 6 человек.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Stari Olsa is a Belarusian medieval music group that has been in existence since 1999, the creator and leader is Zmiter Sosnovsky. The composition is 6 people.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/stary-olsa.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+stary_olsa
+<- rrel_performs_in_genre:
+    concept_bel_folk_music;
+	concept_choruses_and_songs;
+	concept_lyrics;
+    concept_ritualfolklore;;

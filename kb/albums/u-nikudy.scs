@@ -1,0 +1,56 @@
+u_nikudy
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [У нікуды]
+    (*
+        <- lang_ru;;
+    *);
+    [U nikudy]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [У нікуды - первый мини-альбом беларуской пост-панк группы "Нюрнберг".]
+                    (*
+                    <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                [U nikudy is the first mini-album of the Belarusian post-punk band "Nurnberg".]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/u-nikudy.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+u_nikudy
+<- rrel_related_to_genre:
+    concept_post_punk;;
+
+u_nikudy
+<- rrel_author:
+    nurnberg;;
+
+u_nikudy
+<- rrel_contributer:
+    nurnberg;;

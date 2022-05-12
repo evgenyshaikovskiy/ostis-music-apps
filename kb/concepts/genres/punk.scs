@@ -1,0 +1,46 @@
+concept_punk
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Панк]
+    (*
+	    <- lang_ru;;
+	*);
+	[Punk]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Панк-рок (также известный как просто панк) — музыкальный жанр, возникший в середине 1970-х годов. Панк-группы, основанные на гаражном роке 1960-х, отвергли предполагаемые излишества мейнстрима рока 1970-х.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Punk rock (also known as simply punk) is a music genre that emerged in the mid-1970s. Rooted in 1960s garage rock, punk bands rejected the perceived excesses of mainstream 1970s rock.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/punk.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

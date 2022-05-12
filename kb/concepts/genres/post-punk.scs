@@ -1,0 +1,46 @@
+concept_post_punk
+<= nrel_inclusion: concept_punk;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [пост-панк]
+    (*
+	    <- lang_ru;;
+	*);
+	[post-punk]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Постпанк (часто встречается также вариант написания «пост-панк»; англ. post-punk) — жанр рок-музыки, сложившийся в конце 1970-х годов в Великобритании как продолжение панк-рока. Жанр постпанк — это в какой-то степени более усложненная и экспериментальная форма панка: в отличие от резкого сухого звучания панк-рока, постпанк отличался бо́льшим разнообразием музыкального самовыражения вследствие широкого диапазона влияния на жанр]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Post-punk (originally called new musick) is a broad genre of rock music that emerged in the late 1970s as musicians departed from the raw simplicity and traditionalism of punk rock, instead adopting a variety of avant-garde sensibilities and non-rock influences.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/post-punk.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

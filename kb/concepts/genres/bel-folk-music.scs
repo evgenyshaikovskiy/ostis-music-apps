@@ -1,0 +1,46 @@
+concept_bel_folk_music
+<= nrel_inclusion: concept_folk_music;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[беларуская фолк музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[belarusian folk music]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Беларуская народная музыка  — музыкальное искусство белорусского народа, выделяющееся самобытностью и национальным колоритом, охватывающее музыкальные направления народного музыкального творчества.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Belarusian folk music is the musical art of the Belarusian people, distinguished by its originality and national flavor, covering musical directions of folk music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/bel-folk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

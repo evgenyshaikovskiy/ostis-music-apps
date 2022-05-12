@@ -1,0 +1,55 @@
+nurnberg
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Нюрнберг]
+    (*
+        <- lang_ru;;
+    *);
+    [Nurnberg]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Nurnberg is a post-punk musical duo formed in 2016 in Minsk, Belarus.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Нюрнберг — музыкальный дуэт в стиле пост-панк, образованный в 2016 году в Минске, Беларусь.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/nurnberg.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+
+
+nurnberg
+<- rrel_band_member:
+    yury_luhautsou;
+    aleh_savutsin;;
+
+nurnberg
+<- rrel_performs_in_genre:
+    concept_post_punk;;

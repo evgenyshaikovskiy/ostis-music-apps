@@ -1,0 +1,59 @@
+ye
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [йе]
+    (*
+        <- lang_ru;;
+    *);
+    [ye]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[йе — восьмой сольный студийный альбом Канье Уэста.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[ye is Kanye West’s eighth solo studio album.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/ye.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+ye
+<- rrel_author:
+	kanye_west;;
+
+ye
+<- rrel_contributer:
+	kanye_west;
+    partynextdoor;;
+
+ye
+<- rrel_related_to_genre:
+    concept_hiphop;
+	concept_pop;
+	concept_rhytmnblues;;

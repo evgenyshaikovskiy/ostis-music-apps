@@ -1,0 +1,73 @@
+partynextdoor
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Патинекстдоор]
+	(*
+	<- lang_ru;;
+	*);
+	[PARTYNEXTOOR]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джарон Энтони Брэтуэйт (родился 3 июля 1993 г.), профессионально известный как PARTYNEXTDOOR, канадский певец, автор песен, рэпер и продюсер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jahron Anthony Brathwaite (born July 3, 1993), known professionally as PartyNextDoor (stylized as PARTYNEXTDOOR), is a Canadian singer, songwriter, rapper, and record producer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/partynextdoor.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+partynextdoor <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джарон Энтони Брэтуэйт]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jahron Anthony Brathwaite]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+partynextdoor
+<- rrel_performs_in_genre:
+    concept_hiphop;
+	concept_rhytmnblues;
+	concept_reggy;;

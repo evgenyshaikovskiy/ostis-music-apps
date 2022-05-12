@@ -1,0 +1,58 @@
+liepsaje
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Liepsaje]
+    (*
+        <- lang_en;;
+    *);
+    [Лепшае]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Лепшае - сборник песен группы Стары Ольса, выпущенный в честь десятилетия группы.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Liepsaje - a collection of songs by Stary Olsa, released in honor of the tenth anniversary of the group.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/liepsaje.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+liepsaje
+<- rrel_related_to_genre:
+    concept_bel_folk_music;
+    concept_epics;
+    concept_choruses_and_songs;;
+
+liepsaje
+<- rrel_contributer:
+    stary_olsa;;
+
+liepsaje
+<- rrel_author:
+    stary_olsa;;
