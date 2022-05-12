@@ -1,0 +1,72 @@
+og_buda
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Ог Буда]
+	(*
+	<- lang_ru;;
+	*);
+	[OG Buda]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Григорий Алексеевич Ляхов (родился 10 января 1994 г.), более известный под сценическим псевдонимом OG Buda, -  российский хип-хоп исполнитель и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Grigory Alekseevich Lyakhov (born January 10, 1994), better known by his stage name OG Buda, is a Russian hip-hop artist and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/og-buda.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+og_buda <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Григорий Алексеевич Ляхов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Grigory Alekseevich Lyakhov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+og_buda
+<- rrel_performs_in_genre:
+    concept_trap_rap;
+	concept_hiphop;
+	concept_drill;;

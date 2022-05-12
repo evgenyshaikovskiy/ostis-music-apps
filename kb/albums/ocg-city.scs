@@ -1,0 +1,59 @@
+ocg_city
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [ОПГ СИТИ]
+    (*
+        <- lang_ru;;
+    *);
+    [OCG CITY]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ОПГ СИТИ - дебютный альбом участника объединения RNDM Crew, выпущенный 19 ноября 2019 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[OCG City is the debut album of a member of the RNDM Crew, released on November 19, 2019.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/ocg-city.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+ocg_city
+<- rrel_author:
+	og_buda;;
+
+ocg_city
+<- rrel_contributer:
+	og_buda;
+    sadeness;;
+
+ocg_city
+<- rrel_related_to_genre:
+    concept_trap_rap;
+	concept_hiphop;
+	concept_drill;;

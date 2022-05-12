@@ -1,0 +1,70 @@
+mayot
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Майот]
+	(*
+	<- lang_ru;;
+	*);
+	[Mayot]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Артем Никитин (родился 2 февраля 1999 г.), более известный под сценическим псевдонимом Mayot, -  российский рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Artem Nikitin (born February 2, 1999), better known by his stage name Mayot, is a Russian rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/mayot.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+mayot <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Артем Никитин]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Artem Nikitin]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+mayot
+<- rrel_performs_in_genre:
+    concept_trap_rap;;
