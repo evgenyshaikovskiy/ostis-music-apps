@@ -4,11 +4,11 @@ in_rainbows
 => nrel_main_idtf:
     [In Rainbows]
     (*
-        <- lang_ru;;
+        <- lang_en;;
     *);
     [В Радуге]
     (*
-        <- lang_en;;
+        <- lang_ru;;
     *);
 -> rrel_key_sc_element:
     ...

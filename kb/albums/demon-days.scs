@@ -1,4 +1,4 @@
-gorillaz_album
+demon_days
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
@@ -6,7 +6,7 @@ gorillaz_album
     (*
         <- lang_ru;;
     *);
-    [Gorillaz]
+    [Чертовы дни]
     (*
         <- lang_en;;
     *);
@@ -18,7 +18,7 @@ gorillaz_album
             ...
             (*
                 -> rrel_example:
-                    [Gorillaz - одноименный дебютный студийный альбом английской виртуальной рок-группы Gorillaz, выпущенный 26 марта 2001 года.]
+                    [Demon Days - второй студийный альбом британской виртуальной группы Gorillaz. Впервые он был выпущен 11 мая 2005 года в Японии и 23 мая 2005 года в Соединенном Королевстве.]
                     (*
                         <- lang_ru;;
                     *);;
@@ -26,7 +26,7 @@ gorillaz_album
                 ...
             (*
                 -> rrel_example:
-                    [Gorillaz is the eponymous debut studio album by English virtual band Gorillaz, released on 26 March 2001.]
+                    [Demon Days is the second studio album by British virtual band Gorillaz. It was first released on 11 May 2005 in Japan and on 23 May 2005 in the United Kingdom.]
                     (*
                         <- lang_en;;
                     *);;
@@ -36,28 +36,28 @@ gorillaz_album
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/gorillaz.jpg"
+                -> rrel_example: "file://pictures/demon-days.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-gorillaz_album
+demon_days
 <- rrel_related_to_genre:
     concept_alternative_rock;
-    concept_art_pop;
-    concept_lofi;
+    concept_art_rock;
     concept_trip_hop;
+    concept_pop;
     concept_hiphop;;
 
-gorillaz_album
+demon_days
 <- rrel_contributer:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;
 
-gorillaz_album
+demon_days
 <- rrel_author:
     gorillaz;
     Damon_Alborn;
