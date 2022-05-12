@@ -20,7 +20,7 @@ john_leckie
 		-> rrel_example:
 			[John William Leckie (born 23 October 1949) is an English record producer and recording engineer.]
 			(*
-			    <- lang_ru;;
+			    <- lang_en;;
 			*);;
 		*);
 			...
@@ -28,7 +28,7 @@ john_leckie
 		-> rrel_example:
 			[Джон Уильям Леки (родился 23 октября 1949 года) - английский музыкальный продюсер и звукорежиссер.]
 			(*
-			    <- lang_en;;
+			    <- lang_ru;;
 			*);;
 		*);;
 

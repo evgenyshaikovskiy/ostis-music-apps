@@ -20,7 +20,7 @@ sean_slade
 		-> rrel_example:
 			[Sean Slade (born 14 November 1957) is an American record producer, engineer, and mixer. On many of his productions he worked in partnership with Paul Q. Kolderie.]
 			(*
-			<- lang_ru;;
+			<- lang_en;;
 			*);;
 		*);
 			...
@@ -28,7 +28,7 @@ sean_slade
 		-> rrel_example:
 			[Шон Слэйд (родился 14 ноября 1957 года) - американский музыкальный продюсер, инженер и микшер. Над многими своими постановками он работал в партнерстве с Полом К. Колдери.]
 			(*
-			<- lang_en;;
+			<- lang_ru;;
 			*);;
 		*);;
 
