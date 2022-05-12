@@ -1,12 +1,12 @@
-in_rainbows
+with_beatles
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [In Rainbows]
+    [With The Beatles]
     (*
         <- lang_en;;
     *);
-    [В Радуге]
+    [Вместе с Битлз]
     (*
         <- lang_ru;;
     *);
@@ -18,7 +18,7 @@ in_rainbows
             ...
             (*
                 -> rrel_example:
-                    [В Радуге - седьмой студийный альбом английской рок-группы Radiohead. Он был выпущен самостоятельно 10 октября 2007 года.]
+                    [With The Beatles (с англ.— «Вместе с Битлз») — второй студийный альбом группы The Beatles, выпущенный в 1963 году.]
                     (*
                         <- lang_ru;;
                     *);;
@@ -26,7 +26,7 @@ in_rainbows
                 ...
             (*
                 -> rrel_example:
-                    [In Rainbows is the seventh studio album by the English rock band Radiohead. It was self-released on 10 October 2007.]
+                    [With the Beatles is the second studio album by the English rock band the Beatles.]
                     (*
                         <- lang_en;;
                     *);;
@@ -36,26 +36,22 @@ in_rainbows
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/in-rainbows.jpg"
+                -> rrel_example: "file://pictures/with-beatles.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-in_rainbows
+with_beatles
 <- rrel_related_to_genre:
-    concept_art_rock;
-    concept_experimental_rock;
-    concept_electronic;
-    concept_art_pop;;
+    concept_rock;
+    concept_pop;;
 
-in_rainbows
+with_beatles
 <- rrel_contributer:
-    radiohead;
-    nigel_godrich;;
+    beatles;;
 
-in_rainbows
+with_beatles
 <- rrel_author:
-    radiohead;
-    nigel_godrich;;
+    beatles;;
