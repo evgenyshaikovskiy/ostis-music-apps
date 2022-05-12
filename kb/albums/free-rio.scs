@@ -1,0 +1,67 @@
+freerio
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Освободите Рио]
+    (*
+        <- lang_ru;;
+    *);
+    [FREERIO]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Освободите Рио - второй альбом участника объединения RNDM Crew, выпущенный 30 апреля 2021 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[FREERIO is the second album of a member of the RNDM Crew, released on April 30, 2021.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/free-rio.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+freerio
+<- rrel_author:
+	og_buda;;
+
+freerio
+<- rrel_contributer:
+	og_buda;
+    mayot;
+	1630nmyneck;
+	soda_luv;
+	scally_milano;
+	bushido_zho;
+	polyana;
+	egor_krid;
+	magnumopus;
+    sadness;;
+
+freerio
+<- rrel_related_to_genre:
+    concept_trap_rap;
+	concept_hiphop;
+	concept_drill;;

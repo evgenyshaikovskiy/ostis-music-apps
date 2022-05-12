@@ -1,12 +1,12 @@
-in_rainbows
+please_please_me
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [In Rainbows]
+    [Please Please Me]
     (*
         <- lang_en;;
     *);
-    [В Радуге]
+    [Пожалуйста, обрадуй меня.]
     (*
         <- lang_ru;;
     *);
@@ -18,17 +18,17 @@ in_rainbows
             ...
             (*
                 -> rrel_example:
-                    [В Радуге - седьмой студийный альбом английской рок-группы Radiohead. Он был выпущен самостоятельно 10 октября 2007 года.]
+                    [Please Please Me is the debut studio album by the English rock band the Beatles.]
                     (*
-                        <- lang_ru;;
+                        <- lang_en;;
                     *);;
             *);
                 ...
             (*
                 -> rrel_example:
-                    [In Rainbows is the seventh studio album by the English rock band Radiohead. It was self-released on 10 October 2007.]
+                    [Please Please Me (с англ.— «Пожалуйста, обрадуй меня») — дебютный студийный альбом группы The Beatles, выпущенный 22 марта 1963 года.]
                     (*
-                        <- lang_en;;
+                        <- lang_ru;;
                     *);;
             *);;
         
@@ -36,26 +36,22 @@ in_rainbows
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/in-rainbows.jpg"
+                -> rrel_example: "file://pictures/please-please-me.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-in_rainbows
+please_please_me
 <- rrel_related_to_genre:
-    concept_art_rock;
-    concept_experimental_rock;
-    concept_electronic;
-    concept_art_pop;;
+    concept_rock;
+    concept_pop;;
 
-in_rainbows
+please_please_me
 <- rrel_contributer:
-    radiohead;
-    nigel_godrich;;
+    beatles;;
 
-in_rainbows
+please_please_me
 <- rrel_author:
-    radiohead;
-    nigel_godrich;;
+    beatles;;

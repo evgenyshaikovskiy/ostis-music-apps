@@ -1,0 +1,51 @@
+Paul_McCartney
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Пол Маккартни]
+	(*
+	    <- lang_ru;;
+	*);
+	[Paul McCartney]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сэр Джеймс Пол Макка́ртни (англ. James Paul McCartney; род. 18 июня 1942 года, Ливерпуль, Мерсисайд, Англия, Великобритания) — британский музыкант, мультиинструменталист, писатель и продюсер. Один из основателей группы The Beatles, 16-кратный обладатель премии «Грэмми», рыцарь-бакалавр и кавалер ордена Британской империи (MBE) (1965).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Sir James Paul McCartney CH MBE (born 18 June 1942) is an English singer, songwriter and musician who gained worldwide fame as co-lead vocalist, co-songwriter and bassist for the Beatles. One of the most successful composers and performers of all time, he is known for his melodic approach to bass-playing, versatile and wide tenor vocal range, and musical eclecticism, exploring styles ranging from pre-rock 'n' roll pop to classical and electronica.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/paul-mccartney.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+Paul_McCartney
+<- rrel_performs_in_genre:
+    concept_rock;
+	concept_experimental_rock;
+	concept_pop;
+    concept_electronic;;

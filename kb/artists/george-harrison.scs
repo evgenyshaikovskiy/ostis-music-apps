@@ -1,0 +1,49 @@
+George_Harrison
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Джордж Харрисон]
+	(*
+	    <- lang_ru;;
+	*);
+	[George Harrison]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джордж Ха́ррисон(англ. George Harrison; 25 февраля 1943, Ливерпуль — 29 ноября 2001, Лос-Анджелес, Калифорния) — британский рок-музыкант, певец, композитор, писатель, продюсер, ситарист и гитарист, получивший наибольшую известность как соло-гитарист 'The Beatles']
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[George Harrison MBE (25 February 1943 – 29 November 2001) was an English musician, singer-songwriter, and music and film producer who achieved international fame as the lead guitarist of the Beatles. Sometimes called 'the quiet Beatle', Harrison embraced Indian culture and helped broaden the scope of popular music through his incorporation of Indian instrumentation and Hindu-aligned spirituality in the Beatles' work.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/george-harrison.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+George_Harrison
+<- rrel_performs_in_genre:
+    concept_rock;
+	concept_pop;;

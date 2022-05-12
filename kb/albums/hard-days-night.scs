@@ -1,12 +1,12 @@
-in_rainbows
+hard_days_night
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [In Rainbows]
+    [A Hard Day's Night]
     (*
         <- lang_en;;
     *);
-    [В Радуге]
+    [Вечер трудного дня]
     (*
         <- lang_ru;;
     *);
@@ -18,7 +18,7 @@ in_rainbows
             ...
             (*
                 -> rrel_example:
-                    [В Радуге - седьмой студийный альбом английской рок-группы Radiohead. Он был выпущен самостоятельно 10 октября 2007 года.]
+                    [A Hard Day's Night (с англ.— «Вечер трудного дня») — третий студийный альбом The Beatles, выпущенный 10 июля 1964.]
                     (*
                         <- lang_ru;;
                     *);;
@@ -26,7 +26,7 @@ in_rainbows
                 ...
             (*
                 -> rrel_example:
-                    [In Rainbows is the seventh studio album by the English rock band Radiohead. It was self-released on 10 October 2007.]
+                    [A Hard Day's Night is the third studio album by the English rock band the Beatles, released on 10 July 1964.]
                     (*
                         <- lang_en;;
                     *);;
@@ -36,26 +36,23 @@ in_rainbows
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/in-rainbows.jpg"
+                -> rrel_example: "file://pictures/hard-days-night.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-in_rainbows
+hard_days_night
 <- rrel_related_to_genre:
+    concept_rock;
     concept_art_rock;
-    concept_experimental_rock;
-    concept_electronic;
-    concept_art_pop;;
+    concept_pop;;
 
-in_rainbows
+hard_days_night
 <- rrel_contributer:
-    radiohead;
-    nigel_godrich;;
+    beatles;;
 
-in_rainbows
+hard_days_night
 <- rrel_author:
-    radiohead;
-    nigel_godrich;;
+    beatles;;
