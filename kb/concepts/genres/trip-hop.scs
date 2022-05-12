@@ -1,0 +1,46 @@
+concept_trip_hop
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Трип хоп]
+    (*
+	    <- lang_ru;;
+	*);
+	[Trip hop]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Трип-хоп (англ. trip-hop) — музыкальный стиль, возникший в начале 1990-х годов в Великобритании и пик популярности которого пришёлся на середину-конец 1990-х годов.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Trip hop (sometimes used synonymously with "downtempo") is a musical genre that originated in the early 1990s in the United Kingdom, especially Bristol. Described as "a fusion of hip hop and electronica until neither genre is recognizable", with slower tempos and a psychedelic sound, it may incorporate elements of funk, dub, soul, jazz, R&B, and other forms of electronic music, as well as sampling from movie soundtracks and other eclectic sources.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/trip-hop.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
