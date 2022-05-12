@@ -1,0 +1,61 @@
+what_do_they_know
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Что они знают?]
+    (*
+        <- lang_ru;;
+    *);
+    [What do they know?]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Что они знают? — второй студийный альбом российского поп-рэпера Егора Крида, выпущенный 23 мая 2017 года под лейблом Black Star.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[What do they know? is the second studio album by Russian pop rapper Egor Creed, released on May 23, 2017 under the label Black Star.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/what-do-they-know.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+what_do_they_know
+<- rrel_author:
+	egor_kreed;
+    timati;;
+
+what_do_they_know
+<- rrel_contributer:
+	egor_kreed;
+    timati;
+    mot;
+    molly;;
+
+what_do_they_know
+<- rrel_related_to_genre:
+    concept_pop;
+    concept_trap_rap;;

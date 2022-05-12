@@ -1,0 +1,70 @@
+guf
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Гуф]
+	(*
+	<- lang_ru;;
+	*);
+	[Guf]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Алексей Сергеевич Долматов (род. 23 сентября 1979, Москва) — российский рэп-исполнитель, сооснователь (совместно с Принципом) и участник группы CENTR.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alexey Sergeevich Dolmatov (born September 23, 1979, Moscow) is a Russian rap artist, co—founder (together with the Principle) and member of the group CENTR.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/guf.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+guf <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Алексей Сергеевич Долматов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alexey Sergeevich Dolmatov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+guf
+<- rrel_performs_in_genre:
+    concept_hiphop;;

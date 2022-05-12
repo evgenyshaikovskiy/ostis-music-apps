@@ -1,0 +1,70 @@
+1630nmyneck
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[163намоейшее]
+	(*
+	<- lang_ru;;
+	*);
+	[1630nmyneck]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Роман Шнуров (родился 31 августа 1996, Москва), более известный как 1630nmyneck — трэп-исполнитель родом из Тюмени, частник объединения MELON MUSIC.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Roman Shnurov (born August 31, 1996, Moscow), better known as 1630nmyneck, is a trap performer originally from Tyumen, a private member of the MELON MUSIC association.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/1630nmyneck.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+1630nmyneck <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Роман Шнуров]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Roman Shnurov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+1630nmyneck
+<- rrel_performs_in_genre:
+    concept_trap_rap;;

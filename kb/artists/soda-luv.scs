@@ -1,0 +1,72 @@
+soda_luv
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Сода Лав]
+	(*
+	<- lang_ru;;
+	*);
+	[Soda Luv]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Владислав Терентюк (родился 28 июля 1997 г.), более известный под сценическим псевдонимом Soda Luv, -  российский хип-хоп исполнитель, автор песен и рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vladislav Terentyuk (born July 28, 1997), better known by the stage name Sara Luv, is a Russian hip-hop artist, songwriter and rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/soda-luv.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+soda_luv <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Владислав Терентюк]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vladislav Terentyuk]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+soda_luv
+<- rrel_performs_in_genre:
+    concept_trap_rap;
+    concept_hiphop;
+    concept_drill;;

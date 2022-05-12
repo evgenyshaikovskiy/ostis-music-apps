@@ -1,0 +1,73 @@
+egor_kreed
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Егор Крид]
+	(*
+	<- lang_ru;;
+	*);
+	[Egor Kred]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Егор Николаевич Булаткин (родился 25 июня 1994 г.), более известный как Егор Крид, -  российский певец, рэпер, автор песен, актёр.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Egor Nikolaevich Bulatkin (born June 25, 1994), better known as Egor Creed, is a Russian singer, rapper, songwriter, actor.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/egor-kreed.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+egor_kreed <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Егор Николаевич Булаткин]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Egor Nikolaevich Bulatkin]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+egor_kreed
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_pop;
+    concept_rhytmnblues;
+    concept_pop_rock;;

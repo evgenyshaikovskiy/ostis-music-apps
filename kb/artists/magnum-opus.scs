@@ -1,0 +1,71 @@
+magnum_opus
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Магнум Опус]
+	(*
+	<- lang_ru;;
+	*);
+	[Magnum Opus]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Александр Демидов (родился 16 мая 1997, Москва), более известный как Магнум Опус — российский рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alexander Demidov (born May 16, 1997, Moscow), better known as Magnum Opus, is a Russian rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/magnum-opus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+magnum_opus <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Александр Демидов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alexander Demidov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+magnum_opus
+<- rrel_performs_in_genre:
+    concept_trap_rap;
+    concept_rhytmnblues;;

@@ -1,12 +1,12 @@
-freerio_2
+bachelor
 <= nrel_inclusion: concept_music_compositions;
 <- sc_node_type;  
 => nrel_main_idtf:
-    [Освободите Рио 2]
+    [Холостяк]
     (*
         <- lang_ru;;
     *);
-    [FREERIO 2]
+    [Bachelor]
     (*
         <- lang_en;;
     *);
@@ -18,7 +18,7 @@ freerio_2
 		...
 		(*
 		-> rrel_example:
-			[Освободите Рио 2 - третий альбом участника объединения RNDM Crew, выпущенный 29 апреля 2022 года.]
+			[Холостяк — дебютный студийный альбом российского певца Егора Крида, выпущенный 2 апреля 2015 года лейблом Black Star Inc.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ freerio_2
 			...
 		(*
 		-> rrel_example:
-			[FREERIO 2 is the third album of a member of the RNDM Crew, released on April 29, 2022.]
+			[The Bachelor is the debut studio album by Russian singer Egor Creed, released on April 2, 2015 by Black Star Inc.]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,28 +36,23 @@ freerio_2
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/free-rio2.jpg"
+		->rrel_example: "file://pictures/bachelor.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
     *);;
 
-freerio_2
+bachelor
 <- rrel_author:
-	og_buda;;
+	egor_kreed;;
 
-freerio_2
+bachelor
 <- rrel_contributer:
-	og_buda;
-    mayot;
-	1630nmyneck;
-	soda_luv;
 	egor_kreed;
-	magnum_opus;;
+    mot;
+    timati;;
 
-freerio_2
+bachelor
 <- rrel_related_to_genre:
-    concept_trap_rap;
-	concept_hiphop;
-	concept_drill;;
+    concept_pop;;

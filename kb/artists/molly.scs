@@ -1,0 +1,71 @@
+molly
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Молли]
+	(*
+	<- lang_ru;;
+	*);
+	[Molly]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ольга Юрьевна Серябкина; также была известна под сценическим псевдонимом Molly (род. 12 апреля 1985, Москва) — российская певица, автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Olga Yuryevna Seryabkina; also known by the stage name Molly (born April 12, 1985, Moscow) is a Russian singer, songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/molly.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+molly <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ольга Юрьевна Серябкина]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Olga Yuryevna Seryabkina]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+molly
+<- rrel_performs_in_genre:
+    concept_pop;
+    concept_euro_pop;;

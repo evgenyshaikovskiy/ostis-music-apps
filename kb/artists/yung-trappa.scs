@@ -1,0 +1,71 @@
+yung_trappa
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Юнг Траппа]
+	(*
+	<- lang_ru;;
+	*);
+	[Yung Trappa]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Владислав Олегович Ширяев (род. 14 августа 1995, Санкт-Петербург), более известный под сценическим псевдонимом Yung Trappa — российский хип-хоп-исполнитель.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vladislav Olegovich Shiryaev (born August 14, 1995, Saint Petersburg), better known by his stage name Yung Trappa, is a Russian hip—hop artist.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/yung-trappa.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+yung_trappa <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Владислав Олегович Ширяев]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vladislav Olegovich Shiryaev]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+yung_trappa
+<- rrel_performs_in_genre:
+    concept_hiphop;
+	concept_trap_rap;;

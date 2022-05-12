@@ -1,0 +1,71 @@
+dava
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Дава]
+	(*
+	<- lang_ru;;
+	*);
+	[Dava]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Давид Ашотович Манукян (род. 16 марта 1993, Новосибирск, Россия), более известен под сценическим псевдонимом Dava — российский хип-хоп и рэп-исполнитель.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[David Ashotovich Manukyan (born March 16, 1993, Novosibirsk, Russia), better known by the stage name Dava, is a Russian hip—hop and rap artist.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/dava.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+dava <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Давид Ашотович Манукян]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[David Ashotovich Manukyan]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+dava
+<- rrel_performs_in_genre:
+    concept_trap_rap;
+	concept_hiphop;;

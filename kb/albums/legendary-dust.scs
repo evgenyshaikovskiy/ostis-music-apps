@@ -1,0 +1,57 @@
+legendary_dust
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Легендарная пыль]
+    (*
+        <- lang_ru;;
+    *);
+    [Legendary Dust]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Легендарная пыль — третий студийный альбом российского рэп-исполнителя из Уфы Моргенштерна, выпущенный 17 января 2020 года. Альбом записывался в прямом эфире на видеохостинге YouTube с 6 по 12 января 2020 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Legendary Dust is the third studio album by Russian rap artist from Ufa Morgenstern, released on January 17, 2020. The album was recorded live on YouTube video hosting from January 6 to January 12, 2020.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/legendary-dust.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+legendary_dust
+<- rrel_author:
+	morgenshtern;;
+
+legendary_dust
+<- rrel_contributer:
+	morgenshtern;
+    slava_marlow;;
+
+legendary_dust
+<- rrel_related_to_genre:
+    concept_hiphop;;

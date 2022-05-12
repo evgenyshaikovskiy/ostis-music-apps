@@ -1,0 +1,46 @@
+concept_pop_punk
+<= nrel_inclusion: concept_punk_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Поп-панк]
+	(*
+	<- lang_ru;;
+	*);
+	[Pop-punk]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Поп-панк — один из базовых жанров панк-рока, характеризующийся смешением принципов и инструментальной секции типичного панк-рока с мягкими поп-мелодиями и приёмами поп-музыки (а также других «лёгких» жанров).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Pop punk is one of the basic genres of punk rock, characterized by a mixture of the principles and instrumental section of typical punk rock with soft pop melodies and techniques of pop music (as well as other "light" genres).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/pop-punk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

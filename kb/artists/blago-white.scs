@@ -1,0 +1,70 @@
+blago_white
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Благо Белый]
+	(*
+	<- lang_ru;;
+	*);
+	[Blago White]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Владислав Померанцев известный как Blago White — рэпер, основатель объединения “MIR FOUNDATION”.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vladislav Pomerantsev, known as Blago White, is a rapper, founder of the MIR FOUNDATION association.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/blago-white.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+blago_white <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Владислав Померанцев]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vladislav Pomerantsev]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+blago_white
+<- rrel_performs_in_genre:
+    concept_trap_rap;;

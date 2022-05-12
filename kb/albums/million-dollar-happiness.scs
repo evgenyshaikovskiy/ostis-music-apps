@@ -1,0 +1,57 @@
+million_dollar_happiness
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Миллион Долларов: Счастье]
+    (*
+        <- lang_ru;;
+    *);
+    [Million Dollar: Happiness]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Миллион Долларов: Счастье — четвёртый студийный альбом российского рэп-исполнителя и музыканта Моргенштерна, выпущенный 21 мая 2021 года на лейбле Atlantic Records Russia.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Million Dollar: Happiness is the fourth studio album by Russian rap artist and musician Morgenstern, released on May 21, 2021 on Atlantic Records Russia.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/million-dollar-happiness.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+million_dollar_happiness
+<- rrel_author:
+	morgenshtern;;
+
+million_dollar_happiness
+<- rrel_contributer:
+	morgenshtern;;
+
+million_dollar_happiness
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_rus_rap;;

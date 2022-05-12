@@ -1,0 +1,46 @@
+concept_punk_rock
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Панк-рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Punk-rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Панк-рок — жанр рок-музыки, сформировавшийся к середине 1970-х годов на территории США, Великобритании и Австралии.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Punk rock is a genre of rock music that was formed by the mid-1970s in the United States, Great Britain and Australia.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/punk-rock.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

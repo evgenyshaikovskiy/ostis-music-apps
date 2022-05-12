@@ -1,0 +1,46 @@
+concept_rus_rap
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Русский рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[Russian rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Русский рэп — музыка в жанре хип-хоп, записанная в России или на постсоветском пространстве на русском языке.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Russian rap is music in the genre of hip—hop recorded in Russia or in the post-Soviet space in Russian.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/rus-rap.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
