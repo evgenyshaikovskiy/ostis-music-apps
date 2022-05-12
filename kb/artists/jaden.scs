@@ -1,0 +1,72 @@
+jaden
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Джейден]
+	(*
+	    <- lang_ru;;
+	*);
+	[Jaden]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джейден Кристофер Сайер Смит (род. 8 июля 1998 года, Малибу, Калифорния, США), также известный под псевдонимом Джейден — американский рэпер и актёр.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jaden Christopher Syre Smith (born July 8, 1998, Malibu, California, USA), also known mononymously as Jaden, is an American rapper, singer and actor.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/jaden.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+jaden <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джейден Кристофер Сайер Смит]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jaden Christopher Syre Smith]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+jaden <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_alternativehiphop;
+	concept_trap_rap;;

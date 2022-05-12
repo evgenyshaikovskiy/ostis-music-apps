@@ -1,0 +1,71 @@
+dj_drama
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Диджей Драма]
+	(*
+	    <- lang_ru;;
+	*);
+	[DJ Drama]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тайри Синк Симмонс (родился 22 апреля 1978 г.), профессионально известный как DJ Drama , - американский ди-джей, исполнительный директор звукозаписи и музыкальный промоутер.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tyree Cinque Simmons (born April 22, 1978), professionally known as DJ Drama, is an American DJ, record executive and music promoter.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/dj-drama.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+dj_drama <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тайри Синк Симмонс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tyree Cinque Simmons]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+dj_drama <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_gangsta;;

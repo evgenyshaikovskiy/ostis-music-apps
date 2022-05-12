@@ -1,0 +1,68 @@
+call_me_if_you_get_lost
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [CALL ME IF YOU GET LOST]
+    (*
+        <- lang_en;;
+    *);
+    [Позвони мне, если заблудишься]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Позвони мне, если потеряешься,— шестой студийный альбом американского рэпера и продюсера Тайлера, зе Криейтора.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Call Me If You Get Lost is the sixth studio album by American rapper and producer Tyler, the Creator.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/cmyigl.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+call_me_if_you_get_lost
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_pop;
+    concept_jazz;
+    concept_soul;
+    concept_reggy;;
+
+call_me_if_you_get_lost
+<- rrel_contributer:
+    tyler_the_creator;
+    lil_uzi_vert;
+    dj_drama;
+    dugg42;
+    pharrell_williams;
+    ty_dolla_sign;
+    lil_wayne;
+    youngboy_nba;;
+
+call_me_if_you_get_lost
+<- rrel_author:
+    tyler_the_creator;
+    dj_drama;;

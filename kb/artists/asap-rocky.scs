@@ -1,0 +1,73 @@
+asap_rocky
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Эйсап Роки]
+	(*
+	    <- lang_ru;;
+	*);
+	[A$AP Rocky]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Эйсап Роки — американский рэпер, музыкальный продюсер, режиссёр, актёр и фотомодель из Гарлема, Нью-Йорк. Является участником хип-хоп коллектива A$AP Mob.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[A$AP Rocky is an American rapper, record producer, director, actor and fashion model from Harlem, New York. He is a member of the hip-hop collective A$AP Mob.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/asap-rocky.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+asap_rocky <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Раким Майерс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rakim Mayers]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+asap_rocky <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_cloud_rap;
+	concept_trap_rap;
+	concept_gangsta;;

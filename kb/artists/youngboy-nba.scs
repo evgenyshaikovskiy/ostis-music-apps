@@ -1,0 +1,73 @@
+youngboy_nba
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[ЯнгБой НБА]
+	(*
+	<- lang_ru;;
+	*);
+	[YoungBoy Never Broke Again]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кентрелл Десин Голден (род. 20 октября 1999 года; Батон-Руж, Луизиана, США), более известный по сценическому псевдониму ЯнгБой НБА, — американский рэпер, певец и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Kentrell DeSean Golden (born October 20, 1999; Baton Rouge, Louisiana, USA), better known by his stage name YoungBoy Never Broke Again (also known as NBA YoungBoy or simply YoungBoy) is an American rapper, singer and songwriter]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/youngboy-nba.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+youngboy_nba <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кентрелл Десин Голден]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Kentrell DeSean Gaulden]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+youngboy_nba <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_ca_music;
+	concept_gangsta;
+    concept_hardcore;;

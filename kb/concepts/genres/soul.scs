@@ -1,0 +1,46 @@
+concept_soul
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[соул]
+	(*
+	<- lang_ru;;
+	*);
+	[soul]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Соул-музыка (часто называемая просто соул) — популярный музыкальный жанр, зародившийся в афроамериканском сообществе США в 1950-х и начале 1960-х годов. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Soul music (often referred to simply as soul) is a popular music genre that originated in the African American community throughout the United States in the 1950s and early 1960s.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/soul.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

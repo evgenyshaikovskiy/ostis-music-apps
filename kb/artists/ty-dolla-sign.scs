@@ -1,0 +1,73 @@
+ty_dolla_sign
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Тай Долла Сайн]
+	(*
+	<- lang_ru;;
+	*);
+	[Ty Dolla Sign]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тайрон Уильям Гриффин — младший (род. 13 апреля 1982 года, Южный Лос-Анджелес), более известный как Тай Долла Сайн, — американский певец, автор песен и музыкальный продюсер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tyrone William Griffin Jr. (born. April 13, 1982, South Los Angeles), better known as Ty Dolla Sign is an American singer, songwriter and record producer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/ty-dolla-sign.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+ty_dolla_sign <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тайрон Уильям Гриффин — младший]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tyrone William Griffin Jr]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+ty_dolla_sign <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+	concept_rhytmnblues;
+	concept_neo_soul;;

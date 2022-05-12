@@ -1,0 +1,46 @@
+concept_neo_soul
+<= nrel_inclusion: concept_soul;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [нео соул]
+    (*
+	    <- lang_ru;;
+	*);
+	[neo soul]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Нео соул — термин, введённый в оборот музыкальным менеджером Кедаром Массенбургом в 1990-х для обозначения нового музыкального стиля, возникшего вследствие развития традиционного соула и современного ритм-энд-блюза.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Neo soul is a term coined by music manager Kedar Massenburg in the 1990s to denote a new musical style that arose as a result of the development of traditional soul and modern rhythm and blues.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/neo_soul.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

@@ -1,0 +1,46 @@
+concept_funk
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[фанк]
+	(*
+	<- lang_ru;;
+	*);
+	[funk]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фанк — это музыкальный жанр, зародившийся в афроамериканских общинах в середине 1960-х годов, когда музыканты создали новую ритмичную танцевальную форму музыки, смешав соул, джаз и ритм-энд-блюз (R&B).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Funk is a music genre that originated in African American communities in the mid-1960s when musicians created a rhythmic, danceable new form of music through a mixture of soul, jazz and rhythm and blues (R&B).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/funk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

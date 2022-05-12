@@ -1,0 +1,72 @@
+steve_lacy
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Стив Лэйси]
+	(*
+	<- lang_ru;;
+	*);
+	[Steve Lacy]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Стив Томас Лейси-Мойя (родился 23 мая 1998 года; Комптон, Калифорния), более известный как Стив Лэйси - американский музыкант, певец, автор песен и музыкальный продюсер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Steve Thomas Lacy-Moya (born May 23, 1998; Compton, California), more commonly known as Steve Lacy, is an American musician, singer, songwriter, and record producer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/steve-lacy.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+steve_lacy <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Стив Томас Лейси-Мойя]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Steve Thomas Lacy-Moya]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+steve_lacy <- rrel_performs_in_genre:
+	concept_rhytmnblues;
+	concept_funk;
+	concept_neo_soul;;
