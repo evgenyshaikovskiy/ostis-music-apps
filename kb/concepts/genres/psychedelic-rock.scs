@@ -1,0 +1,46 @@
+concept_psychedelic_rock
+<= nrel_inclusion: concept_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Психоделический Рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[Psychedelic Rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Психоделический рок (англ. Psychedelic Rock) — музыкальный жанр, возникший в середине 1960-х годов в Западной Европе и Калифорнии (Сан-Франциско и Лос-Анджелесе). Психоделический рок связан с понятиями «психоделия» и «психоделики» (галлюциногены).]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Psychedelic rock is a rock music genre that is inspired, influenced, or representative of psychedelic culture, which is centered on perception-altering hallucinogenic drugs. The music incorporated new electronic sound effects and recording effects, extended solos, and improvisation.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/psychedelic-rock.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
