@@ -10,7 +10,7 @@ isnt_anything
     (*
         <- lang_en;;
     *);
--> rrel_key_sc_element:
+<- rrel_key_sc_element:
     ...
     (*
         <- sc_definition;;
