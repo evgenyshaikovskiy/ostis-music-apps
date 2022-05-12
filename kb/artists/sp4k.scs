@@ -1,0 +1,73 @@
+sp4k
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Супчик]
+	(*
+	    <- lang_ru;;
+	*);
+	[SP4K]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Супчик – музыкант, продюсер, автор многих популярных ремиксов.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[SP4K is a musician, producer, author of many popular remixes.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/sp4k.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+sp4k <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Артём Кулик]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Artem Kulik]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+sp4k <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_cloud_rap;
+	concept_trap_rap;
+    concept_electronic;;

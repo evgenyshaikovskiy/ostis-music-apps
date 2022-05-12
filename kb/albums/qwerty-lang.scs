@@ -1,0 +1,59 @@
+qwerty_lang
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Кверти ленг]
+    (*
+        <- lang_ru;;
+    *);
+    [Qwerty Lang]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [QWERTY LANG — первый совместный альбом Бульвара Депо и продюсера SP4K, который ранее выпускал лишь ремиксы на треки исполнителя.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [QWERTY LANG is the first joint album by Boulevard Depo and producer SP4K, who previously released only remixes of the artist's tracks.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/qwerty-lang.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+qwerty_lang
+<- rrel_related_to_genre:
+    concept_trap_rap;
+    concept_hiphop;;
+
+qwerty_lang
+<- rrel_contributer:
+    boulevard_depo;
+    sp4k;;
+
+qwerty_lang
+<- rrel_author:
+    boulevard_depo;
+    sp4k;;

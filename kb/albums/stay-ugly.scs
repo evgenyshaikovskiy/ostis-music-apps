@@ -1,0 +1,57 @@
+stay_ugly
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Стей Агли]
+    (*
+        <- lang_ru;;
+    *);
+    [Stay Ugly]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Стей Агли(с англ. — «Остаться уродливым») — второй сольный мини-альбом российского хип-хоп исполнителя Артёма Кулика, более известного под сценическим псевдонимом Boulevard Depo, вышедший 22 февраля 2019 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Stay Ugly is the second solo mini—album by Russian hip-hop artist Artem Kulik, better known under the stage name Boulevard Depo, released on February 22, 2019.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/stay-ugly.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+stay_ugly
+<- rrel_related_to_genre:
+    concept_trap_rap;
+    concept_hiphop;;
+
+stay_ugly
+<- rrel_contributer:
+    boulevard_depo;;
+
+stay_ugly
+<- rrel_author:
+    boulevard_depo;;

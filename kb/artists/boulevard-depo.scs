@@ -1,0 +1,72 @@
+boulevard_depo
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Бульвар Депо]
+	(*
+	    <- lang_ru;;
+	*);
+	[Boulevard Depo]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Бульвар Депо — российский хип-хоп исполнитель, автор песен, бывший участник и создатель крупного творческого объединения YungRussia.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Boulevard Depo is a Russian hip—hop artist, songwriter, former member and creator of a large creative association YungRussia.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/boulevard-depo.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+boulevard_depo <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Артём Кулик]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Artem Kulik]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+boulevard_depo <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_cloud_rap;
+	concept_trap_rap;;
