@@ -1,0 +1,45 @@
+Paul_Simonon
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Пол Симонон]
+	(*
+	    <- lang_ru;;
+	*);
+	[Paul Simonon]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Paul Gustave Simonon (born 15 December 1955) is an English musician and artist best known as the bassist for The Clash. More recent work includes his involvement in the supergroup The Good, the Bad & the Queen and playing on the Gorillaz album Plastic Beach in 2010, which saw Simonon reunite with The Clash guitarist Mick Jones and Blur frontman Damon Albarn – and which also led to Simonon becoming the live band's touring bassist for Gorillaz's Escape to Plastic Beach Tour.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Пол Густав Симонон (родился 15 декабря 1955 года) - английский музыкант и художник, наиболее известный как басист The Clash. Более поздняя работа включает его участие в супергруппе The Good, the Bad & the Queen и участие в альбоме Gorillaz Plastic Beach в 2010 году, в ходе которого Симонон воссоединился с гитаристом The Clash Миком Джонсом и фронтменом Blur Дэймоном Албарном, что также привело к тому, что Симонон стал гастролирующим басистом группы Gorillaz. Побег в тур по Пластиковому пляжу.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/paul-simonon.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+

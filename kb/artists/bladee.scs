@@ -1,0 +1,78 @@
+bladee
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Блейд]
+	(*
+	<- lang_ru;;
+	*);
+	[Bladee]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Бенджамин Райхвальд (родился 9 апреля 1994 г.), профессионально известный как Блейд (произносится как «блейд» или «блейди»), — шведский рэпер, певец, автор песен, продюсер, дизайнер, модель и член художественного коллектива Дрейн Генг.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Benjamin Reichwald (born 9 April 1994), known professionally as Bladee (pronounced "blade" or "blade-e"), is a Swedish rapper, singer, songwriter, record producer, designer, model and member of the artistic collective Drain Gang.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/bladee.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+bladee <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Бенджамин Райхвальд]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Benjamin Reichwald]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+bladee <- rrel_performs_in_genre:
+	concept_hiphop;
+    concept_cloud_rap;
+    concept_rhytmnblues;
+    concept_emo;
+	concept_trap_rap;
+    concept_ambient;
+    concept_experimental_hiphop;
+    concept_hyperpop;
+    concept_glitch;;

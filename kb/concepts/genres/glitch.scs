@@ -1,0 +1,45 @@
+concept_glitch
+<= nrel_inclusion: concept_electronic;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [глитч]
+    (*
+	    <- lang_ru;;
+	*);
+	[glitch]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Glitch — жанр электронной музыки, возникший в 1990-х годах. Он был описан как имеющий «эстетику неудачи», отличающуюся преднамеренным использованием аудионосителей, основанных на сбоях, и других звуковых артефактов.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Glitch is a genre of electronic music that emerged in the 1990s. It has been described as having an "aesthetic of failure" distinguished by the deliberate use of glitch-based audio media and other sonic artifacts.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/glitch.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

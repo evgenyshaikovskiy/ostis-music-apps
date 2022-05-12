@@ -1,0 +1,66 @@
+the_fall
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [The Fall]
+    (*
+        <- lang_ru;;
+    *);
+    [The Fall]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [The Fall - четвертый студийный альбом британской виртуальной группы Gorillaz.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [The Fall is the fourth studio album by British virtual band Gorillaz.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/the-fall.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+the_fall
+<- rrel_related_to_genre:
+    concept_electronic;
+    concept_trip_hop;
+    concept_lofi;
+    concept_experimental_hiphop;;
+
+the_fall
+<- rrel_contributer:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;
+    Bobby_Womack;
+    Paul_Simonon;
+    Mick_Jones;;
+
+the_fall
+<- rrel_author:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;

@@ -1,0 +1,74 @@
+ecco2k
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[ЭккоТуКей]
+	(*
+	<- lang_ru;;
+	*);
+	[Ecco2k]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Зак Арогундаде Гатруд, более известный под своим сценическим псевдонимом ЭккоТуКей, — британско-шведский певец, дизайнер, модель, директор и член Дрейн Генг из Хорнстулла, Стокгольм.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Zak Arogundade Gaterud, better known by his stage name Ecco2K, is a British-Swedish singer, designer, model, director and member of Drain Gang from Hornstull, Stockholm.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/ecco2k.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+ecco2k <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Зак Арогундаде Гатруд]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Zak Arogundade Gaterud]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+ecco2k <- rrel_performs_in_genre:
+	concept_pop;
+    concept_cloud_rap;
+    concept_ambient;
+    concept_hyperpop;
+    concept_experimental_pop;;

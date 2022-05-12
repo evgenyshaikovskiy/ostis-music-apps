@@ -1,0 +1,45 @@
+Mick_Jones
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Майкл Джонс]
+	(*
+	    <- lang_ru;;
+	*);
+	[Mick Jones]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Michael Geoffrey Jones (born 26 June 1955) is a British musician, singer and songwriter best known as the lead guitarist, co-lead vocalist, co-founder and songwriter for The Clash until 1983. In 1984, he formed Big Audio Dynamite with Don Letts. Jones has played with the group Carbon/Silicon along with Tony James since 2002 and was part of the Gorillaz live band for a world tour in 2010–2011.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Майкл Джеффри Джонс (родился 26 июня 1955 года) - британский музыкант, певец и автор песен, наиболее известный как ведущий гитарист, со-вокалист, соучредитель и автор песен The Clash до 1983 года. В 1984 году он основал Big Audio Dynamite вместе с Доном Леттсом. Джонс играл с группой Carbon/Silicon вместе с Тони Джеймсом с 2002 года и был частью концертной группы Gorillaz во время мирового турне в 2010-2011 годахМайкл Джеффри Джонс (родился 26 июня 1955 года) - британский музыкант, певец и автор песен, наиболее известный как ведущий гитарист, со-вокалист, соучредитель и автор песен The Clash до 1983 года. В 1984 году он основал Big Audio Dynamite вместе с Доном Леттсом. Джонс играл с группой Carbon/Silicon вместе с Тони Джеймсом с 2002 года и был частью концертной группы Gorillaz во время мирового турне в 2010-2011 годах]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/mick-jones.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+

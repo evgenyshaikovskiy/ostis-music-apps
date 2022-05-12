@@ -1,0 +1,51 @@
+my_bloody_valentine
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [My Bloody Valentine]
+    (*
+        <- lang_ru;;
+    *);
+    [My Bloody Valentine]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [My Bloody Valentine — ирландско-английская альтернативная рок-группа, образованная в городе Дублин в 1983 году, известные за формирования стиля шугейзинг.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [My Bloody Valentine are an Irish alternative rock band formed in Dublin in 1983, known for their early and influential shoegaze style.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/my-bloody-valentine.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+my_bloody_valentine
+<- rrel_performs_in_genre:
+    concept_shoegaze;
+    concept_experimental_rock;
+    concept_dream_pop;
+    concept_noise_rock;;

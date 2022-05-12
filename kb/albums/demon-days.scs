@@ -1,0 +1,64 @@
+demon_days
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Demon Days]
+    (*
+        <- lang_en;;
+    *);
+    [Чертовы дни]
+    (*
+        <- lang_ru;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Demon Days - второй студийный альбом британской виртуальной группы Gorillaz. Впервые он был выпущен 11 мая 2005 года в Японии и 23 мая 2005 года в Соединенном Королевстве.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Demon Days is the second studio album by British virtual band Gorillaz. It was first released on 11 May 2005 in Japan and on 23 May 2005 in the United Kingdom.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/demon-days.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+demon_days
+<- rrel_related_to_genre:
+    concept_alternative_rock;
+    concept_art_rock;
+    concept_trip_hop;
+    concept_pop;
+    concept_hiphop;;
+
+demon_days
+<- rrel_contributer:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;
+
+demon_days
+<- rrel_author:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;

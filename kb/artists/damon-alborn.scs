@@ -1,0 +1,43 @@
+Damon_Alborn
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+    [Дэймон Алборн]
+    (*
+        <- lang_ru;;
+    *);
+    [Damon Alborn]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Деймон Албарн (родился 23 марта 1968 года) - англо-исландский музыкант и певец, наиболее известный как фронтмен и основной автор текстов рок-группы Blur, а также как соучредитель, ведущий вокалист, инструменталист и основной автор песен виртуальной группы Gorillaz.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Damon Albarn (born 23 March 1968) is an English-Icelandic musician and singer, best known as the frontman and primary lyricist of the rock band Blur and as the co-founder, lead vocalist, instrumentalist and primary songwriter of the virtual band Gorillaz. ]
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/damon-albarn.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;

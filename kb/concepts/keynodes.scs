@@ -4,10 +4,12 @@ concept_music_genre <- sc_node_not_relation;;
 concept_music_subgenre <- sc_node_not_relation;;
 concept_musician <- sc_node_not_relation;;
 concept_band <- sc_node_not_relation;;
+concept_musical_association <- sc_node_not_relation;;
 concept_album <- sc_node_not_relation;;
 // relations: NOTE: expand later, move to another file
 rrel_author <- sc_node_role_relation;;
 rrel_band_members <- sc_node_role_relation;;
+rrel_musical_association_member <- sc_node_role_relation;;
 rrel_contributer <- sc_node_role_relation;;
 rrel_related_to_genre <- sc_node_role_relation;;
 rrel_performs_in_genre <- sc_node_role_relation;;

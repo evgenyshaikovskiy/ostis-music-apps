@@ -1,0 +1,63 @@
+plastic_beach
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    ['Пластмассовый' пляж]
+    (*
+        <- lang_ru;;
+    *);
+    [Plastic Beach]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Plastic Beach - третий студийный альбом британской виртуальной группы Gorillaz. Он был выпущен 3 марта 2010 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Plastic Beach is the third studio album by British virtual band Gorillaz. It was released on 3 March 2010.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/plastic-beach.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+plastic_beach
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_funk; // replace with correct later
+    concept_pop;
+    concept_electronic;;
+
+plastic_beach
+<- rrel_contributer:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;
+
+plastic_beach
+<- rrel_author:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;

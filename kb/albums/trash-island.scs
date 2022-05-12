@@ -1,0 +1,68 @@
+trash_island
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [Остров Мусора]
+    (*
+        <- lang_ru;;
+    *);
+    [Trash Island]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Остров Мусора — третий совместный проект Дрейн Генг, выпущенный 11 сентября 2019 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Trash Island is the third collaborative project by Drain Gang dropped on September 11th, 2019.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/trash-island.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+trash_island
+<- rrel_author:
+	bladee;
+    ecco2k;
+    thaiboy_digital;
+    whitearmor;;
+
+trash_island
+<- rrel_contributer:
+	bladee;
+    ecco2k;
+    thaiboy_digital;
+    whitearmor;
+    yung_lean;;
+
+trash_island
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_cloud_rap;
+    concept_emo;
+	concept_trap_rap;
+    concept_ambient;
+    concept_experimental_hiphop;;

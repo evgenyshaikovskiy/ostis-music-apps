@@ -1,0 +1,58 @@
+gorillaz
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Гориллаз]
+    (*
+        <- lang_ru;;
+    *);
+    [Gorillaz]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Gorillaz are an English virtual band formed in 1998 by musician Damon Albarn and artist Jamie Hewlett, from London, England.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Gorillaz - английская виртуальная группа, созданная в 1998 году музыкантом Деймоном Албарном и художником Джейми Хьюлеттом из Лондона, Англия.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/gorillaz.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+
+
+gorillaz
+<- rrel_band_members:
+    Damon_Alborn;
+    Jamie_Hewlett;;
+
+gorillaz
+<- rrel_performs_in_genre:
+    concept_alternative_rock;
+    concept_art_pop;
+    concept_electronic;
+    concept_hiphop;;

@@ -1,0 +1,74 @@
+yung_sherman
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Янг Шерман]
+	(*
+	<- lang_ru;;
+	*);
+	[Yung Sherman]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Аксель Тафвессон (родился 28 февраля 1995, Стокгольм, Швеция), известен как Янг Шерман — шведский диджей и продюсер, член музыкальных коллективов Сэд Бойс и Дрейн Генг.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Axel Tafvesson (born 28 February 1995 in Stockholm, Sweden), known as Young Sherman, is a Swedish DJ and producer, and a member of the musical associations Sad Boys and Drain Gang.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/yung-sherman.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+yung_sherman <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Аксель Тафвессон]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Axel Tafvesson]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+yung_sherman <- rrel_performs_in_genre:
+	concept_hiphop;
+    concept_cloud_rap;
+    concept_experimental_hiphop;
+    concept_ambient;
+    concept_alternativehiphop;;

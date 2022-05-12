@@ -1,0 +1,60 @@
+loveless
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Нелюбимый]
+    (*
+        <- lang_ru;;
+    *);
+    [Loveless]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Loveless - второй студийный альбом ирландско-английской рок-группы My Bloody Valentine. Он был выпущен в ноябре 1991 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Loveless is the second studio album by the Irish-English rock band My Bloody Valentine. It was released November 1991.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/loveless.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+loveless
+<- rrel_related_to_genre:
+    concept_shoegaze;
+    concept_noise_rock;
+    concept_alternative_rock;
+    concept_dream_pop;
+    concept_experimental_rock;;
+
+loveless
+<- rrel_contributer:
+    my_bloody_valentine;;
+
+loveless
+<- rrel_author:
+    my_bloody_valentine;;

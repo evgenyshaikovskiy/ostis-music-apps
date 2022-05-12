@@ -4,13 +4,13 @@ the_king_of_limbs
 => nrel_main_idtf:
     [The King of Limbs]
     (*
-        <- lang_ru;;
+        <- lang_en;;
     *);
     [Король Калек]
     (*
-        <- lang_en;;
+        <- lang_ru;;
     *);
--> rrel_key_sc_element:
+<- rrel_key_sc_element:
     ...
     (*
         <- sc_definition;;
