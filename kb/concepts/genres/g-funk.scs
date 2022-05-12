@@ -1,0 +1,45 @@
+concept_gfunk
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джи-фанк]
+	(*
+	<- lang_ru;;
+	*);
+	[G-Funk]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джи-фанк — это стиль хип-хопа Западного побережья, возникший в начале 1990-х годов под сильным влиянием фанк-звучания 70-х годов таких исполнителей, как Parliament-Funkadelic.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Gee-funk is a West Coast hip-hop style that emerged in the early 1990s under the strong influence of the funk sound of the 70s by artists such as Parliament-Funkadelic.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/g-funk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

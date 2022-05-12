@@ -1,0 +1,70 @@
+klava_koka
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Клава Кока]
+	(*
+	<- lang_ru;;
+	*);
+	[Klava Koka]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Клавдия Вадимовна Высокова (род. 23 июля 1996, Екатеринбург), более известная как Клава Кока, — российская певица, видеоблогер, автор песен, телеведущая.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Claudia Vadimovna Vysokova (born July 23, 1996, Yekaterinburg), better known as Klava Coca, is a Russian singer, video blogger, songwriter, TV presenter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/klava-koka.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+klava_koka <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Клавдия Вадимовна Высокова]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Claudia Vadimovna Vysokova]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+klava_koka
+<- rrel_performs_in_genre:
+    concept_pop;;

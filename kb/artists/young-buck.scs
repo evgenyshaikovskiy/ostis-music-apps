@@ -1,0 +1,72 @@
+young_buck
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Молодой Самец]
+	(*
+	<- lang_ru;;
+	*);
+	[Young Buck]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дэвид Дарнелл Браун (родился 15 марта 1981) — американский рэпер, соло-артист и после ухода из группы в 2008 году, c 1 июня 2014 года снова участник рэп-группы G-Unit.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[David Darnell Brown (born March 15, 1981) is an American rapper, solo artist and after leaving the group in 2008, since June 1, 2014, he has been a member of the rap group G—Unit again.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/young-buck.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+young_buck <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дэвид Дарнелл Браун]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[David Darnell Brown]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+young_buck
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_hardcore;
+    concept_gangsta;;

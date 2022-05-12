@@ -68,4 +68,6 @@ tima_bel <- rrel_key_sc_element:
 tima_bel
 <- rrel_performs_in_genre:
     concept_hiphop;
-    concept_rus_rap;;
+    concept_rus_rap;
+    concept_pop;
+    concept_synth_pop;;
