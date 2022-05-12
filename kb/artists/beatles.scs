@@ -1,0 +1,60 @@
+beatles
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Битлз]
+    (*
+        <- lang_ru;;
+    *);
+    [Beatles]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [The Beatles were an English rock band, formed in Liverpool in 1960, that comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [The Beatles также группу называют «Ливерпульской четвёркой» (англ. Liverpool Four), отдельно участников ансамбля называют «битлами»; в английском языке также распространено упоминание группы как Fab Four — «Великолепная четвёрка» — британская рок-группа из Ливерпуля, основанная в 1960 году, в составе которой играли Джон Леннон, Пол Маккартни, Джордж Харрисон и Ринго Старр.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/beatles.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+
+
+beatles
+<- rrel_band_member:
+    John_Lennon;
+    Paul_McCartney;
+    George_Harrison;
+    Ringo_Starr;;
+
+beatles
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_hard_rock;
+    concept_psychedelic_rock;
+    concept_pop;;

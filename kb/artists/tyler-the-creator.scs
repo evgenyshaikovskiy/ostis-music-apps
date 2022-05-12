@@ -1,0 +1,73 @@
+tyler_the_creator
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Тайлер, зе Криейтор]
+	(*
+	<- lang_ru;;
+	*);
+	[Tyler, the Creator]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тайлер Грегори Оконма (род. 6 марта 1991), более известный как Тайлер, зе Криейтор — американский рэпер, автор песен, продюсер, режиссёр видеоклипов и дизайнер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tyler Gregory Okonma (born March 6, 1991), better known as Tyler, the Creator is an American rapper, songwriter, producer, video director and designer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/tyler-the-creator.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+tyler_the_creator <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тайлер Грегори Оконма]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tyler Gregory Okonma]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+tyler_the_creator <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_alternativehiphop;
+	concept_rhytmnblues;
+	concept_neo_soul;;

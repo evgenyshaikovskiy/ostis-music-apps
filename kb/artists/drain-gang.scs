@@ -1,0 +1,63 @@
+drain_gang
+<= concept_musical_association;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Дрейн Генг]
+    (*
+        <- lang_ru;;
+    *);
+    [Drain Gang]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Дрейн Генг (ранее известная как Гравити бойс Шилд Генг) — творческий коллектив, специализирующийся на музыке и моде.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Drain Gang (formerly known as Gravity Boys Shield Gang) is an artistic collective, focusing on music and fashion.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/drain-gang.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+drain_gang
+<- rrel_musical_association_member:
+    thaiboy_digital;
+    ecco2k;
+    bladee;
+    whitearmor;
+    yung_sherman;;
+
+drain_gang
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_cloud_rap;
+    concept_emo;
+	concept_trap_rap;
+    concept_ambient;
+    concept_experimental_hiphop;
+    concept_experimental_pop;
+    concept_hyperpop;;

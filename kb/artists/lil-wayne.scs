@@ -1,0 +1,72 @@
+lil_wayne
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Лил Уэйн]
+	(*
+	    <- lang_ru;;
+	*);
+	[Lil Wayne]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дуэйн Майкл Картер-младший (родился 27 сентября 1982 г.), профессионально известный как Лил Уэйн, — американский рэпер, певец и автор песен.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Dwayne Michael Carter Jr. (born September 27, 1982), known professionally as Lil Wayne, is an American rapper, singer, and songwriter.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/lil-wayne.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+lil_wayne <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дуэйн Майкл Картер-младший]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Dwayne Michael Carter Jr.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+lil_wayne <- rrel_performs_in_genre:
+	concept_hiphop;
+    concept_freestyle;
+	concept_trap_rap;;

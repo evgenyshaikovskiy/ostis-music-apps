@@ -1,0 +1,71 @@
+strick
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Стрик]
+	(*
+	<- lang_ru;;
+	*);
+	[Strick]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Таурен О'ландер Стрикленд (родился 10 января 1986 г.), профессионально известный как Стрик, - американский рэпер и певец.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tauren O'lander Strickland (born January 10, 1986), known professionally as Strick, is an American rapper and singer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/strick.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+strick <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Таурен О'ландер Стрикленд]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tauren O'lander Strickland]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+strick <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;;

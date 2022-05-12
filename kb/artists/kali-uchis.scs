@@ -1,0 +1,73 @@
+kali_uchis
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Кали Учис]
+	(*
+	<- lang_ru;;
+	*);
+	[Kali Uchis]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кали Учис (род. 17 июля 1994, Перейра, Колумбия) — колумбийско-американская певица, автор песен, продюсер и режиссёр музыкальных видеоклипов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Kali Uchis (born July 17, 1994, Pereira, Colombia) is a Colombian—American singer, songwriter, producer and director of music videos.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/kali-uchis.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+kali_uchis <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Карли-Марина Лоейза]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Karly-Marina Loaiza]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+kali_uchis <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_jazz;
+	concept_lofi;
+    concept_indie_pop;;

@@ -1,0 +1,72 @@
+rex_orange_county
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Рекс Оранж Каунти]
+	(*
+	<- lang_ru;;
+	*);
+	[Rex Orange County]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Рекс Орандж Каунти (родился 4 мая 1998 г.) - английский певец и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rex Orange County (born 4 May 1998), is an English singer and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/rex-orange-county.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+rex_orange_county <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Александр Джеймс О’Коннор]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alexander James O'Connor]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+rex_orange_county <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_jazz;
+	concept_lofi;;

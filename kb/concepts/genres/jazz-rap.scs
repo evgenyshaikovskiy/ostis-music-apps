@@ -1,0 +1,45 @@
+concept_jazz_rap
+<= nrel_inclusion: concept_hiphop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[джаз-рэп]
+	(*
+	<- lang_ru;;
+	*);
+	[jazz rap]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джаз-рэп (или джаз-хип-хоп) — это смесь джаза и хип-хопа, а также альтернативный поджанр хип-хопа, который возник в конце 1980-х — начале 1990-х годов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jazz rap (or jazz hip hop) is a fusion of jazz and hip hop music, as well as an alternative hip hop subgenre, that developed in the late 1980s and early 1990s.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/jazz-rap.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

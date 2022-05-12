@@ -1,0 +1,65 @@
+flower_boy
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Flower Boy]
+    (*
+        <- lang_en;;
+    *);
+    [Флауэр Бой]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Флауэр Бой (альтернативное название Скам Фак Флауэр Бой) — четвёртый студийный альбом американского рэпера Тайлер, зе Криейтор.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Flower Boy (alternatively titled Scum Fuck Flower Boy) is the fourth studio album by American rapper Tyler, the Creator.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/flower-boy.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+flower_boy
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_jazz_rap;
+    concept_neo_soul;;
+
+flower_boy
+<- rrel_contributer:
+    tyler_the_creator;
+    rex_orange_county;
+    kali_uchis;
+    asap_rocky;
+    jaden;
+    steve_lacy;
+    frank_ocean;
+    lil_wayne;;
+
+flower_boy
+<- rrel_author:
+    tyler_the_creator;;

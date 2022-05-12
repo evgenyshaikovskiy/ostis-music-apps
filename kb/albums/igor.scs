@@ -1,0 +1,64 @@
+igor
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [IGOR]
+    (*
+        <- lang_en;;
+    *);
+    [ИГОРЬ]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [ИГОРЬ, выпущенный 17 мая 2019 года, - шестой студийный альбом Тайлера, зе Криейтора.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [IGOR (pronounced EEE-GORE), released on May 17, 2019, is Tyler, the Creator sixth studio album.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/igor.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+igor
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_funk;
+    concept_rhytmnblues;
+    concept_neo_soul;;
+
+igor
+<- rrel_contributer:
+    tyler_the_creator;
+    lil_uzi_vert;
+    playboi_carti;
+    kanye_west;
+    pharrell_williams;
+    charlie_wilson;;
+
+igor
+<- rrel_author:
+    tyler_the_creator;;

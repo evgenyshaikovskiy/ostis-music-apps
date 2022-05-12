@@ -43,3 +43,25 @@ Bobby_Womack
 		*);;
     *);;
 
+Bobby_Womack <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Роберт Дуэйн Вомак]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Robert Dwayne Womack]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;

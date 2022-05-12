@@ -1,0 +1,8 @@
+concept_album
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Музыкальный альбом]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Music album]
+    (* <- lang_en;; *);;

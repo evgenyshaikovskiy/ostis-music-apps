@@ -1,0 +1,73 @@
+charlie_wilson
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Чарли Уилсон]
+	(*
+	    <- lang_ru;;
+	*);
+	[Charlie Wilson]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Чарльз Кент Уилсон (родился 29 января 1953 г.), также известный какя Дядя Чарли или Чарли Уилсон, - американский певец, автор песен, продюсер и бывший ведущий вокалист группы Gap Band.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Charles Kent Wilson (born January 29, 1953), also known as Uncle Charlie or Charlie Wilson, is an American singer, songwriter, record producer and the former lead vocalist of the Gap Band.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/сharlie-wilson.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+charlie_wilson <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Чарльз Кент Уилсон]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Charles Kent Wilson]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+charlie_wilson <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_funk;
+	concept_rhytmnblues;
+	concept_soul;;

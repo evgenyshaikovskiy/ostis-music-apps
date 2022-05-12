@@ -1,0 +1,46 @@
+concept_indie_pop
+<= nrel_inclusion: concept_pop;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [инди-поп]
+    (*
+	    <- lang_ru;;
+	*);
+	[indie pop]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Инди-поп — это музыкальный жанр и субкультура, сочетающая гитарную поп-музыку с этикой DIY идущая вопреки стилю и тону основной поп-музыки.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Indie pop (also typeset as indie-pop or indiepop) is a music genre and subculture that combines guitar pop with DIY ethic in opposition to the style and tone of mainstream pop music.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/indie-pop.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

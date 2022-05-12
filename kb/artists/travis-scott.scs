@@ -1,0 +1,72 @@
+travis_scott
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Трэвис Скотт]
+	(*
+	<- lang_ru;;
+	*);
+	[Travis Scott]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Жак Берман Уэ́бстер II, более известный под псевдонимом Трэвис Скотт — американский рэпер, певец, автор песен и музыкальный продюсер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jacques Berman Webster II, better known by his pseudonym Travis Scott, is an American rapper, singer, songwriter, and record producer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/travis-scott.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+travis_scott <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Жак Берман Уэ́бстер II]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jacques Berman Webster II]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+travis_scott <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_rhytmnblues;;
