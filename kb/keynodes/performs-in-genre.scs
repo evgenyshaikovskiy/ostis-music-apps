@@ -1,0 +1,8 @@
+rrel_performs_in_genre
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [Исполняет в жанре]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Perform's in genre]
+    (* <- lang_en;; *);;

@@ -1,0 +1,8 @@
+concept_band
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Музыкальная группа]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Musical band]
+    (* <- lang_en;; *);;
