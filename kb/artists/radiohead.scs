@@ -20,7 +20,7 @@ radiohead
                 -> rrel_example:
                     [Radiohead are an English rock band formed in Abingdon, Oxfordshire, in 1985. The band consists of Thom Yorke, brothers Jonny Greenwood and Colin Greenwood, Ed O'Brien and Philip Selway.]
                     (*
-                        <- lang_ru;;
+                        <- lang_en;;
                     *);;
             *);
             ...
@@ -28,7 +28,7 @@ radiohead
                 -> rrel_example:
                     ['Radiohead'(англ. одержимый чем-то, фанат) английская рок-группа, образованная в Абингдоне, Оксфордшир, в 1985 году. Группа состоит из Тома Йорка, братьев Джонни и Коллина Гринвуда, Эда О`Брайена и Филиппа Селуэя.']
                     (*
-                        <- lang_en;;
+                        <- lang_ru;;
                     *);;
             *);;
         
