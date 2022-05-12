@@ -1,0 +1,57 @@
+please_please_me
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Please Please Me]
+    (*
+        <- lang_en;;
+    *);
+    [Пожалуйста, обрадуй меня.]
+    (*
+        <- lang_ru;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Please Please Me is the debut studio album by the English rock band the Beatles.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Please Please Me (с англ.— «Пожалуйста, обрадуй меня») — дебютный студийный альбом группы The Beatles, выпущенный 22 марта 1963 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/please-please-me.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+please_please_me
+<- rrel_related_to_genre:
+    concept_rock;
+    concept_pop;;
+
+please_please_me
+<- rrel_contributer:
+    beatles;;
+
+please_please_me
+<- rrel_author:
+    beatles;;

@@ -1,0 +1,58 @@
+hard_days_night
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [A Hard Day's Night]
+    (*
+        <- lang_en;;
+    *);
+    [Вечер трудного дня]
+    (*
+        <- lang_ru;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [A Hard Day's Night (с англ.— «Вечер трудного дня») — третий студийный альбом The Beatles, выпущенный 10 июля 1964.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [A Hard Day's Night is the third studio album by the English rock band the Beatles, released on 10 July 1964.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/hard-days-night.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+hard_days_night
+<- rrel_related_to_genre:
+    concept_rock;
+    concept_art_rock;
+    concept_pop;;
+
+hard_days_night
+<- rrel_contributer:
+    beatles;;
+
+hard_days_night
+<- rrel_author:
+    beatles;;

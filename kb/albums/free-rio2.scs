@@ -1,0 +1,66 @@
+freerio_2
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Освободите Рио 2]
+    (*
+        <- lang_ru;;
+    *);
+    [FREERIO 2]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Освободите Рио 2 - третий альбом участника объединения RNDM Crew, выпущенный 29 апреля 2022 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[FREERIO 2 is the third album of a member of the RNDM Crew, released on April 29, 2022.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/free-rio2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+freerio_2
+<- rrel_author:
+	og_buda;;
+
+freerio_2
+<- rrel_contributer:
+	og_buda;
+    mayot;
+	1630nmyneck;
+	soda_luv;
+	scally_milano;
+	bushido_zho;
+	polyana;
+	egor_krid;
+	magnumopus;;
+
+freerio_2
+<- rrel_related_to_genre:
+    concept_trap_rap;
+	concept_hiphop;
+	concept_drill;;

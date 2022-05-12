@@ -1,0 +1,64 @@
+ysl
+<= concept_musical_association;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [УайЭсЭл]
+    (*
+        <- lang_ru;;
+    *);
+    [YSL]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [УайЭсЭл (также известная как Жизнь Молодого Стоунера Рекордс) — звукозаписывающая компания из Атланты, основанная рэпером Молодой Головорез из Атланты.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [YSL Records (also known as Young Stoner Life Records) is an Atlanta-based record label imprint founded by the Atlanta-based rapper Young Thug.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/ysl.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+ysl
+<- rrel_musical_association_member:
+    young_thug;
+    gunna;
+    lil_keed;
+    strick;
+    wheezy;
+    turbo;;
+
+ysl
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_cloud_rap;
+    concept_emo;
+	concept_trap_rap;
+    concept_ambient;
+    concept_experimental_hiphop;
+    concept_experimental_pop;
+    concept_hyperpop;;

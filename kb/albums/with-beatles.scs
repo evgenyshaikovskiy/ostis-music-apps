@@ -1,0 +1,57 @@
+with_beatles
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [With The Beatles]
+    (*
+        <- lang_en;;
+    *);
+    [Вместе с Битлз]
+    (*
+        <- lang_ru;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [With The Beatles (с англ.— «Вместе с Битлз») — второй студийный альбом группы The Beatles, выпущенный в 1963 году.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [With the Beatles is the second studio album by the English rock band the Beatles.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/with-beatles.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+with_beatles
+<- rrel_related_to_genre:
+    concept_rock;
+    concept_pop;;
+
+with_beatles
+<- rrel_contributer:
+    beatles;;
+
+with_beatles
+<- rrel_author:
+    beatles;;

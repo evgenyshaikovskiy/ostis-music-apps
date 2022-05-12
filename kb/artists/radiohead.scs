@@ -48,7 +48,7 @@ Ed_Obrien <- concept_musician;;
 Philip_Selway <- concept_musician;;
 
 radiohead
-<- rrel_band_members:
+<- rrel_band_member:
     Thom_Yorke;
     Jonny_Greenwood;
     Coling_Greenwood;
