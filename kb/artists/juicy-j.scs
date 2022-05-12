@@ -1,0 +1,70 @@
+juicy_j
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Джус Джей]
+	(*
+	    <- lang_ru;;
+	*);
+	[Juicy J]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джордан Майкл Хьюстон (род. 5 апреля 1975, Мемфис, Теннесси, США), более известный под псевдонимом Juicy J — американский рэпер, продюсер, один из основателей хип-хоп группы Три 6 Мафия.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jordan Michael Houston (born April 5, 1975, Memphis, Tennessee, USA), better known by his pseudonym Juicy J, is an American rapper, producer, and one of the founders of the hip-hop group Three 6 Mafia.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/juicy-j.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+juicy_j <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джордан Майкл Хьюстон]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jordan Michael Houston]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+juicy_j <- rrel_performs_in_genre:
+	concept_hiphop;;

@@ -1,0 +1,45 @@
+concept_techno
+<= nrel_inclusion: concept_electronic;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [техно]
+    (*
+	    <- lang_ru;;
+	*);
+	[techno]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Техно — жанр электронной музыки, зародившийся в Германии и впоследствии подхваченный американскими продюсерами.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Techno is a genre of electronic music that originated in Germany and subsequently picked up by American producers.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/techno.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

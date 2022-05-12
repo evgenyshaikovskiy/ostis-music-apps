@@ -1,0 +1,66 @@
+testing
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [Тестирование]
+    (*
+        <- lang_ru;;
+    *);
+    [Testing]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тестирование — третий студийный альбом американского рэпера Эйсап Роки.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Testing is the third studio album by American rapper ASAP Rocky.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/testing.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+testing
+<- rrel_author:
+	asap_rocky;;
+
+testing
+<- rrel_contributer:
+	asap_rocky;
+    moby;
+    kid_cudi;
+    fka_twigs;
+    skepta;
+    kodak_black;
+    juicy_j;
+    french_montana;
+    frank_ocean;;
+
+testing
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_experimental_hiphop;
+    concept_trap;;
