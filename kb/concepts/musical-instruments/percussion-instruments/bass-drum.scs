@@ -1,5 +1,5 @@
 concept_bass_drum
-<= nrel_inclusion: concept_percussion_musical_instruments; //от кого идёт
+<= nrel_inclusion: concept_percussion_musical_instruments;
 => nrel_main_idtf: [bass_drum] (* <- lang_en;; *);
 => nrel_main_idtf: [басовый барабан] (* <- lang_ru;; *);
 

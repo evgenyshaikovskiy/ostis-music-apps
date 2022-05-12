@@ -20,7 +20,7 @@ nigel_godrich
 		-> rrel_example:
 			[Nigel Timothy Godrich (born 28 February 1971) is an English record producer, recording engineer and musician. He is known for his work with the English rock band Radiohead, having produced all their studio albums since OK Computer (1997) and several projects by the singer Thom Yorke. ]
 			(*
-			    <- lang_ru;;
+			    <- lang_en;;
 			*);;
 		*);
 			...
@@ -28,7 +28,7 @@ nigel_godrich
 		-> rrel_example:
 			[Найджел Тимоти Годрич (родился 28 февраля 1971 года) - английский музыкальный продюсер, звукорежиссер и музыкант. Он известен своей работой с английской рок-группой Radiohead, спродюсировав все их студийные альбомы, начиная с OK Computer (1997) и нескольких проектов певца Тома Йорка.]
 			(*
-			    <- lang_en;;
+			    <- lang_ru;;
 			*);;
 		*);;
 
