@@ -1,0 +1,64 @@
+gorillaz_album
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Gorillaz]
+    (*
+        <- lang_ru;;
+    *);
+    [Гориллаз]
+    (*
+        <- lang_en;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Gorillaz - одноименный дебютный студийный альбом английской виртуальной рок-группы Gorillaz, выпущенный 26 марта 2001 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Gorillaz is the eponymous debut studio album by English virtual band Gorillaz, released on 26 March 2001.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/gorillaz.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+gorillaz_album
+<- rrel_related_to_genre:
+    concept_alternative_rock;
+    concept_art_pop;
+    concept_lofi;
+    concept_trip_hop;
+    concept_hiphop;;
+
+gorillaz_album
+<- rrel_contributer:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;
+
+gorillaz_album
+<- rrel_author:
+    gorillaz;
+    Damon_Alborn;
+    Jamie_Hewlett;;
