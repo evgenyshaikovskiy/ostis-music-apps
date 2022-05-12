@@ -1,14 +1,14 @@
-demon_days
+plastic_beach
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [Demon Days]
-    (*
-        <- lang_en;;
-    *);
-    [Чертовы дни]
+    ['Пластмассовый' пляж]
     (*
         <- lang_ru;;
+    *);
+    [Plastic Beach]
+    (*
+        <- lang_en;;
     *);
 -> rrel_key_sc_element:
     ...
@@ -18,7 +18,7 @@ demon_days
             ...
             (*
                 -> rrel_example:
-                    [Demon Days - второй студийный альбом британской виртуальной группы Gorillaz. Впервые он был выпущен 11 мая 2005 года в Японии и 23 мая 2005 года в Соединенном Королевстве.]
+                    [Plastic Beach - третий студийный альбом британской виртуальной группы Gorillaz. Он был выпущен 3 марта 2010 года.]
                     (*
                         <- lang_ru;;
                     *);;
@@ -26,7 +26,7 @@ demon_days
                 ...
             (*
                 -> rrel_example:
-                    [Demon Days is the second studio album by British virtual band Gorillaz. It was first released on 11 May 2005 in Japan and on 23 May 2005 in the United Kingdom.]
+                    [Plastic Beach is the third studio album by British virtual band Gorillaz. It was released on 3 March 2010.]
                     (*
                         <- lang_en;;
                     *);;
@@ -36,28 +36,27 @@ demon_days
         <= nrel_sc_text_translation:
             ...
             (*
-                -> rrel_example: "file://pictures/demon-days.jpg"
+                -> rrel_example: "file://pictures/plastic-beach.jpg"
                 (*
                     => nrel_format: format_jpg;;
                 *);;
             *);;
     *);;
 
-demon_days
+plastic_beach
 <- rrel_related_to_genre:
-    concept_alternative_rock;
-    concept_art_rock;
-    concept_trip_hop;
+    concept_hiphop;
+    concept_funk; // replace with correct later
     concept_pop;
-    concept_hiphop;;
+    concept_electronic;;
 
-demon_days
+plastic_beach
 <- rrel_contributer:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;
 
-demon_days
+plastic_beach
 <- rrel_author:
     gorillaz;
     Damon_Alborn;
