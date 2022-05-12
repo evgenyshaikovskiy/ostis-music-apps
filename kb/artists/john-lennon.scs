@@ -1,0 +1,50 @@
+John_Lennon
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Джон Леннон]
+	(*
+	<- lang_ru;;
+	*);
+	[John Lennon]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джон Уи́нстон О́но Ле́ннон (англ. John Winston Ono Lennon; имя при рождении — Джон Уи́нстон Ле́ннон (англ. John Winston Lennon); 9 октября 1940, Ливерпуль, Мерсисайд, Англия, Великобритания — 8 декабря 1980, Нью-Йорк, США) — британский рок-музыкант, певец, поэт, композитор, художник, писатель и активист.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[John Winston Ono Lennon (born John Winston Lennon; 9 October 1940 – 8 December 1980) was an English singer, songwriter, musician and peace activist who achieved worldwide fame as the founder, co-songwriter, co-lead vocalist and rhythm guitarist of the Beatles.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/john-lennon.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+John_Lennon
+<- rrel_performs_in_genre:
+    concept_rock;
+	concept_experimental_rock;
+	concept_pop;;
