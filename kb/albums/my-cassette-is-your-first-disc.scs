@@ -1,0 +1,57 @@
+my_cassette_is_your_first_disc
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Твой первый диск — моя кассета]
+    (*
+        <- lang_ru;;
+    *);
+    [Your first disc is my cassette]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Моя кассета — твой первый диск» — второй студийный альбом белорусского певца и рэпера Тимы Белорусских, выпущенный 31 января 2020 года, продолжение дебютного альбома «Твой первый диск — моя кассета».]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["My Cassette is Your First Disc" is the second studio album by Belarusian singer and rapper Tima Belorusskikh, released on January 31, 2020, a continuation of the debut album "Your first disc is My Cassette".]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/my-cassette-is-your-first-disc.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+my_cassette_is_your_first_disc
+<- rrel_author:
+	tima_bel;;
+
+my_cassette_is_your_first_disc
+<- rrel_contributer:
+	tima_bel;;
+
+my_cassette_is_your_first_disc
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_synth_pop;;

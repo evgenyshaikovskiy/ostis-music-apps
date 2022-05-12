@@ -1,0 +1,70 @@
+50cent
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[50 Центов]
+	(*
+	<- lang_ru;;
+	*);
+	[50 Cent]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кёртис Джеймс Джексон III (род. 6 июля 1975, Саут-Джамейка, Нью-Йорк) — американский рэпер, актёр, писатель, боксёрский промоутер и продюсер, известный под сценическим псевдонимом 50 Cent.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Curtis James Jackson III (born July 6, 1975, South Jamaica, New York) is an American rapper, actor, writer, boxing promoter and producer, known by the stage name 50 Cent.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/50cent.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+50cent <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кёртис Джеймс Джексон III]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Curtis James Jackson III]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+50cent
+<- rrel_performs_in_genre:
+    concept_hiphop;;

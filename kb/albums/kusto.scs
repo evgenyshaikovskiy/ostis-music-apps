@@ -1,0 +1,56 @@
+kusto
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type;  
+=> nrel_main_idtf:
+    [Кусто]
+    (*
+        <- lang_ru;;
+    *);
+    [Kusto]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кусто - дебютный студийный альбом, выпущенный 17 марта 2015 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Kusto is the debut studio album released on March 17, 2015.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/kusto.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+kusto
+<- rrel_author:
+	klava_koka;;
+
+kusto
+<- rrel_contributer:
+	klava_koka;;
+
+kusto
+<- rrel_related_to_genre:
+    concept_pop;;

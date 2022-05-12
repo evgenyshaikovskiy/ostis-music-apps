@@ -1,0 +1,72 @@
+nate_dogg
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Нейт Догг]
+	(*
+	<- lang_ru;;
+	*);
+	[Nate Dogg]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Натаниэль Дуэйн Хэйл (19 августа 1969, Кларксдейл, Миссисипи, США — 15 марта 2011, Лонг-Бич, Калифорния, США), более известный как Нейт Догг  — американский исполнитель в стиле джи-фанк.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Nathaniel Duane Hale (August 19, 1969, Clarksdale, Mississippi, USA — March 15, 2011, Long Beach, California, USA), better known as Nate Dogg is an American performer in the style of gee-funk.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/nate-dogg.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+nate_dogg <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Натаниэль Дуэйн Хэйл]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Nathaniel Duane Hale]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+nate_dogg
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_gangsta;
+    concept_gfunk;;
