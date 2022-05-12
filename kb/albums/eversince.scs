@@ -1,0 +1,63 @@
+eversince
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [С тех пор]
+    (*
+        <- lang_ru;;
+    *);
+    [Eversince]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Eversince — дебютный студийный альбом шведского рэпера и участника Drain Gang Bladee, выпущенный 25 мая 2016 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Eversince is the debut studio album by Swedish rapper and member of Drain Gang Bladee, released on May 25, 2016.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/eversince.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+eversince
+<- rrel_author:
+	bladee;;
+
+eversince
+<- rrel_contributer:
+	bladee;
+    whitearmor;;
+
+eversince
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_cloud_rap;
+    concept_rhytmnblues;
+    concept_emo;
+	concept_trap_rap;
+    concept_ambient;
+    concept_experimental_hiphop;;

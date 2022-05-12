@@ -1,0 +1,73 @@
+yung_lean
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Янг Лин]
+	(*
+	<- lang_ru;;
+	*);
+	[Yung Lean]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джонатан Арон Леандоер Хостад (родился 18 июля 1996 г.), профессионально известный как Янг Лин, - шведский рэпер, певец и автор песен, участник группы Сэд Бойс.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jonatan Aron Leandoer Håstad (born July 18, 1996), known professionally as Yung Lean, is a Swedish rapper, singer and songwriter, member of Sad Boys.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/yung-lean.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+yung_lean <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джонатан Арон Леандоер Хостад]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Jonatan Aron Leandoer Håstad]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+yung_lean <- rrel_performs_in_genre:
+	concept_hiphop;
+    concept_cloud_rap;
+    concept_emo;
+    concept_dream_pop;;

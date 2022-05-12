@@ -1,0 +1,73 @@
+thaiboy_digital
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Тайбой Диджитал]
+	(*
+	<- lang_ru;;
+	*);
+	[Thaiboy Digital]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Танапат Бунлеанг (урожденный Хазитин Бонлеунг), более известный под своим сценическим псевдонимом Тайбой Диджитал, тайский рэпер и певец.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Thanapat Bunleang (born Khazitin Bonleunge), better known by his stage name Thaiboy Digital, is a Thai rapper and singer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/thaiboy-digital.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+thaiboy_digital <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Танапат Бунлеанг]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Thanapat Bunleang]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+thaiboy_digital <- rrel_performs_in_genre:
+	concept_hiphop;
+    concept_cloud_rap;
+    concept_experimental_hiphop;
+    concept_experimental_pop;;

@@ -1,0 +1,74 @@
+whitearmor
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Уайтармор]
+	(*
+	<- lang_ru;;
+	*);
+	[Whitearmor]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Людвиг Розенберг (родился в 1993 г., Стокгольм, Швеция), известен как Уайтармор — шведский диджей и продюсер, член музыкального коллектива Дрейн Генг.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Ludwig Rosenberg (born 1993 in Stockholm, Sweden), known as Whitarmore, is a Swedish DJ and producer, and a member of the musical group Drain Gang.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/whitearmor.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+whitearmor <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Людвиг Розенберг]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Ludwig Rosenberg]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+whitearmor <- rrel_performs_in_genre:
+	concept_hiphop;
+    concept_cloud_rap;
+    concept_trans;
+    concept_ambient;
+    concept_electronic;;

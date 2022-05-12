@@ -1,0 +1,73 @@
+yung_gud
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Янг Гуд]
+	(*
+	<- lang_ru;;
+	*);
+	[Yung Gud]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Карл-Микаэль Йоран Берландер (родился 29 августа 1995 г.), профессионально известный как Янг Гуд, — шведский ди-джей и продюсер, наиболее известный как участник группы Сэд Бойс.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Carl-Mikael Göran Berlander (born August 29, 1995), known professionally as Yung Gud, is a Swedish DJ and producer best known as a member of Sad Boys.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/yung-gud.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+yung_gud <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Карл-Микаэль Йоран Берландер]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Carl-Mikael Göran Berlander]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+yung_gud <- rrel_performs_in_genre:
+	concept_electronic;
+    concept_trance;
+    concept_hiphop;
+    concept_trap_rap;;
