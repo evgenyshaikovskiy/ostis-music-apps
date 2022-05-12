@@ -1,14 +1,14 @@
-please_please_me
+with_beatles
 <= nrel_inclusion: concept_album;
 <- sc_type_node;
 => nrel_main_idtf:
-    [Please Please Me]
-    (*
-        <- lang_en;;
-    *);
-    [Пожалуйста, обрадуй меня.]
+    [With The Beatles]
     (*
         <- lang_ru;;
+    *);
+    [Вместе с Битлз]
+    (*
+        <- lang_en;;
     *);
 <- rrel_key_sc_element:
     ...
