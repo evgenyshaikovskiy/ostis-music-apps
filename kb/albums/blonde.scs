@@ -1,0 +1,66 @@
+blonde
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [Блонд]
+    (*
+        <- lang_ru;;
+    *);
+    [Blonde]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Blonde — второй студийный альбом американского музыканта Фрэнка Оушена, вышедший 20 августа 2016 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Блонд — второй студийный альбом американского музыканта Фрэнка Оушена, выпущенный 20 августа 2016 года.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/blonde.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+blonde
+<- rrel_author:
+	frank_ocean;;
+
+blonde
+<- rrel_contributer:
+	frank_ocean;
+    pharrell_williams;
+    tyler_the_creator;
+    andre_3000;
+    yung_lean;
+    kanye_west;
+    Paul_McCartney;
+    John_Lennon;;
+
+blonde
+<- rrel_related_to_genre:
+    concept_rhytmnblues;
+    concept_experimental_pop;
+    concept_soul;
+    concept_psychedelic_pop;;

@@ -55,10 +55,5 @@ ysl
 ysl
 <- rrel_performs_in_genre:
     concept_hiphop;
-    concept_cloud_rap;
-    concept_emo;
 	concept_trap_rap;
-    concept_ambient;
-    concept_experimental_hiphop;
-    concept_experimental_pop;
-    concept_hyperpop;;
+    concept_experimental_hiphop;;

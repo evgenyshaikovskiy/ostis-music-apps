@@ -1,0 +1,71 @@
+lil_keed
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Лил Кид]
+	(*
+	<- lang_ru;;
+	*);
+	[Lil Keed]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ракхид Джевон Рендер (род. 16 марта 1998, Атланта, Джорджия, США), более известен как Лил Кид — американский рэпер, певец и автор песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rackheed Jewon Render (born March 16, 1998, Atlanta, Georgia, USA), better known as Lil Keed, is an American rapper, singer, and songwriter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/lil-keed.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+lil_keed <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ракхид Джевон Рендер]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rackheed Jewon Render]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+lil_keed <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;;
