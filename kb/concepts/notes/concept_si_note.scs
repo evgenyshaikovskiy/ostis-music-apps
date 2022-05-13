@@ -1,0 +1,44 @@
+concept_si_note
+<- concept_music_note;
+=> nrel_main_idtf:
+	[нота си]
+	(*
+	<- lang_ru;;
+	*);
+	[note si]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Си (лат. si) в сольмизации (сольфеджио) — мнемоническое обозначение седьмой ступени диатонического звукоряда. Обозначается латинской буквой «H».]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Si ( lat.  si ) in solmization ( solfeggio ) is a mnemonic for the seventh degree of the diatonic scale . Denoted by the Latin letter "H".]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://si.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

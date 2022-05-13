@@ -1,0 +1,36 @@
+concept_letter_notation
+<= nrel_inclusion: concept_musical_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[буквенная нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[letter notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Буквенная нотация — тип музыкальной нотации, в которой для обозначения высоты музыкального звука используются буквы алфавита (греческого, латинского, русского и др.), а также их графические модификации.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Letter notation is a type of musical notation to indicate the pitch of a musical sound letters of the alphabet (Greek, Latin, Russian, etc.), as well as their graphic modifications, are used Letter notation is the oldest type of notation that retains its meaning to this day.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

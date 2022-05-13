@@ -1,0 +1,37 @@
+concept_duet_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[дуэт]
+	(*
+	<- lang_ru;;
+	*);
+	[duet form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дуэт — музыкальное сочинение для двух инструментов или двух голосов с инструментальным сопровождением.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Duet is a musical composition for two instruments or two voices with instrumental accompaniment.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

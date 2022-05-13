@@ -1,0 +1,37 @@
+concept_fantasy_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[фантазия]
+	(*
+	<- lang_ru;;
+	*);
+	[fantasy form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фанта́зия (итал. fantasia, от лат. phantasia, от др.-греч. φαντασία плод воображения) в европейской музыке — общее обозначение формально и стилистически различных жанров.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Fantasy ( Italian  fantasia , from Latin  phantasia , from other Greek φαντασία is a fruit of the imagination) in European music is a general designation of formally and stylistically different genres.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

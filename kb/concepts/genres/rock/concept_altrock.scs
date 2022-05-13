@@ -1,0 +1,37 @@
+concept_music_subgenre <- sc_node_not_relation;;
+concept_altrock
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Альтернативный рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Alternative rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Альтернати́вный рок — жанр рок-музыки, сформировавшийся из музыкального андеграунда 1980-х и ставший популярным в 1990-е и 2000-е годы. В данном случае слово «альтернатива» подразумевает антитезу мейнстримовой рок-музыке.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alternative rock is a genre of rock music that emerged from the musical underground of the 1980s and became popular in the 1990s and 2000s. In this case, the word "alternative" implies the antithesis of mainstream rock music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

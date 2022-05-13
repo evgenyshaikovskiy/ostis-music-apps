@@ -1,0 +1,36 @@
+concept_mathrock
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Математический рок рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Math rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Математический рок — направление рок-музыки, возникшее в конце 1980-х годов в США. Математический рок характеризуется сложной, нетипичной ритмической структурой и динамикой, резкими, часто негармоничными риффами.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Math rock is a genre of rock music that emerged in the late 1980s in the United States. Mathematical rock is characterized by a complex, atypical rhythmic structure and dynamics, sharp, often inharmonious riffs.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

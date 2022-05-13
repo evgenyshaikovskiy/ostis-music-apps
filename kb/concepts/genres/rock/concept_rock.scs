@@ -1,0 +1,37 @@
+concept_rock
+<= nrel_inclusion: concept_popular_music;
+<- sc_node_not_relation;
+<- concept_music_genre;
+=> nrel_main_idtf:
+	[рок]
+	(*
+	<- lang_ru;;
+	*);
+	[rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Рок (англ. Rock) — обобщающее название ряда направлений популярной музыки. Слово rock (в переводе с англ.— «качать», «укачивать», «качаться») возникло как сокращение от названия рок-н-ролла, хронологически первого жанра рок-музыки, и обозначает характерные для рок-н-ролла ритмические ощущения, связанные с определённой формой движения, по аналогии с roll, twist, swing, shake. Чаще всего (но не обязательно) рок исполняется с использованием электрогитар и ударных. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rock is a generalized name for a number of areas of popular music. The word rock (translated from English - “rock”, “sway”, “rock”) arose as an abbreviation for the name of rock and roll, chronologically the first genre of rock music, and denotes the rhythmic sensations characteristic of rock and roll , associated with a certain form of movement, by analogy with roll, twist, swing, shake. Most often (but not necessarily) rock is performed using electric guitars and drums.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

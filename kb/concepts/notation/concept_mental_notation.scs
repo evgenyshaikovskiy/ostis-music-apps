@@ -1,0 +1,36 @@
+concept_mental_notation
+<= nrel_inclusion: concept_musical_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[невменная нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[mental notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Невменная нотация — тип музыкальной нотации, в которой основным элементом нотной графики (графемой) служит невма.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mental notation ( lat.  neuma , from other Greek νεῦμα ; originally - a sign with the head [nod] or eyes) - a type of musical notation , in which the main element of musical notation ( grapheme ) is neuma.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

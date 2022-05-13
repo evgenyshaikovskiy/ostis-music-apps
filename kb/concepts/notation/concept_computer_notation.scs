@@ -1,0 +1,36 @@
+concept_computer_notation
+<= nrel_inclusion: concept_musical_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[компьютерная нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[computer notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Компьютерная (многие попытки унификации начиная с 1970-х годов; ныне крупнейшими разработчиками программного обеспечения за основу принят формат MusicXML).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Computer (many attempts at unification since the 1970s; now the MusicXML by has).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

@@ -1,0 +1,37 @@
+concept_concerto_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[концерт]
+	(*
+	<- lang_ru;;
+	*);
+	[concerto form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Концерт (нем. Konzert от итал. concerto — гармония, согласие и от лат. concertare — состязаться) — музыкальное произведение, чаще всего для одного или нескольких солирующих инструментов с оркестром.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Concerto ( German  Konzert from Italian  concerto - harmony, harmony and from Latin  concertare - to compete) - a piece of music, most often for one or more solo instruments with an orchestra.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

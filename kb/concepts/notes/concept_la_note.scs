@@ -1,0 +1,44 @@
+concept_la_note
+<- concept_music_note;
+=> nrel_main_idtf:
+	[нота ля]
+	(*
+	<- lang_ru;;
+	*);
+	[note la]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ля (лат. la) в сольмизации (сольфеджио) — нота, мнемоническое обозначение шестой ступени диатонического звукоряда. Аналогично обозначению A или Ас.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[La ( lat.  la ) in solmization ( solfeggio ) - note , mnemonic designation of the sixth step diatonic scale . Similar to the designation A or Ac.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://la.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

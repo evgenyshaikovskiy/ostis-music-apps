@@ -1,0 +1,36 @@
+concept_punk_rock
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Панк-рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Punk rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Панк-рок — жанр рок-музыки, сформировавшийся к середине 1970-х годов на территории США, Великобритании и Австралии. Истоки жанра проистекают из гаражного рока 1960-х, а также других музыкальных форм, ныне известных как протопанк. С самого начала представители жанра противопоставляли себя помпезности мейнстримного рока 1970-х: как правило, панк-группы записывали короткие, очень динамичные песни с резкими мелодиями и грубым вокалом, минимальным набором аппаратуры, а также социальными и политизированными текстами.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Punk rock is a genre of rock music that was formed by the mid-1970s in the United States, Great Britain and Australia. The origins of the genre stem from 1960s garage rock as well as other musical forms now known as protopunk. From the very beginning, representatives of the genre opposed themselves to the bombast of mainstream rock of the 1970s: as a rule, punk bands recorded short, very dynamic songs with harsh melodies and rough vocals, minimal equipment, and social and politicized lyrics.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

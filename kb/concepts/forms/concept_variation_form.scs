@@ -1,0 +1,37 @@
+concept_variation_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[вариационная форма]
+	(*
+	<- lang_ru;;
+	*);
+	[variation form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Одна из старейших музыкальных форм (известна с XIII века). Состоит из темы и не менее двух изменённых воспроизведений. Однократная вариация темы, например, варьированной репризы в сонатной форме, не позволяет отнести его к вариационной форме.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[One of the oldest musical forms (known since the 13th century ). Consists of a theme and at least two modified reproductions. A single variation of a theme, for example, a varied reprise in sonata form, does not allow it to be classified as a variation form.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

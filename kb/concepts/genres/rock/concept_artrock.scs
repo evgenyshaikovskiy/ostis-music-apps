@@ -1,0 +1,36 @@
+concept_artrock
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Арт-рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Art rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Арт-рок (англ. art rock) — жанр экспериментальной и рок-музыки, который характеризуется мелодическими, гармоническими или ритмическими экспериментами, а также большим количеством художественных образов в текстах песен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Art rock is a genre of experimental and rock music, which is characterized by melodic, harmonic or rhythmic experiments, as well as a large number of artistic images in the lyrics.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

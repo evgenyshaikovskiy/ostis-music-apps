@@ -1,0 +1,36 @@
+concept_experimental_notation
+<= nrel_inclusion: concept_musical_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[экспериментальная нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[experimental notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Экспериментальная; этим условным обозначением охватываются различные неунифицированные формы письменной фиксации музыки, применявшиеся в сочинениях композиторов-новаторов XX—XXI веков (например, различные способы нотации микрохроматики).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Experimental; this symbol covers various non -uniform forms of written recording of music used in the works of innovative composers of the 20th-21st centuries (for example, various ways of microchromatic ).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

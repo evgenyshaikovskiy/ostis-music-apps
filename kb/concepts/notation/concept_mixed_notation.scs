@@ -1,0 +1,36 @@
+concept_mixed_notation
+<= nrel_inclusion: concept_musical_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[смешанная нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[mixed notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Cмешанная — дасийная (буквенно-линейная, в ней в IX веке зафиксированы первые образцы европейского профессионального многоголосия), генерал-бас эпохи барокко и отчасти XVIII века (например, в дидактической практике партиментов), невменно-линейная (с расположением невм на линейках и между линейками, её теоретическую кодификацию приписывают Гвидо Аретинскому), джазовая XX века (сочетает буквенно-цифровую и линейную запись) и др.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[mixed - dasia (alphabetic-linear, in it in the 9th century the first examples of European professional polyphony were recorded), bass general era Baroque and partly of the 18th century (for example, in the didactic practice of partiments ), non-linear (with the location of neumes on the rulers and between rulers, its theoretical codification is attributed to Guido Aretinsky ), jazz of the 20th century (combines alphanumeric and linear notation), etc.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

@@ -1,0 +1,36 @@
+concept_noise_rock
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Нойз-рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Noise rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Нойз-рок — музыкальный жанр, стиль рок-музыки, относящийся к экспериментальным и альтернативным её ветвям; возник в 1980-е годы как экспериментальное ответвление панк-рока.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Noise rock is a musical genre, a style of rock music related to its experimental and alternative branches; originated in the 1980s as an experimental offshoot of punk rock.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

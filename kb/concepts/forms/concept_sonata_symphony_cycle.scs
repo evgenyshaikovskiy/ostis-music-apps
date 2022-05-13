@@ -1,0 +1,37 @@
+concept_sonata_symphony_cycle
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сонатно-симфонический цикл]
+	(*
+	<- lang_ru;;
+	*);
+	[sonata-symphony cycle]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сонатно-симфонический цикл — циклическая музыкальная форма произведения, принадлежащего к одному из жанров (симфония, концерт, соната, трио, квартет, квинтет и т. д.), в которых принято хотя бы одну из частей (чаще всего — первую) излагать в сонатной форме.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Sonata-symphony cycle - a cyclic musical form work belonging to one of the genres ( symphony , concerto , sonata , trio , quartet , quintet , etc.), in which it is customary to set out at least one of the parts (most often the first) in sonata form.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+
