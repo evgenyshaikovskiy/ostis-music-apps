@@ -1,0 +1,63 @@
+concept_ash
+<= nrel_inclusion: concept_music_compositions;
+<- sc_type_node;
+=>nrel_main_idtf:
+    [Пепел]
+    (*
+        <- lang_ru;;
+    *);
+    [Ash]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Пепел» — альбом группы «Три дня дождя» в жанре альтернативной музыки и инди. Выпущен 28 октября 2020 г.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["Ashes" is an album by the group "Three Days of Rain" in the genre of alternative music and indi. Released October 28, 2020]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/ash-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+
+author
+<- rrel_author:
+	concept_three_days_of_rain;;
+
+
+contributer
+<- rrel_contributer:
+	concept_three_days_of_rain;
+	Roki;
+	Aikko;;
+
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_indie;
+	concept_alternative_music;;
+
+

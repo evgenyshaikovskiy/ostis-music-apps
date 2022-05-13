@@ -1,0 +1,68 @@
+concept_saypink
+<= concept_musician;
+<- sc_type_node;
+=> nrel_main_idtf:
+	[Сэйпинк!]
+	(*   
+	<- lang_ru;;
+	*);
+	[Saypink!]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сэйпинк! – белорусская команда, входящая в объединение Noah's Ark Crew. Дуэт скрещивает поп-панк с речитативом, предпочитает сэмплы живым инструментам и активно «топит» за минский район Восток.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Saypink! - Belarusian team, part of the association Noah's Ark Crew. The duet crosses pop-punk with recitative, prefers samples to live instruments and actively “drowns” Vostok for the Minsk region.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/saypink.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+concept_saypink <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Влад Кройтор и Никита Шиманович]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vlad Kroitor and Nikita Shimanovich]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

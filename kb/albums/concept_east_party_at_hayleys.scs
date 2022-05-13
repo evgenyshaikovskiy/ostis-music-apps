@@ -1,0 +1,58 @@
+concept_east_party_at_hayleys
+<= nrel_inclusion: concept_music_compositions;
+<- sc_type_node;
+=>nrel_main_idtf:
+    [Восток. Вечеринка у Хейли]
+    (*
+        <- lang_ru;;
+    *);
+    [East. Party at Hayley's]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Восток. Вечеринка у Хейли» — альбом группы «saypink!» в жанре хип-хоп и реп. Был выпущен 28 Сентябрь 2018 г.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["East. Hailey's Party" is an album by Saypink! in the genre of hip-hop and rap. Was released on September 28, 2018.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/east-party-at-hayley-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+author
+<- rrel_author:
+	concept_saypink;;
+
+contributer
+<- rrel_contributer:
+	concept_saypink;;
+
+
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_hip_hop;
+    concept_rap;;

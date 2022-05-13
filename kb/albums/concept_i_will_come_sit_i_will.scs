@@ -1,0 +1,61 @@
+concept_i_will_come_sit_i_will
+<= nrel_inclusion: concept_music_compositions;
+<- sc_type_node;
+=>nrel_main_idtf:
+    [ПРИДУ. СЯДУ. БУДУ]
+    (*
+        <- lang_ru;;
+    *);
+    [I WILL COME. SIT. I WILL]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«ПРИДУ. СЯДУ. БУДУ» — студийный альбом группы «saypink!» в жанре альтернативная музыка и инди. Был выпущен 4 марта 2022 г.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[“I WILL COME. SIT. I WILL BE is a studio album by Saypink! in the genre of alternative music and indie. Was released on March 4, 2022.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/i-will-come-sit-i-will-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+author
+<- rrel_author:
+	concept_saypink;;
+
+contributer
+<- rrel_contributer:
+	concept_saypink;
+	Stargazer;;
+
+
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_alternative_music;
+    concept_indie;;
+
+

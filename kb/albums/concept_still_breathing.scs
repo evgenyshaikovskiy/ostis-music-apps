@@ -1,0 +1,60 @@
+concept_still_breathing
+<= nrel_inclusion: concept_music_compositions;
+<- sc_type_node;
+=>nrel_main_idtf:
+    [Все еще дышу]
+    (*
+        <- lang_ru;;
+    *);
+    [Still Breathing]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Всё ещё дышу» — сольный альбом артиста dvrst. Выпущен 11 июня 2021 г.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["Still Breathing" is a solo album by dvrst. Released June 11, 2021]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/still-breathing-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+
+author
+<- rrel_author:
+	concept_dvrst;;
+
+
+contributer
+<- rrel_contributer:
+	concept_dvrst;;
+
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_phonk;
+    concept_rap;
+    concept_hip_hop;;
