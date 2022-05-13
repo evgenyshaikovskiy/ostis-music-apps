@@ -3,7 +3,7 @@ concept_mathrock
 <- sc_node_not_relation;
 <- concept_music_subgenre;
 => nrel_main_idtf:
-	[Математический рок рок]
+	[Математический рок]
 	(*
 	<- lang_ru;;
 	*);
