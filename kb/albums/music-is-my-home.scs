@@ -1,4 +1,4 @@
-concept_music_is_my_home
+music_is_my_home
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
@@ -46,12 +46,12 @@ concept_music_is_my_home
 
 author
 <- rrel_author:
-	concept_adlin;;
+	adlin;;
 
 
 contributer
 <- rrel_contributer:
-	concept_adlin;
+	adlin;
     totpoc;
     KAZE;;
 

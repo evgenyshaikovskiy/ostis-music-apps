@@ -1,4 +1,4 @@
-concept_still_breathing
+still_breathing
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
@@ -46,12 +46,12 @@ concept_still_breathing
 
 author
 <- rrel_author:
-	concept_dvrst;;
+	dvrst;;
 
 
 contributer
 <- rrel_contributer:
-	concept_dvrst;;
+	dvrst;;
 
 concept_love_addiction_and_marathons
 <- rrel_related_to_genre:

@@ -1,4 +1,4 @@
-concept_dust_saga_pops
+dust_saga_pops
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
@@ -45,11 +45,11 @@ concept_dust_saga_pops
 
 author
 <- rrel_author:
-	concept_saypink;;
+	saypink;;
 
 contributer
 <- rrel_contributer:
-	concept_saypink;;
+	saypink;;
 
 
 concept_love_addiction_and_marathons

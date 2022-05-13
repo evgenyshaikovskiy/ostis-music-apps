@@ -1,12 +1,12 @@
-concept_world_of_illusions
+allie
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
-    [Мир иллюзий]
+    [Элли]
     (*
         <- lang_ru;;
     *);
-    [World of illusions]
+    [Allie]
     (*
         <- lang_en;;
     *);
@@ -18,7 +18,7 @@ concept_world_of_illusions
 		...
 		(*
 		-> rrel_example:
-			[«Мир иллюзий» — сольный альбом исполнителя АДЛИН, в жанре хип-хоп и рэп. Выпущен 23 июля 2021 года]
+			["Элли" — альбом группы «saypink!» в жанре хип-хоп и рэп. Был выпущен 14 декабря 2017 г. ]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ concept_world_of_illusions
 			...
 		(*
 		-> rrel_example:
-			["World of Illusions" is a solo album by ADLIN, in the genre of hip-hop and rap. Released July 23, 2021]
+			["Allie" - an album by the group "saypink!" in the genre of hip-hop and rap. Released December 14, 2017]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,28 +36,25 @@ concept_world_of_illusions
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/world-of-illusions-album.jpg"
+		->rrel_example: "file://pictures/allie-album.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
     *);;
 
-
 author
 <- rrel_author:
-	concept_adlin;;
-
+	saypink;;
 
 contributer
 <- rrel_contributer:
-	concept_adlin;;
+	saypink;
+    Zlata_mai;
+    Lite_Wind;;
 
-concept_world_of_illusions
+
+concept_love_addiction_and_marathons
 <- rrel_related_to_genre:
     concept_hip_hop;
-    concept_rap;;
-
-
-
-
+    concept_rappics;;

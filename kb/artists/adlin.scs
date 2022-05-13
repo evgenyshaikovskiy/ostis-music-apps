@@ -1,4 +1,4 @@
-concept_adlin
+adlin
 <= concept_musician;
 <- sc_type_node;
 => nrel_main_idtf:
@@ -43,7 +43,7 @@ concept_adlin
 		*);;
     *);;
 
-concept_adlin <- rrel_key_sc_element:
+adlin <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;

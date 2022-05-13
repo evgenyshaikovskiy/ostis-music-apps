@@ -1,0 +1,63 @@
+world_of_illusions
+<= nrel_inclusion: concept_music_compositions;
+<- sc_type_node;
+=>nrel_main_idtf:
+    [Мир иллюзий]
+    (*
+        <- lang_ru;;
+    *);
+    [World of illusions]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Мир иллюзий» — сольный альбом исполнителя АДЛИН, в жанре хип-хоп и рэп. Выпущен 23 июля 2021 года]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["World of Illusions" is a solo album by ADLIN, in the genre of hip-hop and rap. Released July 23, 2021]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/world-of-illusions-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+
+author
+<- rrel_author:
+	adlin;;
+
+
+contributer
+<- rrel_contributer:
+	adlin;;
+
+concept_world_of_illusions
+<- rrel_related_to_genre:
+    concept_hip_hop;
+    concept_rap;;
+
+
+
+

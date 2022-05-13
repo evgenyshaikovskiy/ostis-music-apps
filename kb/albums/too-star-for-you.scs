@@ -1,12 +1,12 @@
-concept_i_will_come_sit_i_will
+too_star_for_you
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
-    [ПРИДУ. СЯДУ. БУДУ]
+    [Слишком start для тебя]
     (*
         <- lang_ru;;
     *);
-    [I WILL COME. SIT. I WILL]
+    [Too start for you]
     (*
         <- lang_en;;
     *);
@@ -18,7 +18,7 @@ concept_i_will_come_sit_i_will
 		...
 		(*
 		-> rrel_example:
-			[«ПРИДУ. СЯДУ. БУДУ» — студийный альбом группы «saypink!» в жанре альтернативная музыка и инди. Был выпущен 4 марта 2022 г.]
+			[«Слишком start для тебя» — альбом группы «saypink!» в жанре альтернативная музыка и инди. Был выпущен 1 мая 2020 г.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ concept_i_will_come_sit_i_will
 			...
 		(*
 		-> rrel_example:
-			[“I WILL COME. SIT. I WILL BE is a studio album by Saypink! in the genre of alternative music and indie. Was released on March 4, 2022.]
+			["Too Start for You" is an album by Saypink! in the genre of alternative music and indie. Was released on May 1, 2020.]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,7 +36,7 @@ concept_i_will_come_sit_i_will
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/i-will-come-sit-i-will-album.jpg"
+		->rrel_example: "file://pictures/too-start-for-you-album.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
@@ -45,17 +45,14 @@ concept_i_will_come_sit_i_will
 
 author
 <- rrel_author:
-	concept_saypink;;
+	saypink;;
 
 contributer
 <- rrel_contributer:
-	concept_saypink;
-	Stargazer;;
+	saypink;;
 
 
 concept_love_addiction_and_marathons
 <- rrel_related_to_genre:
     concept_alternative_music;
     concept_indie;;
-
-

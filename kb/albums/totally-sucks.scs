@@ -1,12 +1,12 @@
-cocnept_allie
+totally_sucks
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
-    [Элли]
+    [Полный отстой]
     (*
         <- lang_ru;;
     *);
-    [Allie]
+    [Totally sucks]
     (*
         <- lang_en;;
     *);
@@ -18,7 +18,7 @@ cocnept_allie
 		...
 		(*
 		-> rrel_example:
-			["Элли" — альбом группы «saypink!» в жанре хип-хоп и рэп. Был выпущен 14 декабря 2017 г. ]
+			[«Полный отстой» — альбом группы «saypink!» в жанре альтернативная музыка и инди. Был выпущен 22 ноября 2019 г.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ cocnept_allie
 			...
 		(*
 		-> rrel_example:
-			["Allie" - an album by the group "saypink!" in the genre of hip-hop and rap. Released December 14, 2017]
+			["Totally sucks" - an album by the group "saypink!" in the genre of alternative music and indie. Released November 22, 2019]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,7 +36,7 @@ cocnept_allie
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/allie-album.jpg"
+		->rrel_example: "file://pictures/totally-sucks-album.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
@@ -45,16 +45,15 @@ cocnept_allie
 
 author
 <- rrel_author:
-	concept_saypink;;
+	saypink;;
 
 contributer
 <- rrel_contributer:
-	concept_saypink;
-    Zlata_mai;
-    Lite_Wind;;
+	saypink;
+    Repentov;;
 
 
 concept_love_addiction_and_marathons
 <- rrel_related_to_genre:
-    concept_hip_hop;
-    concept_rappics;;
+    concept_alternative_music;
+    concept_indie;;

@@ -1,4 +1,4 @@
-concept_saypink
+saypink
 <= concept_musician;
 <- sc_type_node;
 => nrel_main_idtf:
@@ -43,7 +43,7 @@ concept_saypink
 		*);;
     *);;
 
-concept_saypink <- rrel_key_sc_element:
+saypink <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;

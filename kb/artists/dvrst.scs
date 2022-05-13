@@ -1,4 +1,4 @@
-concept_dvrst
+dvrst
 <= concept_musician;
 <- sc_type_node;
 => nrel_main_idtf:
@@ -43,7 +43,7 @@ concept_dvrst
 		*);;
     *);;
 
-concept_dvrst <- rrel_key_sc_element:
+dvrst <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;

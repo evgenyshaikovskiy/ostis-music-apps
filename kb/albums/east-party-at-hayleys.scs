@@ -1,12 +1,12 @@
-concept_ash
+east_party_at_hayleys
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
-    [Пепел]
+    [Восток. Вечеринка у Хейли]
     (*
         <- lang_ru;;
     *);
-    [Ash]
+    [East. Party at Hayley's]
     (*
         <- lang_en;;
     *);
@@ -18,7 +18,7 @@ concept_ash
 		...
 		(*
 		-> rrel_example:
-			[«Пепел» — альбом группы «Три дня дождя» в жанре альтернативной музыки и инди. Выпущен 28 октября 2020 г.]
+			[«Восток. Вечеринка у Хейли» — альбом группы «saypink!» в жанре хип-хоп и реп. Был выпущен 28 Сентябрь 2018 г.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ concept_ash
 			...
 		(*
 		-> rrel_example:
-			["Ashes" is an album by the group "Three Days of Rain" in the genre of alternative music and indi. Released October 28, 2020]
+			["East. Hailey's Party" is an album by Saypink! in the genre of hip-hop and rap. Was released on September 28, 2018.]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,28 +36,23 @@ concept_ash
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/ash-album.jpg"
+		->rrel_example: "file://pictures/east-party-at-hayley-album.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
     *);;
 
-
 author
 <- rrel_author:
-	concept_three_days_of_rain;;
-
+	saypink;;
 
 contributer
 <- rrel_contributer:
-	concept_three_days_of_rain;
-	Roki;
-	Aikko;;
+	saypink;;
+
 
 concept_love_addiction_and_marathons
 <- rrel_related_to_genre:
-    concept_indie;
-	concept_alternative_music;;
-
-
+    concept_hip_hop;
+    concept_rap;;

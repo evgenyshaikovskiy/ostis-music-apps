@@ -1,12 +1,12 @@
-concept_east_party_at_hayleys
+i_will_come_sit_i_will
 <= nrel_inclusion: concept_music_compositions;
 <- sc_type_node;
 =>nrel_main_idtf:
-    [Восток. Вечеринка у Хейли]
+    [ПРИДУ. СЯДУ. БУДУ]
     (*
         <- lang_ru;;
     *);
-    [East. Party at Hayley's]
+    [I WILL COME. SIT. I WILL]
     (*
         <- lang_en;;
     *);
@@ -18,7 +18,7 @@ concept_east_party_at_hayleys
 		...
 		(*
 		-> rrel_example:
-			[«Восток. Вечеринка у Хейли» — альбом группы «saypink!» в жанре хип-хоп и реп. Был выпущен 28 Сентябрь 2018 г.]
+			[«ПРИДУ. СЯДУ. БУДУ» — студийный альбом группы «saypink!» в жанре альтернативная музыка и инди. Был выпущен 4 марта 2022 г.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ concept_east_party_at_hayleys
 			...
 		(*
 		-> rrel_example:
-			["East. Hailey's Party" is an album by Saypink! in the genre of hip-hop and rap. Was released on September 28, 2018.]
+			[“I WILL COME. SIT. I WILL BE is a studio album by Saypink! in the genre of alternative music and indie. Was released on March 4, 2022.]
 			(*
 			<- lang_en;;
 			*);;
@@ -36,7 +36,7 @@ concept_east_party_at_hayleys
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/east-party-at-hayley-album.jpg"
+		->rrel_example: "file://pictures/i-will-come-sit-i-will-album.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
@@ -45,14 +45,17 @@ concept_east_party_at_hayleys
 
 author
 <- rrel_author:
-	concept_saypink;;
+	saypink;;
 
 contributer
 <- rrel_contributer:
-	concept_saypink;;
+	saypink;
+	Stargazer;;
 
 
 concept_love_addiction_and_marathons
 <- rrel_related_to_genre:
-    concept_hip_hop;
-    concept_rap;;
+    concept_alternative_music;
+    concept_indie;;
+
+
