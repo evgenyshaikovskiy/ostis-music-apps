@@ -1,0 +1,74 @@
+lana_del_rey
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Лана Дель Рей]
+	(*
+	<- lang_ru;;
+	*);
+	[Lana Del Rey]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Лана Дель Рей (род. 21 июня 1985, Нью-Йорк, США) — американская певица, автор песен и поэтесса.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Lana Del Rey (born June 21, 1985, New York, USA) is an American singer, songwriter and poet.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/lana-del-rey.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+lana_del_rey <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Элизабет Вулридж Грант]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Elizabeth Woolridge Grant]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+lana_del_rey
+<- rrel_performs_in_genre:
+	concept_pop;
+	concept_indie_pop;
+	concept_indie_rock;
+    concept_trip_hop;;

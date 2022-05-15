@@ -1,0 +1,72 @@
+i61
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Айсиксван]
+	(*
+	<- lang_ru;;
+	*);
+	[i61]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Айсиксван – уфимский рэпер, один из основателей объединения Доупклаб и важный участник "ЯнгРаша".]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[I61 is a Ufa rapper, one of the founders of the Dopeclvb association and an important member of YungRussia.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/i61.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+i61 <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фёдор Оралов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Fedor Oralov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+i61 <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_electronic;;

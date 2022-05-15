@@ -1,0 +1,50 @@
+grigory_drach
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+    [Григорий Драч]
+    (*
+        <- lang_ru;;
+    *);
+    [Grigory Drach]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Григорий Драч — московский музыкант, сооснователь, барабанщик и соавтор песен инди-рок-групп «Пасош» и «Семинар». Совместно с участниками группы «Пасош» создал независимый музыкальный лейбл «Домашняя работа».]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Grigory Drach is a Moscow musician, co-founder, drummer and co-author of songs by indie rock bands "Pasosh" and "Seminar". Together with the members of the group "Pasosh" created an independent music label "Homework".]
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/grigoriy-drach.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+grigory_drach
+<- rrel_performs_in_genre:
+    concept_indie_rock;
+    concept_punk;
+    concept_emo;
+    concept_alternative_rock;;

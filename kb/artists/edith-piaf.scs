@@ -1,0 +1,71 @@
+edith_piaf
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+	[Эдит Пиаф]
+	(*
+	<- lang_ru;;
+	*);
+	[Édith Piaf]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Эдит Пиаф (19 декабря 1915 - 10 октября 1963) - французская певица, известная как национальная певица Франции и одна из самых широко известных международных звезд страны.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Édith Piaf (19 December 1915 – 10 October 1963) is a French singer noted as France's national chanteuse and one of the country's most widely known international stars.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/edith-piaf.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+edith_piaf <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Эдит Джованна Гассьон]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Édith Giovanna Gassion]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+edith_piaf <- rrel_performs_in_genre:
+	concept_chanson;
+	concept_gymn;;

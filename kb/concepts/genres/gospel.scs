@@ -1,0 +1,46 @@
+concept_gospel
+<= nrel_inclusion: concept_spiritual_music;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [госпел]
+    (*
+	    <- lang_ru;;
+	*);
+	[gospel]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Госпел (от англ. евангельская музыка) — жанр духовной христианской музыки, появившийся в конце XIX века и развившийся в первой трети XX века в США.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Gospel music is a genre of spiritual Christian music that appeared at the end of the 19th century and developed in the first third of the 20th century in the USA.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/gospel.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

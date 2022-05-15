@@ -1,0 +1,56 @@
+eternelle
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [Этернель]
+    (*
+        <- lang_ru;;
+    *);
+    [Eternelle]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Этернель - второй сборник лучших композиций великой французской шансон-исполнительницы Эдит Пиаф, вышедший в 1987 году.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Eternelle is a first collection of the best compositions of the great French chanson singer Edith Piaf, released in 1987.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/eternelle.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+eternelle
+<- rrel_author:
+	edith_piaf;;
+
+eternelle
+<- rrel_contributer:
+	edith_piaf;;
+
+eternelle
+<- rrel_related_to_genre:
+    concept_chanson;;

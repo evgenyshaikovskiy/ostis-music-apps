@@ -1,0 +1,57 @@
+petar
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Петар]
+    (*
+        <- lang_ru;;
+    *);
+    [Petar]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    ["Петар" - первый сольный студийный альбом бывшего участника панк-группы "пасош".]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    ["Petar" is the first solo studio album by a former member of the punk band "Pasosh".]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/petar.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+petar
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_alternativehiphop;;
+
+petar
+<- rrel_contributer:
+    petar_martic;;
+
+petar
+<- rrel_author:    
+    petar_martic;;

@@ -1,0 +1,58 @@
+norman_fucking_rockwell
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Норман Факин Роквелл!]
+    (*
+        <- lang_ru;;
+    *);
+    [Norman Fucking Rockwell!]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Норман, мать его, Роквелл! — шестой студийный альбом американской певицы и автора песен Ланы Дель Рей, изданный 30 августа 2019 года на лейблах Interscope и Polydor.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Norman Fucking Rockwell is the sixth studio album by American singer-songwriter Lana Del Ray, released on August 30, 2019 on Interscope and Polydor labels.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/norman-fucking-rockwell.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+norman_fucking_rockwell
+<- rrel_related_to_genre:
+    concept_psychedelic_rock;
+    concept_pop;
+    concept_soft_rock;;
+
+norman_fucking_rockwell
+<- rrel_contributer:
+    lana_del_rey;;
+
+norman_fucking_rockwell
+<- rrel_author:
+    lana_del_rey;;

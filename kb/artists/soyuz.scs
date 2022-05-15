@@ -1,0 +1,61 @@
+soyuz
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [СОЮЗ]
+    (*
+        <- lang_ru;;
+    *);
+    [Soyuz]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Soyuz is creative union from Minsk, Belarus. They make pop music inspired by wide variety of genres, from música popular brasileira, spiritual jazz and krautrock to early electronics and avant-garde.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Союз - творческое объединение из Минска, Беларусь. Они создают поп-музыку, вдохновленную самыми разнообразными жанрами, от популярной бразильской музыки, духовного джаза и краут-рока до ранней электроники и авангарда.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/soyuz.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+aliaksei_chumakou <- concept_musician;;
+mikita_arlou <- concept_musician;;
+
+soyuz
+<- rrel_band_member:
+    aliaksei_chumakou;
+    mikita_arlou;;
+
+soyuz
+<- rrel_performs_in_genre:
+    concept_pop;
+    concept_alternative_rock;
+    concept_brazil;
+    concept_jazz;
+    concept_electronic;
+    concept_experimental_rock;;

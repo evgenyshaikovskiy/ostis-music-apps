@@ -1,0 +1,59 @@
+pasosh
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [пасош]
+    (*
+        <- lang_ru;;
+    *);
+    [pasosh]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Pasosh is the russian rock band from Moscow.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Пасош - российская рок-группа из Москвы.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/pasosh.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+pasosh
+<- rrel_band_member:
+    petar_martic;
+    kirill_gorodniy;
+    grigory_drach;;
+
+pasosh
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_alternative_rock;
+    concept_punk;
+    concept_indie_rock;
+    concept_emo;
+    concept_experimental_rock;;

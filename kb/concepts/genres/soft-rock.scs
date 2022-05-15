@@ -1,0 +1,46 @@
+concept_soft_rock
+<= nrel_inclusion: concept_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [софт-рок]
+    (*
+	    <- lang_ru;;
+	*);
+	[soft-rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Софт-рок (англ. «мягкий рок») или лайт-рок («лёгкий рок») — музыкальный жанр, применяющий техники рок-музыки (в частности, элементы фолк-рока) для создания более приятного, мягкого и приглушённого звучания.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Soft rock or light rock is a musical genre that uses rock music techniques (in particular, elements of folk rock) to create a more pleasant, soft and muted sound.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/soft-rock.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

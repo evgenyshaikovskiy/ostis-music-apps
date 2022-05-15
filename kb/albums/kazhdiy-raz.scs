@@ -1,0 +1,58 @@
+kazhdiy_raz
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Каждый раз - самый важный раз]
+    (*
+        <- lang_ru;;
+    *);
+    [Every time is the most important time]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    ["Каждый раз - самый важный раз" - третий студийный альбом московской панк-группы "пасош".]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    ["Every Time is the Most Important Time" is the third studio album by the Moscow punk band Pasosh.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/kazhdiy-raz.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+kazhdiy_raz
+<- rrel_related_to_genre:
+    concept_emo;
+    concept_alternative_rock;
+    concept_indie_rock;;
+
+kazhdiy_raz
+<- rrel_contributer:
+    pasosh;;
+
+kazhdiy_raz
+<- rrel_author:    
+    pasosh;;

@@ -1,0 +1,60 @@
+rare_gods
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Рейр Гадс]
+    (*
+        <- lang_ru;;
+    *);
+    [Rare Gods]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Рейр Гадс - первый совместный альбом учатников объединения "ЯнгРаша", Бульвара Депо и Айсиксвана.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Rare Gods is the first joint album by Boulevard Depo and i61, members of "YungRussia" association.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/rare-gods.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+rare_gods
+<- rrel_related_to_genre:
+    concept_electronic;
+    concept_hiphop;
+    concept_cloud_rap;;
+
+rare_gods
+<- rrel_contributer:
+    boulevard_depo;
+    i61;;
+
+rare_gods
+<- rrel_author:
+    boulevard_depo;
+    i61;;

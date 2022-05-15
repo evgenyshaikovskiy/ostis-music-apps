@@ -1,0 +1,52 @@
+petar_martic
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+    [Петар Мартич]
+    (*
+        <- lang_ru;;
+    *);
+    [Petar Martic]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Петар Мартич (родился 20 мая 1993) — российский певец и музыкант, автор песен в жанрах инди-рока, рэпа и шансона.]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Petar Martic (born May 20, 1993) is a Russian singer and musician, songwriter in the genres of indie rock, rap and chanson.]
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/petar-martic.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+petar_martic
+<- rrel_performs_in_genre:
+    concept_indie_rock;
+    concept_indie_pop;
+    concept_emo;
+    concept_alternative_rock;
+    concept_chanson;
+    concept_alternativehiphop;;

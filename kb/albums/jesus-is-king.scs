@@ -1,0 +1,59 @@
+jesus_is_king
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Иисус - Король]
+    (*
+        <- lang_ru;;
+    *);
+    [Jesus Is King]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Иисус - Король — девятый студийный альбом американского рэпера Канье Уэста. Альбом следует за религиозной темой, с Уэстом, описывающим его как «выражение Евангелия».]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Jesus Is King is the ninth studio album by American rapper Kanye West. The album follows a religious theme, with West describing it as "an expression of the gospel".]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/jesus-is-king.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+jesus_is_king
+<- rrel_related_to_genre:
+    concept_gospel;
+    concept_hiphop;;
+
+jesus_is_king
+<- rrel_contributer:
+    kanye_west;
+    sunday_service_choir;;
+
+jesus_is_king
+<- rrel_author:
+    kanye_west;
+    sunday_service_choir;;

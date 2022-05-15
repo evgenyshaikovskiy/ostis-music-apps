@@ -1,0 +1,59 @@
+II
+<= nrel_inclusion: concept_album;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [II]
+    (*
+        <- lang_ru;;
+    *);
+    [II]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [II - второй студийный альбом беларуской группы "Союз".]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [II is a second studio album by the belarusian band Soyuz.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/II.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+II
+<- rrel_related_to_genre:
+    concept_jazz;
+    concept_brazil;
+    concept_alternative_rock;;
+
+II
+<- rrel_contributer:
+    soyuz;
+    petar_martic;;
+
+II
+<- rrel_author:
+    soyuz;;

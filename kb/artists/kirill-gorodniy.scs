@@ -1,0 +1,50 @@
+kirill_gorodniy
+<= concept_musician;
+<- sc_node_type;
+=> nrel_main_idtf:
+    [Кирилл Городний]
+    (*
+        <- lang_ru;;
+    *);
+    [Kirill Gorodniy]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                [Кирилл Городний — московский музыкант, сооснователь, гитарист и соавтор песен инди-рок-групп «Пасош» и «Семинар». Совместно с участниками группы «Пасош» создал независимый музыкальный лейбл «Домашняя работа».]
+                (*
+                    <- lang_ru;;
+                *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                [Kirill Gorodniy is a Moscow musician, co-founder, guitarist and co-author of songs by indie rock bands "Pasosh" and "Seminar". Together with the members of the group "Pasosh" created an independent music label "Homework".]
+                (*
+                    <- lang_en;;
+                *);;
+            *);;
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/kirill-gorodniy.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+kirill_gorodniy
+<- rrel_performs_in_genre:
+    concept_indie_rock;
+    concept_punk;
+    concept_emo;
+    concept_alternative_rock;;

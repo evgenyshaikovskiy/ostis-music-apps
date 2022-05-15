@@ -1,0 +1,49 @@
+sunday_service_choir
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [Сандей Сервис Хор]
+    (*
+        <- lang_ru;;
+    *);
+    [Sunday Service Choir]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [The Sunday Service Choir is an American gospel group led by artist and producer Kanye West and conducted by choir director Jason White. Beginning in January 2019, the group has performed every Sunday.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Сандей Сервис Хор — это американская группа, исполняющая госпел под руководством артиста и продюсера Канье Уэста и дирижером хора Джейсоном Уайтом. С января 2019 года группа выступает каждое воскресенье.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/sunday-serivce-choir.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+sunday_service_choir
+<- rrel_performs_in_genre:
+    concept_gospel;
+    concept_spiritual_music;;

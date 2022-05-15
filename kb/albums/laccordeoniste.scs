@@ -1,0 +1,56 @@
+laccordeoniste
+<= nrel_inclusion: concept_music_compositions;
+<- sc_node_type; 
+=> nrel_main_idtf:
+    [от аккордеониста до милорда]
+    (*
+        <- lang_ru;;
+    *);
+    [de l'accordeoniste a milord]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[От аккордеониста до милорда - первый сборник лучших композиций великой французской шансон-исполнительницы Эдит Пиаф, вышедший в 1986 году.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[De l'accordeoniste a milord is a first collection of the best compositions of the great French chanson singer Edith Piaf, released in 1986.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/laccordeoniste.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+laccordeoniste
+<- rrel_author:
+	edith_piaf;;
+
+laccordeoniste
+<- rrel_contributer:
+	edith_piaf;;
+
+laccordeoniste
+<- rrel_related_to_genre:
+    concept_chanson;;
