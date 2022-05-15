@@ -1,5 +1,5 @@
 maliy_povzroslel_1
-<= nrel_inclusion: concept_music_compositions;
+<= nrel_inclusion: concept_album;
 <- sc_node_type;  
 => nrel_main_idtf:
     [Малый Повзрослел, ч.1]
