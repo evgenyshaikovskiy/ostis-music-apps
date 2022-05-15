@@ -1,0 +1,44 @@
+concept_fa_note
+<- concept_music_note;
+=> nrel_main_idtf:
+	[нота фа]
+	(*
+	<- lang_ru;;
+	*);
+	[note fa]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фа (лат. fa) в сольмизации (сольфеджио) — мнемоническое обозначение четвёртой ступени диатонического звукоряда. Аналогично обозначению F.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Fa ( lat.  fa ) in solmization (solfeggio) is a mnemonic designation of the fourth degree of the diatonic scale . Similar to F.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://fa.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

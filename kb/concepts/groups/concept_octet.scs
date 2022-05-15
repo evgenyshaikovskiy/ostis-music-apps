@@ -1,0 +1,46 @@
+concept_octet
+<= nrel_inclusion: concept_musical_group;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[октет]
+	(*
+	<- lang_ru;;
+	*);
+	[octet]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Октет (от итал. ottetto, фр. octette, octuor, англ. octet, от лат. octo — восемь)— музыкальный ансамбль из восьми музыкантов-исполнителей, вокалистов или инструменталистов, а также произведение для такого ансамбля.
+]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Octet (from Italian  ottetto , French  octette, octuor , English  octet , from Latin  octo - eight) is a musical ensemble of eight musicians , vocalists or instrumentalists, as well as a work for such an ensemble.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://octet.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

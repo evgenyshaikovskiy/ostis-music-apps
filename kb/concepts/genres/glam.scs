@@ -1,0 +1,36 @@
+concept_glam
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Глэм-рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Glam rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Глэм-рок  — жанр рок-музыки, возникший в Великобритании в самом начале 1970-х гг. и ставший одним из доминирующих жанров первой половины того десятилетия. Для исполнителей глэм-рока были характерны яркий образ, выраженный через театральную эффектность экзотических костюмов, обильное использование макияжа и блесток, андрогинный облик, игры с нетрадиционными гендерными ролями.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Glam rock is a genre of rock music that originated in the UK in the early 1970s. and became one of the dominant genres of the first half of that decade. Glam rock performers were characterized by a vivid image, expressed through the theatrical spectacularity of exotic costumes, the abundant use of makeup and sparkles, androgynous appearance, and games with non-traditional gender roles.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

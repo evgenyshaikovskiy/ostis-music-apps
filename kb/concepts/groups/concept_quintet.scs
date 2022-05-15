@@ -1,0 +1,45 @@
+concept_quintet
+<= nrel_inclusion: concept_musical_group;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квинтет]
+	(*
+	<- lang_ru;;
+	*);
+	[quintet]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Квинтет (итал. quintetto от лат. quintus — «пятый») — музыкальный ансамбль из пяти музыкантов-исполнителей, вокалистов или инструменталистов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Quintet ( Italian  quintetto from Latin  quintus - “fifth”) is a musical ensemble of five performing musicians, vocalists or instrumentalists.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://quintet.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

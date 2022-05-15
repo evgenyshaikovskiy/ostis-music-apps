@@ -1,0 +1,71 @@
+morgenshtern
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Моргенштерн]
+	(*
+	<- lang_ru;;
+	*);
+	[Morgenshtern]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Алишер Тагирович Моргенштерн (при рождении Валеев; род. 17 февраля 1998, Уфа), — российский рэп- и поп-исполнитель, музыкант, шоумен.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alisher Tagirovich Morgenstern (born Valeev; born February 17, 1998, Ufa), is a Russian rap and pop artist, musician, showman.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/morgenshtern.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+morgenshtern <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Алишер Тагирович Моргенштерн]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Alisher Tagirovich Morgenstern]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+morgenshtern
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_trap_rap;;

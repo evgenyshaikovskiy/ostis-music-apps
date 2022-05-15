@@ -1,0 +1,37 @@
+concept_sonata_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сонатная форма]
+	(*
+	<- lang_ru;;
+	*);
+	[sonata form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сонатная форма — это форма, в экспозиции (1 часть) которой проводятся две контрастные темы в разных тональностях (главная партия и побочная), которые повторяются в репризе (3 часть) в ином тональном соотношении — тонально сближаясь (чаще всего, обе в тональности главной темы).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Sonata form is a form in which the exposition (1st part) contains two contrasting themes in different keys (main part and side), which are repeated in the reprise (3rd part) in a different tonal ratio - tonally approaching (most often, both in the key of the main themes).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

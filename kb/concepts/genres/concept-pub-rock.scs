@@ -1,0 +1,36 @@
+concept_pub_rock
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Паб-рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Pub rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Паб-рок — музыкальное направление, возникшее в первой половине 1970-х годов как протестная реакция представителей британского рутс-рока на чрезмерную отполированность звука в прог-роке, и американском AOR, андрогинность звёзд глэм-рока. Паб-рок практически сошёл на нет с приходом панк-рока, прямым предшественником которого он и считается.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Pub rock is a musical direction that emerged in the first half of the 1970s as a protest reaction of British roots rock representatives to the excessively polished sound in prog rock, and American AOR, the androgyny of glam rock stars. Pub rock almost died out with the advent of punk rock, of which it is considered the direct predecessor.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

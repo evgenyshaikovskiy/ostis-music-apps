@@ -1,6 +1,6 @@
 in_rainbows
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [In Rainbows]
     (*

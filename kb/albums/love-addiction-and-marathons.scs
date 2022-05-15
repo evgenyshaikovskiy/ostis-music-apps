@@ -1,6 +1,6 @@
 love_addiction_and_marathons
-<= nrel_inclusion: concept_music_compositions;
-<- sc_node_type;
+<= nrel_inclusion: concept_album;
+
 =>nrel_main_idtf:
     [Любовь, аддикция и марафоны]
     (*
@@ -36,7 +36,6 @@ love_addiction_and_marathons
 	<=nrel_sc_text_translation:
 		...
 		(*
-		// добавь изображение и файл поаккуратнее.
 		->rrel_example: "file://pictures/love-addiction-matahons-album.jpg"
 			(*
 			=> nrel_format: format_jpg;;
@@ -44,19 +43,21 @@ love_addiction_and_marathons
 		*);;
     *);;
 
+author
+<- rrel_author:
+	three_days_of_rain;;
+
+contributer
+<- rrel_contributer:
+	three_days_of_rain;
+	Playingtheangel;
+	Roki;
+	RAY_D;;
 
 
-contributer <- sc_node_not_relation;
-=> concept_three_days_of_rain;
-=> Playingtheangel;
-=> Roki;
-=> RAY_D;;	
-
-author <- sc_node_not_relation;
-=> concept_three_days_of_rain;;
-
-
-concept_love_addiction_and_marathons <= concept_alternative_rock;;
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_alternative_rock;;
 
 
 

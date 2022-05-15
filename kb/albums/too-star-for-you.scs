@@ -1,0 +1,58 @@
+too_star_for_you
+<= nrel_inclusion: concept_album;
+
+=>nrel_main_idtf:
+    [Слишком start для тебя]
+    (*
+        <- lang_ru;;
+    *);
+    [Too start for you]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Слишком start для тебя» — альбом группы «saypink!» в жанре альтернативная музыка и инди. Был выпущен 1 мая 2020 г.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["Too Start for You" is an album by Saypink! in the genre of alternative music and indie. Was released on May 1, 2020.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/too-start-for-you-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+author
+<- rrel_author:
+	saypink;;
+
+contributer
+<- rrel_contributer:
+	saypink;;
+
+
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_alternative_music;
+    concept_indie;;

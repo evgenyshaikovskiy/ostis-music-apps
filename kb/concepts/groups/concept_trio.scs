@@ -1,0 +1,45 @@
+concept_trio
+<= nrel_inclusion: concept_musical_group;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трио]
+	(*
+	<- lang_ru;;
+	*);
+	[trio]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ансамбль из трёх исполнителей-инструменталистов или вокалистов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[An ensemble of three instrumentalists or vocalists.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://trio.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

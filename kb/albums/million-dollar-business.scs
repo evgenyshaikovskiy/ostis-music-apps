@@ -1,0 +1,55 @@
+million_dollar_business
+<= nrel_inclusion: concept_album;
+  
+=> nrel_main_idtf:
+    [Миллион Долларов: Бизнес]
+    (*
+        <- lang_ru;;
+    *);
+    [Million Dollar: Business]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Миллион Долларов: Бизнес — пятый студийный альбом российского рэп-исполнителя и музыканта Моргенштерна, выпущенный 28 мая 2021 года на лейбле Atlantic Records Russia.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Million Dollar: Business is the fifth studio album by Russian rap artist and musician Morgenstern, released on May 28, 2021 on Atlantic Records Russia.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/million-dollar-business.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+million_dollar_business
+<- rrel_author:
+	morgenshtern;;
+million_dollar_business
+<- rrel_contributer:
+	morgenshtern;
+    slava_marlow;;
+million_dollar_business
+<- rrel_related_to_genre:
+    concept_hiphop;
+    concept_rus_rap;;

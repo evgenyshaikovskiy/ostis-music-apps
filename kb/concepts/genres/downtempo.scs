@@ -1,0 +1,45 @@
+concept_downtempo
+<= nrel_inclusion: concept_electronic;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [даунтемпо]
+    (*
+	    <- lang_ru;;
+	*);
+	[downtempo]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Даунте́мпо — стиль в современной электронной музыке. Музыка характеризуется медленным темпом и чаще всего ломанным ритмом.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Downtempo is a style in modern electronic music. The music is characterized by a slow tempo and most often a broken rhythm.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/downtempo.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

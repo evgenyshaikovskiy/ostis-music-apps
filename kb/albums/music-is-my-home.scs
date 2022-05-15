@@ -1,0 +1,65 @@
+music_is_my_home
+<= nrel_inclusion: concept_album;
+
+=>nrel_main_idtf:
+    [Музыка мой дом]
+    (*
+        <- lang_ru;;
+    *);
+    [Misuc is my home]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Музыка мой дом» — альбом исполнителя АДЛИН совместный с другими исполнителями, в жанре хип-хоп и рэп. Выпущен 11 сентября 2020 года]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[“Music is my home” is an album by the artist ADLIN, jointly with other artists, in the genre of hip-hop and rap. Released September 11, 2020]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/music-is-my-house-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+
+author
+<- rrel_author:
+	adlin;;
+
+
+contributer
+<- rrel_contributer:
+	adlin;
+    totpoc;
+    KAZE;;
+
+concept_music_is_my_home
+<- rrel_related_to_genre:
+    concept_hip_hop;
+    concept_rap;;
+
+
+
+

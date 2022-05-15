@@ -1,0 +1,68 @@
+dvrst
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[ДИВЕРСТ]
+	(*   
+	<- lang_ru;;
+	*);
+	[DVRST]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[DVRST — произносится как «Дивёрст». Настоящее имя Валерий Зайцев, является молодым музыкантом из Российской Федерации. Основная сфера деятельности – написание музыкальных композиций в разных направлениях. Находится в непрерывном поиске персонального звучания, что характерно, исключительно путем смешивания многочисленных музыкальных стилей.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[DVRST - Pronounced "Diverst". Real name Valery Zaitsev, is a young musician from the Russian Federation. The main field of activity is writing musical compositions in different directions. Is in a continuous search for a personal sound, which is typical, exclusively by mixing numerous musical styles.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/dvrst.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+dvrst <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Валерий Зайцев]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Valery Zaitsev]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

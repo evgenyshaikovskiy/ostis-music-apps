@@ -1,6 +1,6 @@
 sad_boys
 <= concept_musical_association;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [Сэд Бойс]
     (*

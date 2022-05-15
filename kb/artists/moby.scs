@@ -1,0 +1,77 @@
+moby
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Моби]
+	(*
+	    <- lang_ru;;
+	*);
+	[Moby]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ри́чард Ме́лвилл Холл (более известный под псевдонимом Мо́би; род. 11 сентября 1965, Гарлем, Нью-Йорк) — американский диджей, певец, композитор, мультиинструменталист и исполнитель, работающий в различных жанрах — от электроники до поп-музыки, рока и панка.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Richard Melville Hall (better known by his pseudonym Moby; born September 11, 1965, Harlem, New York) is an American DJ, singer, songwriter, multi-instrumentalist and performer working in various genres - from electronic to pop music, rock and punk.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/moby.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+moby <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ри́чард Ме́лвилл Холл]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Richard Melville Hall]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+moby <- rrel_performs_in_genre:
+	concept_techno;
+	concept_trip_hop;
+	concept_downtempo;
+	concept_house;
+    concept_ambient;
+    concept_electronic_rock;
+    concept_alternative_rock;
+    concept_punk_rock;;

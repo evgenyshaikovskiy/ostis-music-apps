@@ -1,5 +1,5 @@
 concept_reed_family
-<= nrel_inclusion: concept_wind_musical_instruments; //от кого идёт
+<= nrel_inclusion: concept_wind_musical_instruments;
 => nrel_main_idtf: [Reed family] (* <- lang_en;; *);
 => nrel_main_idtf: [Семейство язычковых] (* <- lang_ru;; *);
 

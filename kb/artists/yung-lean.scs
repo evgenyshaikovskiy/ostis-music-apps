@@ -1,6 +1,6 @@
 yung_lean
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Янг Лин]
 	(*

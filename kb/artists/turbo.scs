@@ -1,6 +1,6 @@
 turbo
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Турбо]
 	(*

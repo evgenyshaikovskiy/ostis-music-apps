@@ -1,0 +1,46 @@
+concept_euro_pop
+<= nrel_inclusion: concept_pop;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [евро-поп]
+    (*
+	    <- lang_ru;;
+	*);
+	[euro-rock]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Европоп — стиль поп-музыки, созданный в Европе в 1970-х годах, с подчёркнутыми легко запоминающимися ритмами, ровной музыкой и простыми текстами.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Europop is a style of pop music created in Europe in the 1970s, with emphasized easy-to-remember rhythms, smooth music and simple lyrics.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/euro-pop.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

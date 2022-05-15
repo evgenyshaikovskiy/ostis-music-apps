@@ -1,0 +1,36 @@
+concept_gothic
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Готик-рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Gothic rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Готик-рок  — музыкальный жанр, возникший как ответвление пост-панка на рубеже 1970-х и 1980-х годов. В начале 1980-х жанр стал отдельным направлением. В музыке преобладают мрачные темы и интеллектуальные направления, такие как романтизм, нигилизм, а также готичное направление в искусстве Нового времени. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Gothic rock is a musical genre that emerged as an offshoot of post-punk at the turn of the 1970s and 1980s. In the early 1980s, the genre became a separate direction. The music is dominated by dark themes and intellectual trends such as romanticism, nihilism, as well as the gothic trend in modern art.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

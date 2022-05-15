@@ -1,6 +1,6 @@
 john_leckie
 <= concept_musician;
-<- sc_type_node;
+
 => nrel_main_idtf:
 	[Джон Леки]
 	(*

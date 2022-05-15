@@ -1,0 +1,37 @@
+concept_rondo_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[рондо]
+	(*
+	<- lang_ru;;
+	*);
+	[rondo form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Свобода, свойственная сонатной форме, расширяется в рондо. Её форма представляет собой конструкцию ABACADAEAF… То есть совершенно разные фрагменты, тональности и размеры связываются начальной темой A.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[The freedom inherent in sonata form expands in the rondo. Its form is an ABACADAEAF construction... That is, completely different fragments, keys and sizes are connected by the initial theme A.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

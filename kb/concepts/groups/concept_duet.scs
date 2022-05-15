@@ -1,0 +1,45 @@
+concept_duet
+<= nrel_inclusion: concept_musical_group;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[дуэт]
+	(*
+	<- lang_ru;;
+	*);
+	[duet]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дуэт (итал. Duetto — двойка) — музыкальное сочинение для двух инструментов или двух голосов с инструментальным сопровождением. Каждая партия дуэта имеет самостоятельный характер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Duet ( Italian  Duetto - deuce) - a musical composition for two instruments or two voices with instrumental accompaniment . Each part duet has an independent character.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://duet.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

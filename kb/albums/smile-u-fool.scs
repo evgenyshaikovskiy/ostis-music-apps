@@ -1,0 +1,57 @@
+smile_u_fool
+<= nrel_inclusion: concept_album;
+  
+=> nrel_main_idtf:
+    [Улыбнись, дурак!]
+    (*
+        <- lang_ru;;
+    *);
+    [Smile, you fool!]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Улыбнись, дурак! — второй музыкальный альбом российского видеоблогера и рэп-исполнителя Алишера Моргенштерна, выпущенный 1 января 2019 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Smile, you fool! is the second music album by Russian video blogger and rap artist Alisher Morgenstern, released on January 1, 2019.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/smile-u-fool.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+smile_u_fool
+<- rrel_author:
+	morgenshtern;;
+
+smile_u_fool
+<- rrel_contributer:
+	morgenshtern;
+    4teen;;
+
+smile_u_fool
+<- rrel_related_to_genre:
+    concept_hiphop;;

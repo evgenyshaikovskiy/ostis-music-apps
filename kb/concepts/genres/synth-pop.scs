@@ -1,0 +1,45 @@
+concept_synth_pop
+<= nrel_inclusion: concept_electronic;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Синти-поп]
+	(*
+	<- lang_ru;;
+	*);
+	[Synth-pop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Синти-поп (также известный как технопоп) — жанр электронной музыки, ставший известным в 1980-х годах, в котором синтезатор является доминирующим музыкальным инструментом.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Synth-pop (also known as technopop) is a genre of electronic music that became famous in the 1980s, in which the synthesizer is the dominant musical instrument.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/synth-pop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

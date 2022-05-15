@@ -1,0 +1,45 @@
+concept_quartet
+<= nrel_inclusion: concept_musical_group;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квартет]
+	(*
+	<- lang_ru;;
+	*);
+	[quartet]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Квартет (итал. quartetto, от лат. quar­tus — чет­вёр­тый) — музыкальный ансамбль из 4 музыкантов, вокалистов или (и) инструменталистов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Quartet (Italian quartetto, from Latin quartus - fourth) - a musical ensemble of 4 musicians, vocalists and (and) instrumentalists]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://quartet.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

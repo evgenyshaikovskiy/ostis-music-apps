@@ -1,0 +1,35 @@
+concept_musical_form
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[музыкальная форма]
+	(*
+	<- lang_ru;;
+	*);
+	[musical form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Музыкальная форма (от лат. forma — вид; образ; красота; лат. слово происходит от др.-греч. μορφή вид, очертания; внешность; красота) — многозначный музыкальный термин, описывающий строение музыкального произведения.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Musical form (from lat.  forma - appearance; image; beauty; lat. the word comes from other Greek μορφή appearance, outlines; appearance; beauty) is an ambiguous musical term that describes the structure of a musical work.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

@@ -1,0 +1,71 @@
+slava_marlow
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Слава Мэрлоу]
+	(*
+	<- lang_ru;;
+	*);
+	[Slava Marlow]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Артём Артёмович Готлиб (род. 27 октября 1999, Новосибирск), более известный как Slava Marlow, — российский музыкальный продюсер, автор песен и видеоблогер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Artem Artemovich Gotlib (born October 27, 1999, Novosibirsk), better known as Slava Marlow, is a Russian music producer, songwriter and video blogger.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/slava-marlow.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+slava_marlow <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Артём Артёмович Готлиб]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Artem Artemovich Gotlib]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+slava_marlow
+<- rrel_performs_in_genre:
+    concept_pop;
+    concept_rus_rap;;

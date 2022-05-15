@@ -1,0 +1,72 @@
+kodak_black
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Кодак Блэк]
+	(*
+	    <- lang_ru;;
+	*);
+	[Kodak Black]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Билл К. Капри (род. 11 июня 1997), более известный как Кодак Блэк — американский хип-хоп исполнитель из Помпано-Бич, Флорида.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Bill K. Capri (born June 11, 1997), better known as Kodak Black, is an American hip hop artist from Pompano Beach, Florida.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/kodak-black.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+kodak_black <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Андре Лорен Бенджамин]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[André Lauren Benjamin]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+kodak_black <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_trap_rap;
+    concept_mumble;;

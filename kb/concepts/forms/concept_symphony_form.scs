@@ -1,0 +1,37 @@
+concept_symphony_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[симфония]
+	(*
+	<- lang_ru;;
+	*);
+	[symphony form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Произведение, объединяющее несколько разных музыкальных форм, обычно в оркестровом исполнении. Как правило, состоит из четырёх частей (но не обязательно, главная идея симфонии — сочетание разных музыкальных форм).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[A work that combines several different musical forms, usually performed by an orchestra. As a rule, it consists of four parts (but not necessarily, the main idea of ​​the symphony is a combination of different musical forms).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

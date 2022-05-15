@@ -1,0 +1,59 @@
+58
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [58]
+    (*
+        <- lang_ru;;
+    *);
+    [58]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[58 — третий студийный альбом российского певца Егора Крида, выпущенный 10 апреля 2020 года российским отделением лейбла Warner Music Group.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[58 is the third studio album by Russian singer Egor Creed, released on April 10, 2020 by the Russian branch of the Warner Music Group label.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/58.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+58
+<- rrel_author:
+	egor_kreed;;
+
+58
+<- rrel_contributer:
+	egor_kreed;
+    dava;
+    morgenshtern;
+    nysha;;
+
+58
+<- rrel_related_to_genre:
+    concept_trap_rap;
+    concept_hiphop;;

@@ -1,0 +1,37 @@
+concept_text_musical_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[текстомузыкальная форма]
+	(*
+	<- lang_ru;;
+	*);
+	[text-musical form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Текстомузыкальная форма (в альтернативной орфографии — тексто-музыкальная форма) — тип музыкальной формы, специфика которой определяется строением молитвословного или поэтического текста.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Text-musical form (in alternative orthography - text-musical form ) is a type of musical form , the specificity of which is determined by the structure of a prayerful or poetic text.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

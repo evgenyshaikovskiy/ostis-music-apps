@@ -1,0 +1,37 @@
+concept_strophic_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[строфическая форма]
+	(*
+	<- lang_ru;;
+	*);
+	[strophic form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Строфическая форма — разновидность текстомузыкальной песенной формы, в основе которой лежит поэтическая строфа (например, в старинной французской шансон).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Strophic form - a kind of text-musical song form, which is based on a poetic stanza (for example, in the old French chanson ).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

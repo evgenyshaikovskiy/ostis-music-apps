@@ -1,0 +1,72 @@
+fka_twigs
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[ЭфКейЭй твигс]
+	(*
+	    <- lang_ru;;
+	*);
+	[FKA twigs]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Талия Дебретт Барнетт (род. 17 января 1988), более известная под сценическим именем ЭфКейЭй твигс — британская певица, автор песен и танцовщица родом из Глостершира.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Thalia Debrett Barnett (born 17 January 1988), better known by her stage name FKA twigs, is an English singer-songwriter and dancer from Gloucestershire.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/fka-twigs.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+fka_twigs <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Талия Дебретт Барнетт]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Thalia Debrett Barnett]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+fka_twigs <- rrel_performs_in_genre:
+	concept_electronic;
+    concept_rhytmnblues;
+    concept_trip_hop;;

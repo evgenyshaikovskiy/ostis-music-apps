@@ -1,0 +1,73 @@
+mot
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Мот]
+	(*
+	<- lang_ru;;
+	*);
+	[Mot]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Матвей Александрович Мельников (род. 2 марта 1990, Крымск), более известный под сценическим псевдонимом Мот — российский музыкант, рэпер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Matvey Aleksandrovich Melnikov (born March 2, 1990, Krymsk), better known by his stage name Moth, is a Russian musician, rapper.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/mot.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+mot <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Матвей Александрович Мельников]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Matvey Aleksandrovich Melnikov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+mot
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_trap_rap;
+    concept_rhytmnblues;
+    concept_electronic;;

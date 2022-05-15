@@ -1,6 +1,6 @@
 razvlechenie
-<= nrel_inclusion: concept_music_compositions;
-<- sc_type_node;
+<= nrel_inclusion: concept_album;
+
 => nrel_main_idtf:
     [Развлечение]
     (*

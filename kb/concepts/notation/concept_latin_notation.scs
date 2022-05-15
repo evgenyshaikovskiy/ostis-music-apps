@@ -1,0 +1,45 @@
+concept_latin_notation
+<= nrel_inclusion: concept_letter_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[латинская нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[latin notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Латинская буквенная неоктавная нотация (использовались буквы алфавита от A до P) впервые регистрируется в учебных трактатах эпохи Каролингского Возрождения, например, в анонимном трактате IX в.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Latin alphabetic non-octave notation (letters of the alphabet from A to P ) is first recorded in educational treatises of the Carolingian Renaissance, for example, in an anonymous treatise of the 9th century.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://latin_notation.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

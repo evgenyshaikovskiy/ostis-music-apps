@@ -1,0 +1,56 @@
+indecent_about_personal
+<= nrel_inclusion: concept_album;
+  
+=> nrel_main_idtf:
+    [Неприлично о личном]
+    (*
+        <- lang_ru;;
+    *);
+    [Indecent about personal]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Неприлично о личном» — второй студийный альбом российской певицы и автора песен Клавы Коки. Он был выпущен под лейблом Black Star Inc. 22 ноября 2019 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["Indecently Personal" is the second studio album by Russian singer and songwriter Klava Koki. It was released under the label Black Star Inc. on November 22, 2019.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/indecent-about-personal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+indecent_about_personal
+<- rrel_author:
+	klava_koka;;
+
+indecent_about_personal
+<- rrel_contributer:
+	klava_koka;;
+
+indecent_about_personal
+<- rrel_related_to_genre:
+    concept_pop;;

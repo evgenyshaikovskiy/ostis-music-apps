@@ -1,6 +1,6 @@
 freerio_2
-<= nrel_inclusion: concept_music_compositions;
-<- sc_node_type;  
+<= nrel_inclusion: concept_album;
+  
 => nrel_main_idtf:
     [Освободите Рио 2]
     (*
@@ -53,11 +53,8 @@ freerio_2
     mayot;
 	1630nmyneck;
 	soda_luv;
-	scally_milano;
-	bushido_zho;
-	polyana;
-	egor_krid;
-	magnumopus;;
+	egor_kreed;
+	magnum_opus;;
 
 freerio_2
 <- rrel_related_to_genre:

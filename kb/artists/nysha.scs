@@ -1,0 +1,71 @@
+nysha
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Нюша]
+	(*
+	<- lang_ru;;
+	*);
+	[Nysha]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Анна Владимировна Шурочкина (более известная как Нюша; род. 15 августа 1990, Москва) — российская певица, автор песен, композитор, актриса.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Anna Vladimirovna Shurochkina (better known as Nyusha; b. August 15, 1990, Moscow) is a Russian singer, songwriter, composer, actress.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/nysha.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+nysha <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Анна Владимировна Шурочкина]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Anna Vladimirovna Shurochkina]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+nysha
+<- rrel_performs_in_genre:
+    concept_pop;
+    concept_rhytmnblues;;
