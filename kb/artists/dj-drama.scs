@@ -1,6 +1,6 @@
 dj_drama
 <= concept_musician;
-<- sc_type_node;
+
 => nrel_main_idtf:
 	[Диджей Драма]
 	(*

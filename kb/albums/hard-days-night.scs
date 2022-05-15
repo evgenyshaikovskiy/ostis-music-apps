@@ -1,6 +1,6 @@
 hard_days_night
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [A Hard Day's Night]
     (*

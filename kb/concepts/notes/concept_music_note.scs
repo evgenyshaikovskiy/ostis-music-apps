@@ -1,0 +1,35 @@
+concept_music_note
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[музыкальная нота]
+	(*
+	<- lang_ru;;
+	*);
+	[music note]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Нота (лат. nōta — «знак», «метка») в музыке — графическое обозначение музыкальных звуков. Иногда используется как синоним к музыкальным звукам.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Note ( lat.  nōta - “sign”, “mark”) in music is a graphic designation of musical sounds . Sometimes used as a synonym for musical sounds.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

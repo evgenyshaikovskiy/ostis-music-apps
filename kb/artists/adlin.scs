@@ -1,0 +1,68 @@
+adlin
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[АДЛИН]
+	(*   
+	<- lang_ru;;
+	*);
+	[ADLIN]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[АДЛИН или Даниил Бондарев — музыкальный исполнитель. Работает в жанре Phonk, Hip-Hop и R&B. Родился 1 мая 2001 года в городе Белгород.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[ADLIN or Daniil Bondarev is a musical performer. Works in Phonk, Hip-Hop and R&B genres. Born on May 1, 2001 in the city of Belgorod.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/adlin.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+adlin <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Даниил Бондарев]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Daniil Bondarev]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

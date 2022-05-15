@@ -1,0 +1,59 @@
+allie
+<= nrel_inclusion: concept_album;
+=>nrel_main_idtf:
+    [Элли]
+    (*
+        <- lang_ru;;
+    *);
+    [Allie]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			["Элли" — альбом группы «saypink!» в жанре хип-хоп и рэп. Был выпущен 14 декабря 2017 г. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["Allie" - an album by the group "saypink!" in the genre of hip-hop and rap. Released December 14, 2017]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/allie-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+author
+<- rrel_author:
+	saypink;;
+
+contributer
+<- rrel_contributer:
+	saypink;
+    Zlata_mai;
+    Lite_Wind;;
+
+
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_hip_hop;
+    concept_rappics;;

@@ -1,0 +1,44 @@
+concept_salt_note
+<- concept_music_note;
+=> nrel_main_idtf:
+	[нота соль]
+	(*
+	<- lang_ru;;
+	*);
+	[note salt]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Соль (лат. sol, или so) в сольмизации (сольфеджио) — мнемоническое обозначение пятой ступени диатонического звукоряда. Аналогично обозначению G.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Salt ( lat.  sol , or so ) in solmization (solfeggio) is a mnemonic designation for the fifth degree of the diatonic scale . Similar to G.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://salt.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

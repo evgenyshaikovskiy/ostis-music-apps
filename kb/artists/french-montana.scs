@@ -1,0 +1,70 @@
+french_montana
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Французский Монтана]
+	(*
+	    <- lang_ru;;
+	*);
+	[French Montana]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Карим Харбуш (родился 9 ноября 1984 г.), более известный под своим сценическим псевдонимом French Montana, является марокканско-американским рэпером.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Karim Kharbouch (born November 9, 1984), better known by his stage name French Montana, is a Moroccan-American rapper.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/french-montana.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+french_montana <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Карим Харбуш ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Karim Kharbouch]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+french_montana <- rrel_performs_in_genre:
+	concept_hiphop;;

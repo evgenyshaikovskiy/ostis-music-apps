@@ -1,0 +1,73 @@
+frank_ocean
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Френк Оушен]
+	(*
+	    <- lang_ru;;
+	*);
+	[Frank Ocean]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фрэнк Оушен (родился 28 октября 1987 г.) - американский певец, автор песен и рэпер.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Frank Ocean (born October 28, 1987), is an American singer, songwriter, and rapper.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/frank-ocean.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+frank_ocean <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кристофер Эдвин Бро]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Christopher Edwin Breaux]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+frank_ocean <- rrel_performs_in_genre:
+	concept_pop;
+	concept_rhytmnblues;
+	concept_soul;
+	concept_psychedelic_pop;;

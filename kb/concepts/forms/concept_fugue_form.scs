@@ -1,0 +1,37 @@
+concept_fugue_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[фуга]
+	(*
+	<- lang_ru;;
+	*);
+	[fugue form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Форма полифонической музыки XVII—XVIII веков. В классической однотемной фуге несколько голосов повторяют заданную тему. Состоит из трёх частей: экспозиции, развития и заключения.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[A form polyphonic music of the 17th-18th centuries. In a classic one-dark fugue, several voices repeat a given theme. It consists of three parts: exposition, development and conclusion.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

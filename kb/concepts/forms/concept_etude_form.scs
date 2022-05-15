@@ -1,0 +1,37 @@
+concept_etude_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[этюд]
+	(*
+	<- lang_ru;;
+	*);
+	[etude form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Этюд — краткое произведение, построенное на определённом техническом аспекте, таком как, например, гаммы, и предназначенное для упражнений в исполнительском мастерстве.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[An etude is a short work built on a certain technical aspect, such as, for example, scales , and intended for exercises in performing skills.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

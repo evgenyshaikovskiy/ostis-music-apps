@@ -1,6 +1,6 @@
 my_bloody_valentine
 <= concept_band;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [My Bloody Valentine]
     (*

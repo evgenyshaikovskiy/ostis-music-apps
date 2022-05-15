@@ -1,6 +1,6 @@
 ysl
 <= concept_musical_association;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [УайЭсЭл]
     (*

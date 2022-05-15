@@ -1,0 +1,45 @@
+concept_sextet
+<= nrel_inclusion: concept_musical_group;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[секстет]
+	(*
+	<- lang_ru;;
+	*);
+	[sextet]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Секстет — музыкальный ансамбль из шести исполнителей или музыкальное произведение для такого ансамбля.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Sextet - a musical ensemble of six performers or a piece of music for such an ensemble.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://sextet.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

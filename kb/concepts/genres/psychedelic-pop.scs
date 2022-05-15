@@ -1,0 +1,46 @@
+concept_psychedelic_pop
+<= nrel_inclusion: concept_pop;
+<= nrel_inclusion: concept_rock;
+<- concept_music_genre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [психоделический поп]
+    (*
+	    <- lang_ru;;
+	*);
+	[psychedelic pop]
+	(*
+	    <- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Психоделический поп — подстиль в поп- и рок-музыке, в котором «психоделическое» звучание сочетается с характерными для поп-музыки мелодиями и структурой песен.]
+			(*
+			    <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Psychedelic pop is a sub-style of pop and rock music that combines a "psychedelic" sound with typical pop melodies and song structures.]
+			(*
+			    <- lang_en;;
+			*);;
+		*);;
+		
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/psychedelic-pop.jpg"
+			(*
+			    => nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,73 @@
+tima_bel
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Тима Белорусских]
+	(*
+	<- lang_ru;;
+	*);
+	[Tima Belorusskikh]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тимофей Андреевич Морозов (род. 1 октября 1998, Минск, Белоруссия), более известный как Тима Белорусских, — белорусский певец, автор песен, композитор и музыкант.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Timofey Andreevich Morozov (born October 1, 1998, Minsk, Belarus), better known as Tima Belorusskikh, is a Belarusian singer, songwriter, composer and musician.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/tima-bel.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+tima_bel <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тимофей Андреевич Морозов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Timofey Andreevich Morozov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+tima_bel
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_rus_rap;
+    concept_pop;
+    concept_synth_pop;;

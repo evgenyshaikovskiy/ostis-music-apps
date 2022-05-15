@@ -1,0 +1,36 @@
+concept_linear_notation
+<= nrel_inclusion: concept_musical_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[линейная нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[linear notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Линейная нотация — тип музыкальной нотации, в которой для письменной фиксации высоты музыкального звука используется горизонтальная линейка.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Linear notation is a type of musical notation to record the pitch of a musical sound uses a horizontal ruler.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

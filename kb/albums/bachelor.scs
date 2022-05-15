@@ -1,0 +1,58 @@
+bachelor
+<= nrel_inclusion: concept_album;
+  
+=> nrel_main_idtf:
+    [Холостяк]
+    (*
+        <- lang_ru;;
+    *);
+    [Bachelor]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Холостяк — дебютный студийный альбом российского певца Егора Крида, выпущенный 2 апреля 2015 года лейблом Black Star Inc.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[The Bachelor is the debut studio album by Russian singer Egor Creed, released on April 2, 2015 by Black Star Inc.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/bachelor.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+bachelor
+<- rrel_author:
+	egor_kreed;;
+
+bachelor
+<- rrel_contributer:
+	egor_kreed;
+    mot;
+    timati;;
+
+bachelor
+<- rrel_related_to_genre:
+    concept_pop;;

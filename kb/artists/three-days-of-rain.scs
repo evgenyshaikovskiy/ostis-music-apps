@@ -1,6 +1,6 @@
-concept_three_days_of_rain
+three_days_of_rain
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Три дня дождя]
 	(*   
@@ -43,7 +43,7 @@ concept_three_days_of_rain
 		*);;
     *);;
 
-playboi_carti <- rrel_key_sc_element:
+three_days_of_rain <- rrel_key_sc_element:
 ...
 (*
     <- real_name;;
@@ -65,3 +65,4 @@ playboi_carti <- rrel_key_sc_element:
 			*);;
 		*);;
 *);;
+

@@ -1,0 +1,37 @@
+concept_song_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[песенная форма]
+	(*
+	<- lang_ru;;
+	*);
+	[song form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Песенная форма (нем. Liedform) в теории музыки — тип формальной структуры, в основе которой лежит стиховая метрика (строки, строфы), общая со «строфностью» танцевальной музыки.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Song form ( German:  Liedform ) in music theory is a type of formal structure , which is based on verse metrics (lines, stanzas), common with the "strophicity" of dance music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

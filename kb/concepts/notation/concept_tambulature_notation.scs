@@ -1,0 +1,36 @@
+concept_tambulature_notation
+<= nrel_inclusion: concept_musical_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[тамбулаторная нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[tambulature notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Табулаторная нотация — тип музыкальной нотации, схематическая запись музыки для клавишных (органа, клавесина), некоторых струнных (лютни, виуэлы, гитары) и (редко) духовых инструментов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Tablature (Late Lat. tabulatura , from the Middle Ages. Lat. tabula - table, diagram) - type of musical notation , a schematic recording of music for keyboards (organ, harpsichord), some strings (lutes, vihuelas, guitars) and (rarely) wind instruments tools.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;		
+	
+	*);;
+

@@ -1,6 +1,6 @@
 lil_keed
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Лил Кид]
 	(*

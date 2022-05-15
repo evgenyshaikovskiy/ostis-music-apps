@@ -1,0 +1,61 @@
+get_rich_or_die_tryin
+<= nrel_inclusion: concept_album;
+  
+=> nrel_main_idtf:
+    [Разбогатей или Умри, Пытаясь]
+    (*
+        <- lang_ru;;
+    *);
+    [Get Rich or Die Trying]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Разбогатей или Умри, Пытаясь — дебютный альбом нью-йоркского рэпера 50 Cent, выпущенный 6 февраля 2003 года на лейблах Aftermath Entertainment и Shady Records.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Get Rich or Die Tryin is the debut album by New York rapper with 50 Cent, released on February 6, 2003 on the labels Aftermath and Entertainment and Shady Records.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/get-rich-or-die-tryin.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+get_rich_or_die_tryin
+<- rrel_author:
+	50cent;;
+
+get_rich_or_die_tryin
+<- rrel_contributer:
+	50cent;
+	eminem;
+	young_buck;
+	nate_dogg;
+	lloyd_banks;;
+
+get_rich_or_die_tryin
+<- rrel_related_to_genre:
+    concept_gangsta;
+	concept_hiphop;;

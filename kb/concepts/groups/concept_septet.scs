@@ -1,0 +1,45 @@
+concept_septet
+<= nrel_inclusion: concept_musical_group;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[септет]
+	(*
+	<- lang_ru;;
+	*);
+	[septet]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Септет — ансамбль из семи музыкантов (инструменталистов или вокалистов).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[A septet is an ensemble of seven musicians (instrumentalists or vocalists).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://septet.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

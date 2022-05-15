@@ -1,0 +1,58 @@
+dust_saga_pops
+<= nrel_inclusion: concept_album;
+
+=>nrel_main_idtf:
+    [Сумерки. Сага. Попса]
+    (*
+        <- lang_ru;;
+    *);
+    [Dust. Saga. Pops]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[«Сумерки. Сага. Попса» — студийный альбом группы «saypink!» в жанре альтернативная музыка и инди. Был выпущен 5 февраля 2021 г.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			["Dust. Saga. Popsa" is a studio album by Saypink! in the genre of alternative music and indie. Was released on February 5, 2021.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+   <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/dust-saga-pops-album.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+author
+<- rrel_author:
+	saypink;;
+
+contributer
+<- rrel_contributer:
+	saypink;;
+
+
+concept_love_addiction_and_marathons
+<- rrel_related_to_genre:
+    concept_alternative_music;
+    concept_indie;;

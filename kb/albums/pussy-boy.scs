@@ -1,0 +1,63 @@
+pussy_boy
+<= nrel_inclusion: concept_album;
+  
+=> nrel_main_idtf:
+    [Пусси бой]
+    (*
+        <- lang_ru;;
+    *);
+    [Pussy boy]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Пусси бой — четвёртый студийный альбом рэпера Егора Крида, вышедший 16 июля 2021 года российским отделением лейбла Warner Music Group.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Pussy Boy is the fourth studio album by rapper Egor Creed, released on July 16, 2021 by the Russian branch of the Warner Music Group label.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/pussy-boy.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+pussy_boy
+<- rrel_author:
+	egor_kreed;;
+
+pussy_boy
+<- rrel_contributer:
+	egor_kreed;
+    soda_luv;
+    og_buda;
+    mayot;
+    guf;
+    blago_white;;
+
+pussy_boy
+<- rrel_related_to_genre:
+    concept_trap_rap;
+    concept_hiphop;
+    concept_drill;;

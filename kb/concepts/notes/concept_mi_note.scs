@@ -1,0 +1,44 @@
+concept_mi_note
+<- concept_music_note;
+=> nrel_main_idtf:
+	[нота ми]
+	(*
+	<- lang_ru;;
+	*);
+	[note mi]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ми (лат. mi) в сольмизации (сольфеджио) — мнемоническое обозначение третьей ступени диатонического звукоряда. Аналогично обозначению буквой латинского алфавита E.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mi ( lat.  mi ) in solmization (solfeggio) is a mnemonic designation for the third step of the diatonic scale . Similar to the designation by the letter of the Latin alphabet E.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://mi.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

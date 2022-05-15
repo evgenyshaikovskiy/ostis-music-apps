@@ -1,0 +1,71 @@
+lloyd_banks
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Ллойд Бэнкс]
+	(*
+	<- lang_ru;;
+	*);
+	[Lloyd Banks]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кристофер Чарльз Ллойд, более известный под сценическим псевдонимом Ллойд Бэнкс — американский рэпер, участник группы G-Unit.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Christopher Charles Lloyd, better known by his stage name Lloyd Banks, is an American rapper, a member of the group G—Unit.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/lloyd-banks.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+lloyd_banks <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кристофер Чарльз Ллойд]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Christopher Charles Lloyd]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+lloyd_banks
+<- rrel_performs_in_genre:
+    concept_hiphop;
+	concept_hardcore;;

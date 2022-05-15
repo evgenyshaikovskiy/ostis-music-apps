@@ -1,0 +1,44 @@
+concept_do_note
+<- concept_music_note;
+=> nrel_main_idtf:
+	[нота до]
+	(*
+	<- lang_ru;;
+	*);
+	[note do]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[До (лат. do) в сольмизации (сольфеджио) — мнемоническое обозначение первой ступени диатонического звукоряда. Обозначается латинской буквой C.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Do ( lat.  do ) in solmization (solfeggio) is a mnemonic designation for the first step of the diatonic scale.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://do.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

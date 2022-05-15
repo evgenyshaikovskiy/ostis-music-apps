@@ -1,6 +1,6 @@
 young_nudy
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Молодой Нуди]
 	(*

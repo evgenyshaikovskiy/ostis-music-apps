@@ -1,6 +1,6 @@
 blonde
-<= nrel_inclusion: concept_music_compositions;
-<- sc_node_type; 
+<= nrel_inclusion: concept_album;
+ 
 => nrel_main_idtf:
     [Блонд]
     (*
@@ -18,7 +18,7 @@ blonde
 		...
 		(*
 		-> rrel_example:
-			[Blonde — второй студийный альбом американского музыканта Фрэнка Оушена, вышедший 20 августа 2016 года.]
+			[Блонд — второй студийный альбом американского музыканта Фрэнка Оушена, выпущенный 20 августа 2016 года.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -26,7 +26,7 @@ blonde
 			...
 		(*
 		-> rrel_example:
-			[Блонд — второй студийный альбом американского музыканта Фрэнка Оушена, выпущенный 20 августа 2016 года.]
+			[Blonde is the second studio album by American musician Frank Ocean, released on August 20, 2016.]
 			(*
 			<- lang_en;;
 			*);;

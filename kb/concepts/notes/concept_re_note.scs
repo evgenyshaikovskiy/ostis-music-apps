@@ -1,0 +1,44 @@
+concept_re_note
+<- concept_music_note;
+=> nrel_main_idtf:
+	[нота ре]
+	(*
+	<- lang_ru;;
+	*);
+	[note re]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Ре (лат. re) в релятивной сольмизации (сольфеджио) — мнемоническое обозначение второй ступени диатонического двузвучного звукоряда. Аналогично обозначению «D».]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Re ( lat.  re ) in relative solmization ( solfeggio ) is a mnemonic designation for the second step of the diatonic two- sound scale.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://re.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

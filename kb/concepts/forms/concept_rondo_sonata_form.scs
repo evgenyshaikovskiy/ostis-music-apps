@@ -1,0 +1,37 @@
+concept_rondo_sonata_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[рондо-соната]
+	(*
+	<- lang_ru;;
+	*);
+	[rondo sonata form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Смешанная форма, имеющая черты рондо и сонатной формы. Форма состоит из трёх основных разделов, в которой по принципу рондо строятся крайние разделы (оба или один из них), а средний представляет собой разработку, заимствованную от сонатной формы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[A mixed form that has features of rondo and sonata form. The form consists of three main sections, in which the extreme sections (both or one of them) are built according to the rondo principle, and the middle section is a development borrowed from the sonata form.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

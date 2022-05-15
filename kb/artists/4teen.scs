@@ -1,0 +1,70 @@
+4teen
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Фортин]
+	(*
+	<- lang_ru;;
+	*);
+	[4Teen]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Марк Исупов – молодой продюсер и исполнитель из Уфы, Россия.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mark Isupov is a young producer and performer from Ufa, Russia.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/4teen.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+4teen <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Марк Исупов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mark Isupov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+4teen
+<- rrel_performs_in_genre:
+    concept_trap_rap;;

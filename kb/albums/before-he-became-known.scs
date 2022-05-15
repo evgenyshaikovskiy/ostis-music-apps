@@ -1,0 +1,60 @@
+before_he_became_known
+<= nrel_inclusion: concept_album;
+  
+=> nrel_main_idtf:
+    [До того как стал известен]
+    (*
+        <- lang_ru;;
+    *);
+    [Before he became known]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[До того как стал известен — дебютный студийный альбом российского видеоблогера и рэп-исполнителя из Уфы Алишера Моргенштерна, выпущенный 12 октября 2018 года на лейбле Yoola Music.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Before he Became Known is the debut studio album by Russian video blogger and rap artist from Ufa Alisher Morgenstern, released on October 12, 2018 on the Yoola Music label.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/before-he-became-known.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+before_he_became_known
+<- rrel_author:
+	morgenshtern;;
+
+before_he_became_known
+<- rrel_contributer:
+	morgenshtern;
+    yung_trappa;
+    4teen;;
+
+before_he_became_known
+<- rrel_related_to_genre:
+    concept_mumble;
+    concept_rus_rap;
+    concept_pop_punk;;

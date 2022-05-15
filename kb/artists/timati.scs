@@ -1,0 +1,72 @@
+timati
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Тимати]
+	(*
+	<- lang_ru;;
+	*);
+	[Timati]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тимур Ильдарович Юнусов (родился 15 августа 1983, Москва), более известный как Тимати — российский хип-хоп-исполнитель, певец, музыкальный продюсер, актёр и предприниматель.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Timur Ildarovich Yunusov (born August 15, 1983, Moscow), better known as Timati, is a Russian hip—hop artist, singer, music producer, actor and entrepreneur.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/timati.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+timati <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Тимур Ильдарович Юнусов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Timur Ildarovich Yunusov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+timati
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_trap_rap;
+    concept_rhytmnblues;;

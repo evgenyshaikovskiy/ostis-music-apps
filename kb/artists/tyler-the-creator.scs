@@ -1,6 +1,6 @@
 tyler_the_creator
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Тайлер, зе Криейтор]
 	(*

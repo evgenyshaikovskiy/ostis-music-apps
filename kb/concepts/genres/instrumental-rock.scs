@@ -1,0 +1,36 @@
+concept_instrumental_rock
+<= nrel_inclusion:  concept_rock;
+<- sc_node_not_relation;
+<- concept_music_subgenre;
+=> nrel_main_idtf:
+	[Инструментальный рок]
+	(*
+	<- lang_ru;;
+	*);
+	[Instrumental rock]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Инструментальный рок — жанр рок-музыки, в котором преобладает игра на инструментах, а вокал используется редко или отсутствует. Был наиболее популярен в 1950—1960-х годах. Примеры инструментального рока можно найти практически в любом жанре.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Instrumental rock is a genre of rock music in which instrumental playing predominates, and vocals are rarely used or absent. It was most popular in the 1950s and 1960s. Examples of instrumental rock can be found in almost every genre.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+

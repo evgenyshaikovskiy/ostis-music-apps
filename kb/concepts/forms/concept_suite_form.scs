@@ -1,0 +1,37 @@
+concept_suite_form
+<- concept_musical_form;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сюита]
+	(*
+	<- lang_ru;;
+	*);
+	[suite form]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сюи́та (от фр. suite — «ряд», «последовательность», «чередование») — одна из основных разновидностей циклической формы в инструментальной музыке; состоит из нескольких больших частей, в старинном жанре сюиты обычно контрастирующих между собой.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Suite (from French  suite - “row”, “sequence”, “alternation”) is one of the main varieties of cyclic form in instrumental music; consists of several large parts, in the ancient genre of a suite, usually contrasting with each other.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	
+	*);;
+

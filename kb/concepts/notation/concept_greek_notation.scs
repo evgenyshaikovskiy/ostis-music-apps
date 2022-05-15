@@ -1,0 +1,45 @@
+concept_greek_notation
+<= nrel_inclusion: concept_letter_notation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[греческая нотация*]
+	(*
+	<- lang_ru;;
+	*);
+	[greek notation*]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Как теоретическая и дидактическая концепция, система буквенной нотации была осмыслена на излёте античности (то есть с большим опозданием по отношению к памятникам такой нотации, древнейшие из которых датируются III в. до н. э.), поскольку изучение нотации считалось недостойным музыканта-теоретика делом.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[As a theoretical and didactic concept, the system of letter notation was comprehended at the end of antiquity (that is, with a great delay in relation to the monuments of such notation, the oldest of which date back to the 3rd century BC), since the study of notation was considered unworthy of a theoretical musician .]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://greek_notation.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

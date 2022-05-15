@@ -1,6 +1,6 @@
 trash_island
-<= nrel_inclusion: concept_music_compositions;
-<- sc_node_type; 
+<= nrel_inclusion: concept_album;
+ 
 => nrel_main_idtf:
     [Остров Мусора]
     (*
