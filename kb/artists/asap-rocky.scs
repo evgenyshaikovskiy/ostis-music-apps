@@ -1,6 +1,6 @@
 asap_rocky
 <= concept_musician;
-<- sc_type_node;
+
 => nrel_main_idtf:
 	[Эйсап Роки]
 	(*

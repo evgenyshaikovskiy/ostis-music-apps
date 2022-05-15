@@ -1,6 +1,6 @@
 young_thug
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Молодой Головорез]
 	(*

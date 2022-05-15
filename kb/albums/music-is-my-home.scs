@@ -1,6 +1,6 @@
 music_is_my_home
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 =>nrel_main_idtf:
     [Музыка мой дом]
     (*

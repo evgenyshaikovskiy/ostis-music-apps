@@ -1,6 +1,6 @@
 slava_marlow
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Слава Мэрлоу]
 	(*

@@ -1,6 +1,6 @@
 andre_3000
 <= concept_musician;
-<- sc_type_node;
+
 => nrel_main_idtf:
 	[Андре 3000]
 	(*

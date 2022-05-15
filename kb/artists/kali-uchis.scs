@@ -1,6 +1,6 @@
 kali_uchis
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Кали Учис]
 	(*

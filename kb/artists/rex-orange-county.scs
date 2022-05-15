@@ -1,6 +1,6 @@
 rex_orange_county
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Рекс Оранж Каунти]
 	(*

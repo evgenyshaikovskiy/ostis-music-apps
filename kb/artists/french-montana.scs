@@ -1,6 +1,6 @@
 french_montana
 <= concept_musician;
-<- sc_type_node;
+
 => nrel_main_idtf:
 	[Французский Монтана]
 	(*

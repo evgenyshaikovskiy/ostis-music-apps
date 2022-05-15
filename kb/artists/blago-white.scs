@@ -1,6 +1,6 @@
 blago_white
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Благо Белый]
 	(*

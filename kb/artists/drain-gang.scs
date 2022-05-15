@@ -1,6 +1,6 @@
 drain_gang
 <= concept_musical_association;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [Дрейн Генг]
     (*

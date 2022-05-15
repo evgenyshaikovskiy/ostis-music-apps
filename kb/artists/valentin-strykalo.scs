@@ -1,6 +1,6 @@
 valentin_strykalo
 <= concept_band;
-<- sc_node_type;
+
 => nrel_main_idtf:
     [Валентин Стрыкало]
     (*

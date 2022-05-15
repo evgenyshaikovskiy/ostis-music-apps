@@ -1,6 +1,6 @@
 nigel_godrich
 <= concept_musician;
-<- sc_type_node;
+
 => nrel_main_idtf:
 	[Найджел Годрич]
 	(*

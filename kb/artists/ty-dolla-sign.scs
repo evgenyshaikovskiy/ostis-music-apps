@@ -1,6 +1,6 @@
 ty_dolla_sign
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Тай Долла Сайн]
 	(*

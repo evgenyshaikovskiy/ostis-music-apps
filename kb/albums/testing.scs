@@ -1,6 +1,6 @@
 testing
 <= nrel_inclusion: concept_album;
-<- sc_node_type; 
+ 
 => nrel_main_idtf:
     [Тестирование]
     (*

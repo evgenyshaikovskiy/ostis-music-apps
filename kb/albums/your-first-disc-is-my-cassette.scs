@@ -1,6 +1,6 @@
 your_first_disc_is_my_cassette
 <= nrel_inclusion: concept_album;
-<- sc_node_type;  
+  
 => nrel_main_idtf:
     [Твой первый диск — моя кассета]
     (*

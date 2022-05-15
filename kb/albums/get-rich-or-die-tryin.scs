@@ -1,6 +1,6 @@
 get_rich_or_die_tryin
 <= nrel_inclusion: concept_album;
-<- sc_node_type;  
+  
 => nrel_main_idtf:
     [Разбогатей или Умри, Пытаясь]
     (*

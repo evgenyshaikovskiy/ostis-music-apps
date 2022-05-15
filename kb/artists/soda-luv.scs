@@ -1,6 +1,6 @@
 soda_luv
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Сода Лав]
 	(*

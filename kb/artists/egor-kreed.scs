@@ -1,6 +1,6 @@
 egor_kreed
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Егор Крид]
 	(*

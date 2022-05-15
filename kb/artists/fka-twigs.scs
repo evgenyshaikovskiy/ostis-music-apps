@@ -1,6 +1,6 @@
 fka_twigs
 <= concept_musician;
-<- sc_type_node;
+
 => nrel_main_idtf:
 	[ЭфКейЭй твигс]
 	(*

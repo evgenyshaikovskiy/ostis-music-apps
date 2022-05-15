@@ -1,6 +1,6 @@
 freerio_2
 <= nrel_inclusion: concept_album;
-<- sc_node_type;  
+  
 => nrel_main_idtf:
     [Освободите Рио 2]
     (*

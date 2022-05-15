@@ -1,6 +1,6 @@
 love_addiction_and_marathons
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 =>nrel_main_idtf:
     [Любовь, аддикция и марафоны]
     (*

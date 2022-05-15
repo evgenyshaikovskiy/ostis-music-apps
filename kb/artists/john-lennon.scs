@@ -1,6 +1,6 @@
 John_Lennon
 <= concept_musician;
-<- sc_node_type;
+
 => nrel_main_idtf:
 	[Джон Леннон]
 	(*

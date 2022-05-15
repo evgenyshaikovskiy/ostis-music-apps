@@ -1,6 +1,6 @@
 the_king_of_limbs
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [The King of Limbs]
     (*

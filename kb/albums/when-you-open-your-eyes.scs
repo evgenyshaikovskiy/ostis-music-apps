@@ -1,6 +1,6 @@
 when_you_open_your_eyes
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 =>nrel_main_idtf:
     [Когда ты откроешь глаза]
     (*
