@@ -36,7 +36,7 @@ charlie_wilson
 	<= nrel_sc_text_translation:
 		...
 		(*
-		-> rrel_example: "file://pictures/сharlie-wilson.jpg"
+		-> rrel_example: "file://pictures/charlie-wilson.jpg"
 			(*
 			    => nrel_format: format_jpg;;
 			*);;
