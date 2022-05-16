@@ -1,6 +1,6 @@
 kazhdiy_raz
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [Каждый раз - самый важный раз]
     (*
