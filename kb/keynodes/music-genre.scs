@@ -31,3 +31,4 @@ concept_music_genre
         *);;
     *);;
 *);;
+=> nrel_inclusion: concept_music_subgenre;;

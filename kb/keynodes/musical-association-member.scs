@@ -38,7 +38,7 @@ nrel_musical_association_member
 <- oriented_relation;
 <- antireflexive_relation;
 <- antisymmetric_relation;
-<- transitive_relation;
+<- antitransitive_relation;
 
 => nrel_first_domain: concept_musician;
 => nrel_second_domain: concept_musical_association;
