@@ -66,7 +66,7 @@ young_thug <- rrel_key_sc_element:
 		*);;
 *);;
 
-young_thug <- rrel_performs_in_genre:
+young_thug <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;
     concept_rhytmnblues;;

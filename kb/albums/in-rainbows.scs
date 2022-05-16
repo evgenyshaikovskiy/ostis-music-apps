@@ -44,18 +44,18 @@ in_rainbows
     *);;
 
 in_rainbows
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_art_rock;
     concept_experimental_rock;
     concept_electronic;
     concept_art_pop;;
 
 in_rainbows
-<- rrel_contributer:
+<- nrel_contributor:
     radiohead;
     nigel_godrich;;
 
 in_rainbows
-<- rrel_author:
+<- nrel_author:
     radiohead;
     nigel_godrich;;

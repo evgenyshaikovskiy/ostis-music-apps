@@ -66,7 +66,7 @@ turbo <- rrel_key_sc_element:
 		*);;
 *);;
 
-turbo <- rrel_performs_in_genre:
+turbo <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;
     concept_rhytmnblues;;

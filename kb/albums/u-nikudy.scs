@@ -44,13 +44,13 @@ u_nikudy
     *);;
 
 u_nikudy
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_post_punk;;
 
 u_nikudy
-<- rrel_author:
+<- nrel_author:
     nurnberg;;
 
 u_nikudy
-<- rrel_contributer:
+<- nrel_contributor:
     nurnberg;;

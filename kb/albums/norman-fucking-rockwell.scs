@@ -44,15 +44,15 @@ norman_fucking_rockwell
     *);;
 
 norman_fucking_rockwell
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_psychedelic_rock;
     concept_pop;
     concept_soft_rock;;
 
 norman_fucking_rockwell
-<- rrel_contributer:
+<- nrel_contributor:
     lana_del_rey;;
 
 norman_fucking_rockwell
-<- rrel_author:
+<- nrel_author:
     lana_del_rey;;

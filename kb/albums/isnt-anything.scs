@@ -44,16 +44,16 @@ isnt_anything
     *);;
 
 isnt_anything
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_shoegaze;
     concept_noise_rock;
     concept_alternative_rock;
     concept_experimental_rock;;
 
 isnt_anything
-<- rrel_contributer:
+<- nrel_contributor:
     my_bloody_valentine;;
 
 isnt_anything
-<- rrel_author:
+<- nrel_author:
     my_bloody_valentine;;

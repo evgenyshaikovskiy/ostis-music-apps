@@ -44,15 +44,15 @@ kazhdiy_raz
     *);;
 
 kazhdiy_raz
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_emo;
     concept_alternative_rock;
     concept_indie_rock;;
 
 kazhdiy_raz
-<- rrel_contributer:
+<- nrel_contributor:
     pasosh;;
 
 kazhdiy_raz
-<- rrel_author:    
+<- nrel_author:    
     pasosh;;

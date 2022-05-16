@@ -44,20 +44,20 @@ plastic_beach
     *);;
 
 plastic_beach
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_funk; // replace with correct later
     concept_pop;
     concept_electronic;;
 
 plastic_beach
-<- rrel_contributer:
+<- nrel_contributor:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;
 
 plastic_beach
-<- rrel_author:
+<- nrel_author:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;

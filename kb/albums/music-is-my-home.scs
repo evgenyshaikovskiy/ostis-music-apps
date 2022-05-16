@@ -45,17 +45,17 @@ music_is_my_home
 
 
 music_is_my_home
-<- rrel_author:
+<- nrel_author:
 	adlin;;
 
 music_is_my_home
-<- rrel_contributer:
+<- nrel_contributor:
 	adlin;
     totpoc;
     KAZE;;
 
 music_is_my_home
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hip_hop;
     concept_rap;;
 

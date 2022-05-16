@@ -66,6 +66,6 @@ slava_marlow <- rrel_key_sc_element:
 		*);;
 *);;
 slava_marlow
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_pop;
     concept_rus_rap;;

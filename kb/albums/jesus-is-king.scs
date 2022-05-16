@@ -44,16 +44,16 @@ jesus_is_king
     *);;
 
 jesus_is_king
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_gospel;
     concept_hiphop;;
 
 jesus_is_king
-<- rrel_contributer:
+<- nrel_contributor:
     kanye_west;
     sunday_service_choir;;
 
 jesus_is_king
-<- rrel_author:
+<- nrel_author:
     kanye_west;
     sunday_service_choir;;

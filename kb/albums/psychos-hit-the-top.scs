@@ -44,18 +44,18 @@ psychos_hit_the_top
     *);;
 
 psychos_hit_the_top
-<- rrel_author:
+<- nrel_author:
 	max_korzh;;
 
 psychos_hit_the_top
-<- rrel_contributer:
+<- nrel_contributor:
 	max_korzh;
     insando;
     bagew;
     portwave;;
 
 psychos_hit_the_top
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
 	concept_trap_rap;
 	concept_pop;
 	concept_hiphop;;

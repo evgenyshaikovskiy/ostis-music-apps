@@ -47,12 +47,12 @@ aliaksei_chumakou <- concept_musician;;
 mikita_arlou <- concept_musician;;
 
 soyuz
-<- rrel_band_member:
+<- nrel_band_member:
     aliaksei_chumakou;
     mikita_arlou;;
 
 soyuz
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_pop;
     concept_alternative_rock;
     concept_brazil;

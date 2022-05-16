@@ -44,6 +44,6 @@ Ringo_Starr
     *);;
 
 Ringo_Starr
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_rock;
 	concept_pop;;

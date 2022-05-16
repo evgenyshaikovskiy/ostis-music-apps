@@ -44,13 +44,13 @@ indecent_about_personal
     *);;
 
 indecent_about_personal
-<- rrel_author:
+<- nrel_author:
 	klava_koka;;
 
 indecent_about_personal
-<- rrel_contributer:
+<- nrel_contributor:
 	klava_koka;;
 
 indecent_about_personal
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_pop;;

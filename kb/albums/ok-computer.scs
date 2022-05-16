@@ -44,17 +44,17 @@ ok_computer
     *);;
 
 ok_computer
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_rock;
     concept_progressive_rock;
     concept_art_rock;;
 
 ok_computer
-<- rrel_contributer:
+<- nrel_contributor:
     radiohead;
     nigel_godrich;;
 
 ok_computer
-<- rrel_author:
+<- nrel_author:
     radiohead;
     nigel_godrich;;

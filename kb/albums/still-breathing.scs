@@ -45,16 +45,16 @@ still_breathing
 
 
 still_breathing
-<- rrel_author:
+<- nrel_author:
 	dvrst;;
 
 
 still_breathing
-<- rrel_contributer:
+<- nrel_contributor:
 	dvrst;;
 
 still_breathing
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_phonk;
     concept_rap;
     concept_hip_hop;;

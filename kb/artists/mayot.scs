@@ -66,5 +66,5 @@ mayot <- rrel_key_sc_element:
 		*);;
 *);;
 mayot
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_trap_rap;;

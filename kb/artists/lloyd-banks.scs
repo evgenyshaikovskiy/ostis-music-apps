@@ -66,6 +66,6 @@ lloyd_banks <- rrel_key_sc_element:
 		*);;
 *);;
 lloyd_banks
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
 	concept_hardcore;;

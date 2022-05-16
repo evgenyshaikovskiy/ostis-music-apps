@@ -44,16 +44,16 @@ pablo_honey
     *);;
 
 pablo_honey
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_rock;
     concept_indie_rock;;
 
 pablo_honey
-<- rrel_contributer:
+<- nrel_contributor:
     radiohead;
     sean_slade;
     paul_kolderie;;
 
 pablo_honey
-<- rrel_author:
+<- nrel_author:
     radiohead;;

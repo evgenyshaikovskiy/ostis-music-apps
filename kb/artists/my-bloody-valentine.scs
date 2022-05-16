@@ -44,7 +44,7 @@ my_bloody_valentine
     *);;
 
 my_bloody_valentine
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_shoegaze;
     concept_experimental_rock;
     concept_dream_pop;

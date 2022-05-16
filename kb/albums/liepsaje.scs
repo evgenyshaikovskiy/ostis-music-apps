@@ -44,15 +44,15 @@ liepsaje
     *);;
 
 liepsaje
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_bel_folk_music;
     concept_epics;
     concept_choruses_and_songs;;
 
 liepsaje
-<- rrel_contributer:
+<- nrel_contributor:
     stary_olsa;;
 
 liepsaje
-<- rrel_author:
+<- nrel_author:
     stary_olsa;;

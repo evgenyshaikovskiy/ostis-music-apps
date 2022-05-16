@@ -44,16 +44,16 @@ qwerty_lang
     *);;
 
 qwerty_lang
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_trap_rap;
     concept_hiphop;;
 
 qwerty_lang
-<- rrel_contributer:
+<- nrel_contributor:
     boulevard_depo;
     sp4k;;
 
 qwerty_lang
-<- rrel_author:
+<- nrel_author:
     boulevard_depo;
     sp4k;;

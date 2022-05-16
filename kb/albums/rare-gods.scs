@@ -44,17 +44,17 @@ rare_gods
     *);;
 
 rare_gods
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_electronic;
     concept_hiphop;
     concept_cloud_rap;;
 
 rare_gods
-<- rrel_contributer:
+<- nrel_contributor:
     boulevard_depo;
     i61;;
 
 rare_gods
-<- rrel_author:
+<- nrel_author:
     boulevard_depo;
     i61;;

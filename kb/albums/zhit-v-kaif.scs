@@ -44,15 +44,15 @@ zhit_v_kaif
     *);;
 
 zhit_v_kaif
-<- rrel_author:
+<- nrel_author:
 	max_korzh;;
 
 zhit_v_kaif
-<- rrel_contributer:
+<- nrel_contributor:
 	max_korzh;;
 
 zhit_v_kaif
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_pop;
     concept_hiphop;
     concept_reggy;

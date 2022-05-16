@@ -66,7 +66,7 @@ mot <- rrel_key_sc_element:
 		*);;
 *);;
 mot
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
     concept_trap_rap;
     concept_rhytmnblues;

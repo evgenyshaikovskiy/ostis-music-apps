@@ -66,6 +66,6 @@ kanye_west <- rrel_key_sc_element:
 		*);;
 *);;
 
-kanye_west <- rrel_performs_in_genre:
+kanye_west <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;;

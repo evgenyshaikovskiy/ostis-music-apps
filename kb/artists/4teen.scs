@@ -66,5 +66,5 @@
 		*);;
 *);;
 4teen
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_trap_rap;;

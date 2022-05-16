@@ -66,5 +66,5 @@ klava_koka <- rrel_key_sc_element:
 		*);;
 *);;
 klava_koka
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_pop;;

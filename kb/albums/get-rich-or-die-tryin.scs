@@ -44,11 +44,11 @@ get_rich_or_die_tryin
     *);;
 
 get_rich_or_die_tryin
-<- rrel_author:
+<- nrel_author:
 	50cent;;
 
 get_rich_or_die_tryin
-<- rrel_contributer:
+<- nrel_contributor:
 	50cent;
 	eminem;
 	young_buck;
@@ -56,6 +56,6 @@ get_rich_or_die_tryin
 	lloyd_banks;;
 
 get_rich_or_die_tryin
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_gangsta;
 	concept_hiphop;;

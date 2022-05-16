@@ -48,14 +48,14 @@ Stanislav_Myrashko <- concept_musician;;
 Vladimir_Yakovlev <- concept_musician;;
 
 valentin_strykalo
-<- rrel_band_member:
+<- nrel_band_member:
     Yuri_Caplan;
     Kostya_Pyzhkov;
     Stanislav_Myrashko;
     Vladimir_Yakovlev;;
 
 valentin_strykalo
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_indie_rock;
     concept_alternative_rock;
     concept_shoegaze;;

@@ -66,5 +66,5 @@
 		*);;
 *);;
 50cent
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;;

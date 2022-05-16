@@ -66,5 +66,5 @@ french_montana <- rrel_key_sc_element:
 		*);;
 *);;
 
-french_montana <- rrel_performs_in_genre:
+french_montana <- nrel_performs_in_genre:
 	concept_hiphop;;

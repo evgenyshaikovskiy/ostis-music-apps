@@ -44,11 +44,11 @@ freerio_2
     *);;
 
 freerio_2
-<- rrel_author:
+<- nrel_author:
 	og_buda;;
 
 freerio_2
-<- rrel_contributer:
+<- nrel_contributor:
 	og_buda;
     mayot;
 	1630nmyneck;
@@ -57,7 +57,7 @@ freerio_2
 	magnum_opus;;
 
 freerio_2
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_trap_rap;
 	concept_hiphop;
 	concept_drill;;

@@ -44,16 +44,16 @@ eversince
     *);;
 
 eversince
-<- rrel_author:
+<- nrel_author:
 	bladee;;
 
 eversince
-<- rrel_contributer:
+<- nrel_contributor:
 	bladee;
     whitearmor;;
 
 eversince
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_cloud_rap;
     concept_rhytmnblues;

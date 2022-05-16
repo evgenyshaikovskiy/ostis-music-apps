@@ -44,11 +44,11 @@ love_addiction_and_marathons
     *);;
 
 love_addiction_and_marathons
-<- rrel_author:
+<- nrel_author:
 	three_days_of_rain;;
 
 love_addiction_and_marathons
-<- rrel_contributer:
+<- nrel_contributor:
 	three_days_of_rain;
 	playingtheangel;
 	roki;
@@ -56,7 +56,7 @@ love_addiction_and_marathons
 
 
 love_addiction_and_marathons
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_rock;;
 
 

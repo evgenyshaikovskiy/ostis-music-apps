@@ -44,14 +44,14 @@ stay_ugly
     *);;
 
 stay_ugly
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_trap_rap;
     concept_hiphop;;
 
 stay_ugly
-<- rrel_contributer:
+<- nrel_contributor:
     boulevard_depo;;
 
 stay_ugly
-<- rrel_author:
+<- nrel_author:
     boulevard_depo;;

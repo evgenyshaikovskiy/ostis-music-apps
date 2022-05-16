@@ -66,7 +66,7 @@ charlie_wilson <- rrel_key_sc_element:
 		*);;
 *);;
 
-charlie_wilson <- rrel_performs_in_genre:
+charlie_wilson <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_funk;
 	concept_rhytmnblues;

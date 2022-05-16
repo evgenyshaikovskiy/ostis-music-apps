@@ -66,6 +66,6 @@ edith_piaf <- rrel_key_sc_element:
 		*);;
 *);;
 
-edith_piaf <- rrel_performs_in_genre:
+edith_piaf <- nrel_performs_in_genre:
 	concept_chanson;
 	concept_gymn;;

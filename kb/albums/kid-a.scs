@@ -43,7 +43,7 @@ kid_a
     *);;
 
 kid_a
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_experimental_rock;
     concept_post_rock;
     concept_ambient;
@@ -51,11 +51,11 @@ kid_a
     concept_art_rock;;
 
 kid_a
-<- rrel_contributer:
+<- nrel_contributor:
     radiohead;
     nigel_godrich;;
 
 kid_a
-<- rrel_author:
+<- nrel_author:
     radiohead;
     nigel_godrich;;

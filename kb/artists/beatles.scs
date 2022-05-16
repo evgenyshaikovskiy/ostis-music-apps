@@ -46,14 +46,14 @@ beatles
 
 
 beatles
-<- rrel_band_member:
+<- nrel_band_member:
     John_Lennon;
     Paul_McCartney;
     George_Harrison;
     Ringo_Starr;;
 
 beatles
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_rock;
     concept_hard_rock;
     concept_psychedelic_rock;

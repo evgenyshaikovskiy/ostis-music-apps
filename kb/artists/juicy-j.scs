@@ -66,5 +66,5 @@ juicy_j <- rrel_key_sc_element:
 		*);;
 *);;
 
-juicy_j <- rrel_performs_in_genre:
+juicy_j <- nrel_performs_in_genre:
 	concept_hiphop;;

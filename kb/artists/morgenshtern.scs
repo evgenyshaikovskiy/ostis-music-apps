@@ -66,6 +66,6 @@ morgenshtern <- rrel_key_sc_element:
 		*);;
 *);;
 morgenshtern
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
     concept_trap_rap;;

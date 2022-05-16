@@ -44,11 +44,11 @@ die_lit
     *);;
 
 die_lit
-<- rrel_author:
+<- nrel_author:
 	playboi_carti;;
 
 die_lit
-<- rrel_contributer:
+<- nrel_contributor:
 	playboi_carti;
 	nicki_minaj;
     bryson_tiller;
@@ -63,7 +63,7 @@ die_lit
     young_thug;;
 
 die_lit
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
 	concept_trap_rap;
 	concept_mumble;;

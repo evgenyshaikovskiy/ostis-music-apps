@@ -44,7 +44,7 @@ call_me_if_you_get_lost
     *);;
 
 call_me_if_you_get_lost
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_pop;
     concept_jazz;
@@ -52,7 +52,7 @@ call_me_if_you_get_lost
     concept_reggy;;
 
 call_me_if_you_get_lost
-<- rrel_contributer:
+<- nrel_contributor:
     tyler_the_creator;
     lil_uzi_vert;
     dj_drama;
@@ -63,6 +63,6 @@ call_me_if_you_get_lost
     youngboy_nba;;
 
 call_me_if_you_get_lost
-<- rrel_author:
+<- nrel_author:
     tyler_the_creator;
     dj_drama;;

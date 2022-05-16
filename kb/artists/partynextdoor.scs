@@ -67,7 +67,7 @@ partynextdoor <- rrel_key_sc_element:
 *);;
 
 partynextdoor
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
 	concept_rhytmnblues;
 	concept_reggy;;

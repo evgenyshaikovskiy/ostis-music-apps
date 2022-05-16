@@ -66,7 +66,7 @@ nate_dogg <- rrel_key_sc_element:
 		*);;
 *);;
 nate_dogg
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
     concept_gangsta;
     concept_gfunk;;

@@ -44,14 +44,14 @@ smile_u_fool
     *);;
 
 smile_u_fool
-<- rrel_author:
+<- nrel_author:
 	morgenshtern;;
 
 smile_u_fool
-<- rrel_contributer:
+<- nrel_contributor:
 	morgenshtern;
     4teen;;
 
 smile_u_fool
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;;

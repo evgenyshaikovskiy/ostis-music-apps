@@ -32,8 +32,8 @@ concept_album
         *);;
     *);;
     <= nrel_using_constants:{
-       rrel_related_to_genre;
-       rrel_contributer;
-       rrel_author
+       nrel_related_to_genre;
+       nrel_contributor;
+       nrel_author
     };;
 *);;

@@ -44,13 +44,13 @@ flower_boy
     *);;
 
 flower_boy
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_jazz_rap;
     concept_neo_soul;;
 
 flower_boy
-<- rrel_contributer:
+<- nrel_contributor:
     tyler_the_creator;
     rex_orange_county;
     kali_uchis;
@@ -61,5 +61,5 @@ flower_boy
     lil_wayne;;
 
 flower_boy
-<- rrel_author:
+<- nrel_author:
     tyler_the_creator;;

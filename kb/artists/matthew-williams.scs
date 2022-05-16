@@ -43,6 +43,6 @@ matthew_williams
 		*);;
     *);;
 
-matthew_williams <- rrel_performs_in_genre:
+matthew_williams <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;;

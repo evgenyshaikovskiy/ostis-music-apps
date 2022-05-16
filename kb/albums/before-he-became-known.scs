@@ -44,17 +44,17 @@ before_he_became_known
     *);;
 
 before_he_became_known
-<- rrel_author:
+<- nrel_author:
 	morgenshtern;;
 
 before_he_became_known
-<- rrel_contributer:
+<- nrel_contributor:
 	morgenshtern;
     yung_trappa;
     4teen;;
 
 before_he_became_known
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_mumble;
     concept_rus_rap;
     concept_pop_punk;;

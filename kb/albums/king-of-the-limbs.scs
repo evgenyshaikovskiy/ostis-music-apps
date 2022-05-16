@@ -44,16 +44,16 @@ the_king_of_limbs
     *);;
 
 the_king_of_limbs
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_experimental_rock;
     concept_electronic;;
 
 in_rainbows
-<- rrel_contributer:
+<- nrel_contributor:
     radiohead;
     nigel_godrich;;
 
 in_rainbows
-<- rrel_author:
+<- nrel_author:
     radiohead;
     nigel_godrich;;

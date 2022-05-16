@@ -32,7 +32,7 @@ concept_musician
     *);;
     <= nrel_using_constants:{
        nrel_performs_in_genre;
-       rrel_contributer;
-       rrel_author
+       nrel_contributor;
+       nrel_author
     };;
 *);;

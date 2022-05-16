@@ -44,17 +44,17 @@ razvlechenie
     *);;
 
 razvlechenie
-<- rrel_author:
+<- nrel_author:
     valentin_strykalo;
     Yuri_Caplan;;
 
 razvlechenie
-<- rrel_contributer:
+<- nrel_contributor:
     valentin_strykalo;
     Yuri_Caplan;
     Kostya_Pyzhkov;;
 
 razvlechenie
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
 	concept_indie_rock;
     concept_alternative_rock;;

@@ -66,7 +66,7 @@ yung_gud <- rrel_key_sc_element:
 		*);;
 *);;
 
-yung_gud <- rrel_performs_in_genre:
+yung_gud <- nrel_performs_in_genre:
 	concept_electronic;
     concept_trance;
     concept_hiphop;

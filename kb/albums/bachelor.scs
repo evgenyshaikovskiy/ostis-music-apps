@@ -44,15 +44,15 @@ bachelor
     *);;
 
 bachelor
-<- rrel_author:
+<- nrel_author:
 	egor_kreed;;
 
 bachelor
-<- rrel_contributer:
+<- nrel_contributor:
 	egor_kreed;
     mot;
     timati;;
 
 bachelor
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_pop;;

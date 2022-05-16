@@ -66,7 +66,7 @@ tyler_the_creator <- rrel_key_sc_element:
 		*);;
 *);;
 
-tyler_the_creator <- rrel_performs_in_genre:
+tyler_the_creator <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_alternativehiphop;
 	concept_rhytmnblues;

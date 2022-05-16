@@ -44,14 +44,14 @@ the_fall
     *);;
 
 the_fall
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_electronic;
     concept_trip_hop;
     concept_lofi;
     concept_experimental_hiphop;;
 
 the_fall
-<- rrel_contributer:
+<- nrel_contributor:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;
@@ -60,7 +60,7 @@ the_fall
     Mick_Jones;;
 
 the_fall
-<- rrel_author:
+<- nrel_author:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;
