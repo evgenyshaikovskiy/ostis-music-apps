@@ -2,11 +2,11 @@ roki
 <= concept_musician;
 
 => nrel_main_idtf:
-	[Три дня дождя]
+	[Роки]
 	(*   
 	<- lang_ru;;
 	*);
-	[Three days of rain]
+	[Roki]
 	(*
 	<- lang_en;;
 	*);
@@ -26,7 +26,7 @@ roki
 			...
 		(*
 		-> rrel_example:
-			[Rocky is an independent rock and rap artist from Penza, Russia]
+			[Roki is an independent rock and rap artist from Penza, Russia]
 			(*
 			<- lang_en;;
 			*);;
