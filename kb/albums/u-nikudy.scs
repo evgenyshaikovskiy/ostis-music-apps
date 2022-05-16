@@ -1,6 +1,6 @@
 u_nikudy
 <= nrel_inclusion: concept_album;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [У нікуды]
     (*

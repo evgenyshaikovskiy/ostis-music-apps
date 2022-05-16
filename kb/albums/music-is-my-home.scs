@@ -44,18 +44,17 @@ music_is_my_home
     *);;
 
 
-author
+music_is_my_home
 <- rrel_author:
 	adlin;;
 
-
-contributer
+music_is_my_home
 <- rrel_contributer:
 	adlin;
     totpoc;
     KAZE;;
 
-concept_music_is_my_home
+music_is_my_home
 <- rrel_related_to_genre:
     concept_hip_hop;
     concept_rap;;

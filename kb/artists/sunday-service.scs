@@ -1,6 +1,6 @@
 sunday_service_choir
 <= concept_band;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [Сандей Сервис Хор]
     (*

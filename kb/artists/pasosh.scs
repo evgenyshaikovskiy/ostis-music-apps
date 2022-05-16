@@ -1,6 +1,6 @@
 pasosh
 <= concept_band;
-<- sc_type_node;
+
 => nrel_main_idtf:
     [пасош]
     (*

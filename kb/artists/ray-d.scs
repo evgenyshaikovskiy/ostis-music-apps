@@ -1,0 +1,68 @@
+ray_d
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[РЭЙДИ]
+	(*   
+	<- lang_ru;;
+	*);
+	[RAY-D]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[РЭЙДИ (родился 29 апреля 1999 года) — хип-хоп исполнитель, звукоинженер, проживающий в городе Красноярск.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[RAY-D (born April 29, 1999) is a hip-hop artist and sound engineer based in Krasnoyarsk.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/ray-d.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+ray_d <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Лев Андреев]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Lev Andreev]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

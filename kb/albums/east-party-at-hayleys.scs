@@ -43,16 +43,16 @@ east_party_at_hayleys
 		*);;
     *);;
 
-author
+east_party_at_hayleys
 <- rrel_author:
 	saypink;;
 
-contributer
+east_party_at_hayleys
 <- rrel_contributer:
 	saypink;;
 
 
-concept_love_addiction_and_marathons
+east_party_at_hayleys
 <- rrel_related_to_genre:
     concept_hip_hop;
     concept_rap;;

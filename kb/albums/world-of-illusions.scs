@@ -44,16 +44,16 @@ world_of_illusions
     *);;
 
 
-author
+world_of_illusions
 <- rrel_author:
 	adlin;;
 
 
-contributer
+world_of_illusions
 <- rrel_contributer:
 	adlin;;
 
-concept_world_of_illusions
+world_of_illusions
 <- rrel_related_to_genre:
     concept_hip_hop;
     concept_rap;;

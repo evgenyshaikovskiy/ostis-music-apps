@@ -44,20 +44,20 @@ when_you_open_your_eyes
     *);;
 
 
-author
+when_you_open_your_eyes
 <- rrel_author:
 	three_days_of_rain;;
 
 
-contributer
+when_you_open_your_eyes
 <- rrel_contributer:
 	three_days_of_rain;
-	MUKKA;
-	SHENA;
+	mukka;
+	shena;
 	masha_hima;
 	lali;;
 
-concept_love_addiction_and_marathons
+when_you_open_your_eyes
 <- rrel_related_to_genre:
     concept_rock;;
 

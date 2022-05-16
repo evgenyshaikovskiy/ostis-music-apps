@@ -1,0 +1,68 @@
+playingtheangel
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[ПлэйингЗеАнджел]
+	(*   
+	<- lang_ru;;
+	*);
+	[Playingtheangel]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[PlayingTheAngel (ПлэйингЗеАнджел) – рэп-исполнитель. Состоял в "#каждаябарбистерва" – объединении, которое было создано Юрой и его товарищами.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[PlayingTheAngel - rap artist. He was a member of "#каждаябарбистерва" - an association that was created by Yura and his comrades.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/playingtheangel.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+playingtheangel <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Юрий Перфилов]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Yuri Perfilov]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
