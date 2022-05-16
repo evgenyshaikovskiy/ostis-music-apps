@@ -1,0 +1,68 @@
+masha_hima
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Маша Хима]
+	(*   
+	<- lang_ru;;
+	*);
+	[Masha Hima]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Маша Hima (Хима) – музыкальная исполнительница. Родилась в 26 июня 1992 года, Снакт-Петербург Россия. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Masha Hima (Hima) is a musical performer. She was born on June 26, 1992, St. Petersburg, Russia.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/mahsa-hima.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+masha_hima <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мария Химченко]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Maria Himchenko]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

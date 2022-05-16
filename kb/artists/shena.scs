@@ -1,0 +1,68 @@
+shena
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[ШЕНА?]
+	(*   
+	<- lang_ru;;
+	*);
+	[SHENA?]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Шена, стилиз. SHENA? (наст. имя — Шена Александровна Шульгина, родилась 21 июня 1993, Москва) — российская певица и актриса.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Shena, stylist. SHENA? (real name - Shena Alexandrovna Shulgina, born June 21, 1993, Moscow) - Russian singer and actress.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/shena.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+shena <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Шена Александровна Шульгина]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Shena Alexandrovna Shulgina]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

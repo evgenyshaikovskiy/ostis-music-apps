@@ -1,0 +1,68 @@
+aikko
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Аикко]
+	(*   
+	<- lang_ru;;
+	*);
+	[Aikko]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Aikko (Айкко) – рэп-исполнитель. Музыкой он занимается уже около 10 лет. С 2015 года Айкко является участником коллектива "КаждаяБарбиСтерва".]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Aikko (Aikko) - rap artist. He has been making music for about 10 years. Since 2015, Aikko has been a member of the "EveryBarbieBitch" team.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/aikko.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+aikko <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Владислав Кособуцкий]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Vladislav Kosobutsky]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

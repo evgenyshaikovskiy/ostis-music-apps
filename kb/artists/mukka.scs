@@ -1,0 +1,68 @@
+mukka
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[МУККА]
+	(*   
+	<- lang_ru;;
+	*);
+	[MUKKA]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Серафим Сидорин (родился 24 июня 1994 года). Мукка – новейшая рок-икона поколения YouTube. Молодой исполнитель стал известным после выхода видео на песню «Девочка с каре», сопровождавшегося обвинениями в пропаганде наркотиков.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Serafim Sidorin (born June 24, 1994). Mukka is the newest rock icon of the YouTube generation. The young performer became famous after the release of the video for the song "Girl with a square", accompanied by accusations of drug propaganda.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/mukka.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+mukka <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Серафим Сидорин]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Serafim Sidorin]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

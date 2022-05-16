@@ -1,0 +1,68 @@
+roki
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Три дня дождя]
+	(*   
+	<- lang_ru;;
+	*);
+	[Three days of rain]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Роки - независимый исполнитель в жанре рок и рэп. Родом из Пензы, Россия]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Rocky is an independent rock and rap artist from Penza, Russia]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/roki.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+roki <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кирилл Мисан]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Kirill Misan]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+

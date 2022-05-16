@@ -52,8 +52,8 @@ author
 contributer
 <- rrel_contributer:
 	three_days_of_rain;
-	Roki;
-	Aikko;;
+	roki;
+	aikko;;
 
 concept_love_addiction_and_marathons
 <- rrel_related_to_genre:
