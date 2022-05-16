@@ -36,7 +36,7 @@ masha_hima
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/mahsa-hima.jpg"
+		->rrel_example: "file://pictures/masha-hima.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

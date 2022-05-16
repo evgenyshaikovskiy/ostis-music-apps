@@ -6,7 +6,7 @@ concept_album
     (* <- lang_ru;; *);
 => nrel_main_idtf:
     [music album]
-    (* <- lang_en;; *);;
+    (* <- lang_en;; *);
 <- rrel_key_sc_element:
 ... 
 (*

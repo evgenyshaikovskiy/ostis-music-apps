@@ -5,7 +5,7 @@ concept_music_genre
     (* <- lang_ru;; *);
 => nrel_main_idtf:
     [musical genre]
-    (* <- lang_en;; *);;
+    (* <- lang_en;; *);
 <- rrel_key_sc_element:
 ... 
 (*
@@ -30,5 +30,5 @@ concept_music_genre
             <- lang_en;;
         *);;
     *);;
-*);;
+*);
 => nrel_inclusion: concept_music_subgenre;;
