@@ -1,0 +1,70 @@
+travis_barker
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Трэвис Баркер]
+	(*
+	<- lang_ru;;
+	*);
+	[Travis Barker]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Трэвис Лэндон Баркер (родился 14 ноября 1975 года) — американский музыкант, барабанщик рок - группы Blink-182 .]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Travis Landon Barker (born November 14, 1975) is an American musician who serves as the drummer for the rock band Blink-182.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/travis-barker.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+travis_barker <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Трэвис Лэндон Баркер]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Travis Landon Barker]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+travis_barker <- nrel_performs_in_genre:
+	concept_punk_rock;;

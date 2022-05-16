@@ -1,0 +1,64 @@
+blink_182
+<= concept_band;
+<- sc_type_node;
+=> nrel_main_idtf:
+    [блинк-182]
+    (*
+        <- lang_ru;;
+    *);
+    [blink-182]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Blink-182 (стилизовано под строчные буквы) — американская рок-группа, образованная в Пауэе, штат Калифорния,
+			 в 1992 году. В их текущий состав входят гитарист/вокалист Мэтт Скиба, басист/вокалист Марк Хоппус и барабанщик
+			  Трэвис Баркер. Хотя их звучание менялось на протяжении всей их карьеры, их музыкальный стиль сочетает в себе
+			   запоминающиеся поп-мелодии с динамичным панк-роком. Их лирика сосредоточена на отношениях, подростковом
+			    разочаровании и зрелости - или их отсутствии. Группа возникла из пригородной скейт-панк-сцены Южной
+				 Калифорнии и прославилась энергичными живыми выступлениями и дерзким юмором.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Blink-182 (stylized in all lowercase) is an American rock band formed in Poway, California, in 1992. 
+			Their current lineup consists of guitarist/vocalist Matt Skiba, bassist/vocalist Mark Hoppus, and 
+			drummer Travis Barker. Though their sound has diversified throughout their career, their musical style
+			blends catchy pop melodies with fast-paced punk rock. Their lyrics center on relationships, adolescent
+			frustration, and maturity—or lack thereof. The group emerged from a suburban, Southern California skate-punk
+			scene and gained notoriety for high-energy live shows and irreverent humor.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/blink-182.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+blink_182
+<- rrel_band_members:
+    Matt_Skiba;
+    Mark_Hoppus;
+    Travis_Barker;;
+
+blink_182
+<- rrel_performs_in_genre:
+    concept_punk_rock;;

@@ -1,0 +1,70 @@
+mark_hoppus
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Трэвис Баркер]
+	(*
+	<- lang_ru;;
+	*);
+	[Mark Hoppus]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Марк Аллан Хоппус (родился 15 марта 1972 г.) - американский певец, музыкант, автор песен и продюсер.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mark Allan Hoppus (born March 15, 1972) is an American singer, musician, songwriter, and record producer.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/mark-hoppus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+mark_hoppus <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Марк Аллан Хоппус]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Mark Allan Hoppus ]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+mark_hoppus <- nrel_performs_in_genre:
+	concept_punk_rock;;

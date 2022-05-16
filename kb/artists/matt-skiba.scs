@@ -1,0 +1,74 @@
+matt_skiba
+<= concept_musician;
+
+=> nrel_main_idtf:
+	[Трэвис Баркер]
+	(*
+	<- lang_ru;;
+	*);
+	[Matt Skiba]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мэтью Томас «Мэтт» Скиба (родился 24 февраля 1976 г.) - американский музыкант, певец и автор песен,
+			 известный своей ролью ведущего вокалиста и гитариста-основателя Alkaline Trio , а также гитариста
+			  и со-ведущего вокалиста группы Blink-182 .]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Matthew Thomas "Matt" Skiba (born February 24, 1976) is an American musician, singer and songwriter,
+			 known for his role as the founding lead vocalist and guitarist for Alkaline Trio and the guitarist
+			  and co-lead vocalist of the band Blink-182 since 2015.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/matt_skiba.jpg"	
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+matt_skiba <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мэтью Томас Скиба]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Matthew Thomas Skiba]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+matt_skiba <- nrel_performs_in_genre:
+	concept_punk_rock;;
