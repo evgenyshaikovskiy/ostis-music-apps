@@ -43,16 +43,16 @@ too_star_for_you
 		*);;
     *);;
 
-author
+too_star_for_you
 <- rrel_author:
 	saypink;;
 
-contributer
+too_star_for_you
 <- rrel_contributer:
 	saypink;;
 
 
-concept_love_addiction_and_marathons
+too_star_for_you
 <- rrel_related_to_genre:
     concept_alternative_music;
     concept_indie;;

@@ -44,16 +44,16 @@ still_breathing
     *);;
 
 
-author
+still_breathing
 <- rrel_author:
 	dvrst;;
 
 
-contributer
+still_breathing
 <- rrel_contributer:
 	dvrst;;
 
-concept_love_addiction_and_marathons
+still_breathing
 <- rrel_related_to_genre:
     concept_phonk;
     concept_rap;

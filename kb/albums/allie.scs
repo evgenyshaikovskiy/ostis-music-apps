@@ -42,18 +42,18 @@ allie
 		*);;
     *);;
 
-author
+allie
 <- rrel_author:
 	saypink;;
 
-contributer
+allie
 <- rrel_contributer:
 	saypink;
     Zlata_mai;
     Lite_Wind;;
 
 
-concept_love_addiction_and_marathons
+allie
 <- rrel_related_to_genre:
     concept_hip_hop;
     concept_rappics;;

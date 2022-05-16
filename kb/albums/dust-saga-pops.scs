@@ -43,16 +43,16 @@ dust_saga_pops
 		*);;
     *);;
 
-author
+dust_saga_pops
 <- rrel_author:
 	saypink;;
 
-contributer
+dust_saga_pops
 <- rrel_contributer:
 	saypink;;
 
 
-concept_love_addiction_and_marathons
+dust_saga_pops
 <- rrel_related_to_genre:
     concept_alternative_music;
     concept_indie;;
