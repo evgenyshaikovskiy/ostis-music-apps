@@ -1,8 +1,54 @@
-rrel_musical_association_member
+nrel_musical_association_member
 <- sc_node_norole_relation;
 => nrel_main_idtf:
-    [Участник музыкального объединения]
+    [участник музыкального объединения]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Musical association member]
+    [musical association member]
     (* <- lang_en;; *);;
+<- rrel_key_sc_element:... (*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. участник музыкального объединения*] (*<- lang_ru;;*);
+		[Def. musical association member*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Участник музыкального объединения - лицо, входящее в музыкальный коллектив.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [Musical association member is member of a musical group.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       concept_musical_association;
+       concept_musician
+    };;
+*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- transitive_relation;
+
+=> nrel_first_domain: concept_musician;
+=> nrel_second_domain: concept_musical_association;
+=> nrel_definitional_domain:
+...
+(*
+    <= nrel_combination: 
+    ...
+    (* 
+        -> concept_musical_association;;
+        -> concept_musician;;
+    *);;
+*);;

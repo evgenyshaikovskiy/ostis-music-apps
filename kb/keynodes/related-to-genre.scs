@@ -1,8 +1,55 @@
-rrel_related_to_genre
+nrel_related_to_genre
 <- sc_node_norole_relation;
 => nrel_main_idtf:
-    [Принадлежит жанру]
+    [принадлежит жанру]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Related to genre]
+    [related to genre]
     (* <- lang_en;; *);;
+
+<- rrel_key_sc_element:... (*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. принадлежит жанру*] (*<- lang_ru;;*);
+		[Def. related to genre*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Принадлежит жанру — отношение, описывающее принадлежность музыкального произведения к различным музыкальным жанрам.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [related to genre is the relation, describing the belonging of a musical work to various musical genres.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       concept_music_genre;
+       concept_album
+    };;
+*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_first_domain: concept_music_genre;
+=> nrel_second_domain: concept_album;
+=> nrel_definitional_domain:
+...
+(*
+    <= nrel_combination: 
+    ...
+    (* 
+        -> concept_music_genre;;
+        -> concept_album;;
+    *);;
+*);;

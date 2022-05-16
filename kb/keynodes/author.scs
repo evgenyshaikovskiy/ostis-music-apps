@@ -1,8 +1,55 @@
-rrel_author
+nrel_author
 <- sc_node_norole_relation;
 => nrel_main_idtf:
-    [Автор]
+    [автор]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Author]
+    [author]
     (* <- lang_en;; *);;
+
+<- rrel_key_sc_element:... (*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. автор*] (*<- lang_ru;;*);
+		[Def. author*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Автор — творец всякого, литературного, музыкального или любого художественного произведения и вообще всякого произведения ума, воплощённого искусством.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [The author is the creator of any literary, musical or any work of art, and in general any work of the mind embodied in art.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       concept_music_compositions;
+       concept_musician
+    };;
+*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_first_domain: concept_musician;
+=> nrel_second_domain: concept_music_compositions;
+=> nrel_definitional_domain:
+...
+(*
+    <= nrel_combination: 
+    ...
+    (* 
+        -> concept_music_compositions;;
+        -> concept_musician;;
+    *);;
+*);;

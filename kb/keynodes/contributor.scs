@@ -1,8 +1,54 @@
-rrel_contributer
+nrel_contributer
 <- sc_node_norole_relation;
 => nrel_main_idtf:
-    [Коллаборант]
+    [соучастник]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Contributor]
+    [contributor]
     (* <- lang_en;; *);;
+<- rrel_key_sc_element:... (*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. соучастник*] (*<- lang_ru;;*);
+		[Def. contributor*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Это человек (или люди), которые написали песню. Это должно быть официальное имя для всех, кто работал над композицией.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [This is the person (or people) who wrote the song. These should be the legal name for anyone who worked on the track.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       concept_music_compositions;
+       concept_musician
+    };;
+*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_first_domain: concept_musician;
+=> nrel_second_domain: concept_music_compositions;
+=> nrel_definitional_domain:
+...
+(*
+    <= nrel_combination: 
+    ...
+    (* 
+        -> concept_music_compositions;;
+        -> concept_musician;;
+    *);;
+*);;

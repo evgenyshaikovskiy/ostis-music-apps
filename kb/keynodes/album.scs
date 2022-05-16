@@ -1,8 +1,38 @@
 concept_album
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [Музыкальный альбом]
+    [музыкальный альбом]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Music album]
+    [music album]
     (* <- lang_en;; *);;
+<- rrel_key_sc_element:
+... 
+(*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. альбом*] (*<- lang_ru;;*);
+		[Def. author*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Музыкальный альбом — музыкальное произведение, набор музыкальных композиций, выпущенных вместе, в стандартном формате, доступном для проигрывания на популярных воспроизводящих устройствах.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [Music album is a set of musical compositions released together in a standard format available for playback on popular playback devices.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       rrel_related_to_genre;
+       rrel_contributer;
+       rrel_author
+    };;
+*);;

@@ -1,8 +1,38 @@
 concept_music_compositions 
 <- sc_node_not_relation;		
 => nrel_main_idtf:
-    [Музыкальное произведение]
+    [музыкальное произведение]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Musical composition]
+    [musical composition]
     (* <- lang_en;; *);;
+<- rrel_key_sc_element:
+... 
+(*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. музыкальное произведение*] (*<- lang_ru;;*);
+		[Def. musical composition*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Музыкальное произведение - музыкальная единица. Может относиться к оригинальному произведению или музыкальному произведению, вокальному или инструментальному, структуре музыкального произведения или к процессу создания или написания нового музыкального произведения.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [Musical composition can refer to an original piece or work of music, either vocal or instrumental, the structure of a musical piece or to the process of creating or writing a new piece of music.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       rrel_related_to_genre;
+       rrel_contributer;
+       rrel_author
+    };;
+*);;

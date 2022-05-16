@@ -1,8 +1,33 @@
 concept_music_genre
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [Музыкальный жанр]
+    [музыкальный жанр]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Musical genre]
+    [musical genre]
     (* <- lang_en;; *);;
+<- rrel_key_sc_element:
+... 
+(*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. музыкальный жанр*] (*<- lang_ru;;*);
+		[Def. musical genre*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Музыкальный жанр — род музыки, музыкальных произведений, характеризующийся определёнными сюжетными, композиционными, стилистическими и др. признаками; а также отдельные разновидности этого рода.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [A musical genre is a kind of music, musical works, characterized by certain plot, compositional, stylistic, and other features; as well as individual varieties of this genus.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+*);;

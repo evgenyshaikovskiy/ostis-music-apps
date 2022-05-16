@@ -1,8 +1,40 @@
 concept_band
+<= nrel_inclusion: concept_musician;
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [Музыкальная группа]
+    [музыкальная группа]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Musical band]
+    [musical band]
     (* <- lang_en;; *);;
+<- rrel_key_sc_element:
+... 
+(*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. музыкальная группа*] (*<- lang_ru;;*);
+		[Def. musical band*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Музыкальная группа — небольшой музыкальный ансамбль, исполняющий рок, поп-музыку или другой жанр.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [Music band is a small musical ensemble that performs rock music, pop music, or a another genre.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       nrel_performs_in_genre;
+       rrel_contributer;
+       rrel_author;
+       nrel_band_member
+    };;
+*);;

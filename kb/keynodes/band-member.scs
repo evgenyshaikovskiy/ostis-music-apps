@@ -1,8 +1,54 @@
-rrel_band_member
+nrel_band_member
 <- sc_node_norole_relation;
 => nrel_main_idtf:
-    [Участник группы]
+    [участник группы]
     (* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Band member]
+    [band member]
     (* <- lang_en;; *);;
+<- rrel_key_sc_element:... (*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. участник группы*] (*<- lang_ru;;*);
+		[Def. band member*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Участник группы - лицо, входящее в музыкальный группу. Обычно музыкальная группа состоит из музыкантов, но в него могут входить и другие музыкальные деятели (продюсеры, звукорежиссёры) или люди, непосредственно к созданию музыки не причастные (художники, поэты, техники).]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [Group member - a person who is part of a musical group. Usually a musical group consists of musicians, but it can also include other musical figures (producers, sound engineers) or people who are not directly involved in the creation of music (artists, poets, technicians).]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       concept_band;
+       concept_musician
+    };;
+*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_first_domain: concept_musician;
+=> nrel_second_domain: concept_band;
+=> nrel_definitional_domain:
+...
+(*
+    <= nrel_combination: 
+    ...
+    (* 
+        -> concept_band;;
+        -> concept_musician;;
+    *);;
+*);;

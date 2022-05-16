@@ -1,0 +1,38 @@
+concept_musical_association
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [музыкальное объединение]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [musical association]
+    (* <- lang_en;; *);;
+<- rrel_key_sc_element:
+... 
+(*
+    <- sc_definition;;
+    => nrel_main_idtf: 
+        [Опр. музыкальное объединение*] (*<- lang_ru;;*);
+		[Def. musical association*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+        [Музыкальное объединение — коллектив людей, объединённых общей целью или работой, которые так или иначе связаны с музыкой.]
+        (*
+            <- lang_ru;;
+        *);;
+    *);
+        ...
+    (*
+    -> rrel_example:
+        [A musical association is a group of people united by a common goal or work, who are somehow connected with music.]
+        (*
+            <- lang_en;;
+        *);;
+    *);;
+    <= nrel_using_constants:{
+       nrel_performs_in_genre;
+       nrel_musical_association_member;
+       concept_musician
+    };;
+*);;
