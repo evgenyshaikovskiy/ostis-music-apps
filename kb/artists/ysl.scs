@@ -44,7 +44,7 @@ ysl
     *);;
 
 ysl
-<- rrel_musical_association_member:
+<- nrel_musical_association_member:
     young_thug;
     gunna;
     lil_keed;
@@ -53,7 +53,7 @@ ysl
     turbo;;
 
 ysl
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
 	concept_trap_rap;
     concept_experimental_hiphop;;

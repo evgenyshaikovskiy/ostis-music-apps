@@ -44,11 +44,11 @@ pussy_boy
     *);;
 
 pussy_boy
-<- rrel_author:
+<- nrel_author:
 	egor_kreed;;
 
 pussy_boy
-<- rrel_contributer:
+<- nrel_contributor:
 	egor_kreed;
     soda_luv;
     og_buda;
@@ -57,7 +57,7 @@ pussy_boy
     blago_white;;
 
 pussy_boy
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_trap_rap;
     concept_hiphop;
     concept_drill;;

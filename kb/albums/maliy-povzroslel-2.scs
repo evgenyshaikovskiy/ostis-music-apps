@@ -44,14 +44,14 @@ maliy_povzroslel_2
     *);;
 
 maliy_povzroslel_2
-<- rrel_author:
+<- nrel_author:
 	max_korzh;;
 
 maliy_povzroslel_2
-<- rrel_contributer:
+<- nrel_contributor:
 	max_korzh;
     fetre;;
 
 maliy_povzroslel_2
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
 	concept_trap_rap;;

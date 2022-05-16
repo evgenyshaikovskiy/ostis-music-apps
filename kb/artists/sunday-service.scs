@@ -44,6 +44,6 @@ sunday_service_choir
     *);;
 
 sunday_service_choir
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_gospel;
     concept_spiritual_music;;

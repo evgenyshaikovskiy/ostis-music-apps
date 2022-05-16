@@ -44,14 +44,14 @@ igor
     *);;
 
 igor
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_funk;
     concept_rhytmnblues;
     concept_neo_soul;;
 
 igor
-<- rrel_contributer:
+<- nrel_contributor:
     tyler_the_creator;
     lil_uzi_vert;
     playboi_carti;
@@ -60,5 +60,5 @@ igor
     charlie_wilson;;
 
 igor
-<- rrel_author:
+<- nrel_author:
     tyler_the_creator;;

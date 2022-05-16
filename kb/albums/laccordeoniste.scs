@@ -44,13 +44,13 @@ laccordeoniste
     *);;
 
 laccordeoniste
-<- rrel_author:
+<- nrel_author:
 	edith_piaf;;
 
 laccordeoniste
-<- rrel_contributer:
+<- nrel_contributor:
 	edith_piaf;;
 
 laccordeoniste
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_chanson;;

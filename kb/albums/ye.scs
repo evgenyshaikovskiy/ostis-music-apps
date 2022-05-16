@@ -44,16 +44,16 @@ ye
     *);;
 
 ye
-<- rrel_author:
+<- nrel_author:
 	kanye_west;;
 
 ye
-<- rrel_contributer:
+<- nrel_contributor:
 	kanye_west;
     partynextdoor;;
 
 ye
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
 	concept_pop;
 	concept_rhytmnblues;;

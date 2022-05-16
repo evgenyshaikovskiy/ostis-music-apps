@@ -44,14 +44,14 @@ trash_island
     *);;
 
 trash_island
-<- rrel_author:
+<- nrel_author:
 	bladee;
     ecco2k;
     thaiboy_digital;
     whitearmor;;
 
 trash_island
-<- rrel_contributer:
+<- nrel_contributor:
 	bladee;
     ecco2k;
     thaiboy_digital;
@@ -59,7 +59,7 @@ trash_island
     yung_lean;;
 
 trash_island
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_cloud_rap;
     concept_emo;

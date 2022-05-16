@@ -46,10 +46,10 @@ nurnberg
 
 
 nurnberg
-<- rrel_band_member:
+<- nrel_band_member:
     yury_luhautsou;
     aleh_savutsin;;
 
 nurnberg
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_post_punk;;

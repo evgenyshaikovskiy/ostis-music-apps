@@ -44,7 +44,7 @@ stary_olsa
     *);;
 
 stary_olsa
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_bel_folk_music;
 	concept_choruses_and_songs;
 	concept_lyrics;

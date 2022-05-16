@@ -44,11 +44,11 @@ testing
     *);;
 
 testing
-<- rrel_author:
+<- nrel_author:
 	asap_rocky;;
 
 testing
-<- rrel_contributer:
+<- nrel_contributor:
 	asap_rocky;
     moby;
     kid_cudi;
@@ -60,7 +60,7 @@ testing
     frank_ocean;;
 
 testing
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_experimental_hiphop;
     concept_trap;;

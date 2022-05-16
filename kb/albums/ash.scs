@@ -45,18 +45,18 @@ ash
 
 
 ash
-<- rrel_author:
+<- nrel_author:
 	three_days_of_rain;;
 
 
 ash
-<- rrel_contributer:
+<- nrel_contributor:
 	three_days_of_rain;
 	roki;
 	aikko;;
 
 ash
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_indie;
 	concept_alternative_music;;
 

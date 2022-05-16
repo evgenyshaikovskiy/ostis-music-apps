@@ -44,11 +44,11 @@ blonde
     *);;
 
 blonde
-<- rrel_author:
+<- nrel_author:
 	frank_ocean;;
 
 blonde
-<- rrel_contributer:
+<- nrel_contributor:
 	frank_ocean;
     pharrell_williams;
     tyler_the_creator;
@@ -59,7 +59,7 @@ blonde
     John_Lennon;;
 
 blonde
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_rhytmnblues;
     concept_experimental_pop;
     concept_soul;

@@ -66,6 +66,6 @@ strick <- rrel_key_sc_element:
 		*);;
 *);;
 
-strick <- rrel_performs_in_genre:
+strick <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;;

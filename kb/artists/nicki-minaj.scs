@@ -66,6 +66,6 @@ nicki_minaj <- rrel_key_sc_element:
 		*);;
 *);;
 
-nicki_minaj <- rrel_performs_in_genre:
+nicki_minaj <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;;

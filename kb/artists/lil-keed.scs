@@ -66,6 +66,6 @@ lil_keed <- rrel_key_sc_element:
 		*);;
 *);;
 
-lil_keed <- rrel_performs_in_genre:
+lil_keed <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;;

@@ -44,16 +44,16 @@ ocg_city
     *);;
 
 ocg_city
-<- rrel_author:
+<- nrel_author:
 	og_buda;;
 
 ocg_city
-<- rrel_contributer:
+<- nrel_contributor:
 	og_buda;
     sadeness;;
 
 ocg_city
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_trap_rap;
 	concept_hiphop;
 	concept_drill;;

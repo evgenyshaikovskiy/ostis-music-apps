@@ -66,6 +66,6 @@ bryson_tiller <- rrel_key_sc_element:
 		*);;
 *);;
 
-bryson_tiller <- rrel_performs_in_genre:
+bryson_tiller <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;;

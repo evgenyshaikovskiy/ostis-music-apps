@@ -66,7 +66,7 @@ asap_rocky <- rrel_key_sc_element:
 		*);;
 *);;
 
-asap_rocky <- rrel_performs_in_genre:
+asap_rocky <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_cloud_rap;
 	concept_trap_rap;

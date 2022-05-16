@@ -44,17 +44,17 @@ i_will_come_sit_i_will
     *);;
 
 i_will_come_sit_i_will
-<- rrel_author:
+<- nrel_author:
 	saypink;;
 
 i_will_come_sit_i_will
-<- rrel_contributer:
+<- nrel_contributor:
 	saypink;
 	stargazer;;
 
 
 i_will_come_sit_i_will
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_music;
     concept_indie;;
 

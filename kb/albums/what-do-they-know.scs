@@ -44,18 +44,18 @@ what_do_they_know
     *);;
 
 what_do_they_know
-<- rrel_author:
+<- nrel_author:
 	egor_kreed;
     timati;;
 
 what_do_they_know
-<- rrel_contributer:
+<- nrel_contributor:
 	egor_kreed;
     timati;
     mot;
     molly;;
 
 what_do_they_know
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_pop;
     concept_trap_rap;;

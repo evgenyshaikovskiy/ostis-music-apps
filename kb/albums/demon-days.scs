@@ -44,7 +44,7 @@ demon_days
     *);;
 
 demon_days
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_rock;
     concept_art_rock;
     concept_trip_hop;
@@ -52,13 +52,13 @@ demon_days
     concept_hiphop;;
 
 demon_days
-<- rrel_contributer:
+<- nrel_contributor:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;
 
 demon_days
-<- rrel_author:
+<- nrel_author:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;

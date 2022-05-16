@@ -66,7 +66,7 @@ steve_lacy <- rrel_key_sc_element:
 		*);;
 *);;
 
-steve_lacy <- rrel_performs_in_genre:
+steve_lacy <- nrel_performs_in_genre:
 	concept_rhytmnblues;
 	concept_funk;
 	concept_neo_soul;;

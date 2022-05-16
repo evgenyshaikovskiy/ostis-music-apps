@@ -45,12 +45,12 @@ when_you_open_your_eyes
 
 
 when_you_open_your_eyes
-<- rrel_author:
+<- nrel_author:
 	three_days_of_rain;;
 
 
 when_you_open_your_eyes
-<- rrel_contributer:
+<- nrel_contributor:
 	three_days_of_rain;
 	mukka;
 	shena;
@@ -58,7 +58,7 @@ when_you_open_your_eyes
 	lali;;
 
 when_you_open_your_eyes
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_rock;;
 
 

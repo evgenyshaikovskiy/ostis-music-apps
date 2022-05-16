@@ -44,14 +44,14 @@ please_please_me
     *);;
 
 please_please_me
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_rock;
     concept_pop;;
 
 please_please_me
-<- rrel_contributer:
+<- nrel_contributor:
     beatles;;
 
 please_please_me
-<- rrel_author:
+<- nrel_author:
     beatles;;

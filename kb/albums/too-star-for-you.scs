@@ -44,15 +44,15 @@ too_star_for_you
     *);;
 
 too_star_for_you
-<- rrel_author:
+<- nrel_author:
 	saypink;;
 
 too_star_for_you
-<- rrel_contributer:
+<- nrel_contributor:
 	saypink;;
 
 
 too_star_for_you
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_music;
     concept_indie;;

@@ -44,14 +44,14 @@ petar
     *);;
 
 petar
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_alternativehiphop;;
 
 petar
-<- rrel_contributer:
+<- nrel_contributor:
     petar_martic;;
 
 petar
-<- rrel_author:    
+<- nrel_author:    
     petar_martic;;

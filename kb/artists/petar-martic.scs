@@ -43,7 +43,7 @@ petar_martic
     *);;
 
 petar_martic
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_indie_rock;
     concept_indie_pop;
     concept_emo;

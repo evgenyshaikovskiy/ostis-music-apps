@@ -44,13 +44,13 @@ pasosh
     *);;
 
 pasosh
-<- rrel_band_member:
+<- nrel_band_member:
     petar_martic;
     kirill_gorodniy;
     grigory_drach;;
 
 pasosh
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_rock;
     concept_alternative_rock;
     concept_punk;

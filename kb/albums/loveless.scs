@@ -44,7 +44,7 @@ loveless
     *);;
 
 loveless
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_shoegaze;
     concept_noise_rock;
     concept_alternative_rock;
@@ -52,9 +52,9 @@ loveless
     concept_experimental_rock;;
 
 loveless
-<- rrel_contributer:
+<- nrel_contributor:
     my_bloody_valentine;;
 
 loveless
-<- rrel_author:
+<- nrel_author:
     my_bloody_valentine;;

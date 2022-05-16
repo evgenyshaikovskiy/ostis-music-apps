@@ -44,15 +44,15 @@ hard_days_night
     *);;
 
 hard_days_night
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_rock;
     concept_art_rock;
     concept_pop;;
 
 hard_days_night
-<- rrel_contributer:
+<- nrel_contributor:
     beatles;;
 
 hard_days_night
-<- rrel_author:
+<- nrel_author:
     beatles;;

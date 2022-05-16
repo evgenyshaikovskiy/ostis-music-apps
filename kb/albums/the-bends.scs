@@ -44,17 +44,17 @@ the_bends
     *);;
 
 the_bends
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_rock;
     concept_indie_rock;;
 
 the_bends
-<- rrel_author:
+<- nrel_author:
     radiohead;
     john_leckie;;
 
 the_bends
-<- rrel_contributer:
+<- nrel_contributor:
     radiohead;
     john_leckie;
     nigel_godrich;;

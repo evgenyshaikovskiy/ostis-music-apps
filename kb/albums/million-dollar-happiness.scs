@@ -44,14 +44,14 @@ million_dollar_happiness
     *);;
 
 million_dollar_happiness
-<- rrel_author:
+<- nrel_author:
 	morgenshtern;;
 
 million_dollar_happiness
-<- rrel_contributer:
+<- nrel_contributor:
 	morgenshtern;;
 
 million_dollar_happiness
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_rus_rap;;

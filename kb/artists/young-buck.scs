@@ -66,7 +66,7 @@ young_buck <- rrel_key_sc_element:
 		*);;
 *);;
 young_buck
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
     concept_hardcore;
     concept_gangsta;;

@@ -44,16 +44,16 @@ totally_sucks
     *);;
 
 totally_sucks
-<- rrel_author:
+<- nrel_author:
 	saypink;;
 
 totally_sucks
-<- rrel_contributer:
+<- nrel_contributor:
 	saypink;
     Repentov;;
 
 
 totally_sucks
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_music;
     concept_indie;;

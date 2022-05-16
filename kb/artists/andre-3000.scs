@@ -66,7 +66,7 @@ andre_3000 <- rrel_key_sc_element:
 		*);;
 *);;
 
-andre_3000 <- rrel_performs_in_genre:
+andre_3000 <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_rhytmnblues;
 	concept_jazz;

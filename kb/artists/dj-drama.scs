@@ -66,6 +66,6 @@ dj_drama <- rrel_key_sc_element:
 		*);;
 *);;
 
-dj_drama <- rrel_performs_in_genre:
+dj_drama <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_gangsta;;

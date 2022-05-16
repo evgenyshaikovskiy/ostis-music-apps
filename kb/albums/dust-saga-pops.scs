@@ -44,15 +44,15 @@ dust_saga_pops
     *);;
 
 dust_saga_pops
-<- rrel_author:
+<- nrel_author:
 	saypink;;
 
 dust_saga_pops
-<- rrel_contributer:
+<- nrel_contributor:
 	saypink;;
 
 
 dust_saga_pops
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_music;
     concept_indie;;

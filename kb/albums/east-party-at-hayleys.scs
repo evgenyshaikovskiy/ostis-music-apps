@@ -44,15 +44,15 @@ east_party_at_hayleys
     *);;
 
 east_party_at_hayleys
-<- rrel_author:
+<- nrel_author:
 	saypink;;
 
 east_party_at_hayleys
-<- rrel_contributer:
+<- nrel_contributor:
 	saypink;;
 
 
 east_party_at_hayleys
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hip_hop;
     concept_rap;;

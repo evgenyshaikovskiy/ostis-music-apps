@@ -66,7 +66,7 @@ max_korzh <- rrel_key_sc_element:
 		*);;
 *);;
 max_korzh
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_trap_rap;
 	concept_hiphop;
 	concept_art_rock;

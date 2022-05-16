@@ -66,6 +66,6 @@ pierre_bourne <- rrel_key_sc_element:
 		*);;
 *);;
 
-pierre_bourne <- rrel_performs_in_genre:
+pierre_bourne <- nrel_performs_in_genre:
 	concept_hiphop;
 	concept_trap_rap;;

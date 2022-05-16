@@ -46,12 +46,12 @@ gorillaz
 
 
 gorillaz
-<- rrel_band_member:
+<- nrel_band_member:
     Damon_Alborn;
     Jamie_Hewlett;;
 
 gorillaz
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_alternative_rock;
     concept_art_pop;
     concept_electronic;

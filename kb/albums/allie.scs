@@ -43,17 +43,17 @@ allie
     *);;
 
 allie
-<- rrel_author:
+<- nrel_author:
 	saypink;;
 
 allie
-<- rrel_contributer:
+<- nrel_contributor:
 	saypink;
     Zlata_mai;
     Lite_Wind;;
 
 
 allie
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hip_hop;
     concept_rappics;;

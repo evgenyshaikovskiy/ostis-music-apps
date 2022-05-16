@@ -44,7 +44,7 @@ gorillaz_album
     *);;
 
 gorillaz_album
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_alternative_rock;
     concept_art_pop;
     concept_lofi;
@@ -52,13 +52,13 @@ gorillaz_album
     concept_hiphop;;
 
 gorillaz_album
-<- rrel_contributer:
+<- nrel_contributor:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;
 
 gorillaz_album
-<- rrel_author:
+<- nrel_author:
     gorillaz;
     Damon_Alborn;
     Jamie_Hewlett;;

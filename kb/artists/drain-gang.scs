@@ -44,7 +44,7 @@ drain_gang
     *);;
 
 drain_gang
-<- rrel_musical_association_member:
+<- nrel_musical_association_member:
     thaiboy_digital;
     ecco2k;
     bladee;
@@ -52,7 +52,7 @@ drain_gang
     yung_sherman;;
 
 drain_gang
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_hiphop;
     concept_cloud_rap;
     concept_emo;

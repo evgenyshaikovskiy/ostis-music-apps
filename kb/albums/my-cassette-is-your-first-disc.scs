@@ -44,14 +44,14 @@ my_cassette_is_your_first_disc
     *);;
 
 my_cassette_is_your_first_disc
-<- rrel_author:
+<- nrel_author:
 	tima_bel;;
 
 my_cassette_is_your_first_disc
-<- rrel_contributer:
+<- nrel_contributor:
 	tima_bel;;
 
 my_cassette_is_your_first_disc
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;
     concept_synth_pop;;

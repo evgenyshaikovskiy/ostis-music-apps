@@ -43,15 +43,15 @@ animal_world
     *);;
 
 animal_world
-<- rrel_author:
+<- nrel_author:
 	max_korzh;;
 
 animal_world
-<- rrel_contributer:
+<- nrel_contributor:
 	max_korzh;;
 
 animal_world
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_pop;
     concept_hiphop;
     concept_rhytmnblues;;

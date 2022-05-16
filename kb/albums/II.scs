@@ -43,16 +43,16 @@ II
     *);;
 
 II
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_jazz;
     concept_brazil;
     concept_alternative_rock;;
 
 II
-<- rrel_contributer:
+<- nrel_contributor:
     soyuz;
     petar_martic;;
 
 II
-<- rrel_author:
+<- nrel_author:
     soyuz;;

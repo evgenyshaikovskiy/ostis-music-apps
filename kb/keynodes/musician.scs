@@ -5,7 +5,7 @@ concept_musician
     (* <- lang_ru;; *);
 => nrel_main_idtf:
     [musician]
-    (* <- lang_en;; *);;
+    (* <- lang_en;; *);
 <- rrel_key_sc_element:
 ... 
 (*
@@ -32,7 +32,7 @@ concept_musician
     *);;
     <= nrel_using_constants:{
        nrel_performs_in_genre;
-       rrel_contributer;
-       rrel_author
+       nrel_contributor;
+       nrel_author
     };;
 *);;

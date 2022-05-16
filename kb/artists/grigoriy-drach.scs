@@ -43,7 +43,7 @@ grigory_drach
     *);;
 
 grigory_drach
-<- rrel_performs_in_genre:
+<- nrel_performs_in_genre:
     concept_indie_rock;
     concept_punk;
     concept_emo;

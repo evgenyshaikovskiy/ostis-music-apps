@@ -44,14 +44,14 @@ legendary_dust
     *);;
 
 legendary_dust
-<- rrel_author:
+<- nrel_author:
 	morgenshtern;;
 
 legendary_dust
-<- rrel_contributer:
+<- nrel_contributor:
 	morgenshtern;
     slava_marlow;;
 
 legendary_dust
-<- rrel_related_to_genre:
+<- nrel_related_to_genre:
     concept_hiphop;;
