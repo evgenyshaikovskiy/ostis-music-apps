@@ -1,0 +1,25 @@
+concept_electric_guitar
+<= nrel_inclusion: concept_lute_family;
+=> nrel_main_idtf: [electric guitar] (* <- lang_en;; *);
+=> nrel_main_idtf: [электрогитара] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Электрогитара)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Cтрунный щипковый электрический музыкальный инструмент, разновидность гитары, имеющая электромагнитные звукосниматели, преобразующие колебания металлических струн в колебания электрического тока. Сигнал со звукоснимателей может быть обработан для получения различных звуковых эффектов и усилен — для воспроизведения через акустическую систему. Слово «электрогитара» возникло от словосочетания «электрическая гитара».] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Electric guitar)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Stringed plucked electric musical instrument, a type of guitar that has electromagnetic pickups that convert the vibrations of metal strings into electric current vibrations. The signal from the pickups can be processed for various sound effects and amplified for playback through the speaker system. The word "electric guitar" originated from the phrase "electric guitar".] (* <- lang_en;; *);;
+	*);;
+*);;
+

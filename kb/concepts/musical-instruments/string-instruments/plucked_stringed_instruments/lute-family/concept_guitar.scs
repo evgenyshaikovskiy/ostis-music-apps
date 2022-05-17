@@ -1,0 +1,25 @@
+concept_guitar
+<= nrel_inclusion: concept_lute_family;
+=> nrel_main_idtf: [guitar] (* <- lang_en;; *);
+=> nrel_main_idtf: [гитара] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Гиатара)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Cтрунный щипковый музыкальный инструмент. Применяется в качестве аккомпанирующего или сольного инструмента во многих стилях и направлениях музыки, среди которых романс, блюз, кантри, фламенко, рок, джаз.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Guitar)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Stringed musical instrument. It is used as an accompanying or solo instrument in many styles and directions of music, including romance, blues, country, flamenco, rock, jazz.] (* <- lang_en;; *);;
+	*);;
+*);;
+

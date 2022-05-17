@@ -1,0 +1,25 @@
+concept_royale
+<= nrel_inclusion: concept_keyboard_stringed; //от кого идёт
+=> nrel_main_idtf: [royale] (* <- lang_en;; *);
+=> nrel_main_idtf: [рояль] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Рояль)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [ музыкальный инструмент, основной вид концертного фортепиано, в котором струны, дека и механическая часть расположены горизонтально, корпус имеет крыловидную форму, а звуки издаются ударами войлочных молоточков по струнам при помощи клавиш. В отличие от пианино, звучание рояля более выразительно и насыщенно по тембру, клавиатура более чувствительна, игровые качества более виртуозны, и диапазон градаций изменения звука — шире.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Royale)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [a musical instrument, the main type of concert piano, in which the strings, the soundboard and the mechanical part are arranged horizontally, the body has a wing-shaped shape, and the sounds are made by hitting the strings with felt hammers using the keys. Unlike the piano, the sound of the grand piano is more expressive and rich in timbre, the keyboard is more sensitive, the playing qualities are more virtuosic, and the range of gradations of sound change is wider.] (* <- lang_en;; *);;
+	*);;
+*);;
+
