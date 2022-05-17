@@ -1,0 +1,58 @@
+etazhi
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Etazhi]
+    (*
+        <- lang_en;;
+    *);
+    [Этажи]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Этажи - второй студийный альбом беларусской пост-панк-группы "Молчат дома", впервые выпущенный 7 сентября 2018 года на лейбле Detriti Records. После подписания группой контракта с Sacred Bones Records в январе 2020 года альбом был впервые выпущен в Северной Америке 27 марта 2020 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Etazhi is the second studio album by Belarusian post-punk band Molchat Doma, first released on 7 September 2018 through Detriti Records. Following the band's signing with Sacred Bones Records in January 2020, the album was released in North America for the first time on 27 March 2020. ]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/etazhi.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+etazhi
+<- nrel_related_to_genre:
+    concept_rock;
+    concept_post_punk;
+    concept_synth_pop;;
+
+etazhi
+<- nrel_contributor:
+    molchat_doma;;
+    
+
+etazhi
+<- nrel_author:
+    molchat_doma;;

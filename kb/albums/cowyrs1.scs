@@ -1,0 +1,60 @@
+come_over_wnen_youre_sober_pt1
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Come Over When You're Sober Pt.1]
+    (*
+        <- lang_en;;
+    *);
+    [Приходи, когда протрезвеешь Часть 1]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Приходи, когда протрезвеешь Часть 1 - дебютный студийный альбом американского исполнителя Маленький Пип. Он был выпущен 15 августа 2017 года компанией АВТОНОМИ через АВАЛ.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Come Over When You're Sober, Pt. 1 is the debut studio album by American recording artist Lil Peep. It was released on August 15, 2017, by AUTNMY via AWAL.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/cowyrs1.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+come_over_wnen_youre_sober_pt1
+<- nrel_related_to_genre:
+    concept_pop_punk;
+    concept_emo;
+    concept_hiphop;;
+
+come_over_wnen_youre_sober_pt1
+<- nrel_contributor:
+    lil_peep;
+    gustav_elijah_ahr;
+    rob_cavallo;;
+     
+
+come_over_wnen_youre_sober_pt1
+<- nrel_author:
+    lil_peep;;

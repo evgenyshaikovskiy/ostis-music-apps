@@ -1,0 +1,59 @@
+three_cheers_for_sweet_revenge
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Three Cheers For Sweet Revenge]
+    (*
+        <- lang_en;;
+    *);
+    [Троекратное Ура Сладкой Мести]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Троекратное Ура Сладкой Мести - второй студийный альбом рок-квинтета Май Кемикал Романс. Выпущенный 8 июня 2004 года на лейбле Реприз Рекордс, он был спродюсирован Говардом Бенсоном.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Three Cheers for Sweet Revenge is the second studio album by rock quintet My Chemical Romance. Released on June 8, 2004 through Reprise Records, it was produced by Howard Benson.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/tcfsr.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+three_cheers_for_sweet_revenge
+<- nrel_related_to_genre:
+    concept_emo;
+    concept_punk_rock;
+    concept_alternative_rock;;
+
+three_cheers_for_sweet_revenge
+<- nrel_contributor:
+    my_chemical_romance;
+    howard_benson;;
+    
+
+three_cheers_for_sweet_revenge
+<- nrel_author:
+    my_chemical_romance;;

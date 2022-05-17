@@ -1,0 +1,60 @@
+racine_carree
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Racine Carrée]
+    (*
+        <- lang_en;;
+    *);
+    [Квадратный Корень]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Квадратный Корень - второй студийный альбом бельгийского музыканта Стромае. Он был выпущен в цифровом виде 16 августа 2013 года и через три дня физически во Франции и Бельгии. Стромэ выразил желание включить Карибское и африканское музыкальное влияние вместе со своими фирменными танцевальными ритмами, вдохновленными 1990-х годов.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Racine carrée  is the second studio album by Belgian musician Stromae. It was released digitally on 16 August 2013 and three days later physically in France and Belgium. Stromae expressed his desire to incorporate Caribbean and African musical influences along with his signature 1990s-inspired dance beats.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/racine-carree.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+racine_carree
+<- nrel_related_to_genre:
+    concept_art_pop;
+    concept_chanson;
+    concept_experimental_pop;
+    concept_popular_music;;
+
+racine_carree
+<- nrel_contributor:
+    stromae;
+    paul_van_haver;;
+    
+
+racine_carree
+<- nrel_author:
+    stromae;;

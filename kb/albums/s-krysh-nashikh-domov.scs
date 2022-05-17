@@ -1,0 +1,58 @@
+s_krysh_nashikh_domov
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [S Krysh Nashikh Domov]
+    (*
+        <- lang_en;;
+    *);
+    [С Крыш Наших Домов]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [С Крыш Наших Домов - второй студийный альбом беларусской пост-панк-группы "Молчат дома". Он был выпущен в 2019 году.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [S Krysh Nashikh Domov is the second studio album by Belarusian post-punk band Molchat Doma. It was released on 2019.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/s-krysh-nashikh-domov.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+s_krysh_nashikh_domov
+<- nrel_related_to_genre:
+    concept_rock;
+    concept_post_punk;
+    concept_synth_pop;;
+
+s_krysh_nashikh_domov
+<- nrel_contributor:
+    molchat_doma;;
+    
+
+s_krysh_nashikh_domov
+<- nrel_author:
+    molchat_doma;;

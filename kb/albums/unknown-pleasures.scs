@@ -1,0 +1,58 @@
+unknown_pleasures
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Unknown Pleasures]
+    (*
+        <- lang_en;;
+    *);
+    [Неизведанные Удовольствия]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Неизведанные Удовольствия - дебютный студийный альбом английской рок-группы Джой Дивижн, выпущенный 15 июня 1979 года на лейбле Тони Вилсонс Фэктори Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Unknown Pleasures is the debut studio album by English rock band Joy Division, released on 15 June 1979 on Tony Wilson's Factory Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/unknown-pleasures.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+unknown_pleasures
+<- nrel_related_to_genre:
+    concept_post_punk;
+    concept_indie_rock;
+    concept_rock;;
+
+unknown_pleasures
+<- nrel_contributor:
+    joy_division;;
+    
+
+unknown_pleasures
+<- nrel_author:
+    joy_division;;

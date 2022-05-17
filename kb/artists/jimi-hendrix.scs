@@ -1,0 +1,73 @@
+jimi_hendrix
+<= concept_musician;
+=> nrel_main_idtf:
+	[Джими Хендрикс]
+	(*
+	<- lang_ru;;
+	*);
+	[Jimi Hendrix]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джеймс Маршалл "Джими" Хендрикс (урожденный Джонни Аллен Хендрикс; 27 ноября 1942 – 18 сентября 1970) - американский гитарист, певец и автор песен. Хотя его мейнстрим-карьера длилась всего четыре года, он широко известен как один из самых влиятельных электрогитаристов в истории популярной музыки и один из самых знаменитых музыкантов 20-го века.]
+			(*
+            <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[James Marshall "Jimi" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American guitarist, singer, and songwriter. Although his mainstream career spanned only four years, he is widely regarded as one of the most influential electric guitarists in the history of popular music, and one of the most celebrated musicians of the 20th century.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/jimi-hendrix.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+jimi_hendrix <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Джонни Аллен Хендрикс]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Johnny Allen Hendrix]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+jimi_hendrix <- rrel_performs_in_genre:
+	concept_rock;
+	concept_rocknroll;
+    concept_rhytmnblues;
+    concept_blues;
+    concept_psychedelic_rock;;

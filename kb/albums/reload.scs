@@ -1,0 +1,64 @@
+reload
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Reload]
+    (*
+        <- lang_en;;
+    *);
+    [Перезагрузка]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Перезагрузка - седьмой студийный альбом американской хэви-метал-группы Металлика, выпущенный 18 ноября 1997 года на лейбле Электра Рекордс. Альбом является продолжением Загрузка, выпущенного годом ранее, и последнего студийного альбома Металлика, в котором представлены треки эры ...И Правосудие Для Всех, с басистом Джейсоном Ньюстедом, покинувшим группу в январе 2001 года, хотя это был не его последний релиз с группой.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Reload is the seventh studio album by American heavy metal band Metallica, released on November 18, 1997 via Elektra Records. The album is a follow-up to Load, released the previous year, and Metallica's last studio album to feature the ...And Justice for All-era lineup, with bassist Jason Newsted leaving the band in January 2001, though it was not his last release with the band.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/reload.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+reload
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+reload
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    jason_newsted;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+reload
+<- nrel_author:
+    metallica;;

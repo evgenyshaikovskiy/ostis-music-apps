@@ -1,0 +1,46 @@
+concept_death_metal
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дэт-Метал]
+	(*
+	<- lang_ru;;
+	*);
+	[Death-Metal]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+            [Дэт-метал - это экстремальный поджанр хэви-метал музыки. Обычно в нем используются сильно искаженные и низко настроенные гитары, играемые с использованием таких техник, как приглушение звука ладонью и выбор тремоло; глубокий рычащий вокал; агрессивная, мощная игра на барабанах, включающая технику двойного удара и бластбита; минорные клавиши или атональность; резкие изменения темпа, тональности и временной подписи; и хроматические последовательности аккордов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Death-Metal is an extreme subgenre of heavy metal music. It typically employs heavily distorted and low-tuned guitars, played with techniques such as palm muting and tremolo picking; deep growling vocals; aggressive, powerful drumming, featuring double kick and blast beat techniques; minor keys or atonality; abrupt tempo, key, and time signature changes; and chromatic chord progressions. ]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/death-metal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

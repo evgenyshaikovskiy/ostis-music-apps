@@ -1,0 +1,60 @@
+stardust
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Stardust]
+    (*
+        <- lang_en;;
+    *);
+    [Звёздная Пыль]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Звёздная Пыль - микстейп исполнителя Молодой Лин выпущенный 8 апреля 2022г.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Stardust - mixtape by Young Lean released on April 8, 2022.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/stardust.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+stardust
+<- nrel_related_to_genre:
+    concept_hiphop;
+    concept_cloud_rap;
+    concept_hyperpop;
+    concept_alternativehiphop;
+    concept_experimental_hiphop;;
+
+stardust
+<- nrel_contributor:
+    yung_lean;;
+    
+
+stardust
+<- nrel_author:
+    yung_lean;;

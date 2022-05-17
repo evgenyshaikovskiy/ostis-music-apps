@@ -1,0 +1,64 @@
+garage_inc
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Garage Inc.]
+    (*
+        <- lang_en;;
+    *);
+    [Гараж Инк.]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Гараж Инк. - сборник кавер-версий песен американской хэви-метал-группы Металлика. Он был выпущен 24 ноября 1998 года на лейбле Электра Рекордс. Он включает в себя кавер-версии песен и каверы на Би-сайды.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Garage Inc. is a compilation album of cover songs by American heavy metal band Metallica. It was released on November 24, 1998, through Elektra Records. It includes cover songs and B-side covers.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/garage-inc.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+garage_inc
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+garage_inc
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    jason_newsted;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+garage_inc
+<- nrel_author:
+    metallica;;

@@ -1,0 +1,46 @@
+concept_k_pop
+<= nrel_inclusion: concept_pop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[К-Поп]
+	(*
+	<- lang_ru;;
+	*);
+	[K-Pop]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+            [К-Поп (также известный как нектар для ушей или музыка сверхлюдей), сокращение от корейской популярной музыки, является формой популярной музыки, зародившейся в Южной Корее как часть южнокорейской культуры. Термин "К-Поп" стал популярным в 2000-х годах.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+            [K-Pop (also known as nectar for the ears or music for ubermensch), short for Korean popular music, is a form of popular music originating in South Korea as part of South Korean culture. The term "K-pop" became popular in the 2000s.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/k-pop.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

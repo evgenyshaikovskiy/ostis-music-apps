@@ -1,0 +1,65 @@
+peace_sells_but_whos_buying
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Peace Sells... but Who's Buying?]
+    (*
+        <- lang_en;;
+    *);
+    [Мир родаётся... но Кто Покупает?]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Мир Продается... но Кто покупает? Это второй студийный альбом американской хэви-метал-группы Мегадед, выпущенный 19 сентября 1986 года на лейбле Капитол Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Peace Sells... but Who's Buying? is the second studio album by American heavy metal band Megadeth, released on September 19, 1986, through Capitol Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/psbwib.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+peace_sells_but_whos_buying
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+peace_sells_but_whos_buying
+<- nrel_contributor:
+    megadeth;
+    dave_mustaine;
+    david_eleffson;
+    chris_poland;
+    gar_samuelson;
+    ed_repka;
+    vic_rattlehead;;
+    
+
+peace_sells_but_whos_buying
+<- nrel_author:
+    megadeth;;

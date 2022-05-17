@@ -1,0 +1,48 @@
+rammstein
+<= concept_band;
+=> nrel_main_idtf:
+    [Рамштайн]
+    (*
+        <- lang_ru;;
+    *);
+    [Rammstein]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Rammstein (нем. "таранящий камень") - немецкая новая немецкая группа, образованная в Берлине в 1994 году. Состав группы, состоящий из ведущего вокалиста Тилля Линдеманна, ведущего гитариста Ричарда Круспе, ритм—гитариста Пола Ландерса, басиста Оливера Риделя, барабанщика Кристофа Шнайдера и клавишника Кристиана "Флейк" Лоренца]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Rammstein (German "ramming stone") is a German Neue Deutsche Härte band formed in Berlin in 1994. The band's lineup—consisting of lead vocalist Till Lindemann, lead guitarist Richard Kruspe, rhythm guitarist Paul Landers, bassist Oliver Riedel, drummer Christoph Schneider, and keyboardist Christian "Flake" Lorenz]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/rammstein.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+rammstein
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_hard_rock;;

@@ -1,0 +1,46 @@
+concept_disco
+<= nrel_inclusion: concept_pop;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Диско]
+	(*
+	<- lang_ru;;
+	*);
+	[Disco]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+            [Диско - это жанр танцевальной музыки и субкультура, возникшая в 1970-х годах на городской ночной сцене Соединенных Штатов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+            [Disco is a genre of dance music and a subculture that emerged in the 1970s from the United States' urban nightlife scene.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/disco.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

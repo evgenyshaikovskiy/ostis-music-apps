@@ -1,0 +1,61 @@
+come_over_wnen_youre_sober_pt2
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Come Over When You're Sober Pt.2]
+    (*
+        <- lang_en;;
+    *);
+    [Приходи, когда протрезвеешь Часть 2]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Приходи, когда протрезвеешь Часть 2 - второй и последний студийный альбом американского исполнителя Маленький Пип. Он был выпущен 9 ноября 2018 года лейблом АВТОНОМИ на лейбле Каламбия Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Come Over When You're Sober, Pt. 2 is the second and final studio album by American recording artist Lil Peep. It was released on November 9, 2018, by AUTNMY through Columbia Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/cowyrs2.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+come_over_wnen_youre_sober_pt2
+<- nrel_related_to_genre:
+    concept_pop_punk;
+    concept_emo;
+    concept_hiphop;;
+
+come_over_wnen_youre_sober_pt2
+<- nrel_contributor:
+    lil_peep;
+    gustav_elijah_ahr;
+    rob_cavallo;
+    smokesac;;
+     
+
+come_over_wnen_youre_sober_pt2
+<- nrel_author:
+    lil_peep;;

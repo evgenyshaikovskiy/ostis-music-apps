@@ -1,0 +1,58 @@
+monument
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Monument]
+    (*
+        <- lang_en;;
+    *);
+    [Монумент]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Монумент - третий студийный альбом беларусской пост-панк-группы "Молчат дома". Он был выпущен 13 ноября 2020 года на лейбле Sacred Bones Records, их первый релиз с лейблом после подписания контракта с ними в январе 2020 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Monument is the third studio album by Belarusian post-punk band Molchat Doma. It was released on 13 November 2020 through Sacred Bones Records, their first release with the label after signing with them in January 2020.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/monument.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+monument
+<- nrel_related_to_genre:
+    concept_rock;
+    concept_post_punk;
+    concept_synth_pop;;
+
+monument
+<- nrel_contributor:
+    molchat_doma;;
+    
+
+monument
+<- nrel_author:
+    molchat_doma;;

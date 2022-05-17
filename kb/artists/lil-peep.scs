@@ -1,0 +1,70 @@
+lil_peep
+<= concept_musician;
+=> nrel_main_idtf:
+	[Лил Пип]
+	(*
+	<- lang_ru;;
+	*);
+	[Lil Peep]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Густав Элайджа Ар (1 ноября 1996 - 15 ноября 2017), известный как Лил Пип, был шведско-американским рэпером, певцом и автором песен. Он был членом эмо-рэп-коллектива GothBoiClique. Помогая пионерам эмо-стиля возрождения рэпа и рок-музыки, Lil Peep считается ведущей фигурой эмо-рэп-сцены середины-конца 2010-х и стал источником вдохновения для изгоев и молодежных субкультур.]
+			(*
+            <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Gustav Elijah Åhr (November 1, 1996 - November 15, 2017), known professionally as Lil Peep (often stylized as LiL PEEP or lil peep), was a Swedish-American rapper, singer, and songwriter. He was a member of the emo rap collective GothBoiClique. Helping pioneer an emo revival-style of rap and rock music, Lil Peep has been credited as a leading figure of the mid-late 2010s emo rap scene and came to be an inspiration to outcasts and youth subcultures.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/lil-peep.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+lil_peep <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Густав Элайджа Ар]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Gustav Elijah Åhr]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+lil_peep <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_emo;;

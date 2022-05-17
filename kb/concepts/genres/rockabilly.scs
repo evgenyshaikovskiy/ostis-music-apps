@@ -1,0 +1,46 @@
+concept_rockabilly
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рокабилли]
+	(*
+	<- lang_ru;;
+	*);
+	[Rockabilly]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+            [Рокабилли - один из самых ранних стилей рок-н-ролльной музыки. Это восходит к началу 1950-х годов в Соединенных Штатах, особенно на Юге. Как жанр он сочетает в себе звучание западных музыкальных стилей, таких как кантри, с ритм-энд-блюзом, что приводит к тому, что считается "классическим" рок-н-роллом.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+            [Rockabilly is one of the earliest styles of rock and roll music. It dates back to the early 1950s in the United States, especially the South. As a genre it blends the sound of Western musical styles such as country with that of rhythm and blues, leading to what is considered "classic" rock and roll.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/rockabilly.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

@@ -1,0 +1,64 @@
+kill_em_all
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Kill'Em All]
+    (*
+        <- lang_en;;
+    *);
+    [Убей Их Всех]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Убей Их Всех - дебютный студийный альбом американской хэви-метал-группы Металлика, выпущенный 25 июля 1983 года на независимом лейбле Мегафорс Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Kill 'Em All is the debut studio album by American heavy metal band Metallica, released on July 25, 1983, through the independent label Megaforce Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/kill-em-all.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+kill_em_all
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+kill_em_all
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    cliff_burton;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+kill_em_all
+<- nrel_author:
+    metallica;;

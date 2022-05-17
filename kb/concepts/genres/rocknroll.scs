@@ -1,0 +1,46 @@
+concept_rocknroll
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рок-н-Ролл]
+	(*
+	<- lang_ru;;
+	*);
+	[Rock-n-Roll]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+            [Рок-н-ролл (часто пишется как рок-н-ролл, рок-н-ролл или рок-н-ролл) - жанр популярной музыки, который развивался в Соединенных Штатах в конце 1940-х и начале 1950-х годов. Она возникла из чернокожей американской музыки, такой как госпел, джамп-блюз, джаз, буги-вуги, ритм-энд-блюз, а также кантри.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+            [Rock and roll (often written as rock & roll, rock 'n' roll, or rock 'n roll) is a genre of popular music that evolved in the United States during the late 1940s and early 1950s. It originated from black American music such as gospel, jump blues, jazz, boogie woogie, rhythm and blues, as well as country music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/rocknroll.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

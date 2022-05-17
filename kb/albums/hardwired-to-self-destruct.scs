@@ -1,0 +1,64 @@
+hardwired_to_self_destruct
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Hardwired... to Self-Destruct]
+    (*
+        <- lang_en;;
+    *);
+    [Запрограммирован... на Самоуничтожение]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Запрограммирован... на Самоуничтожение - десятый студийный альбом американской хэви-метал-группы Металлика, выпущенный в виде двойного альбома 18 ноября 2016 года их собственным лейблом Блэкенд Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Hardwired... to Self-Destruct is the tenth studio album by American heavy metal band Metallica, released as a double album on November 18, 2016, by their own label Blackened Recordings.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/hardwired-to-self-destruct.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+hardwired_to_self_destruct
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+hardwired_to_self_destruct
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    robert_trujillo;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+hardwired_to_self_destruct
+<- nrel_author:
+    metallica;;

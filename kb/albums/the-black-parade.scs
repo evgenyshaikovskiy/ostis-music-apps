@@ -1,0 +1,59 @@
+the_black_parade
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [The Black Parade]
+    (*
+        <- lang_en;;
+    *);
+    [Чёрный Парад]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Чёрный Парад - третий студийный альбом американской рок-группы Моя Химическая Романтика. Выпущенный в Европе 20 октября 2006 года на лейбле Reprise Records, он был спродюсирован группой совместно с Робом Кавалло, известным тем, что спродюсировал несколько альбомов для Гу Гу Доллы и Грин Дэй.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [The Black Parade is the third studio album by American rock band My Chemical Romance. Released in Europe on October 20, 2006, through Reprise Records, it was produced by the band with Rob Cavallo, known for having produced multiple albums for the Goo Goo Dolls and Green Day.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/the-black-parade.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+the_black_parade
+<- nrel_related_to_genre:
+    concept_emo;
+    concept_punk_rock;
+    concept_alternative_rock;;
+
+the_black_parade
+<- nrel_contributor:
+    my_chemical_romance;
+    howard_benson;;
+    
+
+the_black_parade
+<- nrel_author:
+    my_chemical_romance;;

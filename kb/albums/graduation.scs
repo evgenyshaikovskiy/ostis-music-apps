@@ -1,0 +1,64 @@
+graduation
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Graduation]
+    (*
+        <- lang_en;;
+    *);
+    [Выпускной]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Выпускной - третий студийный альбом американского рэпера и продюсера Канье Уэста, выпущенный 11 сентября 2007 года лейблами Деф Джэм Рекордингс и Рок-А-Фелла Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Graduation is the third studio album by American rapper and producer Kanye West, released on September 11, 2007, through Def Jam Recordings and Roc-A-Fella Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/graduation.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+graduation
+<- nrel_related_to_genre:
+    concept_hiphop;
+    concept_alternativehiphop;
+    concept_popular_music;;
+
+graduation
+<- nrel_contributor:
+    kanye_west;
+    dwele;
+    t_pain;
+    lil_wayne;
+    mos_def;
+    dj_premier;
+    chris_martin;;
+    
+
+graduation
+<- nrel_author:
+    kanye_west;;

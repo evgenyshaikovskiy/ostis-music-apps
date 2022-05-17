@@ -1,0 +1,60 @@
+multitude
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Multitude]
+    (*
+        <- lang_en;;
+    *);
+    [Множество]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Множество - третий альбом бельгийского музыканта Стромае. Он был выпущен через Мозарт 4 марта 2022 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Multitude is the third album by Belgian musician Stromae. It was released through Mosaert on 4 March 2022.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/multitude.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+multitude
+<- nrel_related_to_genre:
+    concept_art_pop;
+    concept_chanson;
+    concept_experimental_pop;
+    concept_popular_music;;
+
+multitude
+<- nrel_contributor:
+    stromae;
+    paul_van_haver;;
+    
+
+multitude
+<- nrel_author:
+    stromae;;

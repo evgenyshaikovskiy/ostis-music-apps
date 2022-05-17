@@ -1,0 +1,48 @@
+100_gecs
+<= concept_band;
+=> nrel_main_idtf:
+    [100 гекс]
+    (*
+        <- lang_ru;;
+    *);
+    [100 gecs]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [100 гекс - американский гипер-поп-дуэт, образованный в 2015 году и состоящий из Дилана Брэди и Лоры Лес.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [100 gecs are an American hyperpop duo formed in 2015 that consists of Dylan Brady and Laura Les.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/100-gecs.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+100_gecs
+<- rrel_performs_in_genre:
+    concept_hiphop;
+    concept_hyperpop;;

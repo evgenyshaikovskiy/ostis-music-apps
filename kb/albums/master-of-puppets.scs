@@ -1,0 +1,64 @@
+master_of_puppets
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Master of Puppets]
+    (*
+        <- lang_en;;
+    *);
+    [Повелитель Марионеток]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Повелитель Марионеток - третий студийный альбом американской хэви-метал-группы Metallica, выпущенный 3 марта 1986 года лейблом Электра Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Master of Puppets is the third studio album by the American heavy metal band Metallica, released on March 3, 1986, by Elektra Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/master-of-puppets.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+master_of_puppets
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+master_of_puppets
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    cliff_burton;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+master_of_puppets
+<- nrel_author:
+    metallica;;

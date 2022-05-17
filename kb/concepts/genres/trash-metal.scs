@@ -1,0 +1,46 @@
+concept_trash_metal
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Трэш метал]
+	(*
+	<- lang_ru;;
+	*);
+	[Thrash metal]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Трэш метал (или просто трэш) - экстремальный поджанр хэви-метал музыки, характеризующийся общей агрессивностью и часто быстрым темпом. Жанр возник в начале 1980-х, когда музыканты начали сочетать игру на контрабасе и сложные гитарные стили новой волны британского хэви-метала (NWOBHM) со скоростью и агрессией хардкор-панка.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Thrash metal (or simply thrash) is an extreme subgenre of heavy metal music characterized by its overall aggression and often fast tempo. The genre emerged in the early 1980s as musicians began fusing the double bass drumming and complex guitar stylings of the new wave of British heavy metal (NWOBHM) with the speed and aggression of hardcore punk.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/trash-metal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

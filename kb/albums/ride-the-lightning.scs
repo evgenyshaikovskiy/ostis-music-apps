@@ -1,0 +1,64 @@
+ride_the_lightning
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Ride The Lightning]
+    (*
+        <- lang_en;;
+    *);
+    [Оседлай Молнию]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Оседлай Молнию - второй студийный альбом американской хэви-метал-группы Металлика, выпущенный 27 июля 1984 года независимым звукозаписывающим лейблом Мегафорс Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Ride the Lightning is the second studio album by American heavy metal band Metallica, released on July 27, 1984, by the independent record label Megaforce Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/ride-the-lightning.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+ride_the_lightning
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+ride_the_lightning
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    jason_newsted;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+ride_the_lightning
+<- nrel_author:
+    metallica;;

@@ -1,0 +1,71 @@
+france_gall
+<= concept_musician;
+=> nrel_main_idtf:
+	[Франс Галль]
+	(*
+	<- lang_ru;;
+	*);
+	[France Gall]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Изабель Женевьева Мари Анн Галль Бертье (9 октября 1947 – 7 января 2018), известная в профессиональном плане как Франс Галль, была французской певицей yé-yé. В 1965 году, в возрасте 17 лет, она выиграла конкурс песни "Евровидение" от Люксембурга. С 1973 по 1992 год она сотрудничала с певцом и автором песен Мишелем Бергером.]
+			(*
+            <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Isabelle Geneviève Marie Anne Gall Berthier (9 October 1947 – 7 January 2018), known professionally as France Gall, was a French yé-yé singer. In 1965, aged 17, she won the Eurovision Song Contest for Luxembourg. Between 1973 and 1992, she collaborated with singer-songwriter Michel Berger. ]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/france-gall.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+france_gall <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Изабель Женевьева Мари Анн Галль Бертье]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Isabelle Geneviève Marie Anne Gall Berthier]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+france_gall <- rrel_performs_in_genre:
+	concept_soul;
+	concept_pop;
+    concept_rhytmnblues;;

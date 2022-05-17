@@ -1,0 +1,49 @@
+my_chemical_romance
+<= concept_band;
+=> nrel_main_idtf:
+    [Моя Химическая Романтика]
+    (*
+        <- lang_ru;;
+    *);
+    [My Chemical Romance]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Моя Химическая Романтика (обычно сокращенно ЭмСиЭр или Май Кем) - американская рок-группа из Ньюарка, штат Нью-Джерси. Нынешний состав группы состоит из ведущего вокалиста Джерарда Уэй, ведущего гитариста Рэя Торо, ритм-гитариста Фрэнка Иеро и басиста Майки Уэй.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [My Chemical Romance (commonly abbreviated to MCR or My Chem) is an American rock band from Newark, New Jersey. The band's current lineup consists of lead vocalist Gerard Way, lead guitarist Ray Toro, rhythm guitarist Frank Iero, and bassist Mikey Way.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/my-chemical-romance.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+my_chemical_romance
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_pop_punk;
+    concept_emo;;

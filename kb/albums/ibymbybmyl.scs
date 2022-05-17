@@ -1,0 +1,59 @@
+i_brought_you_my_bullets_you_brought_me_your_love
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [I Brought You My Bullets, You Brought Me Your Love]
+    (*
+        <- lang_en;;
+    *);
+    [Я Дал Тебе Свои Пули, Ты Дала Мне Свою Любовь]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Я Дал Тебе Свои Пули, Ты Дала Мне Свою Любовь (часто сокращается до Я Дал Тебе Пули или Пули) - дебютный студийный альбом американской рок-группы Моя Химическая Романтика, выпущенный 23 июля 2002 года лейблом Айбол Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [I Brought You My Bullets, You Brought Me Your Love (often shortened to I Brought You My Bullets or Bullets) is the debut studio album by American rock band My Chemical Romance, released on July 23, 2002 by Eyeball Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/ibymbybmyl.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+i_brought_you_my_bullets_you_brought_me_your_love
+<- nrel_related_to_genre:
+    concept_emo;
+    concept_punk_rock;
+    concept_alternative_rock;;
+
+i_brought_you_my_bullets_you_brought_me_your_love
+<- nrel_contributor:
+    my_chemical_romance;
+    howard_benson;;
+    
+
+i_brought_you_my_bullets_you_brought_me_your_love
+<- nrel_author:
+    my_chemical_romance;;

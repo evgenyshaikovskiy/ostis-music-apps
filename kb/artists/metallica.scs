@@ -1,0 +1,49 @@
+metallica
+<= concept_band;
+=> nrel_main_idtf:
+    [Металлика]
+    (*
+        <- lang_ru;;
+    *);
+    [Metallica]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Металлика - американская хэви-метал-группа. Группа была образована в 1981 году в Лос-Анджелесе вокалистом/гитаристом Джеймсом Хэтфилдом и барабанщиком Ларсом Ульрихом и большую часть своей карьеры базировалась в Сан-Франциско. Быстрые темпы, инструменты и агрессивная музыкальность группы сделали их одной из основателей "Большой четверки" трэш-метала.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Metallica is an American heavy metal band. The band was formed in 1981 in Los Angeles by vocalist/guitarist James Hetfield and drummer Lars Ulrich, and has been based in San Francisco for most of its career. The band's fast tempos, instrumentals and aggressive musicianship made them one of the founding Big Four bands of thrash metal.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/metallica.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+metallica
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;

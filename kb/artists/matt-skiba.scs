@@ -40,7 +40,7 @@ matt_skiba
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://pictures/matt_skiba.jpg"	
+		->rrel_example: "file://pictures/matt-skiba.jpg"	
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

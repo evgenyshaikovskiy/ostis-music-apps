@@ -1,0 +1,64 @@
+load
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Load]
+    (*
+        <- lang_en;;
+    *);
+    [Загрузка]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Загрузка - шестой студийный альбом американской хэви-метал-группы Металлика, выпущенный 4 июня 1996 года лейблом Электра Рекордс в США и в остальном мире лейблом Вертиго Рекордс. Альбом показал больше хард-роковой стороны Металлика, чем типичный трэш-метал стиль группы, который оттолкнул большую часть поклонников группы.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Load is the sixth studio album by the American heavy metal band Metallica, released on June 4, 1996 by Elektra Records in the United States and by Vertigo Records internationally. The album showed more of a hard rock side of Metallica than the band's typical thrash metal style, which alienated much of the band's fanbase.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/load.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+load
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+load
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    jason_newsted;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+load
+<- nrel_author:
+    metallica;;

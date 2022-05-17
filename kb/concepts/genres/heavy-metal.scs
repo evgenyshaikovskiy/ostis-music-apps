@@ -1,0 +1,46 @@
+concept_heavy_metal
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хеви-метал]
+	(*
+	<- lang_ru;;
+	*);
+	[Heavy Metal]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+            [Хэви-метал (также известный как просто метал) - жанр рок-музыки, который развивался в конце 1960-х и начале 1970-х годов, в основном в Соединенном Королевстве и Соединенных Штатах. Имея корни в блюз-роке, психоделическом роке и эйсид-роке, хэви-метал-группы разработали плотный, монументальный звук, характеризующийся дисторшеном, протяженными гитарными соло, выразительными ритмами и громкостью.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Heavy metal (also known as simply metal) is a genre of rock music that developed in the late 1960s and early 1970s, largely in the United Kingdom and United States. With roots in blues rock, psychedelic rock and acid rock, heavy metal bands developed a thick, monumental sound characterized by distortion, extended guitar solos, emphatic beats and loudness.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/heavy-metal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

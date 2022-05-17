@@ -1,0 +1,64 @@
+and_justice_for_all
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [...And Justice For All]
+    (*
+        <- lang_en;;
+    *);
+    [...И Правосудие Для Всех]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [...И Правосудие Для Всех - четвертый студийный альбом американской хэви-метал-группы Металлика, выпущенный 7 сентября 1988 года лейблом Электра Рекордс. Это был первый альбом Metallica с участием басиста Джейсона Ньюстеда после смерти их предыдущего басиста Клиффа Бертона в 1986 году.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [...And Justice for All is the fourth studio album by American heavy metal band Metallica, released on September 7, 1988 by Elektra Records. It was the first Metallica album to feature bassist Jason Newsted, following the death of their previous bassist Cliff Burton in 1986. ]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/and-justice-for-all.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+and_justice_for_all
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+and_justice_for_all
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    jason_newsted;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+and_justice_for_all
+<- nrel_author:
+    metallica;;

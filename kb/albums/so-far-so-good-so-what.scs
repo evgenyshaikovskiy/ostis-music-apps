@@ -1,0 +1,65 @@
+so_far_so_good_so_what
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [So Far, So Good... So What!]
+    (*
+        <- lang_en;;
+    *);
+    [Пока Все Идет Хорошо... Ну И Что!]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Пока Все Идет Хорошо... Ну И Что! Это третий студийный альбом американской хэви-метал-группы Мегадед, выпущенный 19 января 1988 года лейблом Кэпитол Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [So Far, So Good... So What! is the third studio album by American heavy metal band Megadeth, released on January 19, 1988 by Capitol Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/so-far-so-good-so-what.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+so_far_so_good_so_what
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+so_far_so_good_so_what
+<- nrel_contributor:
+    megadeth;
+    dave_mustaine;
+    david_eleffson;
+    chris_poland;
+    gar_samuelson;
+    ed_repka;
+    vic_rattlehead;;
+    
+
+so_far_so_good_so_what
+<- nrel_author:
+    megadeth;;

@@ -1,0 +1,64 @@
+st_anger
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [St. Anger]
+    (*
+        <- lang_en;;
+    *);
+    [Св. Гнев]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Св. Гнев - восьмой студийный альбом американской хэви-метал-группы Металлика, выпущенный 5 июня 2003 года. Это был последний альбом Металлика, выпущенный на лейбле Электра Рекордс, и последнее сотрудничество между Металлика и давним продюсером Бобом Роком, с которым группа работала с 1990 года.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [St. Anger is the eighth studio album by American heavy metal band Metallica, released on June 5, 2003. It was the last Metallica album released through Elektra Records and the final collaboration between Metallica and longtime producer Bob Rock, with whom the band had worked since 1990.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/st-anger.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+st_anger
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+st_anger
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    jason_newsted;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+st_anger
+<- nrel_author:
+    metallica;;

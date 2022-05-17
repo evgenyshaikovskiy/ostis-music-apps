@@ -1,0 +1,59 @@
+starz
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Starz]
+    (*
+        <- lang_en;;
+    *);
+    [Звёздз]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Звёздз - четвертый студийный альбом шведского рэпера и певца Yung Lean. Он был выпущен 15 мая 2020 года лейблом YEAR 0001 и был спродюсирован Whitearmor. Сессии записи проходили в Лос-Анджелесе, Швеции и Португалии.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Starz is the fourth studio album by Swedish rapper and singer Yung Lean. It was released on May 15, 2020 by the label YEAR 0001 and was executively produced by Whitearmor. Recording sessions took place in Los Angeles, Sweden and Portugal.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/starz.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+starz
+<- nrel_related_to_genre:
+    concept_hiphop;
+    concept_cloud_rap;
+    concept_alternativehiphop;
+    concept_experimental_hiphop;;
+
+starz
+<- nrel_contributor:
+    yung_lean;;
+    
+
+starz
+<- nrel_author:
+    yung_lean;;

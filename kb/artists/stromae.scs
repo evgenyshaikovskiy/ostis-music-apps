@@ -1,0 +1,71 @@
+stromae
+<= concept_musician;
+=> nrel_main_idtf:
+	[Стромае]
+	(*
+	<- lang_ru;;
+	*);
+	[Stromae]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Пол Ван Хавер (родился 12 марта 1985 года), более известный под сценическим псевдонимом Stromae, - бельгийский певец, автор песен, рэпер и музыкант. В основном он известен своими работами в жанре хип-хопа и электронной музыки.]
+			(*
+            <- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Paul Van Haver (born 12 March 1985), better known by his stage name Stromae, is a Belgian singer-songwriter, rapper and musician. He is mostly known for his works in the genre of the hip hop and electronic music.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+    <- sc_illustration;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: "file://pictures/stromae.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+    *);;
+
+stromae <- rrel_key_sc_element:
+...
+(*
+    <- real_name;;
+    <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Пол Ван Хавер]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Paul Van Haver]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+*);;
+
+stromae <- rrel_performs_in_genre:
+	concept_hiphop;
+	concept_pop;
+    concept_electronic;;

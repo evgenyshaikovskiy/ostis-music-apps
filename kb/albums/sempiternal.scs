@@ -1,0 +1,59 @@
+sempiternal
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Sempiternal]
+    (*
+        <- lang_en;;
+    *);
+    [Вечный]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Вечный - четвертый студийный альбом британской рок-группы Принеси Мне Горизонт. Он был выпущен 1 апреля 2013 года по всему миру на лейбле ЭрСиЭй Рекордс, дочернем лейбле Сони Мьюзик, и 2 апреля 2013 года в Соединенных Штатах и Канаде на лейбле Эпитаф Рекордс. Это первый альбом с участием бывшего клавишника Worship Джордана Фиша и первый с гитаристом Ли Малией, играющим как соло, так и ритм-компоненты.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Sempiternal is the fourth studio album by British rock band Bring Me the Horizon. It was released on 1 April 2013 worldwide through RCA Records, a subsidiary label of Sony Music, and 2 April 2013 in the United States and Canada through Epitaph Records. It is the first album to feature former Worship keyboardist Jordan Fish and the first with guitarist Lee Malia playing both lead and rhythm components.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/sempiternal.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+sempiternal
+<- nrel_related_to_genre:
+    concept_rock;
+    concept_metalcore;
+    concept_hard_rock;
+    concept_alternative_rock;;
+
+sempiternal
+<- nrel_contributor:
+    bring_me_the_horizon;;
+    
+
+sempiternal
+<- nrel_author:
+    bring_me_the_horizon;;

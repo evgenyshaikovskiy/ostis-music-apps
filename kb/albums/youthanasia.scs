@@ -1,0 +1,65 @@
+youthanasia
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Youthanasia]
+    (*
+        <- lang_en;;
+    *);
+    [Юнотаназия]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Юнотаназия - шестой студийный альбом американской хэви-метал-группы Megadeth, выпущенный 1 ноября 1994 года на лейбле Кэпитол Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Youthanasia is the sixth studio album by American heavy metal band Megadeth, released on November 1, 1994, through Capitol Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/youthanasia.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+youthanasia
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+youthanasia
+<- nrel_contributor:
+    megadeth;
+    dave_mustaine;
+    david_eleffson;
+    chris_poland;
+    gar_samuelson;
+    ed_repka;
+    vic_rattlehead;;
+    
+
+youthanasia
+<- nrel_author:
+    megadeth;;

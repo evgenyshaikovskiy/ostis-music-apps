@@ -1,0 +1,51 @@
+nirvana
+<= concept_band;
+=> nrel_main_idtf:
+    [Нирвана]
+    (*
+        <- lang_ru;;
+    *);
+    [Nirvana]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Нирвана - американская рок-группа, образованная в Абердине, штат Вашингтон, в 1987 году. Основанная вокалистом и гитаристом Куртом Кобейном и басистом Кристом Новоселичом, группа сменила нескольких барабанщиков, в первую очередь Чада Ченнинга, прежде чем в 1990 году нанять Дэйва Грола.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers, most notably Chad Channing, before recruiting Dave Grohl in 1990.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/nirvana.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+nirvana
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_grunge;
+    concept_alternative_rock;
+    concept_punk_rock;
+    concept_hard_rock;;

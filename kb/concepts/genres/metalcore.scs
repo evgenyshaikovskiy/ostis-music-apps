@@ -1,0 +1,46 @@
+concept_metalcore
+<= nrel_inclusion: concept_rock;
+<- concept_music_subgenre;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Металкор]
+	(*
+	<- lang_ru;;
+	*);
+	[Metalcore]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+            [Металкор (или металлический хардкор) - это музыкальный жанр фьюжн, который сочетает в себе элементы экстремального металла и хардкор-панка. металкор-группы 1990-х годов были вдохновлены хардкором, в то время как более поздние металкор-группы были вдохновлены мелодичными дэт-метал-группами, такими как At the Gates и In Flames.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Metalcore (or metallic hardcore) is a fusion music genre that combines elements of extreme metal and hardcore punk. 1990s metalcore bands were inspired by hardcore while later metalcore bands were inspired by melodic death metal bands like At the Gates and In Flames. ]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+		
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://pictures/metalcore.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

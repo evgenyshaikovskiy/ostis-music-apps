@@ -1,0 +1,64 @@
+death_magnetic
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Death Magnetic]
+    (*
+        <- lang_en;;
+    *);
+    [Смертельный Магнетизм]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Смертельный Магнетизм - девятый студийный альбом американской хэви-метал-группы Металлика, выпущенный 12 сентября 2008 года на лейбле Ворнер Брос. Рекордс. Альбом был спродюсирован Риком Рубином, что стало первым альбомом группы с тех пор ...И справедливость для всех (1988) не будет спродюсирована давним соавтором Бобом Роком и совместно спродюсирована Хэтфилдом и Ульрихом. Кроме того, это первый альбом Металлика с участием басиста Роберта Трухильо и второй, в котором авторство принадлежит всем участникам группы.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Death Magnetic is the ninth studio album by American heavy metal band Metallica, released on September 12, 2008, through Warner Bros. Records. The album was produced by Rick Rubin, marking the band's first album since ...And Justice for All (1988) not to be produced by longtime collaborator Bob Rock and co-produced by Hetfield and Ulrich. It is also the first Metallica album to feature bassist Robert Trujillo, and the second to share writing credit to all of the band's members.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/death-magnetic.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+death_magnetic
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+death_magnetic
+<- nrel_contributor:
+    metallica;
+    james_hetfield;
+    lars_ulrich;
+    robert_trujillo;
+    kirk_hammet;
+    jon_zazula;;
+    
+
+death_magnetic
+<- nrel_author:
+    metallica;;

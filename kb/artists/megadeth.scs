@@ -1,0 +1,49 @@
+megadeth
+<= concept_band;
+=> nrel_main_idtf:
+    [Мегадед]
+    (*
+        <- lang_ru;;
+    *);
+    [Megadeth]
+    (*
+        <- lang_en;;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Мегадед - американская хэви-метал-группа, созданная в Лос-Анджелесе в 1983 году вокалистом/гитаристом Дэйвом Мастейном и басистом Дэвидом Эллефсоном. Известные своей технически сложной гитарной работой и музыкальностью, Мегадед входят в "большую четверку" американского трэш-метала]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Megadeth is an American heavy metal band formed in Los Angeles in 1983 by vocalist/guitarist Dave Mustaine and bassist David Ellefson. Known for their technically complex guitar work and musicianship, Megadeth is one of the "big four" of American thrash metal.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/megadeth.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+
+megadeth
+<- rrel_performs_in_genre:
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;

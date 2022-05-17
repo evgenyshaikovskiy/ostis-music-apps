@@ -1,0 +1,65 @@
+rust_in_peace
+<= nrel_inclusion: concept_album;
+=> nrel_main_idtf:
+    [Rust in Peace]
+    (*
+        <- lang_en;;
+    *);
+    [Ржавей с Миром]
+    (*
+        <- lang_ru;;
+    *);
+-> rrel_key_sc_element:
+    ...
+    (*
+        <- sc_definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Ржавей с Миром - четвертый студийный альбом американской хэви-метал-группы Мегадед, выпущенный 24 сентября 1990 года лейблом Капитол Рекордс.]
+                    (*
+                        <- lang_ru;;
+                    *);;
+            *);
+                ...
+            (*
+                -> rrel_example:
+                    [Rust in Peace is the fourth studio album by American heavy metal band Megadeth, released on September 24, 1990 by Capitol Records.]
+                    (*
+                        <- lang_en;;
+                    *);;
+            *);;
+        
+        <- sc_illustration;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example: "file://pictures/rust-in-peace.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+            *);;
+    *);;
+
+rust_in_peace
+<- nrel_related_to_genre:
+    concept_hard_rock;
+    concept_rock;
+    concept_trash_metal;
+    concept_heavy_metal;;
+
+rust_in_peace
+<- nrel_contributor:
+    megadeth;
+    dave_mustaine;
+    david_eleffson;
+    chris_poland;
+    gar_samuelson;
+    ed_repka;
+    vic_rattlehead;;
+    
+
+rust_in_peace
+<- nrel_author:
+    megadeth;;
