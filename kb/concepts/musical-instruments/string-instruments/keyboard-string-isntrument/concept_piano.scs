@@ -1,0 +1,25 @@
+concept_piano
+<= nrel_inclusion: concept_keyboard_stringed; //от кого идёт
+=> nrel_main_idtf: [piano] (* <- lang_en;; *);
+=> nrel_main_idtf: [пианино] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Пианино)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [клавишный струнный музыкальный инструмент с ударным (молоточковым) способом звукоизвлечения, созданный специально для комнатного музицирования в небольших помещениях. Пианино представляет собой уменьшенную по размеру разновидность фортепиано, в которой струны, дека и механическая часть расположены вертикально, а не горизонтально, вследствие чего пианино занимает гораздо меньше места, чем рояль.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Piano)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Piano (Italian pianino, literally: small piano) is a keyboard stringed musical instrument with a percussion (hammer) method of sound extraction, created specifically for room music playing in small rooms. The upright piano is a smaller version of the piano in which the strings, soundboard, and mechanical part are arranged vertically instead of horizontally, as a result of which the piano takes up much less space than a grand piano.] (* <- lang_en;; *);;
+	*);;
+*);;
+

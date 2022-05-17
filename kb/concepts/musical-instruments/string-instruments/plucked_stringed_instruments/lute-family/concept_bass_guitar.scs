@@ -1,0 +1,24 @@
+concept_bass_guitar
+<= nrel_inclusion: concept_lute_family;
+=> nrel_main_idtf: [bass guitar] (* <- lang_en;; *);
+=> nrel_main_idtf: [бас-гитара] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Бас-гитара)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [Струнно-щипковый электрический музыкальный инструмент, предназначенный для игры в басовом диапазоне. На нём играют преимущественно пальцами, но допустима и игра медиатором. В сочетании с ударной установкой создаёт ритм-секцию. Помимо электрической бас-гитары существуют также акустический вариант бас-гитары, встречающийся в музыке гораздо реже, но он относится к другому классу инструментов (не является электрофоном), и их не следует путать.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Bass guitar)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [String-plucked electric musical instrument designed to play in the bass range. It is played mainly with fingers, but playing with a mediator is also acceptable. In combination with a drum kit, it creates a rhythm section. In addition to the electric bass guitar, there is also an acoustic version of the bass guitar, which is much less common in music, but it belongs to a different class of instruments (it is not an electrophone), and they should not be confused.] (* <- lang_en;; *);;
+	*);;
+*);;

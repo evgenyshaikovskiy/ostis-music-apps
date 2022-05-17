@@ -1,0 +1,27 @@
+concept_keyboard_stringed
+<= nrel_inclusion: concept_string_musical_instuments; //от кого идёт
+=> nrel_main_idtf: [Keyboard string musical instruments] (* <- lang_en;; *);
+=> nrel_main_idtf: [Клавишные струнные музыкальные инструменты] (* <- lang_ru;; *);
+
+<-concept_classes;
+
+
+<- rrel_key_sc_element: ...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр.(Клавишный струнный инструмент)] (* <- lang_ru;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [струнные инструменты, управление звукоизвлечением в которых осуществляется при помощи клавиатуры.] (* <- lang_ru;; *);;
+	*);;
+	<- definition;;
+	=> nrel_main_idtf:[Def.(Keyboard string instrument)] (* <- lang_en;; *);;
+	<= nrel_sc_text_translation: 
+	...
+	(* 
+		-> [string instruments, that are controlled by the keyboard.] (* <- lang_en;; *);;
+	*);;
+*);
+
+<- sc_node_not_relation;;
